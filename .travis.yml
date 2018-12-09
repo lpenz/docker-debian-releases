@@ -2,21 +2,21 @@
 addons: { apt: { packages: [ debootstrap ] } }
 language: generic
 env:
-  - ARCH=i386  DIST=potato
-  - ARCH=i386  DIST=woody
-  - ARCH=i386  DIST=sarge
-  - ARCH=i386  DIST=etch
-  - ARCH=amd64 DIST=etch
-  - ARCH=i386  DIST=lenny
-  - ARCH=amd64 DIST=lenny
-  - ARCH=i386  DIST=squeeze
-  - ARCH=amd64 DIST=squeeze
-  - ARCH=i386  DIST=wheezy
-  - ARCH=amd64 DIST=wheezy
-  - ARCH=i386  DIST=jessie
-  - ARCH=amd64 DIST=jessie
-  - ARCH=i386  DIST=stretch
-  - ARCH=amd64 DIST=stretch
+  - DIST=potato  ARCH=i386
+  - DIST=woody   ARCH=i386
+  - DIST=sarge   ARCH=i386
+  - DIST=etch    ARCH=i386
+  - DIST=etch    ARCH=amd64
+  - DIST=lenny   ARCH=i386
+  - DIST=lenny   ARCH=amd64
+  - DIST=squeeze ARCH=i386
+  - DIST=squeeze ARCH=amd64
+  - DIST=wheezy  ARCH=i386
+  - DIST=wheezy  ARCH=amd64
+  - DIST=jessie  ARCH=i386
+  - DIST=jessie  ARCH=amd64
+  - DIST=stretch ARCH=i386
+  - DIST=stretch ARCH=amd64
 script:
   - ./docker-create-debian-image "$DIST" "$ARCH"
 jobs:
