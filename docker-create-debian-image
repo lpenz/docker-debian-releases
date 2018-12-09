@@ -31,8 +31,8 @@ esac
 set -x
 
 name=debian-${dist}-${arch}
-dir="root-$name"
 image="$USER/$name"
+dir="$(mktemp -d --suffix=-rootfs -p "$PWD")"
 if ! "$keepdir"; then
     trap 'sudo rm -rf "$dir"' EXIT
 fi
