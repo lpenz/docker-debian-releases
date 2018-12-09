@@ -2,6 +2,19 @@
 
 set -e -o pipefail
 
+USAGE="Usage: $0 [-h] [-k] [distribution [architecture]]"
+
+keepdir=false
+
+while getopts ":kh" opt; do
+    case "$opt" in
+        k) keepdir=true;;
+        h) echo "$USAGE"; exit 0;;
+        \?) printf "Invalid argument\\n%s\\n" "$USAGE" >&2; exit 1;;
+    esac
+done
+shift $((OPTIND-1))
+
 DIST=${1-jessie}
 ARCH=${2-amd64}
 
@@ -20,7 +33,9 @@ set -x
 NAME=debian-${DIST}-${ARCH}
 DIR="root-$NAME"
 IMAGE="$USER/$NAME"
-trap 'sudo rm -rf "$DIR"' EXIT
+if ! "$keepdir"; then
+    trap 'sudo rm -rf "$DIR"' EXIT
+fi
 sudo debootstrap --no-check-gpg "--arch=$ARCH" "$DIST" "$DIR" "$URL"
 if [ -d "$DIR/var/lib/apt/lists" ]; then
     sudo find "$DIR/var/lib/apt/lists" -type f -delete
