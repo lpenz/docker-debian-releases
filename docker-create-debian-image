@@ -2,14 +2,16 @@
 
 set -e -o pipefail
 
-usage="Usage: $0 [-h] [-k] [-i <image name>] [-t <variant>] [distribution [architecture]]"
+usage="Usage: $0 [-h] [-k] [-i <image name>] [-q] [-t <variant>] [distribution [architecture]]"
 
 keepdir=false
+qemu=false
 
-while getopts ":ki:t:h" opt; do
+while getopts ":ki:qt:h" opt; do
     case "$opt" in
         k) keepdir=true;;
         i) image="$OPTARG";;
+        q) qemu=true;;
         t) variant="$OPTARG";;
         h) echo "$usage"; exit 0;;
         \?) printf "Invalid argument\\n%s\\n" "$usage" >&2; exit 1;;
@@ -45,7 +47,12 @@ trap cleanup EXIT
 name=debian-${dist}-${arch}
 image=${image-"$name"}
 
-cmd=(sudo debootstrap)
+cmd=(sudo)
+if "$qemu"; then
+    cmd+=(qemu-debootstrap)
+else
+    cmd+=(debootstrap)
+fi
 if [ -n "$variant" ]; then
    cmd+=("--variant=$variant")
 fi

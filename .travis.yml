@@ -1,6 +1,6 @@
 ---
 dist: xenial
-addons: { apt: { packages: [ debootstrap ] } }
+addons: { apt: { packages: [ debootstrap, qemu-user-static ] } }
 language: generic
 env:
   - V=2.2 DIST=potato  ARCH=i386
@@ -20,19 +20,26 @@ env:
   - V=6.0 DIST=squeeze ARCH=i386  VARIANT=minbase
   - V=7   DIST=wheezy  ARCH=amd64
   - V=7   DIST=wheezy  ARCH=amd64 VARIANT=minbase
+  - V=7   DIST=wheezy  ARCH=armhf
+  - V=7   DIST=wheezy  ARCH=armhf VARIANT=minbase
   - V=7   DIST=wheezy  ARCH=i386
   - V=7   DIST=wheezy  ARCH=i386  VARIANT=minbase
   - V=8   DIST=jessie  ARCH=amd64
   - V=8   DIST=jessie  ARCH=amd64 VARIANT=minbase
+  - V=8   DIST=jessie  ARCH=armhf
+  - V=8   DIST=jessie  ARCH=armhf VARIANT=minbase
   - V=8   DIST=jessie  ARCH=i386
   - V=8   DIST=jessie  ARCH=i386  VARIANT=minbase
   - V=9   DIST=stretch ARCH=amd64
   - V=9   DIST=stretch ARCH=amd64 VARIANT=minbase
+  # V=9   DIST=stretch ARCH=armhf # travis-ci cancels this after 10min
+  - V=9   DIST=stretch ARCH=armhf VARIANT=minbase
   - V=9   DIST=stretch ARCH=i386
   - V=9   DIST=stretch ARCH=i386  VARIANT=minbase
 script:
   - IMAGE="$DOCKERHUB_USERNAME/debian-${DIST}-${ARCH}"
   - ARGS=()
+  - if [ "$ARCH" = "armhf" ]; then ARGS+=("-q"); fi
   - if [ -n "$VARIANT" ]; then ARGS+=("-t" "$VARIANT"); IMAGE+="-$VARIANT"; fi
   - ./docker-create-debian-image -i "$IMAGE" "${ARGS[@]}" "$DIST" "$ARCH"
 jobs:
