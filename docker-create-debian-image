@@ -1,0 +1,31 @@
+#!/bin/bash
+
+set -e -o pipefail
+
+DIST=${1-jessie}
+ARCH=${2-amd64}
+
+case "$DIST" in
+    potato)  URL=http://archive.debian.org/debian;;
+    woody)   URL=http://archive.debian.org/debian;;
+    sarge)   URL=http://archive.debian.org/debian;;
+    etch)    URL=http://archive.debian.org/debian;;
+    lenny)   URL=http://archive.debian.org/debian;;
+    squeeze) URL=http://archive.debian.org/debian;;
+    *)       URL=http://deb.debian.org/debian;;
+esac
+
+set -x
+
+NAME=debian-${DIST}-${ARCH}
+DIR="root-$NAME"
+IMAGE="$USER/$NAME"
+trap 'sudo rm -rf "$DIR"' EXIT
+sudo debootstrap --no-check-gpg "--arch=$ARCH" "$DIST" "$DIR" "$URL"
+if [ -d "$DIR/var/lib/apt/lists" ]; then
+    sudo find "$DIR/var/lib/apt/lists" -type f -delete
+fi
+sudo tar -C "$DIR" -c . | docker import - "$IMAGE"
+docker inspect \
+       -f "$NAME: arch {{.Architecture}}, size {{printf \"%.0f\" .Size}}, id {{.Id}}" \
+       "$IMAGE"
