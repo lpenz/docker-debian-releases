@@ -2,45 +2,45 @@
 
 set -e -o pipefail
 
-USAGE="Usage: $0 [-h] [-k] [distribution [architecture]]"
+usage="Usage: $0 [-h] [-k] [distribution [architecture]]"
 
 keepdir=false
 
 while getopts ":kh" opt; do
     case "$opt" in
         k) keepdir=true;;
-        h) echo "$USAGE"; exit 0;;
-        \?) printf "Invalid argument\\n%s\\n" "$USAGE" >&2; exit 1;;
+        h) echo "$usage"; exit 0;;
+        \?) printf "Invalid argument\\n%s\\n" "$usage" >&2; exit 1;;
     esac
 done
 shift $((OPTIND-1))
 
-DIST=${1-jessie}
-ARCH=${2-amd64}
+dist=${1-jessie}
+arch=${2-amd64}
 
-case "$DIST" in
-    potato)  URL=http://archive.debian.org/debian;;
-    woody)   URL=http://archive.debian.org/debian;;
-    sarge)   URL=http://archive.debian.org/debian;;
-    etch)    URL=http://archive.debian.org/debian;;
-    lenny)   URL=http://archive.debian.org/debian;;
-    squeeze) URL=http://archive.debian.org/debian;;
-    *)       URL=http://deb.debian.org/debian;;
+case "$dist" in
+    potato)  mirror=http://archive.debian.org/debian;;
+    woody)   mirror=http://archive.debian.org/debian;;
+    sarge)   mirror=http://archive.debian.org/debian;;
+    etch)    mirror=http://archive.debian.org/debian;;
+    lenny)   mirror=http://archive.debian.org/debian;;
+    squeeze) mirror=http://archive.debian.org/debian;;
+    *)       mirror=http://deb.debian.org/debian;;
 esac
 
 set -x
 
-NAME=debian-${DIST}-${ARCH}
-DIR="root-$NAME"
-IMAGE="$USER/$NAME"
+name=debian-${dist}-${arch}
+dir="root-$name"
+image="$USER/$name"
 if ! "$keepdir"; then
-    trap 'sudo rm -rf "$DIR"' EXIT
+    trap 'sudo rm -rf "$dir"' EXIT
 fi
-sudo debootstrap --no-check-gpg "--arch=$ARCH" "$DIST" "$DIR" "$URL"
-if [ -d "$DIR/var/lib/apt/lists" ]; then
-    sudo find "$DIR/var/lib/apt/lists" -type f -delete
+sudo debootstrap --no-check-gpg "--arch=$arch" "$dist" "$dir" "$mirror"
+if [ -d "$dir/var/lib/apt/lists" ]; then
+    sudo find "$dir/var/lib/apt/lists" -type f -delete
 fi
-sudo tar -C "$DIR" -c . | docker import - "$IMAGE"
+sudo tar -C "$dir" -c . | docker import - "$image"
 docker inspect \
-       -f "$NAME: arch {{.Architecture}}, size {{printf \"%.0f\" .Size}}, id {{.Id}}" \
-       "$IMAGE"
+       -f "$image: arch {{.Architecture}}, size {{printf \"%.0f\" .Size}}, id {{.Id}}" \
+       "$image"
