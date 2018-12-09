@@ -18,9 +18,15 @@ env:
   - DIST=stretch ARCH=i386
   - DIST=stretch ARCH=amd64
 script:
-  - ./docker-create-debian-image "$DIST" "$ARCH"
+  - IMAGE="lpenz/debian-${DIST}-${ARCH}"
+  - ./docker-create-debian-image -i "$IMAGE" "$DIST" "$ARCH"
 jobs:
   include:
     - name: omnilint
       install: docker pull lpenz/omnilint
       script: docker run --rm -v "$PWD:$PWD" -e "RWD=$PWD" -e "MY_UID=$UID" lpenz/omnilint
+before_deploy:
+  - docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
+deploy:
+  - provider: script
+    script: docker push "$IMAGE"
