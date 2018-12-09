@@ -6,9 +6,10 @@ usage="Usage: $0 [-h] [-k] [distribution [architecture]]"
 
 keepdir=false
 
-while getopts ":kh" opt; do
+while getopts ":ki:h" opt; do
     case "$opt" in
         k) keepdir=true;;
+        i) image="$OPTARG";;
         h) echo "$usage"; exit 0;;
         \?) printf "Invalid argument\\n%s\\n" "$usage" >&2; exit 1;;
     esac
@@ -31,7 +32,7 @@ esac
 set -x
 
 name=debian-${dist}-${arch}
-image="$USER/$name"
+image=${image-"$name"}
 dir="$(mktemp -d --suffix=-rootfs -p "$PWD")"
 if ! "$keepdir"; then
     trap 'sudo rm -rf "$dir"' EXIT
