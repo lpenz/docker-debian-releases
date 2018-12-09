@@ -15,6 +15,8 @@ env:
   - ARCH=amd64 DIST=wheezy
   - ARCH=i386  DIST=jessie
   - ARCH=amd64 DIST=jessie
+  - ARCH=i386  DIST=stretch
+  - ARCH=amd64 DIST=stretch
 script:
   - ./docker-create-debian-image "$DIST" "$ARCH"
 jobs:
