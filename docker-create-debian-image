@@ -2,14 +2,15 @@
 
 set -e -o pipefail
 
-usage="Usage: $0 [-h] [-k] [-i <image name>] [distribution [architecture]]"
+usage="Usage: $0 [-h] [-k] [-i <image name>] [-t <variant>] [distribution [architecture]]"
 
 keepdir=false
 
-while getopts ":ki:h" opt; do
+while getopts ":ki:t:h" opt; do
     case "$opt" in
         k) keepdir=true;;
         i) image="$OPTARG";;
+        t) variant="$OPTARG";;
         h) echo "$usage"; exit 0;;
         \?) printf "Invalid argument\\n%s\\n" "$usage" >&2; exit 1;;
     esac
@@ -44,7 +45,11 @@ trap cleanup EXIT
 name=debian-${dist}-${arch}
 image=${image-"$name"}
 
-cmd=(sudo debootstrap "--no-check-gpg" "--arch=$arch" "$dist" "$dir" "$mirror")
+cmd=(sudo debootstrap)
+if [ -n "$variant" ]; then
+   cmd+=("--variant=$variant")
+fi
+cmd+=("--no-check-gpg" "--arch=$arch" "$dist" "$dir" "$mirror")
 
 # Run:
 

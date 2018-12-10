@@ -7,20 +7,34 @@ env:
   - DIST=woody   ARCH=i386
   - DIST=sarge   ARCH=i386
   - DIST=etch    ARCH=i386
+  - DIST=etch    ARCH=i386  VARIANT=minbase
   - DIST=etch    ARCH=amd64
+  - DIST=etch    ARCH=amd64 VARIANT=minbase
   - DIST=lenny   ARCH=i386
+  - DIST=lenny   ARCH=i386  VARIANT=minbase
   - DIST=lenny   ARCH=amd64
+  - DIST=lenny   ARCH=amd64 VARIANT=minbase
   - DIST=squeeze ARCH=i386
+  - DIST=squeeze ARCH=i386  VARIANT=minbase
   - DIST=squeeze ARCH=amd64
+  - DIST=squeeze ARCH=amd64 VARIANT=minbase
   - DIST=wheezy  ARCH=i386
+  - DIST=wheezy  ARCH=i386  VARIANT=minbase
   - DIST=wheezy  ARCH=amd64
+  - DIST=wheezy  ARCH=amd64 VARIANT=minbase
   - DIST=jessie  ARCH=i386
+  - DIST=jessie  ARCH=i386  VARIANT=minbase
   - DIST=jessie  ARCH=amd64
+  - DIST=jessie  ARCH=amd64 VARIANT=minbase
   - DIST=stretch ARCH=i386
+  - DIST=stretch ARCH=i386  VARIANT=minbase
   - DIST=stretch ARCH=amd64
+  - DIST=stretch ARCH=amd64 VARIANT=minbase
 script:
-  - IMAGE="lpenz/debian-${DIST}-${ARCH}"
-  - ./docker-create-debian-image -i "$IMAGE" "$DIST" "$ARCH"
+  - IMAGE="$DOCKERHUB_USERNAME/debian-${DIST}-${ARCH}"
+  - ARGS=()
+  - if [ -n "$VARIANT" ]; then ARGS+=("-t" "$VARIANT"); IMAGE+="-$VARIANT"; fi
+  - ./docker-create-debian-image -i "$IMAGE" "${ARGS[@]}" "$DIST" "$ARCH"
 jobs:
   include:
     - name: omnilint
