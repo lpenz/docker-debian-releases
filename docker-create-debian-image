@@ -64,9 +64,15 @@ fi
 if [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/lib/apt/lists" -type f -delete
 fi
+msg="Created by https://github.com/lpenz/docker-debian-releases"
+if [ -f "$dir/usr/lib/os-release" ]; then
+    # shellcheck disable=SC1090
+    . "$dir/usr/lib/os-release"
+    msg="$PRETTY_NAME for $arch image created by https://github.com/lpenz/docker-debian-releases"
+fi
 sudo tar -C "$dir" -c . | \
     docker import \
-           -m "Created by https://github.com/lpenz/docker-debian-releases" \
+           -m "$msg" \
            -c 'CMD ["bash"]' \
            - "$image"
 docker inspect "$image"
