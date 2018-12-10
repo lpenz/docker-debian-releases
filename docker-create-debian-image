@@ -45,6 +45,4 @@ sudo tar -C "$dir" -c . | \
            -m "Created by https://github.com/lpenz/docker-debian-releases" \
            -c 'CMD ["bash"]' \
            - "$image"
-docker inspect \
-       -f "$image: arch {{.Architecture}}, size {{printf \"%.0f\" .Size}}, id {{.Id}}" \
-       "$image"
+docker inspect "$image"
