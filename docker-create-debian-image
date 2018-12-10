@@ -29,14 +29,33 @@ case "$dist" in
     *)       mirror=http://deb.debian.org/debian;;
 esac
 
-set -x
+# Create tmp dir, setup cleanup:
+dir="$(mktemp -d --suffix=-rootfs -p "$PWD")"
+function cleanup {
+    if ! "$keepdir"; then
+        sudo umount -l "$dir/sys" "$dir/proc" 2>/dev/null || :
+        sudo rm -rf "$dir"
+    fi
+}
+trap cleanup EXIT
+
+# Build debootstrap commnad-line
 
 name=debian-${dist}-${arch}
 image=${image-"$name"}
-dir="$(mktemp -d --suffix=-rootfs -p "$PWD")"
-if ! "$keepdir"; then trap 'sudo umount -l $dir/sys $dir/proc 2>/dev/null; sudo rm -rf "$dir"' EXIT; fi
-sudo debootstrap --no-check-gpg "--arch=$arch" "$dist" "$dir" "$mirror"
-if ! "$keepdir"; then trap 'sudo rm -rf "$dir"' EXIT; fi
+
+cmd=(sudo debootstrap "--no-check-gpg" "--arch=$arch" "$dist" "$dir" "$mirror")
+
+# Run:
+
+set -x
+
+: name="$name", image="$image"
+
+if ! "${cmd[@]}"; then
+     cat "$dir/debootstrap/debootstrap.log"
+     false
+fi
 if [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/lib/apt/lists" -type f -delete
 fi
