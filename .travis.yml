@@ -3,33 +3,33 @@ dist: xenial
 addons: { apt: { packages: [ debootstrap ] } }
 language: generic
 env:
-  - DIST=potato  ARCH=i386
-  - DIST=woody   ARCH=i386
-  - DIST=sarge   ARCH=i386
-  - DIST=etch    ARCH=i386
-  - DIST=etch    ARCH=i386  VARIANT=minbase
-  - DIST=etch    ARCH=amd64
-  - DIST=etch    ARCH=amd64 VARIANT=minbase
-  - DIST=lenny   ARCH=i386
-  - DIST=lenny   ARCH=i386  VARIANT=minbase
-  - DIST=lenny   ARCH=amd64
-  - DIST=lenny   ARCH=amd64 VARIANT=minbase
-  - DIST=squeeze ARCH=i386
-  - DIST=squeeze ARCH=i386  VARIANT=minbase
-  - DIST=squeeze ARCH=amd64
-  - DIST=squeeze ARCH=amd64 VARIANT=minbase
-  - DIST=wheezy  ARCH=i386
-  - DIST=wheezy  ARCH=i386  VARIANT=minbase
-  - DIST=wheezy  ARCH=amd64
-  - DIST=wheezy  ARCH=amd64 VARIANT=minbase
-  - DIST=jessie  ARCH=i386
-  - DIST=jessie  ARCH=i386  VARIANT=minbase
-  - DIST=jessie  ARCH=amd64
-  - DIST=jessie  ARCH=amd64 VARIANT=minbase
-  - DIST=stretch ARCH=i386
-  - DIST=stretch ARCH=i386  VARIANT=minbase
-  - DIST=stretch ARCH=amd64
-  - DIST=stretch ARCH=amd64 VARIANT=minbase
+  - V=2.2 DIST=potato  ARCH=i386
+  - V=3.0 DIST=woody   ARCH=i386
+  - V=3.1 DIST=sarge   ARCH=i386
+  - V=4.0 DIST=etch    ARCH=amd64
+  - V=4.0 DIST=etch    ARCH=amd64 VARIANT=minbase
+  - V=4.0 DIST=etch    ARCH=i386
+  - V=4.0 DIST=etch    ARCH=i386  VARIANT=minbase
+  - V=5.0 DIST=lenny   ARCH=amd64
+  - V=5.0 DIST=lenny   ARCH=amd64 VARIANT=minbase
+  - V=5.0 DIST=lenny   ARCH=i386
+  - V=5.0 DIST=lenny   ARCH=i386  VARIANT=minbase
+  - V=6.0 DIST=squeeze ARCH=amd64
+  - V=6.0 DIST=squeeze ARCH=amd64 VARIANT=minbase
+  - V=6.0 DIST=squeeze ARCH=i386
+  - V=6.0 DIST=squeeze ARCH=i386  VARIANT=minbase
+  - V=7   DIST=wheezy  ARCH=amd64
+  - V=7   DIST=wheezy  ARCH=amd64 VARIANT=minbase
+  - V=7   DIST=wheezy  ARCH=i386
+  - V=7   DIST=wheezy  ARCH=i386  VARIANT=minbase
+  - V=8   DIST=jessie  ARCH=amd64
+  - V=8   DIST=jessie  ARCH=amd64 VARIANT=minbase
+  - V=8   DIST=jessie  ARCH=i386
+  - V=8   DIST=jessie  ARCH=i386  VARIANT=minbase
+  - V=9   DIST=stretch ARCH=amd64
+  - V=9   DIST=stretch ARCH=amd64 VARIANT=minbase
+  - V=9   DIST=stretch ARCH=i386
+  - V=9   DIST=stretch ARCH=i386  VARIANT=minbase
 script:
   - IMAGE="$DOCKERHUB_USERNAME/debian-${DIST}-${ARCH}"
   - ARGS=()
