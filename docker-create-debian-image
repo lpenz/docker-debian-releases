@@ -61,15 +61,32 @@ if ! "${cmd[@]}"; then
      cat "$dir/debootstrap/debootstrap.log"
      false
 fi
+
+# Create msg:
+repo="https://github.com/lpenz/docker-debian-releases"
+for releasefile in "$dir"/var/*/apt/lists/*_Release; do
+    description=$(sed -n 's@^Description: \(.*\)$@\1@p' "$releasefile")
+    msg="${description}, $arch image created by $repo"
+    break
+done
+if [ -z "$msg" ]; then
+    if [ -f "$dir/usr/lib/os-release" ]; then
+        # shellcheck disable=SC1090
+        . "$dir/usr/lib/os-release"
+        msg="$PRETTY_NAME for $arch image created by $repo"
+    else
+        msg="Created by $repo"
+    fi
+fi
+
+# Remove apt lists (too big):
 if [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/lib/apt/lists" -type f -delete
+elif [ -d "$dir/var/lib/apt/lists" ]; then
+    sudo find "$dir/var/state/apt/lists" -type f -delete
 fi
-msg="Created by https://github.com/lpenz/docker-debian-releases"
-if [ -f "$dir/usr/lib/os-release" ]; then
-    # shellcheck disable=SC1090
-    . "$dir/usr/lib/os-release"
-    msg="$PRETTY_NAME for $arch image created by https://github.com/lpenz/docker-debian-releases"
-fi
+
+# Create .tar and import docker image:
 sudo tar -C "$dir" -c . | \
     docker import \
            -m "$msg" \
