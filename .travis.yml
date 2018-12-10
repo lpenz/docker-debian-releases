@@ -1,4 +1,5 @@
 ---
+dist: xenial
 addons: { apt: { packages: [ debootstrap ] } }
 language: generic
 env:
