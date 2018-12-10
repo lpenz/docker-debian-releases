@@ -34,10 +34,9 @@ set -x
 name=debian-${dist}-${arch}
 image=${image-"$name"}
 dir="$(mktemp -d --suffix=-rootfs -p "$PWD")"
-if ! "$keepdir"; then
-    trap 'sudo rm -rf "$dir"' EXIT
-fi
+if ! "$keepdir"; then trap 'sudo umount -l $dir/sys $dir/proc 2>/dev/null; sudo rm -rf "$dir"' EXIT; fi
 sudo debootstrap --no-check-gpg "--arch=$arch" "$dist" "$dir" "$mirror"
+if ! "$keepdir"; then trap 'sudo rm -rf "$dir"' EXIT; fi
 if [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/lib/apt/lists" -type f -delete
 fi
