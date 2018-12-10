@@ -2,7 +2,7 @@
 
 set -e -o pipefail
 
-usage="Usage: $0 [-h] [-k] [distribution [architecture]]"
+usage="Usage: $0 [-h] [-k] [-i <image name>] [distribution [architecture]]"
 
 keepdir=false
 
