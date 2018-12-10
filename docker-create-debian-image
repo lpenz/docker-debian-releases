@@ -41,7 +41,10 @@ if [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/lib/apt/lists" -type f -delete
 fi
 sudo tar -C "$dir" -c . | \
-    docker import -c 'CMD ["bash"]' - "$image"
+    docker import \
+           -m "Created by https://github.com/lpenz/docker-debian-releases" \
+           -c 'CMD ["bash"]' \
+           - "$image"
 docker inspect \
        -f "$image: arch {{.Architecture}}, size {{printf \"%.0f\" .Size}}, id {{.Id}}" \
        "$image"
