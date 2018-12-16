@@ -99,4 +99,5 @@ sudo tar -C "$dir" -c . | \
            -m "$msg" \
            -c 'CMD ["bash"]' \
            - "$image"
+docker run --rm "$image" /bin/bash -c "true"
 docker inspect "$image"
