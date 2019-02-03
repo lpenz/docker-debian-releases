@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.com/lpenz/docker-debian-releases.png?branch=master)](https://travis-ci.com/lpenz/docker-debian-releases)
+[![Build Status for master](https://img.shields.io/travis/com/lpenz/docker-debian-releases/master.svg?label=master)](https://travis-ci.com/lpenz/docker-debian-releases)
+[![Build Status for debian](https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian.svg?label=debian)](https://travis-ci.com/lpenz/docker-debian-releases)
+[![Build Status for ubuntu](https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu.svg?label=ubuntu)](https://travis-ci.com/lpenz/docker-debian-releases)
 
 docker-debian-releases
 ======================
