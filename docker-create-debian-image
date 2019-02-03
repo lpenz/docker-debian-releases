@@ -2,16 +2,29 @@
 
 set -e -o pipefail
 
-usage="Usage: $0 [-h] [-k] [-i <image name>] [-q] [-t <variant>] [distribution [architecture]]"
+usage="Usage: $0 [-h] [-k] [-i <image name>] [-q] [-m <mirror>/debian/ubuntu...] [-t <variant>] [distribution [architecture]]"
 
 keepdir=false
 qemu=false
+mirrorCandidates=()
 
-while getopts ":ki:qt:h" opt; do
+while getopts ":ki:qt:m:h" opt; do
     case "$opt" in
         k) keepdir=true;;
         i) image="$OPTARG";;
         q) qemu=true;;
+        m)
+            if [ "$OPTARG" = "debian" ]; then
+                mirrorCandidates+=("http://archive.debian.org/debian")
+                mirrorCandidates+=("http://deb.debian.org/debian")
+            elif [ "$OPTARG" = "ubuntu" ]; then
+                mirrorCandidates+=("http://ports.ubuntu.com/ubuntu-ports")
+                mirrorCandidates+=("http://archive.ubuntu.com/ubuntu")
+                mirrorCandidates+=("http://old-releases.ubuntu.com/ubuntu")
+            else
+                mirrorCandidates+=("$OPTARG")
+            fi
+            ;;
         t) variant="$OPTARG";;
         h) echo "$usage"; exit 0;;
         \?) printf "Invalid argument\\n%s\\n" "$usage" >&2; exit 1;;
@@ -22,15 +35,22 @@ shift $((OPTIND-1))
 dist=${1-jessie}
 arch=${2-amd64}
 
-case "$dist" in
-    potato)  mirror=http://archive.debian.org/debian;;
-    woody)   mirror=http://archive.debian.org/debian;;
-    sarge)   mirror=http://archive.debian.org/debian;;
-    etch)    mirror=http://archive.debian.org/debian;;
-    lenny)   mirror=http://archive.debian.org/debian;;
-    squeeze) mirror=http://archive.debian.org/debian;;
-    *)       mirror=http://deb.debian.org/debian;;
-esac
+if [ "${#mirrorCandidates[@]}" -eq 0 ]; then
+    mirrorCandidates+=("http://archive.debian.org/debian")
+    mirrorCandidates+=("http://deb.debian.org/debian")
+fi
+
+for m in "${mirrorCandidates[@]}"; do
+    if curl -sfL "${m}/dists/${dist}/main/binary-${arch}/Release" > /dev/null; then
+        mirror="$m"
+        break
+    fi
+done
+
+if [ -z "$mirror" ]; then
+    echo "Architecture $arch not suported by $dist in any mirror" >&2
+    exit 1
+fi
 
 # Create tmp dir, setup cleanup:
 dir="$(mktemp -d --suffix=-rootfs -p "$PWD")"
@@ -56,13 +76,14 @@ fi
 if [ -n "$variant" ]; then
    cmd+=("--variant=$variant")
 fi
-cmd+=("--no-check-gpg" "--arch=$arch" "$dist" "$dir" "$mirror")
+cmd+=("--no-check-gpg" "--arch=$arch" "$dist" "$dir")
+cmd+=("$mirror")
 
 # Run:
 
 set -x
 
-: name="$name", image="$image"
+: name="$name", image="$image", mirror="$mirror"
 
 if ! "${cmd[@]}"; then
      cat "$dir/debootstrap/debootstrap.log"

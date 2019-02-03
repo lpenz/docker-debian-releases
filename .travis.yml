@@ -1,5 +1,18 @@
 ---
+dist: xenial
+addons: { apt: { packages: [ debootstrap, qemu-user-static ] } }
 language: generic
+# Only some basic specific tests on master;
+# the official build is done in branches.
+env:
+  - MIRROR=ubuntu V=16.04 DIST=xenial  ARCH=armhf
+  - MIRROR=debian V=9     DIST=stretch ARCH=mipsel VARIANT=minbase
+script:
+  - IMAGE="$DOCKERHUB_USERNAME/debian-${DIST}-${ARCH}"
+  - ARGS=()
+  - if [ "$ARCH" != "i386" ] && [ "$ARCH" != "amd64" ]; then ARGS+=("-q"); fi
+  - if [ -n "$VARIANT" ]; then ARGS+=("-t" "$VARIANT"); IMAGE+="-$VARIANT"; fi
+  - ./docker-create-debian-image -m "$MIRROR" -i "$IMAGE" "${ARGS[@]}" "$DIST" "$ARCH"
 jobs:
   include:
     - name: omnilint
