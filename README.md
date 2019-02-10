@@ -5,8 +5,8 @@
 docker-debian-releases
 ======================
 
-This repository has a single that creates docker images of
-Debian-based system using debootstrap.
+This repository has a script that creates docker images of
+Debian-based system using debootstrap, for various architectures.
 
 It's also hooked up in travis with a build matrix that creates
 historical Debian and Ubuntu release in the *debian* and *ubuntu*
