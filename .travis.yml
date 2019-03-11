@@ -10,6 +10,11 @@ env:
 script: ./travis-script.sh
 jobs:
   include:
+    - name: build scripts
+      addons: { apt: { packages: [ scons, golang ] } }
+      script:
+        - go get golang.org/x/net/html
+        - scons
     - name: omnilint
       install: docker pull lpenz/omnilint
       script: docker run --rm -v "$PWD:$PWD" -e "RWD=$PWD" -e "MY_UID=$UID" lpenz/omnilint
