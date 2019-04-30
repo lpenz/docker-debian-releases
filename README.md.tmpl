@@ -1,0 +1,104 @@
+[![Build Status](https://img.shields.io/travis/com/lpenz/docker-debian-releases/master.svg?label=master)](https://travis-ci.com/lpenz/docker-debian-releases)
+
+
+docker-debian-releases
+======================
+
+This repository has a script that creates docker images of
+Debian-based system using debootstrap, for various architectures.
+
+It's also hooked up in travis with a build matrix that creates
+historical Debian and Ubuntu release in appropriately-named
+branches. You can check out the docker images at
+https://hub.docker.com/r/lpenz/ - all releases of Debian since Potato
+are there, for various architectures. The status of each combination
+can be seen [below](#image-status) ([Debian](#debian) and
+[Ubuntu](#Ubuntu)).
+
+
+## Organization
+
+The following files deal with image creation:
+- [docker-create-debian-image](docker-create-debian-image): shell
+  script that creates a docker image for a specific Debian or Ubuntu
+  release, architecture and debootstrap variant.
+- [travis-script.sh](travis-script.sh): script that transform a
+  travis-ci environment into a call to docker-create-debian-image.
+
+
+The following deal with distribution-version discovery, updating and rendering:
+- [apt-mirror-info](apt-mirror-info): scraps Debian and Ubuntu
+  repositories and outputs a json with information about all releases
+  it can find.
+- [json-tmpl-render](json-tmpl-render): renders a template file with
+  information from a json file.
+- [README.md.tmpl](README.md.tmpl): template for README.md that uses
+  the information obtained by apt-mirror-info to create a table of
+  images and status'.
+- [SConstruct](SConstruct): scons script that builds the go sources
+  and README.md.
+
+
+Besides image building and deploying to
+[docker hub](https://hub.docker.com), the [.travis.yml](.travis.yml)
+file also performs static analysis, builds go sources and checks if
+the README.md file is up-to-date.
+
+
+## Image status
+
+{{ $title:="" -}}
+
+{{ range $repo := . -}}
+{{ if $repo.Version -}}
+
+{{ if ne $title $repo.Origin -}}
+
+{{ if ne $title "" -}}
+</tbody>
+</table>
+{{ end -}}
+
+{{ $title = $repo.Origin }}
+
+### {{$repo.Origin}}
+
+<table>
+<thead>
+<tr><th rowspan="2">Release</th><th rowspan="2">Version</th><th rowspan="2">Arch</th><th colspan="2">Variant status</th></tr>
+<tr><th>standard</th><th>minbase</th></tr>
+</thead>
+<tbody>
+{{ end -}}
+
+{{ range $a := $repo.Architectures -}}
+{{ if (and (eq (stringsIndex $repo.Suite "-") -1) (eq (stringsIndex $a "-") -1)) -}}
+{{ $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a) -}}
+<tr>
+    <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$a}}</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/{{$branch}}-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}-minbase.svg" />
+    </a>
+</td>
+</tr>
+{{ end -}}
+{{ end -}}
+
+{{ end -}}
+{{ end -}}
+
+</tbody>
+</table>
+

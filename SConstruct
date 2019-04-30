@@ -12,7 +12,13 @@ if False:
 env = Environment(ENV=os.environ)
 env.Command("_apt-mirrors.json", ['apt-mirrors-info'], "./$SOURCE $TARGET")
 
-for gobase in ['apt-mirrors-info']:
+def jsonRender(target, sources):
+    env.Command(target, sources, "./json-tmpl-render $SOURCES $TARGET")
+    env.Depends(target, ['json-tmpl-render'])
+
+jsonRender("README.md", ["_apt-mirrors.json", "README.md.tmpl"])
+
+for gobase in ['apt-mirrors-info', 'json-tmpl-render']:
     env.Command(gobase,
                 [pjoin('go/cmd', gobase, 'main.go'), 'go/common/common.go'],
                 'go build ' + pjoin('./go/cmd', gobase))

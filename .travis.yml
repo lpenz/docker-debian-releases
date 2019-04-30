@@ -7,11 +7,12 @@ jobs:
       addons: { apt: { packages: [ debootstrap, qemu-user-static ] } }
       script: ./travis-script.sh
       if: branch ~= .*-.*
-    - name: build scripts
+    - name: build scripts and check README.md
       addons: { apt: { packages: [ scons, golang ] } }
       script:
         - go get golang.org/x/net/html
         - scons
+        - git diff
       if: NOT branch ~= .*-.*
     - name: omnilint
       install: docker pull lpenz/omnilint
