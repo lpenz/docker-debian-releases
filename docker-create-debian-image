@@ -2,7 +2,20 @@
 
 set -e -o pipefail
 
-usage="Usage: $0 [-h] [-k] [-i <image name>] [-q] [-m <mirror>/debian/ubuntu...] [-t <variant>] [distribution [architecture]]"
+usage="Usage: ${0##*/} [-h] [-k] [-i <image name>] [-q] [-m <mirror>/debian/ubuntu...] [-t <variant>] [distribution [architecture]]
+
+  -h              - this help
+  -k              - keep the temporary directory for the root filesystem after build
+  -i <image name> - name of the Docker image (default: debian-${distribution}-${architecture})
+  -q              - use 'qemu-debootstrap' instead of 'debootstrap'
+  -m <mirror>     - a mirror of the package repository, e.g. http://my.own.mirror
+                    debian - use the official Debian package repository (default)
+                    ubuntu - use the official Ubuntu package repository
+  -t <variant>    - the variant option for 'debootstrap' [minbase|buildd|fakechroot]
+                    (for more detail see: \`man -P 'less -p --variant' debootstrap\`)
+  distribution    - name of the Debian or Ubuntu distribution (default: jessie)
+  architecture    - architecture of the distribution to use (default: amd64)
+"
 
 keepdir=false
 qemu=false
