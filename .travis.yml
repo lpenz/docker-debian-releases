@@ -1,20 +1,19 @@
 ---
 dist: xenial
-addons: { apt: { packages: [ debootstrap, qemu-user-static ] } }
 language: generic
-# Only some basic specific tests on master;
-# the official build is done in branches.
-env:
-  - MIRROR=ubuntu V=16.04 DIST=xenial  ARCH=armhf
-  - MIRROR=debian V=9     DIST=stretch ARCH=mipsel VARIANT=minbase
-script: ./travis-script.sh
 jobs:
   include:
+    - name: build image
+      addons: { apt: { packages: [ debootstrap, qemu-user-static ] } }
+      script: ./travis-script.sh
+      if: branch ~= .*-.*
     - name: build scripts
       addons: { apt: { packages: [ scons, golang ] } }
       script:
         - go get golang.org/x/net/html
         - scons
+      if: NOT branch ~= .*-.*
     - name: omnilint
       install: docker pull lpenz/omnilint
       script: docker run --rm -v "$PWD:$PWD" -e "RWD=$PWD" -e "MY_UID=$UID" lpenz/omnilint
+      if: NOT branch ~= .*-.*

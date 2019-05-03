@@ -2,8 +2,15 @@
 
 set -e -x
 
+IFS=-
+read -r MIRROR DIST ARCH VARIANT <<EOF
+$TRAVIS_BRANCH
+EOF
+unset IFS
+
 : This script converts travis environment vars into arguments for
 : docker-create-debian-image
+: MIRROR="$MIRROR" DIST="$DIST" ARCH="$ARCH" VARIANT="$VARIANT"
 
 IMAGE="$DOCKERHUB_USERNAME/debian-${DIST}-${ARCH}"
 
