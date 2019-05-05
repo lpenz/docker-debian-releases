@@ -12,7 +12,7 @@ unset IFS
 : docker-create-debian-image
 : MIRROR="$MIRROR" DIST="$DIST" ARCH="$ARCH" VARIANT="$VARIANT"
 
-IMAGE="$DOCKERHUB_USERNAME/debian-${DIST}-${ARCH}"
+IMAGE="$DOCKERHUB_USERNAME/${MIRROR}-${DIST}-${ARCH}"
 
 ARGS=()
 
