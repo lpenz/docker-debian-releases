@@ -12,8 +12,8 @@ historical Debian and Ubuntu release in appropriately-named
 branches. You can check out the docker images at
 https://hub.docker.com/r/lpenz/ - all releases of Debian since Potato
 are there, for various architectures. The status of each combination
-can be seen [below](#image-status) ([Debian](#debian) and
-[Ubuntu](#Ubuntu)).
+can be seen [below](#image-status) ([Debian](#debian),
+[Raspbian](#raspbian) and [Ubuntu](#Ubuntu)).
 
 
 ## Organization
@@ -2353,6 +2353,94 @@ the README.md file is up-to-date.
     </a>
     <a href="https://hub.docker.com/r/lpenz/debian-sid-s390x-minbase">
         <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-s390x-minbase.svg" />
+    </a>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Raspbian
+
+<table>
+<thead>
+<tr><th rowspan="2">Release</th><th rowspan="2">Version</th><th rowspan="2">Arch</th><th colspan="2">Variant status</th></tr>
+<tr><th>standard</th><th>minbase</th></tr>
+</thead>
+<tbody>
+<tr>
+    <td>wheezy</td><td>7.0</td><td>armhf</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-wheezy-armhf.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/raspbian-wheezy-armhf">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/raspbian-wheezy-armhf.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-wheezy-armhf-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/raspbian-wheezy-armhf-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/raspbian-wheezy-armhf-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>jessie</td><td></td><td>armhf</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-jessie-armhf.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/raspbian-jessie-armhf">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/raspbian-jessie-armhf.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-jessie-armhf-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/raspbian-jessie-armhf-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/raspbian-jessie-armhf-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>stretch</td><td></td><td>armhf</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-stretch-armhf.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/raspbian-stretch-armhf">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/raspbian-stretch-armhf.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-stretch-armhf-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/raspbian-stretch-armhf-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/raspbian-stretch-armhf-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>armhf</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-buster-armhf.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/raspbian-buster-armhf">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/raspbian-buster-armhf.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-buster-armhf-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/raspbian-buster-armhf-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/raspbian-buster-armhf-minbase.svg" />
     </a>
 </td>
 </tr>

@@ -21,6 +21,9 @@ while getopts ":ki:qt:m:h" opt; do
                 mirrorCandidates+=("http://ports.ubuntu.com/ubuntu-ports")
                 mirrorCandidates+=("http://archive.ubuntu.com/ubuntu")
                 mirrorCandidates+=("http://old-releases.ubuntu.com/ubuntu")
+            elif [ "$OPTARG" = "raspbian" ]; then
+                mirrorCandidates+=("http://archive.raspbian.org/raspbian")
+                mirrorCandidates+=("http://raspbian.raspberrypi.org/raspbian")
             else
                 mirrorCandidates+=("$OPTARG")
             fi

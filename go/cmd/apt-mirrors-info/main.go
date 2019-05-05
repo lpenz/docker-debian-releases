@@ -113,6 +113,8 @@ func getAptmirrorsReleaseInfos() []*common.ReleaseInfo {
 		"http://ports.ubuntu.com/ubuntu-ports",
 		"http://archive.ubuntu.com/ubuntu",
 		"http://old-releases.ubuntu.com/ubuntu",
+		"http://archive.raspbian.org/raspbian",
+		"http://raspbian.raspberrypi.org/raspbian",
 	}
 	releaseInfos := []*common.ReleaseInfo{}
 	riMap := map[string]*common.ReleaseInfo{}
