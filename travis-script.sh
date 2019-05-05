@@ -25,4 +25,8 @@ if [ -n "$VARIANT" ]; then
     IMAGE+="-$VARIANT"
 fi
 
+if [ -n "$1" ]; then
+    echo "IMAGE=\"$DOCKERHUB_USERNAME/${MIRROR}-${DIST}-${ARCH}\"" > "$1"
+fi
+
 ./docker-create-debian-image -m "$MIRROR" -i "$IMAGE" "${ARGS[@]}" "$DIST" "$ARCH"
