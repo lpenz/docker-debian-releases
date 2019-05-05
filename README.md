@@ -1786,6 +1786,576 @@ the README.md file is up-to-date.
     </a>
 </td>
 </tr>
+<tr>
+    <td>buster</td><td></td><td>amd64</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-amd64.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-amd64">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-amd64.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-amd64-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-amd64-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-amd64-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>arm64</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-arm64.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-arm64">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-arm64.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-arm64-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-arm64-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-arm64-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>armel</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-armel.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-armel">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-armel.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-armel-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-armel-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-armel-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>armhf</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-armhf.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-armhf">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-armhf.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-armhf-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-armhf-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-armhf-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>i386</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-i386.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-i386">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-i386.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-i386-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-i386-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-i386-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>mips</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mips.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-mips">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-mips.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mips-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-mips-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-mips-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>mips64el</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mips64el.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-mips64el">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-mips64el.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mips64el-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-mips64el-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-mips64el-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>mipsel</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mipsel.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-mipsel">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-mipsel.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mipsel-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-mipsel-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-mipsel-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>ppc64el</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-ppc64el.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-ppc64el">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-ppc64el.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-ppc64el-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-ppc64el-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-ppc64el-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>buster</td><td></td><td>s390x</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-s390x.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-s390x">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-s390x.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-s390x-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-buster-s390x-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-buster-s390x-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>amd64</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-amd64.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-amd64">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-amd64.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-amd64-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-amd64-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-amd64-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>arm64</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-arm64.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-arm64">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-arm64.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-arm64-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-arm64-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-arm64-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>armel</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-armel.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-armel">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-armel.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-armel-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-armel-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-armel-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>armhf</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-armhf.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-armhf">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-armhf.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-armhf-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-armhf-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-armhf-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>i386</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-i386.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-i386">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-i386.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-i386-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-i386-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-i386-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>mips</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mips.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-mips">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-mips.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mips-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-mips-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-mips-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>mips64el</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mips64el.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-mips64el">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-mips64el.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mips64el-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-mips64el-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-mips64el-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>mipsel</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mipsel.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-mipsel">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-mipsel.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mipsel-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-mipsel-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-mipsel-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>ppc64el</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-ppc64el.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-ppc64el">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-ppc64el.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-ppc64el-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-ppc64el-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-ppc64el-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>experimental</td><td></td><td>s390x</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-s390x.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-s390x">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-s390x.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-s390x-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-experimental-s390x-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-experimental-s390x-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>amd64</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-amd64.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-amd64">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-amd64.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-amd64-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-amd64-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-amd64-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>arm64</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-arm64.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-arm64">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-arm64.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-arm64-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-arm64-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-arm64-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>armel</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-armel.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-armel">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-armel.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-armel-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-armel-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-armel-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>armhf</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-armhf.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-armhf">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-armhf.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-armhf-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-armhf-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-armhf-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>i386</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-i386.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-i386">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-i386.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-i386-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-i386-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-i386-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>mips</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mips.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-mips">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-mips.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mips-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-mips-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-mips-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>mips64el</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mips64el.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-mips64el">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-mips64el.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mips64el-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-mips64el-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-mips64el-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>mipsel</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mipsel.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-mipsel">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-mipsel.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mipsel-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-mipsel-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-mipsel-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>ppc64el</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-ppc64el.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-ppc64el">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-ppc64el.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-ppc64el-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-ppc64el-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-ppc64el-minbase.svg" />
+    </a>
+</td>
+</tr>
+<tr>
+    <td>sid</td><td></td><td>s390x</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-s390x.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-s390x">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-s390x.svg" />
+    </a>
+</td>
+<td>
+    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
+        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-s390x-minbase.svg" />
+    </a>
+    <a href="https://hub.docker.com/r/lpenz/debian-sid-s390x-minbase">
+        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/debian-sid-s390x-minbase.svg" />
+    </a>
+</td>
+</tr>
 </tbody>
 </table>
 

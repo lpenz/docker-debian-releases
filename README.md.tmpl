@@ -50,7 +50,7 @@ the README.md file is up-to-date.
 {{ $title:="" -}}
 
 {{ range $repo := . -}}
-{{ if $repo.Version -}}
+{{ if (eq (stringsIndex $repo.Suite "-") -1) -}}
 
 {{ if ne $title $repo.Origin -}}
 
@@ -72,7 +72,7 @@ the README.md file is up-to-date.
 {{ end -}}
 
 {{ range $a := $repo.Architectures -}}
-{{ if (and (eq (stringsIndex $repo.Suite "-") -1) (eq (stringsIndex $a "-") -1)) -}}
+{{ if (eq (stringsIndex $a "-") -1) -}}
 {{ $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a) -}}
 <tr>
     <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$a}}</td>
