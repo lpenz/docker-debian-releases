@@ -4,21 +4,24 @@
 docker-debian-releases
 ======================
 
-This repository has a script that creates docker images of
-Debian-based system using debootstrap, for various architectures.
+This repository creates docker images of Debian-based system using
+debootstrap, for various architectures, and uploads them
+to [docker hub](https://hub.docker.com/r/lpenz/) using travis.
 
-It's also hooked up in travis with a build matrix that creates
-historical Debian and Ubuntu release in appropriately-named
-branches. You can check out the docker images at
-https://hub.docker.com/r/lpenz/ - all releases of Debian since Potato
-are there, for various architectures. The status of each combination
-can be seen [below](#image-status) ([Debian](#debian),
-[Raspbian](#raspbian) and [Ubuntu](#Ubuntu)).
+The status of each combination is in the tables below:
+- [Debian](#debian)
+- [Raspbian](#raspbian)
+- [Ubuntu](#Ubuntu)
 
 
 ## Organization
 
-The following files deal with image creation:
+To avoid having to track the combinations of each distribution and
+architecture manually, this repository gets the parameters of
+debootstrap from the current branch name, and then scraps a list of
+mirrors to figure out which ones to use. That way, to support a new
+release, we have to simply push a new remote branch on top of HEAD.
+The following scripts are in charge of this mechanism:
 - [docker-create-debian-image](docker-create-debian-image): shell
   script that creates a docker image for a specific Debian or Ubuntu
   release, architecture and debootstrap variant.
@@ -26,7 +29,8 @@ The following files deal with image creation:
   travis-ci environment into a call to docker-create-debian-image.
 
 
-The following deal with distribution-version discovery, updating and rendering:
+The README.md file (aka this file) is created offline, from
+information obtained from scrapping all available mirrors. The following scripts are in charge of this process:
 - [apt-mirror-info](apt-mirror-info): scraps Debian and Ubuntu
   repositories and outputs a json with information about all releases
   it can find.
@@ -46,6 +50,18 @@ the README.md file is up-to-date.
 
 
 ## Image status
+
+The tables below detail the result of the latest build attempt, and
+link to the image in [docker hub](https://hub.docker.com/r/lpenz/).
+Unfortunatelly, there's no way to link to a branch-specific page in
+travis-ci ([issue #5024](https://github.com/travis-ci/travis-ci/issues/5024)),
+so we had to link to the generic one - but the build result is
+accurate.
+
+The errors reported below are usually caused by:
+- lack of support in qemu for the architecture;
+- timeout when building the standard image (that's why minbase is also built);
+- incompatibility with modern linux kernel.
 
 {{ $title:="" -}}
 
