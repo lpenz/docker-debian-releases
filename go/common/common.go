@@ -5,6 +5,9 @@
 package common
 
 import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
 	"time"
 )
 
@@ -27,4 +30,19 @@ type ReleaseInfo struct {
 	Codename      string
 	URL           []string
 	Architectures []string
+}
+
+func JsonOutput(filename string, title string, data interface{}) {
+	info := map[string]interface{}{
+		title: data,
+	}
+	json, err := json.MarshalIndent(info, "", "  ")
+	PanicIf(err)
+	jsonstr := string(json) + "\n"
+	if filename == "" || filename == "-" {
+		fmt.Print(jsonstr)
+	} else {
+		err := ioutil.WriteFile(filename, []byte(jsonstr), 0644)
+		PanicIf(err)
+	}
 }

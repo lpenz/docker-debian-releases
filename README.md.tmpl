@@ -65,7 +65,7 @@ The errors reported below are usually caused by:
 
 {{ $title:="" -}}
 
-{{ range $repo := . -}}
+{{ range $_, $repo := .releaseInfos -}}
 {{ if (eq (stringsIndex $repo.Suite "-") -1) -}}
 
 {{ if ne $title $repo.Origin -}}

@@ -31,7 +31,7 @@ func main() {
 	common.PanicIf(err)
 	jsonString, err := ioutil.ReadFile(jsonfilename)
 	common.PanicIf(err)
-	var releaseInfos []common.ReleaseInfo
+	var releaseInfos interface{}
 	err = json.Unmarshal(jsonString, &releaseInfos)
 	common.PanicIf(err)
 	t, err := template.New("").Funcs(template.FuncMap{

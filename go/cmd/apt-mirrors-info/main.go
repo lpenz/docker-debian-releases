@@ -6,10 +6,8 @@ package main
 
 import (
 	"bufio"
-	"encoding/json"
 	"fmt"
 	"golang.org/x/net/html"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"reflect"
@@ -164,14 +162,5 @@ func cmdLineParse() (string, error) {
 func main() {
 	filename, err := cmdLineParse()
 	common.PanicIf(err)
-	releaseInfos := getAptmirrorsReleaseInfos()
-	json, err := json.MarshalIndent(releaseInfos, "", "  ")
-	common.PanicIf(err)
-	jsonstr := string(json) + "\n"
-	if filename == "" || filename == "-" {
-		fmt.Print(jsonstr)
-	} else {
-		err := ioutil.WriteFile(filename, []byte(jsonstr), 0644)
-		common.PanicIf(err)
-	}
+	common.JsonOutput(filename, "releaseInfos", getAptmirrorsReleaseInfos())
 }
