@@ -14,14 +14,20 @@ env = Environment(ENV=os.environ)
 env.Command('_apt-mirrors.json', ['apt-mirrors-info'], './$SOURCE $TARGET')
 
 
-def jsonRender(target, sources):
-    env.Command(target, sources, './json-tmpl-render $SOURCES $TARGET')
+def jsonRender(target, source, jsons):
+    env.Command(
+        target, source,
+        ' '.join(['./json-tmpl-render'] + ['--json ' + j for j in jsons] +
+                 ['$SOURCE', '$TARGET']))
+    env.Depends(target, jsons)
     env.Depends(target, ['json-tmpl-render'])
 
 
-jsonRender('README.md', ['_apt-mirrors.json', 'README.md.tmpl'])
-jsonRender('git-update-image-branches',
-           ['_apt-mirrors.json', 'git-update-image-branches.tmpl'])
+jsonRender('README.md', 'README.md.tmpl', jsons=['_apt-mirrors.json'])
+jsonRender(
+    'git-update-image-branches',
+    'git-update-image-branches.tmpl',
+    jsons=['_apt-mirrors.json'])
 
 for gobase in ['apt-mirrors-info', 'json-tmpl-render']:
     env.Command(gobase,

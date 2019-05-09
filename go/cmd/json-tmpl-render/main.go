@@ -6,6 +6,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -15,25 +16,47 @@ import (
 	"../../common"
 )
 
-func cmdLineParse() (string, string, string, error) {
-	if len(os.Args) > 4 || len(os.Args) < 2 {
-		return "", "", "", fmt.Errorf("could not parse %s", os.Args)
+type jsonsFlags []string
+
+func (i *jsonsFlags) String() string {
+	return "my string representation"
+}
+
+func (i *jsonsFlags) Set(value string) error {
+	*i = append(*i, value)
+	return nil
+}
+
+var myJsonsFlags jsonsFlags
+
+func cmdLineParse() ([]string, string, string, error) {
+	flag.Var(&myJsonsFlags, "json", "json to import into scope")
+	flag.Parse()
+	if flag.NFlag() > 3 || flag.NFlag() < 1 {
+		empty := []string{}
+		return empty, "", "", fmt.Errorf("could not parse %s", os.Args)
 	}
 	output := "-"
-	if len(os.Args) == 4 {
-		output = os.Args[3]
+	if flag.NFlag() == 1 {
+		output = flag.Arg(1)
 	}
-	return os.Args[1], os.Args[2], output, nil
+	return myJsonsFlags, flag.Arg(0), output, nil
 }
 
 func main() {
-	jsonfilename, tmplfilename, outfilename, err := cmdLineParse()
+	jsonfilenames, tmplfilename, outfilename, err := cmdLineParse()
 	common.PanicIf(err)
-	jsonString, err := ioutil.ReadFile(jsonfilename)
-	common.PanicIf(err)
-	var releaseInfos interface{}
-	err = json.Unmarshal(jsonString, &releaseInfos)
-	common.PanicIf(err)
+	info := map[string]interface{}{}
+	for _, jsonfilename := range jsonfilenames {
+		jsonString, err := ioutil.ReadFile(jsonfilename)
+		common.PanicIf(err)
+		var tmp map[string]interface{}
+		err = json.Unmarshal(jsonString, &tmp)
+		for k, v := range tmp {
+			info[k] = v
+		}
+		common.PanicIf(err)
+	}
 	t, err := template.New("").Funcs(template.FuncMap{
 		"stringsIndex": strings.Index,
 		"ToLower":      strings.ToLower,
@@ -42,10 +65,10 @@ func main() {
 	if outfilename != "-" {
 		outfile, err := os.Create(outfilename)
 		common.PanicIf(err)
-		err = t.ExecuteTemplate(outfile, tmplfilename, releaseInfos)
+		err = t.ExecuteTemplate(outfile, tmplfilename, info)
 		common.PanicIf(err)
 	} else {
-		err = t.ExecuteTemplate(os.Stdout, tmplfilename, releaseInfos)
+		err = t.ExecuteTemplate(os.Stdout, tmplfilename, info)
 		common.PanicIf(err)
 	}
 }
