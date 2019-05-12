@@ -12,6 +12,9 @@ if False:
 env = Environment(ENV=os.environ)
 
 env.Command('_apt-mirrors.json', ['apt-mirrors-info'], './$SOURCE $TARGET')
+env.Command('_travis-branch-jobs.json',
+            ['_apt-mirrors.json', 'travis-branch-jobs'],
+            './travis-branch-jobs $SOURCE $TARGET')
 
 
 def jsonRender(target, source, jsons):
@@ -29,7 +32,7 @@ jsonRender(
     'git-update-image-branches.tmpl',
     jsons=['_apt-mirrors.json'])
 
-for gobase in ['apt-mirrors-info', 'json-tmpl-render']:
+for gobase in ['apt-mirrors-info', 'json-tmpl-render', 'travis-branch-jobs']:
     env.Command(gobase,
                 [pjoin('go/cmd', gobase, 'main.go'), 'go/common/common.go'],
                 'go build ' + pjoin('./go/cmd', gobase))
