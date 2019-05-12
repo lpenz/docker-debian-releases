@@ -144,7 +144,10 @@ func getAptmirrorsReleaseInfos() []*common.ReleaseInfo {
 		if ri.Origin != rj.Origin {
 			return ri.Origin < rj.Origin
 		}
-		return ri.Date.Before(rj.Date)
+		if ri.Date != rj.Date {
+			return ri.Date.Before(rj.Date)
+		}
+		return ri.Codename < rj.Codename
 	})
 	return releaseInfos
 }
