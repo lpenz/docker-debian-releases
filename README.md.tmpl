@@ -30,15 +30,19 @@ The following scripts are in charge of this mechanism:
 
 
 The README.md file (aka this file) is created offline, from
-information obtained from scrapping all available mirrors. The following scripts are in charge of this process:
-- [apt-mirror-info](apt-mirror-info): scraps Debian and Ubuntu
-  repositories and outputs a json with information about all releases
-  it can find.
-- [json-tmpl-render](json-tmpl-render): renders a template file with
-  information from a json file.
+information obtained from scrapping all available mirrors and
+travis-ci itself. The following scripts are in charge of this process:
+- [apt-mirror-info](go/cmd/apt-mirror-info/main.go): scraps Debian
+  and Ubuntu repositories and outputs a json with information about
+  all releases it can find.
+- [json-tmpl-render](go/cmd/json-tmpl-render/main.go): renders a
+  template file with information from a json file.
+- [travis-branch-jobs](go/cmd/travis-branch-jobs/main.go): scraps the
+  build information form this repository form travis-ci, for all
+  branches that corresponds to relases.
 - [README.md.tmpl](README.md.tmpl): template for README.md that uses
-  the information obtained by apt-mirror-info to create a table of
-  images and status'.
+  the information obtained by apt-mirror-info and travis-branch-jobs
+  to create a table of images and status' with links to jobs.
 - [SConstruct](SConstruct): scons script that builds the go sources
   and README.md.
 
@@ -52,11 +56,8 @@ the README.md file is up-to-date.
 ## Image status
 
 The tables below detail the result of the latest build attempt, and
-link to the image in [docker hub](https://hub.docker.com/r/lpenz/).
-Unfortunatelly, there's no way to link to a branch-specific page in
-travis-ci ([issue #5024](https://github.com/travis-ci/travis-ci/issues/5024)),
-so we had to link to the generic one - but the build result is
-accurate.
+links to the image in [docker hub](https://hub.docker.com/r/lpenz/) if
+the build was successful.
 
 The errors reported below are usually caused by:
 - lack of support in qemu for the architecture;
@@ -90,24 +91,33 @@ The errors reported below are usually caused by:
 {{ range $a := $repo.Architectures -}}
 {{ if (eq (stringsIndex $a "-") -1) -}}
 {{ $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a) -}}
+{{ $build := (index $.branchBuilds $branch) -}}
 <tr>
     <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$a}}</td>
-<td>
-    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
-        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
-    </a>
-    <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
-        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
-    </a>
-</td>
-<td>
-    <a href="https://travis-ci.com/lpenz/docker-debian-releases">
-        <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}-minbase.svg" />
-    </a>
-    <a href="https://hub.docker.com/r/lpenz/{{$branch}}-minbase">
-        <img alt="" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}-minbase.svg" />
-    </a>
-</td>
+    <td>
+{{- if eq ($build.state) "passed" }}
+        <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
+            <img alt="" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
+        </a>
+{{- else }}
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$build.id}}">
+            <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
+        </a>
+{{- end }}
+    </td>
+{{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a "-minbase") }}
+{{- $build := (index $.branchBuilds $branch) }}
+    <td>
+{{- if eq ($build.state) "passed" }}
+        <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
+            <img alt="" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
+        </a>
+{{- else }}
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$build.id}}">
+            <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
+        </a>
+{{- end }}
+    </td>
 </tr>
 {{ end -}}
 {{ end -}}

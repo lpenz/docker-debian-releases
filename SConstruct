@@ -26,7 +26,10 @@ def jsonRender(target, source, jsons):
     env.Depends(target, ['json-tmpl-render'])
 
 
-jsonRender('README.md', 'README.md.tmpl', jsons=['_apt-mirrors.json'])
+jsonRender(
+    'README.md',
+    'README.md.tmpl',
+    jsons=['_apt-mirrors.json', '_travis-branch-jobs.json'])
 jsonRender(
     'git-update-image-branches',
     'git-update-image-branches.tmpl',
