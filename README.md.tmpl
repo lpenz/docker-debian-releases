@@ -97,11 +97,11 @@ The errors reported below are usually caused by:
     <td>
 {{- if eq ($build.state) "passed" }}
         <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
-            <img alt="" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
+            <img alt="{{$build.state}}" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
         </a>
 {{- else }}
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$build.id}}">
-            <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
+            <img alt="{{$build.state}}" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
         </a>
 {{- end }}
     </td>
@@ -110,11 +110,11 @@ The errors reported below are usually caused by:
     <td>
 {{- if eq ($build.state) "passed" }}
         <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
-            <img alt="" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
+            <img alt="{{$build.state}}" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
         </a>
 {{- else }}
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$build.id}}">
-            <img alt="" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
+            <img alt="{{$build.state}}" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
         </a>
 {{- end }}
     </td>
