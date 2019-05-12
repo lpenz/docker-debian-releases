@@ -83,7 +83,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766117">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-alpha-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -96,7 +96,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766127">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-arm-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -109,7 +109,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766137">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -117,12 +117,12 @@ The errors reported below are usually caused by:
     <td>potato</td><td>2.2r7</td><td>m68k</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785481">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-m68k.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766140">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-m68k-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -130,12 +130,12 @@ The errors reported below are usually caused by:
     <td>potato</td><td>2.2r7</td><td>powerpc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785492">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-powerpc.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766148">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -143,12 +143,12 @@ The errors reported below are usually caused by:
     <td>potato</td><td>2.2r7</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785501">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-sparc.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766159">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-potato-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -161,7 +161,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766167">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-alpha-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -169,12 +169,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>arm</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785913">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-arm.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766177">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-arm-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -182,12 +182,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785926">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766183">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -200,7 +200,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766193">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -208,12 +208,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785952">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766207">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -221,12 +221,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>m68k</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785955">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-m68k.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766222">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-m68k-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -234,12 +234,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>mips</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785964">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-mips.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766228">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-mips-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -247,12 +247,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>mipsel</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785970">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-mipsel.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766235">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-mipsel-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -260,12 +260,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>powerpc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785976">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-powerpc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766262">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -273,12 +273,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>s390</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785985">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-s390.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766253">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-s390-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -286,12 +286,12 @@ The errors reported below are usually caused by:
     <td>woody</td><td>3.0r6</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785991">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766269">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-woody-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -304,7 +304,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766276">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-alpha-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -317,7 +317,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766282">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-arm-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -325,12 +325,12 @@ The errors reported below are usually caused by:
     <td>sarge</td><td>3.1r8</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785520">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766289">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -343,7 +343,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766307">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -351,12 +351,12 @@ The errors reported below are usually caused by:
     <td>sarge</td><td>3.1r8</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785539">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766318">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -364,12 +364,12 @@ The errors reported below are usually caused by:
     <td>sarge</td><td>3.1r8</td><td>m68k</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785556">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-m68k.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766333">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-m68k-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -382,7 +382,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766342">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-mips-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -395,7 +395,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766346">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-mipsel-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -408,7 +408,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766350">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -416,12 +416,12 @@ The errors reported below are usually caused by:
     <td>sarge</td><td>3.1r8</td><td>s390</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785590">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-s390.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766358">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-s390-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -429,12 +429,12 @@ The errors reported below are usually caused by:
     <td>sarge</td><td>3.1r8</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785602">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766367">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sarge-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -481,12 +481,12 @@ The errors reported below are usually caused by:
     <td>etch</td><td>4.0r9</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785185">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-etch-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110844990">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-etch-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -507,12 +507,12 @@ The errors reported below are usually caused by:
     <td>etch</td><td>4.0r9</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785217">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-etch-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845021">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-etch-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -559,12 +559,12 @@ The errors reported below are usually caused by:
     <td>etch</td><td>4.0r9</td><td>s390</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785244">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-etch-s390.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845050">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-etch-s390-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -572,12 +572,12 @@ The errors reported below are usually caused by:
     <td>etch</td><td>4.0r9</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785432">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-etch-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845059">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-etch-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -637,12 +637,12 @@ The errors reported below are usually caused by:
     <td>lenny</td><td>5.0.10</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785404">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-lenny-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845188">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-lenny-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -663,12 +663,12 @@ The errors reported below are usually caused by:
     <td>lenny</td><td>5.0.10</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785421">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-lenny-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845209">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-lenny-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -715,12 +715,12 @@ The errors reported below are usually caused by:
     <td>lenny</td><td>5.0.10</td><td>s390</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785449">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-lenny-s390.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845238">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-lenny-s390-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -728,12 +728,12 @@ The errors reported below are usually caused by:
     <td>lenny</td><td>5.0.10</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785457">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-lenny-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845256">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-lenny-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -780,12 +780,12 @@ The errors reported below are usually caused by:
     <td>squeeze</td><td>6.0.10</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785649">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-squeeze-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845294">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-squeeze-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -832,12 +832,12 @@ The errors reported below are usually caused by:
     <td>squeeze</td><td>6.0.10</td><td>s390</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785683">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-squeeze-s390.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845342">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-squeeze-s390-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -845,12 +845,12 @@ The errors reported below are usually caused by:
     <td>squeeze</td><td>6.0.10</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785690">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-squeeze-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845350">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-squeeze-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -910,12 +910,12 @@ The errors reported below are usually caused by:
     <td>wheezy</td><td>7.11</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785830">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-wheezy-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845477">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-wheezy-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -962,12 +962,12 @@ The errors reported below are usually caused by:
     <td>wheezy</td><td>7.11</td><td>s390</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785883">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-wheezy-s390.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845532">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-wheezy-s390-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -988,12 +988,12 @@ The errors reported below are usually caused by:
     <td>wheezy</td><td>7.11</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785902">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-wheezy-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845549">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-wheezy-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1157,7 +1157,7 @@ The errors reported below are usually caused by:
     <td>stretch</td><td>9.9</td><td>armel</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785724">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-stretch-armel.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
@@ -1170,7 +1170,7 @@ The errors reported below are usually caused by:
     <td>stretch</td><td>9.9</td><td>armhf</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785735">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-stretch-armhf.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
@@ -1209,12 +1209,12 @@ The errors reported below are usually caused by:
     <td>stretch</td><td>9.9</td><td>mips64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785763">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-stretch-mips64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845407">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-stretch-mips64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1235,12 +1235,12 @@ The errors reported below are usually caused by:
     <td>stretch</td><td>9.9</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785781">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-stretch-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845420">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-stretch-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1248,7 +1248,7 @@ The errors reported below are usually caused by:
     <td>stretch</td><td>9.9</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110794986">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-stretch-s390x.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
@@ -1266,7 +1266,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766378">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1274,12 +1274,12 @@ The errors reported below are usually caused by:
     <td>buster</td><td></td><td>arm64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770781">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-arm64.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766382">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-arm64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1287,12 +1287,12 @@ The errors reported below are usually caused by:
     <td>buster</td><td></td><td>armel</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770795">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-armel.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766385">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-armel-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1300,12 +1300,12 @@ The errors reported below are usually caused by:
     <td>buster</td><td></td><td>armhf</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770804">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-armhf.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766395">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-armhf-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1318,7 +1318,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766411">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1331,7 +1331,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766414">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mips-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1339,12 +1339,12 @@ The errors reported below are usually caused by:
     <td>buster</td><td></td><td>mips64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770838">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mips64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766420">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mips64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1357,7 +1357,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766428">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-mipsel-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1365,12 +1365,12 @@ The errors reported below are usually caused by:
     <td>buster</td><td></td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770860">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766438">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1378,12 +1378,12 @@ The errors reported below are usually caused by:
     <td>buster</td><td></td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770864">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-s390x.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766456">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-buster-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1391,12 +1391,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>amd64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770870">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-amd64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766461">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1404,12 +1404,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>arm64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770880">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-arm64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766467">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-arm64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1417,12 +1417,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>armel</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770894">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-armel.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766477">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-armel-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1430,12 +1430,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>armhf</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770898">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-armhf.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766486">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-armhf-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1443,12 +1443,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>i386</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770907">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-i386.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766492">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1456,12 +1456,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>mips</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770911">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mips.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766497">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mips-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1469,12 +1469,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>mips64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770918">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mips64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766507">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mips64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1482,12 +1482,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>mipsel</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770924">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mipsel.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766513">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-mipsel-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1495,12 +1495,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770928">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766531">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1508,12 +1508,12 @@ The errors reported below are usually caused by:
     <td>experimental</td><td></td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770933">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766541">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-experimental-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1526,7 +1526,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766545">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1534,12 +1534,12 @@ The errors reported below are usually caused by:
     <td>sid</td><td></td><td>arm64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770959">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-arm64.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766551">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-arm64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1547,12 +1547,12 @@ The errors reported below are usually caused by:
     <td>sid</td><td></td><td>armel</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770966">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-armel.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766556">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-armel-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1560,12 +1560,12 @@ The errors reported below are usually caused by:
     <td>sid</td><td></td><td>armhf</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770968">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-armhf.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766563">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-armhf-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1578,7 +1578,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766572">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1591,7 +1591,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766594">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mips-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1599,12 +1599,12 @@ The errors reported below are usually caused by:
     <td>sid</td><td></td><td>mips64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110770987">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mips64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766598">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mips64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1617,7 +1617,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766612">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-mipsel-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1625,12 +1625,12 @@ The errors reported below are usually caused by:
     <td>sid</td><td></td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110771010">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766626">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1638,12 +1638,12 @@ The errors reported below are usually caused by:
     <td>sid</td><td></td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110771019">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-s390x.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110766637">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/debian-sid-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1702,7 +1702,7 @@ The errors reported below are usually caused by:
     <td>buster</td><td></td><td>armhf</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110945644">
-            <img alt="errored" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/raspbian-buster-armhf.svg" />
+            <img alt="errored" src="build-errored.svg" />
         </a>
     </td>
     <td>
@@ -1727,12 +1727,12 @@ The errors reported below are usually caused by:
     <td>warty</td><td>4.10</td><td>i386</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795231">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-warty-i386.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845715">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-warty-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1740,12 +1740,12 @@ The errors reported below are usually caused by:
     <td>warty</td><td>4.10</td><td>amd64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795220">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-warty-amd64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845708">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-warty-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1753,12 +1753,12 @@ The errors reported below are usually caused by:
     <td>warty</td><td>4.10</td><td>powerpc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795237">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-warty-powerpc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845719">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-warty-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1766,12 +1766,12 @@ The errors reported below are usually caused by:
     <td>hoary</td><td>5.04</td><td>i386</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795189">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-i386.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845678">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1779,12 +1779,12 @@ The errors reported below are usually caused by:
     <td>hoary</td><td>5.04</td><td>amd64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795176">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-amd64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845662">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1792,12 +1792,12 @@ The errors reported below are usually caused by:
     <td>hoary</td><td>5.04</td><td>powerpc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795206">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-powerpc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845692">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1805,12 +1805,12 @@ The errors reported below are usually caused by:
     <td>hoary</td><td>5.04</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795197">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845686">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1818,12 +1818,12 @@ The errors reported below are usually caused by:
     <td>hoary</td><td>5.04</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795213">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845695">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hoary-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1831,12 +1831,12 @@ The errors reported below are usually caused by:
     <td>breezy</td><td>5.10</td><td>i386</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795022">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-i386.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785026">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1844,12 +1844,12 @@ The errors reported below are usually caused by:
     <td>breezy</td><td>5.10</td><td>amd64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795001">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-amd64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785014">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1857,12 +1857,12 @@ The errors reported below are usually caused by:
     <td>breezy</td><td>5.10</td><td>powerpc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795044">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-powerpc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845569">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1870,12 +1870,12 @@ The errors reported below are usually caused by:
     <td>breezy</td><td>5.10</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795032">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785032">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1883,12 +1883,12 @@ The errors reported below are usually caused by:
     <td>breezy</td><td>5.10</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795053">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845578">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1896,12 +1896,12 @@ The errors reported below are usually caused by:
     <td>breezy</td><td>5.10</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795014">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110785024">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-breezy-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1909,12 +1909,12 @@ The errors reported below are usually caused by:
     <td>dapper</td><td>6.06</td><td>amd64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795064">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-amd64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845586">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1922,12 +1922,12 @@ The errors reported below are usually caused by:
     <td>dapper</td><td>6.06</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795114">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845614">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1935,12 +1935,12 @@ The errors reported below are usually caused by:
     <td>dapper</td><td>6.06</td><td>powerpc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795094">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-powerpc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845611">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1948,12 +1948,12 @@ The errors reported below are usually caused by:
     <td>dapper</td><td>6.06</td><td>i386</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795076">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-i386.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845600">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1961,12 +1961,12 @@ The errors reported below are usually caused by:
     <td>dapper</td><td>6.06</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795083">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845607">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1974,12 +1974,12 @@ The errors reported below are usually caused by:
     <td>dapper</td><td>6.06</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795072">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845594">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-dapper-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -1987,12 +1987,12 @@ The errors reported below are usually caused by:
     <td>edgy</td><td>6.10</td><td>amd64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795123">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-amd64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845618">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2000,12 +2000,12 @@ The errors reported below are usually caused by:
     <td>edgy</td><td>6.10</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795131">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845626">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2013,12 +2013,12 @@ The errors reported below are usually caused by:
     <td>edgy</td><td>6.10</td><td>i386</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795139">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-i386.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845631">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2026,12 +2026,12 @@ The errors reported below are usually caused by:
     <td>edgy</td><td>6.10</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795148">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845641">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2039,12 +2039,12 @@ The errors reported below are usually caused by:
     <td>edgy</td><td>6.10</td><td>powerpc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795154">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-powerpc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845650">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2052,12 +2052,12 @@ The errors reported below are usually caused by:
     <td>edgy</td><td>6.10</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110795162">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110845652">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-edgy-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2070,7 +2070,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739005">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2078,12 +2078,12 @@ The errors reported below are usually caused by:
     <td>feisty</td><td>7.04</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110968042">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739014">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2096,7 +2096,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739035">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2104,12 +2104,12 @@ The errors reported below are usually caused by:
     <td>feisty</td><td>7.04</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110968376">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739036">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2122,7 +2122,7 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739042">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-powerpc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2130,12 +2130,12 @@ The errors reported below are usually caused by:
     <td>feisty</td><td>7.04</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110968733">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739054">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-feisty-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2156,12 +2156,12 @@ The errors reported below are usually caused by:
     <td>gutsy</td><td>7.10</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110969093">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-gutsy-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739073">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-gutsy-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2182,12 +2182,12 @@ The errors reported below are usually caused by:
     <td>gutsy</td><td>7.10</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110969465">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-gutsy-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739089">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-gutsy-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2221,12 +2221,12 @@ The errors reported below are usually caused by:
     <td>gutsy</td><td>7.10</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110969996">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-gutsy-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739124">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-gutsy-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2247,12 +2247,12 @@ The errors reported below are usually caused by:
     <td>hardy</td><td>8.04</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110970360">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hardy-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739148">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hardy-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2273,12 +2273,12 @@ The errors reported below are usually caused by:
     <td>hardy</td><td>8.04</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110970746">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hardy-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739171">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hardy-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2312,12 +2312,12 @@ The errors reported below are usually caused by:
     <td>hardy</td><td>8.04</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110971285">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hardy-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739207">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-hardy-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2338,12 +2338,12 @@ The errors reported below are usually caused by:
     <td>intrepid</td><td>8.10</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110971571">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-intrepid-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739225">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-intrepid-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2364,12 +2364,12 @@ The errors reported below are usually caused by:
     <td>intrepid</td><td>8.10</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110971935">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-intrepid-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739241">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-intrepid-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2403,12 +2403,12 @@ The errors reported below are usually caused by:
     <td>intrepid</td><td>8.10</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110972445">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-intrepid-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739280">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-intrepid-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2442,12 +2442,12 @@ The errors reported below are usually caused by:
     <td>jaunty</td><td>9.04</td><td>hppa</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110973002">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-jaunty-hppa.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739303">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-jaunty-hppa-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2468,12 +2468,12 @@ The errors reported below are usually caused by:
     <td>jaunty</td><td>9.04</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110973317">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-jaunty-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739325">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-jaunty-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2507,12 +2507,12 @@ The errors reported below are usually caused by:
     <td>jaunty</td><td>9.04</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110973765">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-jaunty-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739351">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-jaunty-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2559,12 +2559,12 @@ The errors reported below are usually caused by:
     <td>karmic</td><td>9.10</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110974327">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-karmic-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739390">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-karmic-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2598,12 +2598,12 @@ The errors reported below are usually caused by:
     <td>karmic</td><td>9.10</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110974711">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-karmic-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739437">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-karmic-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2650,12 +2650,12 @@ The errors reported below are usually caused by:
     <td>lucid</td><td>10.04</td><td>ia64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110975356">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-lucid-ia64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739486">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-lucid-ia64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -2676,12 +2676,12 @@ The errors reported below are usually caused by:
     <td>lucid</td><td>10.04</td><td>sparc</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110975585">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-lucid-sparc.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110739508">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-lucid-sparc-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3469,12 +3469,12 @@ The errors reported below are usually caused by:
     <td>xenial</td><td>16.04</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110982454">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-xenial-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740230">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-xenial-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3482,12 +3482,12 @@ The errors reported below are usually caused by:
     <td>xenial</td><td>16.04</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110982573">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-xenial-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740241">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-xenial-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3560,12 +3560,12 @@ The errors reported below are usually caused by:
     <td>yakkety</td><td>16.10</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110983295">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-yakkety-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740320">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-yakkety-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3573,12 +3573,12 @@ The errors reported below are usually caused by:
     <td>yakkety</td><td>16.10</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110983395">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-yakkety-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740329">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-yakkety-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3638,12 +3638,12 @@ The errors reported below are usually caused by:
     <td>zesty</td><td>17.04</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110983948">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-zesty-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740389">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-zesty-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3651,12 +3651,12 @@ The errors reported below are usually caused by:
     <td>zesty</td><td>17.04</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110984060">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-zesty-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740390">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-zesty-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3716,12 +3716,12 @@ The errors reported below are usually caused by:
     <td>artful</td><td>17.10</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110950848">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-artful-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740431">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-artful-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3729,12 +3729,12 @@ The errors reported below are usually caused by:
     <td>artful</td><td>17.10</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110950853">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-artful-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740437">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-artful-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3794,12 +3794,12 @@ The errors reported below are usually caused by:
     <td>bionic</td><td>18.04</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110950891">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-bionic-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740485">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-bionic-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3807,12 +3807,12 @@ The errors reported below are usually caused by:
     <td>bionic</td><td>18.04</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110950906">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-bionic-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740506">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-bionic-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3846,12 +3846,12 @@ The errors reported below are usually caused by:
     <td>cosmic</td><td>18.10</td><td>armhf</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110950940">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-cosmic-armhf.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740564">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-cosmic-armhf-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3872,12 +3872,12 @@ The errors reported below are usually caused by:
     <td>cosmic</td><td>18.10</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110950957">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-cosmic-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740584">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-cosmic-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3885,12 +3885,12 @@ The errors reported below are usually caused by:
     <td>cosmic</td><td>18.10</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110950961">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-cosmic-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740598">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-cosmic-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3950,12 +3950,12 @@ The errors reported below are usually caused by:
     <td>disco</td><td>19.04</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110951020">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-disco-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740635">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-disco-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3963,12 +3963,12 @@ The errors reported below are usually caused by:
     <td>disco</td><td>19.04</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110951025">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-disco-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740651">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-disco-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3976,12 +3976,12 @@ The errors reported below are usually caused by:
     <td>eoan</td><td>19.10</td><td>amd64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110966673">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-amd64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740659">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-amd64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -3989,12 +3989,12 @@ The errors reported below are usually caused by:
     <td>eoan</td><td>19.10</td><td>arm64</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110966882">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-arm64.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740681">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-arm64-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -4002,12 +4002,12 @@ The errors reported below are usually caused by:
     <td>eoan</td><td>19.10</td><td>armhf</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110967073">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-armhf.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740691">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-armhf-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -4015,12 +4015,12 @@ The errors reported below are usually caused by:
     <td>eoan</td><td>19.10</td><td>i386</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110967283">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-i386.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740699">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-i386-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -4028,12 +4028,12 @@ The errors reported below are usually caused by:
     <td>eoan</td><td>19.10</td><td>ppc64el</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110967508">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-ppc64el.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740716">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-ppc64el-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>
@@ -4041,12 +4041,12 @@ The errors reported below are usually caused by:
     <td>eoan</td><td>19.10</td><td>s390x</td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110967688">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-s390x.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740725">
-            <img alt="failed" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/ubuntu-eoan-s390x-minbase.svg" />
+            <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
 </tr>

@@ -101,7 +101,7 @@ The errors reported below are usually caused by:
         </a>
 {{- else }}
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$build.id}}">
-            <img alt="{{$build.state}}" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
+            <img alt="{{$build.state}}" src="build-{{$build.state}}.svg" />
         </a>
 {{- end }}
     </td>
@@ -114,7 +114,7 @@ The errors reported below are usually caused by:
         </a>
 {{- else }}
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$build.id}}">
-            <img alt="{{$build.state}}" src="https://img.shields.io/travis/com/lpenz/docker-debian-releases/{{$branch}}.svg" />
+            <img alt="{{$build.state}}" src="build-{{$build.state}}.svg" />
         </a>
 {{- end }}
     </td>
