@@ -65,6 +65,7 @@ The errors reported below are usually caused by:
 - incompatibility with modern linux kernel.
 
 {{ $title:="" }}
+{{- $suffixes := mkSlice "" "-minbase" }}
 
 {{- range $_, $repo := .releaseInfos }}
 {{- if (eq (stringsIndex $repo.Suite "-") -1) }}
@@ -90,22 +91,10 @@ The errors reported below are usually caused by:
 
 {{- range $a := $repo.Architectures }}
 {{- if (eq (stringsIndex $a "-") -1) }}
-{{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a) }}
-{{- $build := (index $.branchBuilds $branch) }}
 <tr>
     <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$a}}</td>
-    <td>
-{{- if eq ($build.state) "passed" }}
-        <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
-            <img alt="{{$build.state}}" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
-        </a>
-{{- else }}
-        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$build.id}}">
-            <img alt="{{$build.state}}" src="build-{{$build.state}}.svg" />
-        </a>
-{{- end }}
-    </td>
-{{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a "-minbase") }}
+{{- range $suffix := $suffixes }}
+{{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a $suffix) }}
 {{- $build := (index $.branchBuilds $branch) }}
     <td>
 {{- if eq ($build.state) "passed" }}
@@ -118,6 +107,7 @@ The errors reported below are usually caused by:
         </a>
 {{- end }}
     </td>
+{{- end }}
 </tr>
 {{- end }}
 {{- end }}
