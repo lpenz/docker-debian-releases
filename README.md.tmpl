@@ -64,19 +64,19 @@ The errors reported below are usually caused by:
 - timeout when building the standard image (that's why minbase is also built);
 - incompatibility with modern linux kernel.
 
-{{ $title:="" -}}
+{{ $title:="" }}
 
-{{ range $_, $repo := .releaseInfos -}}
-{{ if (eq (stringsIndex $repo.Suite "-") -1) -}}
+{{- range $_, $repo := .releaseInfos }}
+{{- if (eq (stringsIndex $repo.Suite "-") -1) }}
 
-{{ if ne $title $repo.Origin -}}
+{{- if ne $title $repo.Origin }}
 
-{{ if ne $title "" -}}
+{{- if ne $title "" }}
 </tbody>
 </table>
-{{ end -}}
+{{- end }}
 
-{{ $title = $repo.Origin }}
+{{- $title = $repo.Origin }}
 
 ### {{$repo.Origin}}
 
@@ -86,12 +86,12 @@ The errors reported below are usually caused by:
 <tr><th>standard</th><th>minbase</th></tr>
 </thead>
 <tbody>
-{{ end -}}
+{{- end }}
 
-{{ range $a := $repo.Architectures -}}
-{{ if (eq (stringsIndex $a "-") -1) -}}
-{{ $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a) -}}
-{{ $build := (index $.branchBuilds $branch) -}}
+{{- range $a := $repo.Architectures }}
+{{- if (eq (stringsIndex $a "-") -1) }}
+{{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a) }}
+{{- $build := (index $.branchBuilds $branch) }}
 <tr>
     <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$a}}</td>
     <td>
@@ -119,12 +119,11 @@ The errors reported below are usually caused by:
 {{- end }}
     </td>
 </tr>
-{{ end -}}
-{{ end -}}
+{{- end }}
+{{- end }}
 
-{{ end -}}
-{{ end -}}
+{{- end }}
+{{- end }}
 
 </tbody>
 </table>
-

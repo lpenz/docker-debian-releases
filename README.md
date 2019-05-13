@@ -1650,7 +1650,6 @@ The errors reported below are usually caused by:
 </tbody>
 </table>
 
-
 ### Raspbian
 
 <table>
@@ -1713,7 +1712,6 @@ The errors reported below are usually caused by:
 </tr>
 </tbody>
 </table>
-
 
 ### Ubuntu
 
@@ -4050,6 +4048,6 @@ The errors reported below are usually caused by:
         </a>
     </td>
 </tr>
+
 </tbody>
 </table>
-
