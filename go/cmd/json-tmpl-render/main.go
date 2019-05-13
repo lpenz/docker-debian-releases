@@ -10,6 +10,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"reflect"
 	"strings"
 	"text/template"
 
@@ -43,6 +44,18 @@ func cmdLineParse() ([]string, string, string, error) {
 	return myJsonsFlags, flag.Arg(0), output, nil
 }
 
+func strTypeOf(x interface{}) string {
+	return reflect.TypeOf(x).String()
+}
+
+func isNil(x interface{}) bool {
+	return x == nil
+}
+
+func mkSlice(args ...interface{}) []interface{} {
+	return args
+}
+
 func main() {
 	jsonfilenames, tmplfilename, outfilename, err := cmdLineParse()
 	common.PanicIf(err)
@@ -60,6 +73,9 @@ func main() {
 	t, err := template.New("").Funcs(template.FuncMap{
 		"stringsIndex": strings.Index,
 		"ToLower":      strings.ToLower,
+		"typeOf":       strTypeOf,
+		"isNil":        isNil,
+		"mkSlice":      mkSlice,
 	}).ParseFiles(tmplfilename)
 	common.PanicIf(err)
 	if outfilename != "-" {
