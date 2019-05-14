@@ -24,6 +24,9 @@ while getopts ":ki:qt:m:h" opt; do
             elif [ "$OPTARG" = "raspbian" ]; then
                 mirrorCandidates+=("http://archive.raspbian.org/raspbian")
                 mirrorCandidates+=("http://raspbian.raspberrypi.org/raspbian")
+            elif [ "$OPTARG" = "devuan" ]; then
+		mirrorCandidates+=("http://deb.devuan.org/merged")
+		mirrorCandidates+=("http://deb.devuan.org/devuan")
             else
                 mirrorCandidates+=("$OPTARG")
             fi

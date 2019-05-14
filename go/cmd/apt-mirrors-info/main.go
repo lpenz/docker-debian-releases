@@ -86,7 +86,11 @@ func getReleaseInfo(url string) (common.ReleaseInfo, error) {
 				ri.Date = d
 			}
 		case "Architectures":
-			ri.Architectures = strings.Split(kv[2], " ")
+			for _, a := range strings.Split(kv[2], " ") {
+				if a != "" {
+					ri.Architectures = append(ri.Architectures, a)
+				}
+			}
 		}
 	}
 	if reflect.DeepEqual(ri, common.ReleaseInfo{}) {
@@ -113,6 +117,8 @@ func getAptmirrorsReleaseInfos() []*common.ReleaseInfo {
 		"http://old-releases.ubuntu.com/ubuntu",
 		"http://archive.raspbian.org/raspbian",
 		"http://raspbian.raspberrypi.org/raspbian",
+		"http://deb.devuan.org/merged",
+		"http://deb.devuan.org/devuan",
 	}
 	releaseInfos := []*common.ReleaseInfo{}
 	riMap := map[string]*common.ReleaseInfo{}
@@ -138,11 +144,32 @@ func getAptmirrorsReleaseInfos() []*common.ReleaseInfo {
 			}
 		}
 	}
+	now := time.Now()
 	sort.SliceStable(releaseInfos, func(i, j int) bool {
 		ri := releaseInfos[i]
 		rj := releaseInfos[j]
 		if ri.Origin != rj.Origin {
 			return ri.Origin < rj.Origin
+		}
+		// Ignore dates if both today
+		riToday := now.Sub(ri.Date).Hours() < 24
+		rjToday := now.Sub(ri.Date).Hours() < 24
+		if !riToday || !rjToday {
+			if ri.Date != rj.Date {
+				return ri.Date.Before(rj.Date)
+			}
+		}
+		if ri.Version != rj.Version {
+			// Empty versions evaluated as z
+			riV := ri.Version
+			rjV := ri.Version
+			if riV == "" {
+				riV = "z"
+			}
+			if rjV == "" {
+				rjV = "z"
+			}
+			return riV < rjV
 		}
 		if ri.Date != rj.Date {
 			return ri.Date.Before(rj.Date)

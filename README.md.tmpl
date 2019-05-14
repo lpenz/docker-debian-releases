@@ -12,6 +12,7 @@ The status of each combination is in the tables below:
 - [Debian](#debian)
 - [Raspbian](#raspbian)
 - [Ubuntu](#Ubuntu)
+- [Devuan](#devuan)
 
 
 ## Organization
@@ -68,7 +69,7 @@ The errors reported below are usually caused by:
 {{- $suffixes := mkSlice "" "-minbase" }}
 
 {{- range $_, $repo := .releaseInfos }}
-{{- if (eq (stringsIndex $repo.Suite "-") -1) }}
+{{- if and (eq (stringsIndex $repo.Suite "-") -1) (eq $repo.Origin $repo.Label) }}
 
 {{- if ne $title $repo.Origin }}
 

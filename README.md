@@ -12,6 +12,7 @@ The status of each combination is in the tables below:
 - [Debian](#debian)
 - [Raspbian](#raspbian)
 - [Ubuntu](#Ubuntu)
+- [Devuan](#devuan)
 
 
 ## Organization
@@ -1650,7 +1651,7 @@ The errors reported below are usually caused by:
 </tbody>
 </table>
 
-### Raspbian
+### Devuan
 
 <table>
 <thead>
@@ -1659,18 +1660,328 @@ The errors reported below are usually caused by:
 </thead>
 <tbody>
 <tr>
-    <td>wheezy</td><td>7.0</td><td>armhf</td>
+    <td>jessie</td><td>1.0</td><td>amd64</td>
     <td>
-        <a href="https://hub.docker.com/r/lpenz/raspbian-wheezy-armhf">
-            <img alt="passed" src="https://img.shields.io/docker/pulls/lpenz/raspbian-wheezy-armhf.svg" />
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
         </a>
     </td>
     <td>
-        <a href="https://hub.docker.com/r/lpenz/raspbian-wheezy-armhf-minbase">
-            <img alt="passed" src="https://img.shields.io/docker/pulls/lpenz/raspbian-wheezy-armhf-minbase.svg" />
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
         </a>
     </td>
 </tr>
+<tr>
+    <td>jessie</td><td>1.0</td><td>arm64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>jessie</td><td>1.0</td><td>armel</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>jessie</td><td>1.0</td><td>armhf</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>jessie</td><td>1.0</td><td>i386</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>jessie</td><td>1.0</td><td>ppc64el</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ascii</td><td>2.0</td><td>amd64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ascii</td><td>2.0</td><td>arm64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ascii</td><td>2.0</td><td>armel</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ascii</td><td>2.0</td><td>armhf</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ascii</td><td>2.0</td><td>i386</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ascii</td><td>2.0</td><td>ppc64el</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>beowulf</td><td>3.0</td><td>amd64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>beowulf</td><td>3.0</td><td>arm64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>beowulf</td><td>3.0</td><td>armel</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>beowulf</td><td>3.0</td><td>armhf</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>beowulf</td><td>3.0</td><td>i386</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>beowulf</td><td>3.0</td><td>ppc64el</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ceres</td><td>1.0.0</td><td>amd64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ceres</td><td>1.0.0</td><td>arm64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ceres</td><td>1.0.0</td><td>armel</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ceres</td><td>1.0.0</td><td>armhf</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ceres</td><td>1.0.0</td><td>i386</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>ceres</td><td>1.0.0</td><td>ppc64el</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/">
+            <img alt="notfound" src="build-notfound.svg" />
+        </a>
+    </td>
+</tr>
+</tbody>
+</table>
+
+### Raspbian
+
+<table>
+<thead>
+<tr><th rowspan="2">Release</th><th rowspan="2">Version</th><th rowspan="2">Arch</th><th colspan="2">Variant status</th></tr>
+<tr><th>standard</th><th>minbase</th></tr>
+</thead>
+<tbody>
 <tr>
     <td>jessie</td><td></td><td>armhf</td>
     <td>
@@ -3966,6 +4277,84 @@ The errors reported below are usually caused by:
     </td>
     <td>
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740651">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>eoan</td><td>19.10</td><td>amd64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110966673">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740659">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>eoan</td><td>19.10</td><td>arm64</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110966882">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740681">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>eoan</td><td>19.10</td><td>armhf</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110967073">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740691">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>eoan</td><td>19.10</td><td>i386</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110967283">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740699">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>eoan</td><td>19.10</td><td>ppc64el</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110967508">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740716">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>eoan</td><td>19.10</td><td>s390x</td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110967688">
+            <img alt="failed" src="build-failed.svg" />
+        </a>
+    </td>
+    <td>
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/110740725">
             <img alt="failed" src="build-failed.svg" />
         </a>
     </td>
