@@ -11,7 +11,7 @@ to [docker hub](https://hub.docker.com/r/lpenz/) using travis.
 The status of each combination is in the tables below:
 {{ $title := "" -}}
 {{ range $_, $repo := .releaseInfos -}}
-{{ if and (eq (stringsIndex $repo.Suite "-") -1) (eq $repo.Origin $repo.Label) (ne $title $repo.Origin) -}}
+{{ if and (eq (stringsIndex $repo.Suite "-") -1) (ne $title $repo.Origin) -}}
 - [{{$repo.Origin}}](#{{$repo.Origin}})
 {{ $title = $repo.Origin -}}
 {{ end -}}
@@ -71,7 +71,7 @@ The errors reported below are usually caused by:
 {{- $suffixes := mkSlice "" "-minbase" }}
 
 {{- range $_, $repo := .releaseInfos }}
-{{- if and (eq (stringsIndex $repo.Suite "-") -1) (eq $repo.Origin $repo.Label) }}
+{{- if and (eq (stringsIndex $repo.Suite "-") -1) }}
 
 {{- if ne $title $repo.Origin }}
 
