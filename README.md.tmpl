@@ -9,11 +9,13 @@ debootstrap, for various architectures, and uploads them
 to [docker hub](https://hub.docker.com/r/lpenz/) using travis.
 
 The status of each combination is in the tables below:
-- [Debian](#debian)
-- [Raspbian](#raspbian)
-- [Ubuntu](#Ubuntu)
-- [Devuan](#devuan)
-
+{{ $title := "" -}}
+{{ range $_, $repo := .releaseInfos -}}
+{{ if and (eq (stringsIndex $repo.Suite "-") -1) (eq $repo.Origin $repo.Label) (ne $title $repo.Origin) -}}
+- [{{$repo.Origin}}](#{{$repo.Origin}})
+{{ $title = $repo.Origin -}}
+{{ end -}}
+{{ end }}
 
 ## Organization
 
@@ -65,7 +67,7 @@ The errors reported below are usually caused by:
 - timeout when building the standard image (that's why minbase is also built);
 - incompatibility with modern linux kernel.
 
-{{ $title:="" }}
+{{ $title = "" }}
 {{- $suffixes := mkSlice "" "-minbase" }}
 
 {{- range $_, $repo := .releaseInfos }}

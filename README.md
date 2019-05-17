@@ -9,10 +9,10 @@ debootstrap, for various architectures, and uploads them
 to [docker hub](https://hub.docker.com/r/lpenz/) using travis.
 
 The status of each combination is in the tables below:
-- [Debian](#debian)
-- [Raspbian](#raspbian)
+- [Debian](#Debian)
+- [Devuan](#Devuan)
+- [Raspbian](#Raspbian)
 - [Ubuntu](#Ubuntu)
-- [Devuan](#devuan)
 
 
 ## Organization
