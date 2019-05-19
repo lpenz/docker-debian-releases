@@ -5,6 +5,8 @@ jobs:
   include:
     - name: build image
       addons: { apt: { packages: [ debootstrap, qemu-user-static ] } }
+      install:
+        - sudo cp -Rd debootstrap_scripts/* /usr/share/debootstrap/scripts/
       script:
         - ./travis-script.sh _image.txt
         - . _image.txt
