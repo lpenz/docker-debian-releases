@@ -38,7 +38,7 @@ type BranchInfo struct {
 					If      string      `json:"if"`
 					Name    string      `json:"name"`
 					Script  interface{} `json:"script"`
-					Install string      `json:"install,omitempty"`
+					Install interface{} `json:"install,omitempty"`
 				} `json:"include"`
 			} `json:"jobs"`
 			Deploy []struct {
