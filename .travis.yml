@@ -4,11 +4,14 @@ language: generic
 jobs:
   include:
     - name: build image
-      addons: { apt: { packages: [ debootstrap, qemu-user-static ] } }
+      addons: { apt: { packages: [ debootstrap, qemu-user-static, golang, scons ] } }
       install:
         - sudo cp -Rd debootstrap_scripts/* /usr/share/debootstrap/scripts/
       script:
+        - go get golang.org/x/net/html
+        - scons dockerhub-set-descriptions
         - ./travis-script.sh _image.txt
+        - cat _image.txt
         - . _image.txt
       if: branch ~= .*-.*
     - name: build scripts and check README.md
@@ -26,7 +29,8 @@ before_deploy:
   - docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
 deploy:
   - provider: script
-    script: docker push "$IMAGE"
+    skip_cleanup: true
+    script: ./travis-deploy.sh "$IMAGE" "$DESCRIPTION"
     on:
       all_branches: true
       condition: $TRAVIS_BRANCH =~ .*-.*

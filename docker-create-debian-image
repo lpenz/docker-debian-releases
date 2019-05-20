@@ -2,13 +2,13 @@
 
 set -e -o pipefail
 
-usage="Usage: $0 [-h] [-k] [-i <image name>] [-q] [-m <mirror>/debian/ubuntu...] [-t <variant>] [distribution [architecture]]"
+usage="Usage: $0 [-h] [-k] [-i <image name>] [-q] [-m <mirror>/debian/ubuntu...] [-p <vars file>] [-t <variant>] [distribution [architecture]]"
 
 keepdir=false
 qemu=false
 mirrorCandidates=()
 
-while getopts ":ki:qt:m:h" opt; do
+while getopts ":ki:qm:p:t:h" opt; do
     case "$opt" in
         k) keepdir=true;;
         i) image="$OPTARG";;
@@ -34,6 +34,7 @@ while getopts ":ki:qt:m:h" opt; do
             fi
             ;;
         t) variant="$OPTARG";;
+        p) dumpvars="$OPTARG";;
         h) echo "$usage"; exit 0;;
         \?) printf "Invalid argument\\n%s\\n" "$usage" >&2; exit 1;;
     esac
@@ -98,21 +99,34 @@ if ! "${cmd[@]}"; then
      false
 fi
 
-# Create msg:
-repo="https://github.com/lpenz/docker-debian-releases"
+# Create description:
 for releasefile in "$dir"/var/*/apt/lists/*_Release; do
-    description=$(sed -n 's@^Description: \(.*\)$@\1@p' "$releasefile")
-    msg="${description}, $arch image created by $repo"
+    release_description=$(sed -n 's@^Description: \(.*\)$@\1@p' "$releasefile")
+    description="${release_description}"
     break
 done
-if [ -z "$msg" ]; then
+if [ -n "$description" ]; then
+    if ! [[ "$description" == *"$arch"* ]]; then
+        description+=" for $arch"
+    fi
+else
     if [ -f "$dir/usr/lib/os-release" ]; then
+        cat "$dir/usr/lib/os-release"
         # shellcheck disable=SC1090
         . "$dir/usr/lib/os-release"
-        msg="$PRETTY_NAME for $arch image created by $repo"
-    else
-        msg="Created by $repo"
+    elif [ -f "$dir/etc/os-release" ]; then
+        cat "$dir/etc/os-release"
+        # shellcheck disable=SC1090
+        . "$dir/etc/os-release"
     fi
+    if [ -n "$PRETTY_NAME" ]; then
+        description="$PRETTY_NAME for $arch"
+    else
+        description="$name"
+    fi
+fi
+if [ -n "$variant" ] && [ "$description" != "$name" ]; then
+    description+=", $variant variant"
 fi
 
 # Remove apt lists (too big):
@@ -122,10 +136,18 @@ elif [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/state/apt/lists" -type f -delete
 fi
 
+# Dump image info in dumpvars file
+if [ -n "$dumpvars" ]; then
+    cat > "$dumpvars" <<EOF
+IMAGE="$image"
+DESCRIPTION="$description"
+EOF
+fi
+
 # Create .tar and import docker image:
 sudo tar -C "$dir" -c . | \
     docker import \
-           -m "$msg" \
+           -m "$description" \
            -c 'CMD ["bash"]' \
            - "$image"
 docker run --rm "$image" /bin/bash -c "true"

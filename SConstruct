@@ -35,7 +35,12 @@ jsonRender(
     'git-update-image-branches.tmpl',
     jsons=['_apt-mirrors.json'])
 
-for gobase in ['apt-mirrors-info', 'json-tmpl-render', 'travis-branch-jobs']:
+for gobase in [
+        'apt-mirrors-info',
+        'json-tmpl-render',
+        'travis-branch-jobs',
+        'dockerhub-set-descriptions',
+]:
     env.Command(gobase,
                 [pjoin('go/cmd', gobase, 'main.go'), 'go/common/common.go'],
                 'go build ' + pjoin('./go/cmd', gobase))
