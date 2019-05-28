@@ -30,6 +30,9 @@ The following scripts are in charge of this mechanism:
   release, architecture and debootstrap variant.
 - [travis-script.sh](travis-script.sh): script that transform a
   travis-ci environment into a call to docker-create-debian-image.
+- [dockerhub-set-descriptions](go/cmd/dockerhub-set-descriptions/main.go):
+  updates the short and long description of the image in docker hub
+  after a new version is deployed.
 
 
 The README.md file (aka this file) is created offline, from
