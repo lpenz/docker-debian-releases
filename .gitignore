@@ -5,3 +5,4 @@ _*
 /json-tmpl-render
 /git-update-image-branches
 /travis-branch-jobs
+/dockerhub-set-descriptions
