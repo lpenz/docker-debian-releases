@@ -10,7 +10,10 @@ jobs:
       script:
         - go get golang.org/x/net/html
         - scons dockerhub-set-descriptions
+        - while sleep 9m; do echo "=====[ ping ]====="; done &
+        - PING_PID="$!"
         - ./travis-script.sh _image.txt
+        - kill "$PING_PID"
         - cat _image.txt
         - . _image.txt
         - export IMAGE DESCRIPTION
