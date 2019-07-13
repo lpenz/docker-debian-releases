@@ -102,7 +102,7 @@ func main() {
 	}
 	password := os.Getenv("DOCKERHUB_PASSWORD")
 	if password == "" {
-		panic("DOCKERHUB_USERNAME not set")
+		panic("DOCKERHUB_PASSWORD not set")
 	}
 	token, err := getToken(username, password)
 	if err != nil {
