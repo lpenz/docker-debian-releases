@@ -13,6 +13,7 @@ jobs:
         - ./travis-script.sh _image.txt
         - cat _image.txt
         - . _image.txt
+        - export IMAGE DESCRIPTION
       if: branch ~= .*-.*
     - name: build scripts and check README.md
       addons: { apt: { packages: [ scons, golang ] } }
@@ -30,7 +31,7 @@ before_deploy:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: ./travis-deploy.sh "$IMAGE" "$DESCRIPTION"
+    script: ./travis-deploy.sh
     on:
       all_branches: true
       condition: $TRAVIS_BRANCH =~ .*-.*
