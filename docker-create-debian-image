@@ -136,6 +136,11 @@ elif [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/state/apt/lists" -type f -delete
 fi
 
+if [ -f "$dir/etc/apt/sources.list" ]; then
+    # Show apt sources.list for debugging purposes
+    cat "$dir/etc/apt/sources.list"
+fi
+
 # Dump image info in dumpvars file
 if [ -n "$dumpvars" ]; then
     cat > "$dumpvars" <<EOF
