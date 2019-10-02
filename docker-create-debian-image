@@ -7,6 +7,7 @@ usage="Usage: $0 [-h] [-k] [-i <image name>] [-q] [-m <mirror>/debian/ubuntu...]
 keepdir=false
 qemu=false
 mirrorCandidates=()
+raspbian=false
 
 while getopts ":ki:qm:p:t:h" opt; do
     case "$opt" in
@@ -22,8 +23,9 @@ while getopts ":ki:qm:p:t:h" opt; do
                 mirrorCandidates+=("http://archive.ubuntu.com/ubuntu")
                 mirrorCandidates+=("http://old-releases.ubuntu.com/ubuntu")
             elif [ "$OPTARG" = "raspbian" ]; then
-                mirrorCandidates+=("http://archive.raspbian.org/raspbian")
                 mirrorCandidates+=("http://raspbian.raspberrypi.org/raspbian")
+                mirrorCandidates+=("http://archive.raspbian.org/raspbian")
+                raspbian=true
             elif [ "$OPTARG" = "devuan" ]; then
 		mirrorCandidates+=("http://deb.devuan.org/merged")
 		mirrorCandidates+=("http://deb.devuan.org/devuan")
@@ -134,6 +136,11 @@ if [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/lib/apt/lists" -type f -delete
 elif [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/state/apt/lists" -type f -delete
+fi
+
+if "$raspbian"; then
+    # Raspbian needs a fixed source.list
+    echo "deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi" | sudo tee "$dir/etc/apt/sources.list"
 fi
 
 if [ -f "$dir/etc/apt/sources.list" ]; then
