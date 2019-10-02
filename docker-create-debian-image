@@ -73,8 +73,8 @@ trap cleanup EXIT
 
 # Build debootstrap commnad-line
 
-name=debian-${dist}-${arch}
-image=${image-"$name"}
+image=${image-"${mirror}-${dist}-${arch}"}
+name=${image##*/}
 
 cmd=(sudo)
 if "$qemu"; then
