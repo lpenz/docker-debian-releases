@@ -9,9 +9,9 @@ jobs:
         - sudo cp -Rd debootstrap_scripts/* /usr/share/debootstrap/scripts/
       script:
         - go get golang.org/x/net/html
-        - scons dockerhub-set-descriptions
         - while sleep 9m; do echo "=====[ ping ]====="; done &
         - PING_PID="$!"
+        - scons dockerhub-set-descriptions
         - ./travis-script.sh _image.txt
         - kill "$PING_PID"
         - cat _image.txt
@@ -22,7 +22,10 @@ jobs:
       addons: { apt: { packages: [ scons, golang ] } }
       script:
         - go get golang.org/x/net/html
+        - while sleep 9m; do echo "=====[ ping ]====="; done &
+        - PING_PID="$!"
         - scons
+        - kill "$PING_PID"
         - git diff
       if: NOT branch ~= .*-.*
     - name: omnilint
