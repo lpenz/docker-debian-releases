@@ -1,9 +1,19 @@
 ---
 dist: xenial
 language: generic
+stages:
+  - lint
+  - build and deploy
 jobs:
   include:
-    - name: build image
+    - stage: lint
+      name: omnilint
+      install: docker pull lpenz/omnilint
+      script: docker run --rm -v "$PWD:$PWD" -e "RWD=$PWD" -e "MY_UID=$UID" lpenz/omnilint
+      if: NOT branch ~= .*-.*
+    - stage: build and deploy
+      name: docker image
+      if: branch ~= .*-.*
       addons: { apt: { packages: [ debootstrap, qemu-user-static, golang, scons ] } }
       install:
         - sudo cp -Rd debootstrap_scripts/* /usr/share/debootstrap/scripts/
@@ -17,8 +27,17 @@ jobs:
         - cat _image.txt
         - . _image.txt
         - export IMAGE DESCRIPTION
-      if: branch ~= .*-.*
-    - name: build scripts and check README.md
+      before_deploy:
+        - docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
+      deploy:
+        - provider: script
+          skip_cleanup: true
+          script: ./travis-deploy.sh
+          on:
+            all_branches: true
+            condition: $TRAVIS_BRANCH =~ .*-.*
+    - name: status page
+      if: NOT branch ~= .*-.*
       addons: { apt: { packages: [ scons, golang ] } }
       script:
         - go get golang.org/x/net/html
@@ -27,17 +46,3 @@ jobs:
         - scons
         - kill "$PING_PID"
         - git diff
-      if: NOT branch ~= .*-.*
-    - name: omnilint
-      install: docker pull lpenz/omnilint
-      script: docker run --rm -v "$PWD:$PWD" -e "RWD=$PWD" -e "MY_UID=$UID" lpenz/omnilint
-      if: NOT branch ~= .*-.*
-before_deploy:
-  - docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
-deploy:
-  - provider: script
-    skip_cleanup: true
-    script: ./travis-deploy.sh
-    on:
-      all_branches: true
-      condition: $TRAVIS_BRANCH =~ .*-.*
