@@ -53,7 +53,7 @@ type BranchInfo struct {
 			BeforeDeploy []string `json:"before_deploy"`
 			Result       string   `json:".result"`
 			Language     string   `json:"language"`
-			Os           string   `json:"os"`
+			Os           interface{} `json:"os"`
 		} `json:"config"`
 		JobIds []int  `json:"job_ids"`
 		State  string `json:"state"`
