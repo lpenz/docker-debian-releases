@@ -29,8 +29,6 @@ while getopts ":ki:qm:p:t:h" opt; do
             elif [ "$OPTARG" = "devuan" ]; then
 		mirrorCandidates+=("http://deb.devuan.org/merged")
 		mirrorCandidates+=("http://deb.devuan.org/devuan")
-            elif [ "$OPTARG" = "tanglu" ]; then
-		mirrorCandidates+=("http://archive.tanglu.org/tanglu")
             else
                 mirrorCandidates+=("$OPTARG")
             fi

@@ -119,7 +119,6 @@ func getAptmirrorsReleaseInfos() []*common.ReleaseInfo {
 		"http://raspbian.raspberrypi.org/raspbian",
 		"http://deb.devuan.org/merged",
 		"http://deb.devuan.org/devuan",
-		"http://archive.tanglu.org/tanglu",
 	}
 	releaseInfos := []*common.ReleaseInfo{}
 	riMap := map[string]*common.ReleaseInfo{}
