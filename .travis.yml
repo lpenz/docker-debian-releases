@@ -46,3 +46,10 @@ jobs:
         - scons
         - kill "$PING_PID"
         - git diff
+      deploy:
+        provider: pages
+        skip-cleanup: true
+        github-token: "$GITHUB_TOKEN"
+        target-branch: master
+        on:
+          branch: publish
