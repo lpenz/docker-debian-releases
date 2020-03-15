@@ -49,10 +49,10 @@ type BranchInfo struct {
 				Provider string `json:"provider"`
 				Script   string `json:"script"`
 			} `json:"deploy"`
-			Group        string   `json:"group"`
-			BeforeDeploy []string `json:"before_deploy"`
-			Result       string   `json:".result"`
-			Language     string   `json:"language"`
+			Group        string      `json:"group"`
+			BeforeDeploy []string    `json:"before_deploy"`
+			Result       string      `json:".result"`
+			Language     string      `json:"language"`
 			Os           interface{} `json:"os"`
 		} `json:"config"`
 		JobIds []int  `json:"job_ids"`
@@ -140,20 +140,6 @@ func getBranchBuilds(branchInfo *map[string]*BranchInfo) *map[string]buildInfo {
 	return &branchBuilds
 }
 
-func readReleaseInfo(srcfilename string) *[]common.ReleaseInfo {
-	srcfile, err := os.Open(srcfilename)
-	common.PanicIf(err)
-	defer func() {
-		err := srcfile.Close()
-		common.PanicIf(err)
-	}()
-	var releaseInfos map[string][]common.ReleaseInfo
-	err = json.NewDecoder(srcfile).Decode(&releaseInfos)
-	common.PanicIf(err)
-	ret := releaseInfos["releaseInfos"]
-	return &ret
-}
-
 func cmdLineParse() (string, string, error) {
 	if len(os.Args) > 3 {
 		return "", "", fmt.Errorf("could not parse %s", os.Args)
@@ -167,7 +153,7 @@ func cmdLineParse() (string, string, error) {
 func main() {
 	srcfilename, targetfilename, err := cmdLineParse()
 	common.PanicIf(err)
-	releaseInfos := readReleaseInfo(srcfilename)
+	releaseInfos := common.ReadReleaseInfo(srcfilename)
 	branchInfos := getTravisBranchInfos(releaseInfos)
 	common.JsonOutput(targetfilename, "branchBuilds", getBranchBuilds(branchInfos))
 }

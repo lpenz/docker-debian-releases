@@ -8,6 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"os"
 	"time"
 )
 
@@ -45,4 +46,18 @@ func JsonOutput(filename string, title string, data interface{}) {
 		err := ioutil.WriteFile(filename, []byte(jsonstr), 0644)
 		PanicIf(err)
 	}
+}
+
+func ReadReleaseInfo(srcfilename string) *[]ReleaseInfo {
+	srcfile, err := os.Open(srcfilename)
+	PanicIf(err)
+	defer func() {
+		err := srcfile.Close()
+		PanicIf(err)
+	}()
+	var releaseInfos map[string][]ReleaseInfo
+	err = json.NewDecoder(srcfile).Decode(&releaseInfos)
+	PanicIf(err)
+	ret := releaseInfos["releaseInfos"]
+	return &ret
 }
