@@ -37,6 +37,7 @@ jsonRender(
 
 for gobase in [
         'apt-mirrors-info',
+        'bring-random-branch',
         'json-tmpl-render',
         'travis-branch-jobs',
         'dockerhub-set-descriptions',
