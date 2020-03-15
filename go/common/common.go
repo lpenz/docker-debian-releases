@@ -9,6 +9,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -31,6 +32,28 @@ type ReleaseInfo struct {
 	Codename      string
 	URL           []string
 	Architectures []string
+}
+
+func (ri ReleaseInfo) BranchNames() []string {
+	ret := []string{}
+	if strings.Index(ri.Suite, "-") != -1 {
+		return ret
+	}
+	for _, a := range ri.Architectures {
+		if strings.Index(a, "-") != -1 {
+			continue
+		}
+		suffixes := []string{"", "-minbase"}
+		for _, suffix := range suffixes {
+			branchname := fmt.Sprintf("%s-%s-%s%s",
+				strings.ToLower(ri.Origin),
+				ri.Codename,
+				a,
+				suffix)
+			ret = append(ret, branchname)
+		}
+	}
+	return ret
 }
 
 func JsonOutput(filename string, title string, data interface{}) {

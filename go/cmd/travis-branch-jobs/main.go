@@ -100,20 +100,10 @@ func getTravisBranchInfo(branch string) *BranchInfo {
 func getTravisBranchInfos(releaseInfos *[]common.ReleaseInfo) *map[string]*BranchInfo {
 	ret := map[string]*BranchInfo{}
 	for _, release := range *releaseInfos {
-		if strings.Index(release.Suite, "-") != -1 {
-			continue
-		}
-		for _, a := range release.Architectures {
-			if strings.Index(a, "-") != -1 {
-				continue
-			}
-			suffixes := []string{"", "-minbase"}
-			for _, suffix := range suffixes {
-				branch := fmt.Sprintf("%s-%s-%s%s", strings.ToLower(release.Origin), release.Codename, a, suffix)
-				branchInfo := getTravisBranchInfo(branch)
-				if branchInfo != nil {
-					ret[branch] = branchInfo
-				}
+		for _, branch := range release.BranchNames() {
+			branchInfo := getTravisBranchInfo(branch)
+			if branchInfo != nil {
+				ret[branch] = branchInfo
 			}
 		}
 	}
