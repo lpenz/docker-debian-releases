@@ -19,6 +19,3 @@ ENV LC_ALL=en_US.UTF-8
 ENV GOPATH=/usr/share/go:/usr/share/gocode XDG_CACHE_HOME=/tmp
 
 CMD ["scons"]
-
-# Run the container as:
-# docker run -it --rm -u $UID -v $PWD:$PWD -w $PWD ${PWD##*/}
