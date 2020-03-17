@@ -43,7 +43,7 @@ Most of the errors are caused by:
 
 <table>
 <thead>
-<tr><th rowspan="2">Release</th><th rowspan="2">Version</th><th rowspan="2">Arch</th><th colspan="2">Variant status</th></tr>
+<tr><th rowspan="2">Release</th><th rowspan="2">Version</th><th>Release date</th><th rowspan="2">Arch</th><th colspan="2">Variant status</th></tr>
 <tr><th>standard</th><th>minbase</th></tr>
 </thead>
 <tbody>
@@ -52,7 +52,7 @@ Most of the errors are caused by:
 {{- range $a := $repo.Architectures }}
 {{- if (eq (stringsIndex $a "-") -1) }}
 <tr>
-    <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$a}}</td>
+    <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$repo.Date}}</td><td>{{$a}}</td>
 {{- range $suffix := $suffixes }}
 {{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a $suffix) }}
 {{- $build := (index $.branchBuilds $branch) }}
