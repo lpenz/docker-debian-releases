@@ -27,8 +27,8 @@ def jsonRender(target, source, jsons):
 
 
 jsonRender(
-    'README.md',
-    'README.md.tmpl',
+    'index.md',
+    'index.md.tmpl',
     jsons=['_apt-mirrors.json', '_travis-branch-jobs.json'])
 jsonRender(
     'git-update-image-branches',

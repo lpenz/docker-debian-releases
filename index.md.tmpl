@@ -1,0 +1,85 @@
+docker-debian-releases
+======================
+
+The
+[docker-debian-releases](https://github.com/lpenz/docker-debian-releases)
+repository creates docker images of Debian-based system using
+debootstrap, for various architectures, and uploads them to [docker
+hub](https://hub.docker.com/r/lpenz/) using travis.
+
+The tables below detail the result of the latest build attempt, and
+links to the image in [docker hub](https://hub.docker.com/r/lpenz/) if
+the build was successful. The supported OS's are:
+
+{{ $title := "" -}}
+{{ range $_, $repo := .releaseInfos -}}
+{{ if and (eq (stringsIndex $repo.Suite "-") -1) (ne $title $repo.Origin) -}}
+- [{{$repo.Origin}}](#{{$repo.Origin}})
+{{ $title = $repo.Origin -}}
+{{ end -}}
+{{ end }}
+
+Most of the errors are caused by:
+- lack of support in qemu for the architecture;
+- timeout when building the standard image (that's why minbase is also built);
+- incompatibility with modern linux kernel.
+
+{{ $title = "" }}
+{{- $suffixes := mkSlice "" "-minbase" }}
+
+{{- range $_, $repo := .releaseInfos }}
+{{- if and (eq (stringsIndex $repo.Suite "-") -1) }}
+
+{{- if ne $title $repo.Origin }}
+
+{{- if ne $title "" }}
+</tbody>
+</table>
+{{- end }}
+
+{{- $title = $repo.Origin }}
+
+### {{$repo.Origin}}
+
+<table>
+<thead>
+<tr><th rowspan="2">Release</th><th rowspan="2">Version</th><th rowspan="2">Arch</th><th colspan="2">Variant status</th></tr>
+<tr><th>standard</th><th>minbase</th></tr>
+</thead>
+<tbody>
+{{- end }}
+
+{{- range $a := $repo.Architectures }}
+{{- if (eq (stringsIndex $a "-") -1) }}
+<tr>
+    <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$a}}</td>
+{{- range $suffix := $suffixes }}
+{{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a $suffix) }}
+{{- $build := (index $.branchBuilds $branch) }}
+{{- $state := "notfound" }}
+{{- $buildid := "" }}
+{{- if not (isNil $build) }}
+{{- $state = $build.state }}
+{{- $buildid = $build.id }}
+{{- end }}
+    <td>
+{{- if eq $state "passed" }}
+        <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
+            <img alt="{{$state}}" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
+        </a>
+{{- else }}
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$buildid}}">
+            <img alt="{{$state}}" src="build-{{$state}}.svg" />
+        </a>
+{{- end }}
+    </td>
+{{- end }}
+</tr>
+{{- end }}
+{{- end }}
+
+{{- end }}
+{{- end }}
+
+</tbody>
+</table>

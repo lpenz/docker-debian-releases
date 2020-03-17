@@ -45,7 +45,7 @@ jobs:
         - PING_PID="$!"
         - scons
         - kill "$PING_PID"
-        - git diff
+        - rm -f .gitignore
       deploy:
         provider: pages
         skip-cleanup: true
