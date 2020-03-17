@@ -21,4 +21,4 @@ ENV GOPATH=/usr/share/go:/usr/share/gocode XDG_CACHE_HOME=/tmp
 CMD ["scons"]
 
 # Run the container as:
-# docker run -it --rm -u $UID -v $PWD:$PWD -w $PWD docker-debian-releases
+# docker run -it --rm -u $UID -v $PWD:$PWD -w $PWD ${PWD##*/}
