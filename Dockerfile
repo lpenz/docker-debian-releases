@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN set -e -x; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
-        ca-certificates locales scons git \
+        ca-certificates locales scons git ssh \
         golang golang-golang-x-net-dev
 
 # setup su and locale
