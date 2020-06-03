@@ -14,7 +14,7 @@ the build was successful. The supported OS's are:
 {{ $title := "" -}}
 {{ range $_, $repo := .releaseInfos -}}
 {{ if and (eq (stringsIndex $repo.Suite "-") -1) (ne $title $repo.Origin) -}}
-- [{{$repo.Origin}}](#{{$repo.Origin}})
+- [{{$repo.Origin}}](#{{$repo.Origin | ToLower}})
 {{ $title = $repo.Origin -}}
 {{ end -}}
 {{ end }}
@@ -43,7 +43,7 @@ Most of the errors are caused by:
 
 <table>
 <thead>
-<tr><th rowspan="2">Release</th><th rowspan="2">Version</th><th>Release date</th><th rowspan="2">Arch</th><th colspan="2">Variant status</th></tr>
+<tr><th rowspan="2">Release</th><th rowspan="2">Version</th><th rowspan="2">Release date</th><th rowspan="2">Arch</th><th colspan="2">Variant status</th></tr>
 <tr><th>standard</th><th>minbase</th></tr>
 </thead>
 <tbody>
