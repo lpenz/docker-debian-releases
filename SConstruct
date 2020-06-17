@@ -38,9 +38,10 @@ jsonRender(
 for gobase in [
         'apt-mirrors-info',
         'bring-random-branch',
-        'json-tmpl-render',
-        'travis-branch-jobs',
         'dockerhub-set-descriptions',
+        'json-tmpl-render',
+        'spurious-branches',
+        'travis-branch-jobs',
 ]:
     env.Command(gobase,
                 [pjoin('go/cmd', gobase, 'main.go'), 'go/common/common.go'],
