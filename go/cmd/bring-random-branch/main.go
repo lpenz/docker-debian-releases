@@ -92,6 +92,9 @@ func main() {
 	} else if len(movBranches) > 0 {
 		label = "OLD"
 		set = &movBranches
+	} else {
+		fmt.Printf("No branches to bring\n")
+		return
 	}
 	i := rand.Intn(len(*set))
 	chosen := (*set)[i].Codename
