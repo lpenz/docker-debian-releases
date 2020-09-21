@@ -138,7 +138,7 @@ fi
 
 if "$raspbian"; then
     # Raspbian needs a fixed source.list
-    echo "deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi" | sudo tee "$dir/etc/apt/sources.list"
+    echo "deb http://raspbian.raspberrypi.org/raspbian/ $dist main contrib non-free rpi firmware" | sudo tee "$dir/etc/apt/sources.list"
 fi
 
 if [ -f "$dir/etc/apt/sources.list" ]; then
