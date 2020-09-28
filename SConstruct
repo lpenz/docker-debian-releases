@@ -39,6 +39,7 @@ for gobase in [
         'apt-mirrors-info',
         'bring-random-branch',
         'dockerhub-set-descriptions',
+        'docker-manifest-set-arch',
         'json-tmpl-render',
         'spurious-branches',
         'travis-branch-jobs',

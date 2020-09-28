@@ -7,6 +7,7 @@ _*
 /apt-mirrors-info
 /bring-random-branch
 /dockerhub-set-descriptions
+/docker-manifest-set-arch
 /git-update-image-branches
 /json-tmpl-render
 /spurious-branches

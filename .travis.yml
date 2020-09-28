@@ -21,7 +21,7 @@ jobs:
         - go get golang.org/x/net/html
         - while sleep 9m; do echo "=====[ ping ]====="; done &
         - PING_PID="$!"
-        - scons dockerhub-set-descriptions
+        - scons dockerhub-set-descriptions docker-manifest-set-arch
         - ./travis-script.sh _image.txt
         - kill "$PING_PID"
         - cat _image.txt

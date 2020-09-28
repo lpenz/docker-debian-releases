@@ -160,5 +160,13 @@ sudo tar -C "$dir" -c . | \
            -m "$description" \
            -c 'CMD ["bash"]' \
            - "$image"
+# Fix architecture in json inside tar
+imagetar="${image##*/}.tar"
+docker save "$image" > "${imagetar}.tmp"
+docker rmi "$image"
+./docker-manifest-set-arch "$arch" "${imagetar}.tmp" "${imagetar}"
+docker load < "${imagetar}"
+# Test
 docker run --rm "$image" /bin/bash -c "true"
 docker inspect "$image"
+
