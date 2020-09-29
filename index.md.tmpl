@@ -67,9 +67,13 @@ Most of the errors are caused by:
         <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
             <img alt="{{$state}}" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
         </a>
-{{- else }}
+{{- else if eq $state "errored" "failed" "notfound" }}
         <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$buildid}}">
             <img alt="{{$state}}" src="build-{{$state}}.svg" />
+        </a>
+{{- else }}
+        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$buildid}}">
+            <img alt="{{$state}}" src="https://img.shields.io/badge/build-{{$state}}-blueviolet.svg" />
         </a>
 {{- end }}
     </td>
