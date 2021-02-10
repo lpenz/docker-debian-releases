@@ -1,0 +1,5176 @@
+{
+  "branchBuilds": {
+    "debian-bullseye-all": {
+      "id": "206926339",
+      "state": "failed",
+      "finished": "2020-12-07T00:08:07Z",
+      "duration": 50
+    },
+    "debian-bullseye-all-minbase": {
+      "id": "206926345",
+      "state": "failed",
+      "finished": "2020-12-07T00:07:58Z",
+      "duration": 46
+    },
+    "debian-bullseye-amd64": {
+      "id": "187935804",
+      "state": "failed",
+      "finished": "2020-10-03T04:07:51Z",
+      "duration": 119
+    },
+    "debian-bullseye-amd64-minbase": {
+      "id": "187935809",
+      "state": "passed",
+      "finished": "2020-10-03T04:08:00Z",
+      "duration": 125
+    },
+    "debian-bullseye-arm64": {
+      "id": "187935812",
+      "state": "failed",
+      "finished": "2020-10-03T04:10:13Z",
+      "duration": 253
+    },
+    "debian-bullseye-arm64-minbase": {
+      "id": "187935814",
+      "state": "passed",
+      "finished": "2020-10-03T04:09:12Z",
+      "duration": 173
+    },
+    "debian-bullseye-armel": {
+      "id": "187935819",
+      "state": "failed",
+      "finished": "2020-10-03T04:14:02Z",
+      "duration": 313
+    },
+    "debian-bullseye-armel-minbase": {
+      "id": "187935821",
+      "state": "passed",
+      "finished": "2020-10-03T04:12:31Z",
+      "duration": 213
+    },
+    "debian-bullseye-armhf": {
+      "id": "187935825",
+      "state": "failed",
+      "finished": "2020-10-03T04:15:05Z",
+      "duration": 291
+    },
+    "debian-bullseye-armhf-minbase": {
+      "id": "187935831",
+      "state": "passed",
+      "finished": "2020-10-03T04:14:07Z",
+      "duration": 176
+    },
+    "debian-bullseye-i386": {
+      "id": "187935834",
+      "state": "failed",
+      "finished": "2020-10-03T04:15:42Z",
+      "duration": 125
+    },
+    "debian-bullseye-i386-minbase": {
+      "id": "187935839",
+      "state": "passed",
+      "finished": "2020-10-03T04:16:57Z",
+      "duration": 121
+    },
+    "debian-bullseye-mips64el": {
+      "id": "187935842",
+      "state": "failed",
+      "finished": "2020-10-03T04:19:48Z",
+      "duration": 280
+    },
+    "debian-bullseye-mips64el-minbase": {
+      "id": "187935847",
+      "state": "passed",
+      "finished": "2020-10-03T04:19:08Z",
+      "duration": 179
+    },
+    "debian-bullseye-mipsel": {
+      "id": "187935850",
+      "state": "failed",
+      "finished": "2020-10-03T04:21:27Z",
+      "duration": 282
+    },
+    "debian-bullseye-mipsel-minbase": {
+      "id": "187935856",
+      "state": "passed",
+      "finished": "2020-10-03T04:21:02Z",
+      "duration": 185
+    },
+    "debian-bullseye-ppc64el": {
+      "id": "187935859",
+      "state": "failed",
+      "finished": "2020-10-03T04:26:25Z",
+      "duration": 381
+    },
+    "debian-bullseye-ppc64el-minbase": {
+      "id": "187935866",
+      "state": "passed",
+      "finished": "2020-10-03T04:24:16Z",
+      "duration": 210
+    },
+    "debian-bullseye-s390x": {
+      "id": "187935869",
+      "state": "failed",
+      "finished": "2020-10-03T04:24:05Z",
+      "duration": 125
+    },
+    "debian-bullseye-s390x-minbase": {
+      "id": "187935878",
+      "state": "failed",
+      "finished": "2020-10-03T04:23:59Z",
+      "duration": 94
+    },
+    "debian-buster-amd64": {
+      "id": "187463474",
+      "state": "passed",
+      "finished": "2020-09-30T18:37:55Z",
+      "duration": 199
+    },
+    "debian-buster-amd64-minbase": {
+      "id": "187463483",
+      "state": "passed",
+      "finished": "2020-09-30T18:37:00Z",
+      "duration": 142
+    },
+    "debian-buster-arm64": {
+      "id": "188311577",
+      "state": "passed",
+      "finished": "2020-10-06T02:13:27Z",
+      "duration": 427
+    },
+    "debian-buster-arm64-minbase": {
+      "id": "188311580",
+      "state": "passed",
+      "finished": "2020-10-06T02:09:11Z",
+      "duration": 169
+    },
+    "debian-buster-armel": {
+      "id": "188311590",
+      "state": "passed",
+      "finished": "2020-10-06T02:15:02Z",
+      "duration": 512
+    },
+    "debian-buster-armel-minbase": {
+      "id": "188311594",
+      "state": "passed",
+      "finished": "2020-10-06T02:09:25Z",
+      "duration": 171
+    },
+    "debian-buster-armhf": {
+      "id": "187463492",
+      "state": "passed",
+      "finished": "2020-09-30T18:43:27Z",
+      "duration": 529
+    },
+    "debian-buster-armhf-minbase": {
+      "id": "187463498",
+      "state": "passed",
+      "finished": "2020-09-30T18:37:46Z",
+      "duration": 184
+    },
+    "debian-buster-i386": {
+      "id": "187463512",
+      "state": "passed",
+      "finished": "2020-09-30T18:41:11Z",
+      "duration": 195
+    },
+    "debian-buster-i386-minbase": {
+      "id": "187463520",
+      "state": "passed",
+      "finished": "2020-09-30T18:41:09Z",
+      "duration": 146
+    },
+    "debian-buster-mips": {
+      "id": "188311602",
+      "state": "passed",
+      "finished": "2020-10-06T02:17:34Z",
+      "duration": 440
+    },
+    "debian-buster-mips-minbase": {
+      "id": "188311606",
+      "state": "passed",
+      "finished": "2020-10-06T02:13:07Z",
+      "duration": 163
+    },
+    "debian-buster-mips64el": {
+      "id": "188311609",
+      "state": "passed",
+      "finished": "2020-10-06T02:21:08Z",
+      "duration": 418
+    },
+    "debian-buster-mips64el-minbase": {
+      "id": "188311613",
+      "state": "passed",
+      "finished": "2020-10-06T02:17:20Z",
+      "duration": 174
+    },
+    "debian-buster-mipsel": {
+      "id": "188311616",
+      "state": "passed",
+      "finished": "2020-10-06T02:23:14Z",
+      "duration": 429
+    },
+    "debian-buster-mipsel-minbase": {
+      "id": "188311622",
+      "state": "passed",
+      "finished": "2020-10-06T02:21:07Z",
+      "duration": 167
+    },
+    "debian-buster-ppc64el": {
+      "id": "188311625",
+      "state": "passed",
+      "finished": "2020-10-06T02:29:13Z",
+      "duration": 640
+    },
+    "debian-buster-ppc64el-minbase": {
+      "id": "188311629",
+      "state": "passed",
+      "finished": "2020-10-06T02:25:25Z",
+      "duration": 197
+    },
+    "debian-buster-s390x": {
+      "id": "188311631",
+      "state": "passed",
+      "finished": "2020-10-06T02:31:31Z",
+      "duration": 565
+    },
+    "debian-buster-s390x-minbase": {
+      "id": "188311634",
+      "state": "passed",
+      "finished": "2020-10-06T02:27:12Z",
+      "duration": 181
+    },
+    "debian-etch-alpha": {
+      "id": "187939402",
+      "state": "failed",
+      "finished": "2020-10-03T06:07:30Z",
+      "duration": 120
+    },
+    "debian-etch-alpha-minbase": {
+      "id": "187939405",
+      "state": "failed",
+      "finished": "2020-10-03T06:07:16Z",
+      "duration": 97
+    },
+    "debian-etch-amd64": {
+      "id": "187939406",
+      "state": "passed",
+      "finished": "2020-10-03T06:08:36Z",
+      "duration": 171
+    },
+    "debian-etch-amd64-minbase": {
+      "id": "187939410",
+      "state": "passed",
+      "finished": "2020-10-03T06:08:10Z",
+      "duration": 139
+    },
+    "debian-etch-arm": {
+      "id": "187939411",
+      "state": "passed",
+      "finished": "2020-10-03T06:12:53Z",
+      "duration": 279
+    },
+    "debian-etch-arm-minbase": {
+      "id": "187939417",
+      "state": "passed",
+      "finished": "2020-10-03T06:12:32Z",
+      "duration": 236
+    },
+    "debian-etch-hppa": {
+      "id": "187939420",
+      "state": "failed",
+      "finished": "2020-10-03T06:09:54Z",
+      "duration": 46
+    },
+    "debian-etch-hppa-minbase": {
+      "id": "187939425",
+      "state": "failed",
+      "finished": "2020-10-03T06:10:23Z",
+      "duration": 47
+    },
+    "debian-etch-i386": {
+      "id": "187939426",
+      "state": "passed",
+      "finished": "2020-10-03T06:13:44Z",
+      "duration": 171
+    },
+    "debian-etch-i386-minbase": {
+      "id": "187939431",
+      "state": "passed",
+      "finished": "2020-10-03T06:13:31Z",
+      "duration": 128
+    },
+    "debian-etch-ia64": {
+      "id": "187939433",
+      "state": "failed",
+      "finished": "2020-10-03T06:14:16Z",
+      "duration": 46
+    },
+    "debian-etch-ia64-minbase": {
+      "id": "187939442",
+      "state": "failed",
+      "finished": "2020-10-03T06:14:48Z",
+      "duration": 48
+    },
+    "debian-etch-mips": {
+      "id": "187939445",
+      "state": "passed",
+      "finished": "2020-10-03T06:19:34Z",
+      "duration": 302
+    },
+    "debian-etch-mips-minbase": {
+      "id": "187939447",
+      "state": "passed",
+      "finished": "2020-10-03T06:18:34Z",
+      "duration": 228
+    },
+    "debian-etch-mipsel": {
+      "id": "187939449",
+      "state": "passed",
+      "finished": "2020-10-03T06:20:04Z",
+      "duration": 289
+    },
+    "debian-etch-mipsel-minbase": {
+      "id": "187939455",
+      "state": "passed",
+      "finished": "2020-10-03T06:19:31Z",
+      "duration": 226
+    },
+    "debian-etch-powerpc": {
+      "id": "187939456",
+      "state": "passed",
+      "finished": "2020-10-03T06:27:14Z",
+      "duration": 459
+    },
+    "debian-etch-powerpc-minbase": {
+      "id": "187939458",
+      "state": "passed",
+      "finished": "2020-10-03T06:26:13Z",
+      "duration": 340
+    },
+    "debian-etch-s390": {
+      "id": "187939462",
+      "state": "failed",
+      "finished": "2020-10-03T06:21:21Z",
+      "duration": 47
+    },
+    "debian-etch-s390-minbase": {
+      "id": "187939466",
+      "state": "failed",
+      "finished": "2020-10-03T06:21:50Z",
+      "duration": 47
+    },
+    "debian-etch-sparc": {
+      "id": "187939469",
+      "state": "failed",
+      "finished": "2020-10-03T06:24:21Z",
+      "duration": 123
+    },
+    "debian-etch-sparc-minbase": {
+      "id": "187939471",
+      "state": "failed",
+      "finished": "2020-10-03T06:24:25Z",
+      "duration": 96
+    },
+    "debian-experimental-all": {
+      "id": "193059216",
+      "state": "failed",
+      "finished": "2020-10-27T03:07:13Z",
+      "duration": 49
+    },
+    "debian-experimental-all-minbase": {
+      "id": "193059223",
+      "state": "failed",
+      "finished": "2020-10-27T03:07:10Z",
+      "duration": 48
+    },
+    "debian-experimental-amd64": {
+      "id": "187997351",
+      "state": "failed",
+      "finished": "2020-10-04T02:06:51Z",
+      "duration": 47
+    },
+    "debian-experimental-amd64-minbase": {
+      "id": "187997354",
+      "state": "failed",
+      "finished": "2020-10-04T02:07:23Z",
+      "duration": 48
+    },
+    "debian-experimental-arm64": {
+      "id": "187997358",
+      "state": "failed",
+      "finished": "2020-10-04T02:07:02Z",
+      "duration": 48
+    },
+    "debian-experimental-arm64-minbase": {
+      "id": "187997360",
+      "state": "failed",
+      "finished": "2020-10-04T02:07:07Z",
+      "duration": 46
+    },
+    "debian-experimental-armel": {
+      "id": "187997361",
+      "state": "failed",
+      "finished": "2020-10-04T02:08:43Z",
+      "duration": 51
+    },
+    "debian-experimental-armel-minbase": {
+      "id": "187997362",
+      "state": "failed",
+      "finished": "2020-10-04T02:08:43Z",
+      "duration": 46
+    },
+    "debian-experimental-armhf": {
+      "id": "187997366",
+      "state": "failed",
+      "finished": "2020-10-04T02:08:57Z",
+      "duration": 49
+    },
+    "debian-experimental-armhf-minbase": {
+      "id": "187997368",
+      "state": "failed",
+      "finished": "2020-10-04T02:09:12Z",
+      "duration": 49
+    },
+    "debian-experimental-i386": {
+      "id": "187997370",
+      "state": "failed",
+      "finished": "2020-10-04T02:10:32Z",
+      "duration": 50
+    },
+    "debian-experimental-i386-minbase": {
+      "id": "187997373",
+      "state": "failed",
+      "finished": "2020-10-04T02:10:32Z",
+      "duration": 50
+    },
+    "debian-experimental-mips64el": {
+      "id": "187997375",
+      "state": "failed",
+      "finished": "2020-10-04T02:10:44Z",
+      "duration": 48
+    },
+    "debian-experimental-mips64el-minbase": {
+      "id": "187997380",
+      "state": "failed",
+      "finished": "2020-10-04T02:11:38Z",
+      "duration": 93
+    },
+    "debian-experimental-mipsel": {
+      "id": "187997383",
+      "state": "failed",
+      "finished": "2020-10-04T02:12:23Z",
+      "duration": 49
+    },
+    "debian-experimental-mipsel-minbase": {
+      "id": "187997384",
+      "state": "failed",
+      "finished": "2020-10-04T02:12:23Z",
+      "duration": 50
+    },
+    "debian-experimental-ppc64el": {
+      "id": "187997386",
+      "state": "failed",
+      "finished": "2020-10-04T02:12:31Z",
+      "duration": 49
+    },
+    "debian-experimental-ppc64el-minbase": {
+      "id": "187997388",
+      "state": "failed",
+      "finished": "2020-10-04T02:13:25Z",
+      "duration": 49
+    },
+    "debian-experimental-s390x": {
+      "id": "187997394",
+      "state": "failed",
+      "finished": "2020-10-04T02:14:08Z",
+      "duration": 48
+    },
+    "debian-experimental-s390x-minbase": {
+      "id": "187997399",
+      "state": "failed",
+      "finished": "2020-10-04T02:14:12Z",
+      "duration": 49
+    },
+    "debian-jessie-amd64": {
+      "id": "187933862",
+      "state": "passed",
+      "finished": "2020-10-03T03:08:36Z",
+      "duration": 219
+    },
+    "debian-jessie-amd64-minbase": {
+      "id": "187933867",
+      "state": "passed",
+      "finished": "2020-10-03T03:07:50Z",
+      "duration": 168
+    },
+    "debian-jessie-arm64": {
+      "id": "187933869",
+      "state": "passed",
+      "finished": "2020-10-03T03:11:10Z",
+      "duration": 365
+    },
+    "debian-jessie-arm64-minbase": {
+      "id": "187933870",
+      "state": "passed",
+      "finished": "2020-10-03T03:08:58Z",
+      "duration": 228
+    },
+    "debian-jessie-armel": {
+      "id": "187933872",
+      "state": "passed",
+      "finished": "2020-10-03T03:14:55Z",
+      "duration": 365
+    },
+    "debian-jessie-armel-minbase": {
+      "id": "187933874",
+      "state": "passed",
+      "finished": "2020-10-03T03:13:34Z",
+      "duration": 242
+    },
+    "debian-jessie-armhf": {
+      "id": "187933875",
+      "state": "passed",
+      "finished": "2020-10-03T03:15:51Z",
+      "duration": 346
+    },
+    "debian-jessie-armhf-minbase": {
+      "id": "187933884",
+      "state": "passed",
+      "finished": "2020-10-03T03:16:01Z",
+      "duration": 233
+    },
+    "debian-jessie-i386": {
+      "id": "187933886",
+      "state": "passed",
+      "finished": "2020-10-03T03:18:35Z",
+      "duration": 242
+    },
+    "debian-jessie-i386-minbase": {
+      "id": "187933888",
+      "state": "passed",
+      "finished": "2020-10-03T03:18:51Z",
+      "duration": 177
+    },
+    "debian-jessie-mips": {
+      "id": "187933891",
+      "state": "passed",
+      "finished": "2020-10-03T03:22:35Z",
+      "duration": 346
+    },
+    "debian-jessie-mips-minbase": {
+      "id": "187933897",
+      "state": "passed",
+      "finished": "2020-10-03T03:20:54Z",
+      "duration": 236
+    },
+    "debian-jessie-mipsel": {
+      "id": "187933900",
+      "state": "passed",
+      "finished": "2020-10-03T03:25:24Z",
+      "duration": 348
+    },
+    "debian-jessie-mipsel-minbase": {
+      "id": "187933905",
+      "state": "passed",
+      "finished": "2020-10-03T03:23:38Z",
+      "duration": 229
+    },
+    "debian-jessie-powerpc": {
+      "id": "187933907",
+      "state": "passed",
+      "finished": "2020-10-03T03:28:31Z",
+      "duration": 397
+    },
+    "debian-jessie-powerpc-minbase": {
+      "id": "187933910",
+      "state": "passed",
+      "finished": "2020-10-03T03:27:44Z",
+      "duration": 249
+    },
+    "debian-jessie-ppc64el": {
+      "id": "187933916",
+      "state": "passed",
+      "finished": "2020-10-03T03:31:18Z",
+      "duration": 403
+    },
+    "debian-jessie-ppc64el-minbase": {
+      "id": "187933923",
+      "state": "passed",
+      "finished": "2020-10-03T03:30:49Z",
+      "duration": 259
+    },
+    "debian-jessie-s390x": {
+      "id": "187933926",
+      "state": "passed",
+      "finished": "2020-10-03T03:37:13Z",
+      "duration": 512
+    },
+    "debian-jessie-s390x-minbase": {
+      "id": "187933931",
+      "state": "passed",
+      "finished": "2020-10-03T03:33:29Z",
+      "duration": 237
+    },
+    "debian-lenny-alpha": {
+      "id": "187994544",
+      "state": "failed",
+      "finished": "2020-10-04T00:08:09Z",
+      "duration": 126
+    },
+    "debian-lenny-alpha-minbase": {
+      "id": "187994551",
+      "state": "failed",
+      "finished": "2020-10-04T00:07:53Z",
+      "duration": 106
+    },
+    "debian-lenny-amd64": {
+      "id": "187994553",
+      "state": "passed",
+      "finished": "2020-10-04T00:09:13Z",
+      "duration": 182
+    },
+    "debian-lenny-amd64-minbase": {
+      "id": "187994554",
+      "state": "passed",
+      "finished": "2020-10-04T00:08:27Z",
+      "duration": 133
+    },
+    "debian-lenny-arm": {
+      "id": "187994556",
+      "state": "passed",
+      "finished": "2020-10-04T00:14:41Z",
+      "duration": 348
+    },
+    "debian-lenny-arm-minbase": {
+      "id": "187994560",
+      "state": "passed",
+      "finished": "2020-10-04T00:13:12Z",
+      "duration": 242
+    },
+    "debian-lenny-armel": {
+      "id": "187994564",
+      "state": "passed",
+      "finished": "2020-10-04T00:15:24Z",
+      "duration": 356
+    },
+    "debian-lenny-armel-minbase": {
+      "id": "187994566",
+      "state": "passed",
+      "finished": "2020-10-04T00:13:57Z",
+      "duration": 225
+    },
+    "debian-lenny-hppa": {
+      "id": "187994569",
+      "state": "failed",
+      "finished": "2020-10-04T00:14:56Z",
+      "duration": 47
+    },
+    "debian-lenny-hppa-minbase": {
+      "id": "187994571",
+      "state": "failed",
+      "finished": "2020-10-04T00:15:45Z",
+      "duration": 48
+    },
+    "debian-lenny-i386": {
+      "id": "187994573",
+      "state": "passed",
+      "finished": "2020-10-04T00:18:41Z",
+      "duration": 180
+    },
+    "debian-lenny-i386-minbase": {
+      "id": "187994578",
+      "state": "passed",
+      "finished": "2020-10-04T00:18:15Z",
+      "duration": 137
+    },
+    "debian-lenny-ia64": {
+      "id": "187994579",
+      "state": "failed",
+      "finished": "2020-10-04T00:17:12Z",
+      "duration": 46
+    },
+    "debian-lenny-ia64-minbase": {
+      "id": "187994584",
+      "state": "failed",
+      "finished": "2020-10-04T00:17:35Z",
+      "duration": 49
+    },
+    "debian-lenny-mips": {
+      "id": "187994585",
+      "state": "passed",
+      "finished": "2020-10-04T00:23:40Z",
+      "duration": 329
+    },
+    "debian-lenny-mips-minbase": {
+      "id": "187994589",
+      "state": "passed",
+      "finished": "2020-10-04T00:22:18Z",
+      "duration": 222
+    },
+    "debian-lenny-mipsel": {
+      "id": "187994592",
+      "state": "passed",
+      "finished": "2020-10-04T00:25:00Z",
+      "duration": 345
+    },
+    "debian-lenny-mipsel-minbase": {
+      "id": "187994595",
+      "state": "passed",
+      "finished": "2020-10-04T00:23:19Z",
+      "duration": 220
+    },
+    "debian-lenny-powerpc": {
+      "id": "187994599",
+      "state": "passed",
+      "finished": "2020-10-04T00:30:05Z",
+      "duration": 409
+    },
+    "debian-lenny-powerpc-minbase": {
+      "id": "187994603",
+      "state": "passed",
+      "finished": "2020-10-04T00:29:09Z",
+      "duration": 291
+    },
+    "debian-lenny-s390": {
+      "id": "187994604",
+      "state": "failed",
+      "finished": "2020-10-04T00:25:28Z",
+      "duration": 49
+    },
+    "debian-lenny-s390-minbase": {
+      "id": "187994606",
+      "state": "failed",
+      "finished": "2020-10-04T00:26:49Z",
+      "duration": 48
+    },
+    "debian-lenny-sparc": {
+      "id": "187994607",
+      "state": "failed",
+      "finished": "2020-10-04T00:28:43Z",
+      "duration": 132
+    },
+    "debian-lenny-sparc-minbase": {
+      "id": "187994610",
+      "state": "failed",
+      "finished": "2020-10-04T00:29:22Z",
+      "duration": 94
+    },
+    "debian-potato-alpha": {
+      "id": "188314566",
+      "state": "failed",
+      "finished": "2020-10-06T03:06:55Z",
+      "duration": 88
+    },
+    "debian-potato-alpha-minbase": {
+      "id": "188314576",
+      "state": "failed",
+      "finished": "2020-10-06T03:06:27Z",
+      "duration": 50
+    },
+    "debian-potato-arm": {
+      "id": "188314582",
+      "state": "passed",
+      "finished": "2020-10-06T03:09:13Z",
+      "duration": 212
+    },
+    "debian-potato-arm-minbase": {
+      "id": "188314588",
+      "state": "failed",
+      "finished": "2020-10-06T03:06:35Z",
+      "duration": 50
+    },
+    "debian-potato-i386": {
+      "id": "188314590",
+      "state": "passed",
+      "finished": "2020-10-06T03:09:43Z",
+      "duration": 128
+    },
+    "debian-potato-i386-minbase": {
+      "id": "188314596",
+      "state": "failed",
+      "finished": "2020-10-06T03:08:30Z",
+      "duration": 47
+    },
+    "debian-potato-m68k": {
+      "id": "188314600",
+      "state": "failed",
+      "finished": "2020-10-06T03:09:18Z",
+      "duration": 85
+    },
+    "debian-potato-m68k-minbase": {
+      "id": "188314608",
+      "state": "failed",
+      "finished": "2020-10-06T03:10:17Z",
+      "duration": 47
+    },
+    "debian-potato-powerpc": {
+      "id": "188314613",
+      "state": "errored",
+      "finished": "2020-10-06T04:00:11Z",
+      "duration": 3000
+    },
+    "debian-potato-powerpc-minbase": {
+      "id": "188314618",
+      "state": "failed",
+      "finished": "2020-10-06T03:11:03Z",
+      "duration": 47
+    },
+    "debian-potato-sparc": {
+      "id": "188314624",
+      "state": "errored",
+      "finished": "2020-10-06T04:00:43Z",
+      "duration": 3000
+    },
+    "debian-potato-sparc-minbase": {
+      "id": "188314626",
+      "state": "failed",
+      "finished": "2020-10-06T03:12:06Z",
+      "duration": 49
+    },
+    "debian-sarge-alpha": {
+      "id": "188321848",
+      "state": "failed",
+      "finished": "2020-10-06T05:08:23Z",
+      "duration": 118
+    },
+    "debian-sarge-alpha-minbase": {
+      "id": "188321852",
+      "state": "failed",
+      "finished": "2020-10-06T05:07:21Z",
+      "duration": 48
+    },
+    "debian-sarge-arm": {
+      "id": "188321858",
+      "state": "passed",
+      "finished": "2020-10-06T05:10:42Z",
+      "duration": 248
+    },
+    "debian-sarge-arm-minbase": {
+      "id": "188321867",
+      "state": "failed",
+      "finished": "2020-10-06T05:07:31Z",
+      "duration": 51
+    },
+    "debian-sarge-hppa": {
+      "id": "188321875",
+      "state": "failed",
+      "finished": "2020-10-06T05:09:10Z",
+      "duration": 49
+    },
+    "debian-sarge-hppa-minbase": {
+      "id": "188321884",
+      "state": "failed",
+      "finished": "2020-10-06T05:09:22Z",
+      "duration": 50
+    },
+    "debian-sarge-i386": {
+      "id": "188321893",
+      "state": "passed",
+      "finished": "2020-10-06T05:11:53Z",
+      "duration": 153
+    },
+    "debian-sarge-i386-minbase": {
+      "id": "188321900",
+      "state": "failed",
+      "finished": "2020-10-06T05:11:01Z",
+      "duration": 48
+    },
+    "debian-sarge-ia64": {
+      "id": "188321913",
+      "state": "failed",
+      "finished": "2020-10-06T05:11:11Z",
+      "duration": 48
+    },
+    "debian-sarge-ia64-minbase": {
+      "id": "188321915",
+      "state": "failed",
+      "finished": "2020-10-06T05:12:26Z",
+      "duration": 46
+    },
+    "debian-sarge-m68k": {
+      "id": "188321919",
+      "state": "failed",
+      "finished": "2020-10-06T05:13:59Z",
+      "duration": 121
+    },
+    "debian-sarge-m68k-minbase": {
+      "id": "188321922",
+      "state": "failed",
+      "finished": "2020-10-06T05:12:59Z",
+      "duration": 48
+    },
+    "debian-sarge-mips": {
+      "id": "188321929",
+      "state": "passed",
+      "finished": "2020-10-06T05:17:16Z",
+      "duration": 266
+    },
+    "debian-sarge-mips-minbase": {
+      "id": "188321932",
+      "state": "failed",
+      "finished": "2020-10-06T05:14:15Z",
+      "duration": 48
+    },
+    "debian-sarge-mipsel": {
+      "id": "188321939",
+      "state": "passed",
+      "finished": "2020-10-06T05:18:28Z",
+      "duration": 270
+    },
+    "debian-sarge-mipsel-minbase": {
+      "id": "188321947",
+      "state": "failed",
+      "finished": "2020-10-06T05:15:42Z",
+      "duration": 48
+    },
+    "debian-sarge-powerpc": {
+      "id": "188321954",
+      "state": "passed",
+      "finished": "2020-10-06T05:21:52Z",
+      "duration": 396
+    },
+    "debian-sarge-powerpc-minbase": {
+      "id": "188321956",
+      "state": "failed",
+      "finished": "2020-10-06T05:17:30Z",
+      "duration": 48
+    },
+    "debian-sarge-s390": {
+      "id": "188321962",
+      "state": "failed",
+      "finished": "2020-10-06T05:19:03Z",
+      "duration": 48
+    },
+    "debian-sarge-s390-minbase": {
+      "id": "188321969",
+      "state": "failed",
+      "finished": "2020-10-06T05:19:16Z",
+      "duration": 48
+    },
+    "debian-sarge-sparc": {
+      "id": "188321972",
+      "state": "failed",
+      "finished": "2020-10-06T05:21:45Z",
+      "duration": 135
+    },
+    "debian-sarge-sparc-minbase": {
+      "id": "188321981",
+      "state": "failed",
+      "finished": "2020-10-06T05:20:51Z",
+      "duration": 48
+    },
+    "debian-sid-all": {
+      "id": "206929716",
+      "state": "failed",
+      "finished": "2020-12-07T01:05:57Z",
+      "duration": 48
+    },
+    "debian-sid-all-minbase": {
+      "id": "206929726",
+      "state": "failed",
+      "finished": "2020-12-07T01:05:56Z",
+      "duration": 46
+    },
+    "debian-sid-amd64": {
+      "id": "216385275",
+      "state": "failed",
+      "finished": "2021-02-08T10:24:12Z",
+      "duration": 126
+    },
+    "debian-sid-amd64-minbase": {
+      "id": "216385541",
+      "state": "passed",
+      "finished": "2021-02-08T10:27:02Z",
+      "duration": 129
+    },
+    "debian-sid-arm64": {
+      "id": "188318108",
+      "state": "failed",
+      "finished": "2020-10-06T04:10:58Z",
+      "duration": 268
+    },
+    "debian-sid-arm64-minbase": {
+      "id": "188318112",
+      "state": "passed",
+      "finished": "2020-10-06T04:09:24Z",
+      "duration": 174
+    },
+    "debian-sid-armel": {
+      "id": "188318118",
+      "state": "failed",
+      "finished": "2020-10-06T04:14:48Z",
+      "duration": 337
+    },
+    "debian-sid-armel-minbase": {
+      "id": "188318124",
+      "state": "passed",
+      "finished": "2020-10-06T04:12:29Z",
+      "duration": 188
+    },
+    "debian-sid-armhf": {
+      "id": "188318131",
+      "state": "failed",
+      "finished": "2020-10-06T04:15:36Z",
+      "duration": 314
+    },
+    "debian-sid-armhf-minbase": {
+      "id": "188318133",
+      "state": "passed",
+      "finished": "2020-10-06T04:14:51Z",
+      "duration": 176
+    },
+    "debian-sid-i386": {
+      "id": "216385277",
+      "state": "failed",
+      "finished": "2021-02-08T10:24:39Z",
+      "duration": 147
+    },
+    "debian-sid-i386-minbase": {
+      "id": "216385374",
+      "state": "passed",
+      "finished": "2021-02-08T10:25:31Z",
+      "duration": 131
+    },
+    "debian-sid-mips64el": {
+      "id": "188318149",
+      "state": "failed",
+      "finished": "2020-10-06T04:20:15Z",
+      "duration": 264
+    },
+    "debian-sid-mips64el-minbase": {
+      "id": "188318158",
+      "state": "passed",
+      "finished": "2020-10-06T04:19:52Z",
+      "duration": 201
+    },
+    "debian-sid-mipsel": {
+      "id": "188318163",
+      "state": "failed",
+      "finished": "2020-10-06T04:21:18Z",
+      "duration": 275
+    },
+    "debian-sid-mipsel-minbase": {
+      "id": "188318169",
+      "state": "passed",
+      "finished": "2020-10-06T04:21:55Z",
+      "duration": 176
+    },
+    "debian-sid-ppc64el": {
+      "id": "188318177",
+      "state": "failed",
+      "finished": "2020-10-06T04:27:21Z",
+      "duration": 389
+    },
+    "debian-sid-ppc64el-minbase": {
+      "id": "188318182",
+      "state": "passed",
+      "finished": "2020-10-06T04:24:42Z",
+      "duration": 206
+    },
+    "debian-sid-s390x": {
+      "id": "188318186",
+      "state": "failed",
+      "finished": "2020-10-06T04:24:43Z",
+      "duration": 135
+    },
+    "debian-sid-s390x-minbase": {
+      "id": "188318191",
+      "state": "failed",
+      "finished": "2020-10-06T04:24:24Z",
+      "duration": 89
+    },
+    "debian-squeeze-amd64": {
+      "id": "188510068",
+      "state": "passed",
+      "finished": "2020-10-07T05:09:43Z",
+      "duration": 219
+    },
+    "debian-squeeze-amd64-minbase": {
+      "id": "188510075",
+      "state": "passed",
+      "finished": "2020-10-07T05:08:41Z",
+      "duration": 150
+    },
+    "debian-squeeze-armel": {
+      "id": "188510078",
+      "state": "passed",
+      "finished": "2020-10-07T05:11:13Z",
+      "duration": 297
+    },
+    "debian-squeeze-armel-minbase": {
+      "id": "188510081",
+      "state": "passed",
+      "finished": "2020-10-07T05:09:28Z",
+      "duration": 184
+    },
+    "debian-squeeze-i386": {
+      "id": "188510095",
+      "state": "passed",
+      "finished": "2020-10-07T05:13:01Z",
+      "duration": 195
+    },
+    "debian-squeeze-i386-minbase": {
+      "id": "188510100",
+      "state": "passed",
+      "finished": "2020-10-07T05:12:54Z",
+      "duration": 146
+    },
+    "debian-squeeze-ia64": {
+      "id": "188510107",
+      "state": "failed",
+      "finished": "2020-10-07T05:11:35Z",
+      "duration": 49
+    },
+    "debian-squeeze-ia64-minbase": {
+      "id": "188510119",
+      "state": "failed",
+      "finished": "2020-10-07T05:13:01Z",
+      "duration": 48
+    },
+    "debian-squeeze-mips": {
+      "id": "188510128",
+      "state": "passed",
+      "finished": "2020-10-07T05:17:29Z",
+      "duration": 293
+    },
+    "debian-squeeze-mips-minbase": {
+      "id": "188510133",
+      "state": "passed",
+      "finished": "2020-10-07T05:16:48Z",
+      "duration": 175
+    },
+    "debian-squeeze-mipsel": {
+      "id": "188510140",
+      "state": "passed",
+      "finished": "2020-10-07T05:18:24Z",
+      "duration": 261
+    },
+    "debian-squeeze-mipsel-minbase": {
+      "id": "188510146",
+      "state": "passed",
+      "finished": "2020-10-07T05:17:13Z",
+      "duration": 188
+    },
+    "debian-squeeze-powerpc": {
+      "id": "188510156",
+      "state": "passed",
+      "finished": "2020-10-07T05:23:01Z",
+      "duration": 315
+    },
+    "debian-squeeze-powerpc-minbase": {
+      "id": "188510160",
+      "state": "passed",
+      "finished": "2020-10-07T05:21:38Z",
+      "duration": 202
+    },
+    "debian-squeeze-s390": {
+      "id": "188510173",
+      "state": "failed",
+      "finished": "2020-10-07T05:19:19Z",
+      "duration": 48
+    },
+    "debian-squeeze-s390-minbase": {
+      "id": "188510178",
+      "state": "failed",
+      "finished": "2020-10-07T05:20:17Z",
+      "duration": 50
+    },
+    "debian-squeeze-sparc": {
+      "id": "188510184",
+      "state": "failed",
+      "finished": "2020-10-07T05:22:37Z",
+      "duration": 138
+    },
+    "debian-squeeze-sparc-minbase": {
+      "id": "188510187",
+      "state": "failed",
+      "finished": "2020-10-07T05:23:02Z",
+      "duration": 104
+    },
+    "debian-stretch-amd64": {
+      "id": "187926989",
+      "state": "passed",
+      "finished": "2020-10-03T00:07:20Z",
+      "duration": 165
+    },
+    "debian-stretch-amd64-minbase": {
+      "id": "187926994",
+      "state": "passed",
+      "finished": "2020-10-03T00:06:47Z",
+      "duration": 118
+    },
+    "debian-stretch-arm64": {
+      "id": "187926997",
+      "state": "passed",
+      "finished": "2020-10-03T00:11:34Z",
+      "duration": 410
+    },
+    "debian-stretch-arm64-minbase": {
+      "id": "187927000",
+      "state": "passed",
+      "finished": "2020-10-03T00:07:41Z",
+      "duration": 171
+    },
+    "debian-stretch-armel": {
+      "id": "187927006",
+      "state": "passed",
+      "finished": "2020-10-03T00:16:40Z",
+      "duration": 532
+    },
+    "debian-stretch-armel-minbase": {
+      "id": "187927011",
+      "state": "passed",
+      "finished": "2020-10-03T00:11:00Z",
+      "duration": 161
+    },
+    "debian-stretch-armhf": {
+      "id": "187927017",
+      "state": "passed",
+      "finished": "2020-10-03T00:16:21Z",
+      "duration": 459
+    },
+    "debian-stretch-armhf-minbase": {
+      "id": "187927022",
+      "state": "passed",
+      "finished": "2020-10-03T00:14:43Z",
+      "duration": 165
+    },
+    "debian-stretch-i386": {
+      "id": "187927030",
+      "state": "passed",
+      "finished": "2020-10-03T00:15:26Z",
+      "duration": 176
+    },
+    "debian-stretch-i386-minbase": {
+      "id": "187927034",
+      "state": "passed",
+      "finished": "2020-10-03T00:17:36Z",
+      "duration": 115
+    },
+    "debian-stretch-mips": {
+      "id": "187927041",
+      "state": "passed",
+      "finished": "2020-10-03T00:24:35Z",
+      "duration": 486
+    },
+    "debian-stretch-mips-minbase": {
+      "id": "187927048",
+      "state": "passed",
+      "finished": "2020-10-03T00:20:28Z",
+      "duration": 177
+    },
+    "debian-stretch-mips64el": {
+      "id": "187927052",
+      "state": "passed",
+      "finished": "2020-10-03T00:24:35Z",
+      "duration": 419
+    },
+    "debian-stretch-mips64el-minbase": {
+      "id": "187927058",
+      "state": "passed",
+      "finished": "2020-10-03T00:21:27Z",
+      "duration": 171
+    },
+    "debian-stretch-mipsel": {
+      "id": "187927063",
+      "state": "passed",
+      "finished": "2020-10-03T00:28:31Z",
+      "duration": 423
+    },
+    "debian-stretch-mipsel-minbase": {
+      "id": "187927069",
+      "state": "passed",
+      "finished": "2020-10-03T00:25:02Z",
+      "duration": 155
+    },
+    "debian-stretch-ppc64el": {
+      "id": "187927073",
+      "state": "passed",
+      "finished": "2020-10-03T00:36:07Z",
+      "duration": 631
+    },
+    "debian-stretch-ppc64el-minbase": {
+      "id": "187927077",
+      "state": "passed",
+      "finished": "2020-10-03T00:28:38Z",
+      "duration": 183
+    },
+    "debian-stretch-s390x": {
+      "id": "187927082",
+      "state": "passed",
+      "finished": "2020-10-03T00:35:41Z",
+      "duration": 582
+    },
+    "debian-stretch-s390x-minbase": {
+      "id": "187927088",
+      "state": "passed",
+      "finished": "2020-10-03T00:32:26Z",
+      "duration": 176
+    },
+    "debian-wheezy-amd64": {
+      "id": "188498778",
+      "state": "passed",
+      "finished": "2020-10-07T03:09:44Z",
+      "duration": 201
+    },
+    "debian-wheezy-amd64-minbase": {
+      "id": "188498784",
+      "state": "passed",
+      "finished": "2020-10-07T03:08:09Z",
+      "duration": 158
+    },
+    "debian-wheezy-armel": {
+      "id": "188498786",
+      "state": "passed",
+      "finished": "2020-10-07T03:11:29Z",
+      "duration": 331
+    },
+    "debian-wheezy-armel-minbase": {
+      "id": "188498791",
+      "state": "passed",
+      "finished": "2020-10-07T03:09:04Z",
+      "duration": 205
+    },
+    "debian-wheezy-armhf": {
+      "id": "188498794",
+      "state": "passed",
+      "finished": "2020-10-07T03:14:13Z",
+      "duration": 294
+    },
+    "debian-wheezy-armhf-minbase": {
+      "id": "188498799",
+      "state": "passed",
+      "finished": "2020-10-07T03:14:09Z",
+      "duration": 235
+    },
+    "debian-wheezy-i386": {
+      "id": "188498803",
+      "state": "passed",
+      "finished": "2020-10-07T03:14:23Z",
+      "duration": 213
+    },
+    "debian-wheezy-i386-minbase": {
+      "id": "188498810",
+      "state": "passed",
+      "finished": "2020-10-07T03:14:53Z",
+      "duration": 146
+    },
+    "debian-wheezy-ia64": {
+      "id": "188498819",
+      "state": "failed",
+      "finished": "2020-10-07T03:15:53Z",
+      "duration": 47
+    },
+    "debian-wheezy-ia64-minbase": {
+      "id": "188498824",
+      "state": "failed",
+      "finished": "2020-10-07T03:16:01Z",
+      "duration": 49
+    },
+    "debian-wheezy-mips": {
+      "id": "188498832",
+      "state": "passed",
+      "finished": "2020-10-07T03:20:36Z",
+      "duration": 313
+    },
+    "debian-wheezy-mips-minbase": {
+      "id": "188498838",
+      "state": "passed",
+      "finished": "2020-10-07T03:19:11Z",
+      "duration": 193
+    },
+    "debian-wheezy-mipsel": {
+      "id": "188498845",
+      "state": "passed",
+      "finished": "2020-10-07T03:21:47Z",
+      "duration": 295
+    },
+    "debian-wheezy-mipsel-minbase": {
+      "id": "188498849",
+      "state": "passed",
+      "finished": "2020-10-07T03:20:05Z",
+      "duration": 187
+    },
+    "debian-wheezy-powerpc": {
+      "id": "188498854",
+      "state": "passed",
+      "finished": "2020-10-07T03:26:01Z",
+      "duration": 336
+    },
+    "debian-wheezy-powerpc-minbase": {
+      "id": "188498859",
+      "state": "passed",
+      "finished": "2020-10-07T03:24:37Z",
+      "duration": 201
+    },
+    "debian-wheezy-s390": {
+      "id": "188498865",
+      "state": "failed",
+      "finished": "2020-10-07T03:22:29Z",
+      "duration": 51
+    },
+    "debian-wheezy-s390-minbase": {
+      "id": "188498867",
+      "state": "failed",
+      "finished": "2020-10-07T03:23:30Z",
+      "duration": 47
+    },
+    "debian-wheezy-s390x": {
+      "id": "188498874",
+      "state": "passed",
+      "finished": "2020-10-07T03:29:55Z",
+      "duration": 377
+    },
+    "debian-wheezy-s390x-minbase": {
+      "id": "188498885",
+      "state": "passed",
+      "finished": "2020-10-07T03:28:04Z",
+      "duration": 200
+    },
+    "debian-wheezy-sparc": {
+      "id": "188498890",
+      "state": "failed",
+      "finished": "2020-10-07T03:28:48Z",
+      "duration": 190
+    },
+    "debian-wheezy-sparc-minbase": {
+      "id": "188498893",
+      "state": "failed",
+      "finished": "2020-10-07T03:28:50Z",
+      "duration": 104
+    },
+    "debian-woody-alpha": {
+      "id": "187937714",
+      "state": "failed",
+      "finished": "2020-10-03T05:07:55Z",
+      "duration": 105
+    },
+    "debian-woody-alpha-minbase": {
+      "id": "187937715",
+      "state": "failed",
+      "finished": "2020-10-03T05:07:05Z",
+      "duration": 49
+    },
+    "debian-woody-arm": {
+      "id": "187937718",
+      "state": "failed",
+      "finished": "2020-10-03T05:08:13Z",
+      "duration": 112
+    },
+    "debian-woody-arm-minbase": {
+      "id": "187937719",
+      "state": "failed",
+      "finished": "2020-10-03T05:07:12Z",
+      "duration": 48
+    },
+    "debian-woody-hppa": {
+      "id": "187937722",
+      "state": "failed",
+      "finished": "2020-10-03T05:08:51Z",
+      "duration": 48
+    },
+    "debian-woody-hppa-minbase": {
+      "id": "187937726",
+      "state": "failed",
+      "finished": "2020-10-03T05:08:55Z",
+      "duration": 47
+    },
+    "debian-woody-i386": {
+      "id": "187937729",
+      "state": "passed",
+      "finished": "2020-10-03T05:11:26Z",
+      "duration": 150
+    },
+    "debian-woody-i386-minbase": {
+      "id": "187937730",
+      "state": "failed",
+      "finished": "2020-10-03T05:10:02Z",
+      "duration": 47
+    },
+    "debian-woody-ia64": {
+      "id": "187937733",
+      "state": "failed",
+      "finished": "2020-10-03T05:10:37Z",
+      "duration": 47
+    },
+    "debian-woody-ia64-minbase": {
+      "id": "187937735",
+      "state": "failed",
+      "finished": "2020-10-03T05:10:44Z",
+      "duration": 49
+    },
+    "debian-woody-m68k": {
+      "id": "187937738",
+      "state": "failed",
+      "finished": "2020-10-03T05:12:47Z",
+      "duration": 108
+    },
+    "debian-woody-m68k-minbase": {
+      "id": "187937741",
+      "state": "failed",
+      "finished": "2020-10-03T05:12:20Z",
+      "duration": 45
+    },
+    "debian-woody-mips": {
+      "id": "187937744",
+      "state": "failed",
+      "finished": "2020-10-03T05:13:31Z",
+      "duration": 109
+    },
+    "debian-woody-mips-minbase": {
+      "id": "187937755",
+      "state": "failed",
+      "finished": "2020-10-03T05:13:13Z",
+      "duration": 48
+    },
+    "debian-woody-mipsel": {
+      "id": "187937759",
+      "state": "failed",
+      "finished": "2020-10-03T05:15:09Z",
+      "duration": 109
+    },
+    "debian-woody-mipsel-minbase": {
+      "id": "187937760",
+      "state": "failed",
+      "finished": "2020-10-03T05:14:34Z",
+      "duration": 48
+    },
+    "debian-woody-powerpc": {
+      "id": "187937761",
+      "state": "failed",
+      "finished": "2020-10-03T05:16:01Z",
+      "duration": 110
+    },
+    "debian-woody-powerpc-minbase": {
+      "id": "187937765",
+      "state": "failed",
+      "finished": "2020-10-03T05:15:09Z",
+      "duration": 44
+    },
+    "debian-woody-s390": {
+      "id": "187937766",
+      "state": "failed",
+      "finished": "2020-10-03T05:16:28Z",
+      "duration": 49
+    },
+    "debian-woody-s390-minbase": {
+      "id": "187937767",
+      "state": "failed",
+      "finished": "2020-10-03T05:16:56Z",
+      "duration": 47
+    },
+    "debian-woody-sparc": {
+      "id": "187937769",
+      "state": "failed",
+      "finished": "2020-10-03T05:17:55Z",
+      "duration": 105
+    },
+    "debian-woody-sparc-minbase": {
+      "id": "187937771",
+      "state": "failed",
+      "finished": "2020-10-03T05:17:52Z",
+      "duration": 50
+    },
+    "devuan-ascii-alpha": {
+      "id": "188000206",
+      "state": "failed",
+      "finished": "2020-10-04T04:21:41Z",
+      "duration": 46
+    },
+    "devuan-ascii-alpha-minbase": {
+      "id": "188000210",
+      "state": "failed",
+      "finished": "2020-10-04T04:21:53Z",
+      "duration": 46
+    },
+    "devuan-ascii-amd64": {
+      "id": "188000159",
+      "state": "passed",
+      "finished": "2020-10-04T04:10:31Z",
+      "duration": 279
+    },
+    "devuan-ascii-amd64-minbase": {
+      "id": "188000160",
+      "state": "passed",
+      "finished": "2020-10-04T04:08:22Z",
+      "duration": 144
+    },
+    "devuan-ascii-arm64": {
+      "id": "188000165",
+      "state": "passed",
+      "finished": "2020-10-04T04:11:58Z",
+      "duration": 354
+    },
+    "devuan-ascii-arm64-minbase": {
+      "id": "188000169",
+      "state": "passed",
+      "finished": "2020-10-04T04:09:52Z",
+      "duration": 226
+    },
+    "devuan-ascii-armel": {
+      "id": "188000173",
+      "state": "passed",
+      "finished": "2020-10-04T04:16:29Z",
+      "duration": 426
+    },
+    "devuan-ascii-armel-minbase": {
+      "id": "188000178",
+      "state": "passed",
+      "finished": "2020-10-04T04:14:35Z",
+      "duration": 219
+    },
+    "devuan-ascii-armhf": {
+      "id": "188000182",
+      "state": "passed",
+      "finished": "2020-10-04T04:17:59Z",
+      "duration": 390
+    },
+    "devuan-ascii-armhf-minbase": {
+      "id": "188000187",
+      "state": "passed",
+      "finished": "2020-10-04T04:16:48Z",
+      "duration": 236
+    },
+    "devuan-ascii-hppa": {
+      "id": "188000213",
+      "state": "failed",
+      "finished": "2020-10-04T04:23:35Z",
+      "duration": 50
+    },
+    "devuan-ascii-hppa-minbase": {
+      "id": "187523523",
+      "state": "failed",
+      "finished": "2020-10-01T04:23:03Z",
+      "duration": 48
+    },
+    "devuan-ascii-i386": {
+      "id": "188000189",
+      "state": "passed",
+      "finished": "2020-10-04T04:19:58Z",
+      "duration": 265
+    },
+    "devuan-ascii-i386-minbase": {
+      "id": "188000194",
+      "state": "passed",
+      "finished": "2020-10-04T04:20:10Z",
+      "duration": 163
+    },
+    "devuan-ascii-ia64": {
+      "id": "188000224",
+      "state": "failed",
+      "finished": "2020-10-04T04:23:39Z",
+      "duration": 47
+    },
+    "devuan-ascii-ia64-minbase": {
+      "id": "188000226",
+      "state": "failed",
+      "finished": "2020-10-04T04:25:01Z",
+      "duration": 46
+    },
+    "devuan-ascii-m32": {
+      "id": "188000236",
+      "state": "failed",
+      "finished": "2020-10-04T04:25:20Z",
+      "duration": 46
+    },
+    "devuan-ascii-m32-minbase": {
+      "id": "188000239",
+      "state": "failed",
+      "finished": "2020-10-04T04:25:29Z",
+      "duration": 52
+    },
+    "devuan-ascii-m68k": {
+      "id": "188000244",
+      "state": "failed",
+      "finished": "2020-10-04T04:26:44Z",
+      "duration": 47
+    },
+    "devuan-ascii-m68k-minbase": {
+      "id": "188000247",
+      "state": "failed",
+      "finished": "2020-10-04T04:27:08Z",
+      "duration": 48
+    },
+    "devuan-ascii-mips": {
+      "id": "188000252",
+      "state": "failed",
+      "finished": "2020-10-04T04:27:12Z",
+      "duration": 47
+    },
+    "devuan-ascii-mips-minbase": {
+      "id": "188000255",
+      "state": "failed",
+      "finished": "2020-10-04T04:28:34Z",
+      "duration": 91
+    },
+    "devuan-ascii-mipsel": {
+      "id": "188000260",
+      "state": "failed",
+      "finished": "2020-10-04T04:28:30Z",
+      "duration": 46
+    },
+    "devuan-ascii-mipsel-minbase": {
+      "id": "188000263",
+      "state": "failed",
+      "finished": "2020-10-04T04:28:52Z",
+      "duration": 47
+    },
+    "devuan-ascii-or1k": {
+      "id": "188000266",
+      "state": "failed",
+      "finished": "2020-10-04T04:28:57Z",
+      "duration": 47
+    },
+    "devuan-ascii-or1k-minbase": {
+      "id": "188000271",
+      "state": "failed",
+      "finished": "2020-10-04T04:30:15Z",
+      "duration": 46
+    },
+    "devuan-ascii-powerpc": {
+      "id": "188000275",
+      "state": "failed",
+      "finished": "2020-10-04T04:30:16Z",
+      "duration": 46
+    },
+    "devuan-ascii-powerpc-minbase": {
+      "id": "188000278",
+      "state": "failed",
+      "finished": "2020-10-04T04:30:43Z",
+      "duration": 51
+    },
+    "devuan-ascii-ppc64el": {
+      "id": "188000199",
+      "state": "passed",
+      "finished": "2020-10-04T04:26:04Z",
+      "duration": 497
+    },
+    "devuan-ascii-ppc64el-minbase": {
+      "id": "188000204",
+      "state": "passed",
+      "finished": "2020-10-04T04:23:16Z",
+      "duration": 256
+    },
+    "devuan-ascii-s390": {
+      "id": "188000280",
+      "state": "failed",
+      "finished": "2020-10-04T04:30:44Z",
+      "duration": 48
+    },
+    "devuan-ascii-s390-minbase": {
+      "id": "188000282",
+      "state": "failed",
+      "finished": "2020-10-04T04:32:01Z",
+      "duration": 47
+    },
+    "devuan-ascii-s390x": {
+      "id": "188000291",
+      "state": "failed",
+      "finished": "2020-10-04T04:32:01Z",
+      "duration": 47
+    },
+    "devuan-ascii-s390x-minbase": {
+      "id": "188000294",
+      "state": "failed",
+      "finished": "2020-10-04T04:32:30Z",
+      "duration": 49
+    },
+    "devuan-ascii-sparc": {
+      "id": "188000297",
+      "state": "failed",
+      "finished": "2020-10-04T04:32:31Z",
+      "duration": 47
+    },
+    "devuan-ascii-sparc-minbase": {
+      "id": "188000304",
+      "state": "failed",
+      "finished": "2020-10-04T04:33:45Z",
+      "duration": 46
+    },
+    "devuan-beowulf-alpha": {
+      "id": "187742593",
+      "state": "failed",
+      "finished": "2020-10-02T04:21:08Z",
+      "duration": 50
+    },
+    "devuan-beowulf-alpha-minbase": {
+      "id": "187742597",
+      "state": "failed",
+      "finished": "2020-10-02T04:21:28Z",
+      "duration": 54
+    },
+    "devuan-beowulf-amd64": {
+      "id": "187742529",
+      "state": "passed",
+      "finished": "2020-10-02T04:09:51Z",
+      "duration": 194
+    },
+    "devuan-beowulf-amd64-minbase": {
+      "id": "187742538",
+      "state": "passed",
+      "finished": "2020-10-02T04:09:12Z",
+      "duration": 148
+    },
+    "devuan-beowulf-arm64": {
+      "id": "187742540",
+      "state": "passed",
+      "finished": "2020-10-02T04:11:11Z",
+      "duration": 266
+    },
+    "devuan-beowulf-arm64-minbase": {
+      "id": "187742544",
+      "state": "passed",
+      "finished": "2020-10-02T04:10:30Z",
+      "duration": 214
+    },
+    "devuan-beowulf-armel": {
+      "id": "187742547",
+      "state": "passed",
+      "finished": "2020-10-02T04:15:06Z",
+      "duration": 293
+    },
+    "devuan-beowulf-armel-minbase": {
+      "id": "187742551",
+      "state": "passed",
+      "finished": "2020-10-02T04:15:21Z",
+      "duration": 270
+    },
+    "devuan-beowulf-armhf": {
+      "id": "187742559",
+      "state": "passed",
+      "finished": "2020-10-02T04:15:45Z",
+      "duration": 260
+    },
+    "devuan-beowulf-armhf-minbase": {
+      "id": "187742564",
+      "state": "passed",
+      "finished": "2020-10-02T04:15:56Z",
+      "duration": 225
+    },
+    "devuan-beowulf-hppa": {
+      "id": "187742602",
+      "state": "failed",
+      "finished": "2020-10-02T04:22:41Z",
+      "duration": 48
+    },
+    "devuan-beowulf-hppa-minbase": {
+      "id": "187742610",
+      "state": "failed",
+      "finished": "2020-10-02T04:22:51Z",
+      "duration": 46
+    },
+    "devuan-beowulf-i386": {
+      "id": "187742572",
+      "state": "passed",
+      "finished": "2020-10-02T04:19:16Z",
+      "duration": 190
+    },
+    "devuan-beowulf-i386-minbase": {
+      "id": "187742576",
+      "state": "passed",
+      "finished": "2020-10-02T04:19:33Z",
+      "duration": 193
+    },
+    "devuan-beowulf-ia64": {
+      "id": "187742618",
+      "state": "failed",
+      "finished": "2020-10-02T04:23:13Z",
+      "duration": 45
+    },
+    "devuan-beowulf-ia64-minbase": {
+      "id": "187742622",
+      "state": "failed",
+      "finished": "2020-10-02T04:23:54Z",
+      "duration": 52
+    },
+    "devuan-beowulf-m32": {
+      "id": "187742632",
+      "state": "failed",
+      "finished": "2020-10-02T04:24:31Z",
+      "duration": 48
+    },
+    "devuan-beowulf-m32-minbase": {
+      "id": "187742640",
+      "state": "failed",
+      "finished": "2020-10-02T04:24:33Z",
+      "duration": 47
+    },
+    "devuan-beowulf-m68k": {
+      "id": "187742647",
+      "state": "failed",
+      "finished": "2020-10-02T04:25:07Z",
+      "duration": 49
+    },
+    "devuan-beowulf-m68k-minbase": {
+      "id": "187742649",
+      "state": "failed",
+      "finished": "2020-10-02T04:25:39Z",
+      "duration": 47
+    },
+    "devuan-beowulf-mips": {
+      "id": "187742657",
+      "state": "failed",
+      "finished": "2020-10-02T04:26:19Z",
+      "duration": 47
+    },
+    "devuan-beowulf-mips-minbase": {
+      "id": "187742662",
+      "state": "failed",
+      "finished": "2020-10-02T04:26:20Z",
+      "duration": 47
+    },
+    "devuan-beowulf-mipsel": {
+      "id": "187742668",
+      "state": "failed",
+      "finished": "2020-10-02T04:26:58Z",
+      "duration": 49
+    },
+    "devuan-beowulf-mipsel-minbase": {
+      "id": "187742677",
+      "state": "failed",
+      "finished": "2020-10-02T04:27:28Z",
+      "duration": 48
+    },
+    "devuan-beowulf-or1k": {
+      "id": "187742687",
+      "state": "failed",
+      "finished": "2020-10-02T04:28:09Z",
+      "duration": 46
+    },
+    "devuan-beowulf-or1k-minbase": {
+      "id": "187742697",
+      "state": "failed",
+      "finished": "2020-10-02T04:28:08Z",
+      "duration": 47
+    },
+    "devuan-beowulf-powerpc": {
+      "id": "187742703",
+      "state": "failed",
+      "finished": "2020-10-02T04:28:50Z",
+      "duration": 51
+    },
+    "devuan-beowulf-powerpc-minbase": {
+      "id": "187742709",
+      "state": "failed",
+      "finished": "2020-10-02T04:29:13Z",
+      "duration": 48
+    },
+    "devuan-beowulf-ppc64el": {
+      "id": "187742584",
+      "state": "passed",
+      "finished": "2020-10-02T04:22:01Z",
+      "duration": 311
+    },
+    "devuan-beowulf-ppc64el-minbase": {
+      "id": "187742590",
+      "state": "passed",
+      "finished": "2020-10-02T04:20:57Z",
+      "duration": 238
+    },
+    "devuan-beowulf-s390": {
+      "id": "187742713",
+      "state": "failed",
+      "finished": "2020-10-02T04:29:56Z",
+      "duration": 48
+    },
+    "devuan-beowulf-s390-minbase": {
+      "id": "187742720",
+      "state": "failed",
+      "finished": "2020-10-02T04:29:51Z",
+      "duration": 46
+    },
+    "devuan-beowulf-s390x": {
+      "id": "187742729",
+      "state": "failed",
+      "finished": "2020-10-02T04:30:40Z",
+      "duration": 50
+    },
+    "devuan-beowulf-s390x-minbase": {
+      "id": "187742737",
+      "state": "failed",
+      "finished": "2020-10-02T04:31:04Z",
+      "duration": 52
+    },
+    "devuan-beowulf-sparc": {
+      "id": "187742740",
+      "state": "failed",
+      "finished": "2020-10-02T04:31:41Z",
+      "duration": 52
+    },
+    "devuan-beowulf-sparc-minbase": {
+      "id": "187742748",
+      "state": "failed",
+      "finished": "2020-10-02T04:31:36Z",
+      "duration": 46
+    },
+    "devuan-ceres-alpha": {
+      "id": "188294586",
+      "state": "failed",
+      "finished": "2020-10-05T23:22:15Z",
+      "duration": 49
+    },
+    "devuan-ceres-alpha-minbase": {
+      "id": "188294590",
+      "state": "failed",
+      "finished": "2020-10-05T23:22:56Z",
+      "duration": 52
+    },
+    "devuan-ceres-amd64": {
+      "id": "188294479",
+      "state": "passed",
+      "finished": "2020-10-05T23:10:51Z",
+      "duration": 282
+    },
+    "devuan-ceres-amd64-minbase": {
+      "id": "188294482",
+      "state": "passed",
+      "finished": "2020-10-05T23:08:43Z",
+      "duration": 149
+    },
+    "devuan-ceres-arm64": {
+      "id": "188294489",
+      "state": "passed",
+      "finished": "2020-10-05T23:12:45Z",
+      "duration": 390
+    },
+    "devuan-ceres-arm64-minbase": {
+      "id": "188294502",
+      "state": "passed",
+      "finished": "2020-10-05T23:09:55Z",
+      "duration": 212
+    },
+    "devuan-ceres-armel": {
+      "id": "188294510",
+      "state": "passed",
+      "finished": "2020-10-05T23:18:05Z",
+      "duration": 504
+    },
+    "devuan-ceres-armel-minbase": {
+      "id": "188294519",
+      "state": "passed",
+      "finished": "2020-10-05T23:15:11Z",
+      "duration": 255
+    },
+    "devuan-ceres-armhf": {
+      "id": "188294524",
+      "state": "passed",
+      "finished": "2020-10-05T23:18:24Z",
+      "duration": 392
+    },
+    "devuan-ceres-armhf-minbase": {
+      "id": "188294538",
+      "state": "passed",
+      "finished": "2020-10-05T23:17:32Z",
+      "duration": 227
+    },
+    "devuan-ceres-hppa": {
+      "id": "188294600",
+      "state": "failed",
+      "finished": "2020-10-05T23:23:47Z",
+      "duration": 48
+    },
+    "devuan-ceres-hppa-minbase": {
+      "id": "188294610",
+      "state": "failed",
+      "finished": "2020-10-05T23:24:02Z",
+      "duration": 48
+    },
+    "devuan-ceres-i386": {
+      "id": "188294548",
+      "state": "passed",
+      "finished": "2020-10-05T23:21:02Z",
+      "duration": 289
+    },
+    "devuan-ceres-i386-minbase": {
+      "id": "188294556",
+      "state": "passed",
+      "finished": "2020-10-05T23:21:58Z",
+      "duration": 204
+    },
+    "devuan-ceres-ia64": {
+      "id": "188294621",
+      "state": "failed",
+      "finished": "2020-10-05T23:24:47Z",
+      "duration": 50
+    },
+    "devuan-ceres-ia64-minbase": {
+      "id": "188294631",
+      "state": "failed",
+      "finished": "2020-10-05T23:25:38Z",
+      "duration": 49
+    },
+    "devuan-ceres-m32": {
+      "id": "188294636",
+      "state": "failed",
+      "finished": "2020-10-05T23:25:52Z",
+      "duration": 50
+    },
+    "devuan-ceres-m32-minbase": {
+      "id": "188294647",
+      "state": "failed",
+      "finished": "2020-10-05T23:25:52Z",
+      "duration": 47
+    },
+    "devuan-ceres-m68k": {
+      "id": "188294657",
+      "state": "failed",
+      "finished": "2020-10-05T23:26:41Z",
+      "duration": 53
+    },
+    "devuan-ceres-m68k-minbase": {
+      "id": "188294660",
+      "state": "failed",
+      "finished": "2020-10-05T23:27:31Z",
+      "duration": 50
+    },
+    "devuan-ceres-mips": {
+      "id": "188294668",
+      "state": "failed",
+      "finished": "2020-10-05T23:27:45Z",
+      "duration": 51
+    },
+    "devuan-ceres-mips-minbase": {
+      "id": "188294701",
+      "state": "failed",
+      "finished": "2020-10-05T23:27:44Z",
+      "duration": 53
+    },
+    "devuan-ceres-mipsel": {
+      "id": "188294710",
+      "state": "failed",
+      "finished": "2020-10-05T23:28:33Z",
+      "duration": 49
+    },
+    "devuan-ceres-mipsel-minbase": {
+      "id": "188294714",
+      "state": "failed",
+      "finished": "2020-10-05T23:29:25Z",
+      "duration": 54
+    },
+    "devuan-ceres-or1k": {
+      "id": "188294720",
+      "state": "failed",
+      "finished": "2020-10-05T23:29:42Z",
+      "duration": 52
+    },
+    "devuan-ceres-or1k-minbase": {
+      "id": "188294727",
+      "state": "failed",
+      "finished": "2020-10-05T23:29:31Z",
+      "duration": 49
+    },
+    "devuan-ceres-powerpc": {
+      "id": "188294734",
+      "state": "failed",
+      "finished": "2020-10-05T23:30:23Z",
+      "duration": 52
+    },
+    "devuan-ceres-powerpc-minbase": {
+      "id": "188294740",
+      "state": "failed",
+      "finished": "2020-10-05T23:31:13Z",
+      "duration": 49
+    },
+    "devuan-ceres-ppc64el": {
+      "id": "188294563",
+      "state": "failed",
+      "finished": "2020-10-05T23:20:24Z",
+      "duration": 79
+    },
+    "devuan-ceres-ppc64el-minbase": {
+      "id": "188294569",
+      "state": "passed",
+      "finished": "2020-10-05T23:24:06Z",
+      "duration": 285
+    },
+    "devuan-ceres-s390": {
+      "id": "188294753",
+      "state": "failed",
+      "finished": "2020-10-05T23:31:21Z",
+      "duration": 51
+    },
+    "devuan-ceres-s390-minbase": {
+      "id": "188294758",
+      "state": "failed",
+      "finished": "2020-10-05T23:31:28Z",
+      "duration": 49
+    },
+    "devuan-ceres-s390x": {
+      "id": "188294770",
+      "state": "failed",
+      "finished": "2020-10-05T23:32:06Z",
+      "duration": 46
+    },
+    "devuan-ceres-s390x-minbase": {
+      "id": "188294776",
+      "state": "failed",
+      "finished": "2020-10-05T23:33:05Z",
+      "duration": 50
+    },
+    "devuan-ceres-sparc": {
+      "id": "188294782",
+      "state": "failed",
+      "finished": "2020-10-05T23:33:10Z",
+      "duration": 52
+    },
+    "devuan-ceres-sparc-minbase": {
+      "id": "188294811",
+      "state": "failed",
+      "finished": "2020-10-05T23:33:19Z",
+      "duration": 52
+    },
+    "devuan-chimaera-alpha": {
+      "id": "188486346",
+      "state": "failed",
+      "finished": "2020-10-07T00:12:21Z",
+      "duration": 51
+    },
+    "devuan-chimaera-alpha-minbase": {
+      "id": "188486351",
+      "state": "failed",
+      "finished": "2020-10-07T00:12:37Z",
+      "duration": 52
+    },
+    "devuan-chimaera-amd64": {
+      "id": "188486266",
+      "state": "failed",
+      "finished": "2020-10-07T00:06:36Z",
+      "duration": 54
+    },
+    "devuan-chimaera-amd64-minbase": {
+      "id": "188486272",
+      "state": "failed",
+      "finished": "2020-10-07T00:06:44Z",
+      "duration": 55
+    },
+    "devuan-chimaera-arm64": {
+      "id": "188486276",
+      "state": "failed",
+      "finished": "2020-10-07T00:06:44Z",
+      "duration": 53
+    },
+    "devuan-chimaera-arm64-minbase": {
+      "id": "188486283",
+      "state": "failed",
+      "finished": "2020-10-07T00:06:47Z",
+      "duration": 51
+    },
+    "devuan-chimaera-armel": {
+      "id": "188486286",
+      "state": "failed",
+      "finished": "2020-10-07T00:09:17Z",
+      "duration": 100
+    },
+    "devuan-chimaera-armel-minbase": {
+      "id": "188486304",
+      "state": "failed",
+      "finished": "2020-10-07T00:08:36Z",
+      "duration": 51
+    },
+    "devuan-chimaera-armhf": {
+      "id": "188486308",
+      "state": "failed",
+      "finished": "2020-10-07T00:08:47Z",
+      "duration": 58
+    },
+    "devuan-chimaera-armhf-minbase": {
+      "id": "188486313",
+      "state": "failed",
+      "finished": "2020-10-07T00:08:50Z",
+      "duration": 57
+    },
+    "devuan-chimaera-hppa": {
+      "id": "188486359",
+      "state": "failed",
+      "finished": "2020-10-07T00:12:36Z",
+      "duration": 49
+    },
+    "devuan-chimaera-hppa-minbase": {
+      "id": "188486365",
+      "state": "failed",
+      "finished": "2020-10-07T00:12:59Z",
+      "duration": 48
+    },
+    "devuan-chimaera-i386": {
+      "id": "188486323",
+      "state": "failed",
+      "finished": "2020-10-07T00:10:24Z",
+      "duration": 48
+    },
+    "devuan-chimaera-i386-minbase": {
+      "id": "188486329",
+      "state": "failed",
+      "finished": "2020-10-07T00:10:42Z",
+      "duration": 53
+    },
+    "devuan-chimaera-ia64": {
+      "id": "188486378",
+      "state": "failed",
+      "finished": "2020-10-07T00:14:08Z",
+      "duration": 47
+    },
+    "devuan-chimaera-ia64-minbase": {
+      "id": "188486385",
+      "state": "failed",
+      "finished": "2020-10-07T00:14:29Z",
+      "duration": 51
+    },
+    "devuan-chimaera-m32": {
+      "id": "188486391",
+      "state": "failed",
+      "finished": "2020-10-07T00:14:30Z",
+      "duration": 52
+    },
+    "devuan-chimaera-m32-minbase": {
+      "id": "188486394",
+      "state": "failed",
+      "finished": "2020-10-07T00:14:50Z",
+      "duration": 49
+    },
+    "devuan-chimaera-m68k": {
+      "id": "188486402",
+      "state": "failed",
+      "finished": "2020-10-07T00:16:03Z",
+      "duration": 52
+    },
+    "devuan-chimaera-m68k-minbase": {
+      "id": "188486410",
+      "state": "failed",
+      "finished": "2020-10-07T00:16:22Z",
+      "duration": 52
+    },
+    "devuan-chimaera-mips": {
+      "id": "188486421",
+      "state": "failed",
+      "finished": "2020-10-07T00:16:19Z",
+      "duration": 52
+    },
+    "devuan-chimaera-mips-minbase": {
+      "id": "188486428",
+      "state": "failed",
+      "finished": "2020-10-07T00:17:24Z",
+      "duration": 93
+    },
+    "devuan-chimaera-mipsel": {
+      "id": "188486437",
+      "state": "failed",
+      "finished": "2020-10-07T00:17:57Z",
+      "duration": 51
+    },
+    "devuan-chimaera-mipsel-minbase": {
+      "id": "188486447",
+      "state": "failed",
+      "finished": "2020-10-07T00:18:15Z",
+      "duration": 51
+    },
+    "devuan-chimaera-or1k": {
+      "id": "188486452",
+      "state": "failed",
+      "finished": "2020-10-07T00:18:11Z",
+      "duration": 48
+    },
+    "devuan-chimaera-or1k-minbase": {
+      "id": "188486459",
+      "state": "failed",
+      "finished": "2020-10-07T00:19:15Z",
+      "duration": 50
+    },
+    "devuan-chimaera-powerpc": {
+      "id": "188486467",
+      "state": "failed",
+      "finished": "2020-10-07T00:19:48Z",
+      "duration": 49
+    },
+    "devuan-chimaera-powerpc-minbase": {
+      "id": "188486474",
+      "state": "failed",
+      "finished": "2020-10-07T00:20:06Z",
+      "duration": 51
+    },
+    "devuan-chimaera-ppc64el": {
+      "id": "188486333",
+      "state": "failed",
+      "finished": "2020-10-07T00:10:46Z",
+      "duration": 53
+    },
+    "devuan-chimaera-ppc64el-minbase": {
+      "id": "188486339",
+      "state": "failed",
+      "finished": "2020-10-07T00:11:09Z",
+      "duration": 52
+    },
+    "devuan-chimaera-s390": {
+      "id": "188486485",
+      "state": "failed",
+      "finished": "2020-10-07T00:20:13Z",
+      "duration": 53
+    },
+    "devuan-chimaera-s390-minbase": {
+      "id": "188486493",
+      "state": "failed",
+      "finished": "2020-10-07T00:21:06Z",
+      "duration": 49
+    },
+    "devuan-chimaera-s390x": {
+      "id": "188486504",
+      "state": "failed",
+      "finished": "2020-10-07T00:21:39Z",
+      "duration": 52
+    },
+    "devuan-chimaera-s390x-minbase": {
+      "id": "188486514",
+      "state": "failed",
+      "finished": "2020-10-07T00:21:51Z",
+      "duration": 48
+    },
+    "devuan-chimaera-sparc": {
+      "id": "188486522",
+      "state": "errored",
+      "finished": "2020-10-07T00:22:10Z",
+      "duration": 58
+    },
+    "devuan-chimaera-sparc-minbase": {
+      "id": "188486530",
+      "state": "failed",
+      "finished": "2020-10-07T00:22:57Z",
+      "duration": 50
+    },
+    "devuan-experimental-alpha": {
+      "id": "187997400",
+      "state": "failed",
+      "finished": "2020-10-04T02:14:23Z",
+      "duration": 51
+    },
+    "devuan-experimental-alpha-minbase": {
+      "id": "187997402",
+      "state": "failed",
+      "finished": "2020-10-04T02:15:12Z",
+      "duration": 49
+    },
+    "devuan-experimental-amd64": {
+      "id": "187997404",
+      "state": "failed",
+      "finished": "2020-10-04T02:16:04Z",
+      "duration": 54
+    },
+    "devuan-experimental-amd64-minbase": {
+      "id": "187997405",
+      "state": "failed",
+      "finished": "2020-10-04T02:16:04Z",
+      "duration": 54
+    },
+    "devuan-experimental-arm64": {
+      "id": "187997406",
+      "state": "failed",
+      "finished": "2020-10-04T02:16:18Z",
+      "duration": 52
+    },
+    "devuan-experimental-arm64-minbase": {
+      "id": "187997408",
+      "state": "failed",
+      "finished": "2020-10-04T02:17:00Z",
+      "duration": 50
+    },
+    "devuan-experimental-armel": {
+      "id": "187997410",
+      "state": "failed",
+      "finished": "2020-10-04T02:17:55Z",
+      "duration": 51
+    },
+    "devuan-experimental-armel-minbase": {
+      "id": "187997417",
+      "state": "failed",
+      "finished": "2020-10-04T02:17:51Z",
+      "duration": 50
+    },
+    "devuan-experimental-armhf": {
+      "id": "187997419",
+      "state": "failed",
+      "finished": "2020-10-04T02:18:03Z",
+      "duration": 48
+    },
+    "devuan-experimental-armhf-minbase": {
+      "id": "187997422",
+      "state": "failed",
+      "finished": "2020-10-04T02:18:45Z",
+      "duration": 48
+    },
+    "devuan-experimental-hppa": {
+      "id": "187997424",
+      "state": "failed",
+      "finished": "2020-10-04T02:19:41Z",
+      "duration": 50
+    },
+    "devuan-experimental-hppa-minbase": {
+      "id": "187997425",
+      "state": "failed",
+      "finished": "2020-10-04T02:20:09Z",
+      "duration": 50
+    },
+    "devuan-experimental-i386": {
+      "id": "187997426",
+      "state": "failed",
+      "finished": "2020-10-04T02:19:50Z",
+      "duration": 47
+    },
+    "devuan-experimental-i386-minbase": {
+      "id": "187997429",
+      "state": "failed",
+      "finished": "2020-10-04T02:20:31Z",
+      "duration": 48
+    },
+    "devuan-experimental-ia64": {
+      "id": "187997431",
+      "state": "failed",
+      "finished": "2020-10-04T02:21:28Z",
+      "duration": 48
+    },
+    "devuan-experimental-ia64-minbase": {
+      "id": "187997432",
+      "state": "failed",
+      "finished": "2020-10-04T02:21:41Z",
+      "duration": 53
+    },
+    "devuan-experimental-m32": {
+      "id": "187997433",
+      "state": "failed",
+      "finished": "2020-10-04T02:22:00Z",
+      "duration": 53
+    },
+    "devuan-experimental-m32-minbase": {
+      "id": "187997438",
+      "state": "failed",
+      "finished": "2020-10-04T02:22:16Z",
+      "duration": 47
+    },
+    "devuan-experimental-m68k": {
+      "id": "187997439",
+      "state": "failed",
+      "finished": "2020-10-04T02:23:16Z",
+      "duration": 49
+    },
+    "devuan-experimental-m68k-minbase": {
+      "id": "187997440",
+      "state": "failed",
+      "finished": "2020-10-04T02:23:28Z",
+      "duration": 48
+    },
+    "devuan-experimental-mips": {
+      "id": "187997443",
+      "state": "failed",
+      "finished": "2020-10-04T02:23:42Z",
+      "duration": 46
+    },
+    "devuan-experimental-mips-minbase": {
+      "id": "187997444",
+      "state": "failed",
+      "finished": "2020-10-04T02:24:04Z",
+      "duration": 48
+    },
+    "devuan-experimental-mipsel": {
+      "id": "187997445",
+      "state": "failed",
+      "finished": "2020-10-04T02:25:08Z",
+      "duration": 51
+    },
+    "devuan-experimental-mipsel-minbase": {
+      "id": "187997449",
+      "state": "failed",
+      "finished": "2020-10-04T02:25:11Z",
+      "duration": 45
+    },
+    "devuan-experimental-or1k": {
+      "id": "187997453",
+      "state": "failed",
+      "finished": "2020-10-04T02:25:43Z",
+      "duration": 49
+    },
+    "devuan-experimental-or1k-minbase": {
+      "id": "187997455",
+      "state": "failed",
+      "finished": "2020-10-04T02:25:52Z",
+      "duration": 50
+    },
+    "devuan-experimental-powerpc": {
+      "id": "187997456",
+      "state": "failed",
+      "finished": "2020-10-04T02:26:54Z",
+      "duration": 48
+    },
+    "devuan-experimental-powerpc-minbase": {
+      "id": "187997457",
+      "state": "failed",
+      "finished": "2020-10-04T02:27:05Z",
+      "duration": 51
+    },
+    "devuan-experimental-ppc64el": {
+      "id": "187997458",
+      "state": "failed",
+      "finished": "2020-10-04T02:27:30Z",
+      "duration": 51
+    },
+    "devuan-experimental-ppc64el-minbase": {
+      "id": "187997461",
+      "state": "failed",
+      "finished": "2020-10-04T02:27:39Z",
+      "duration": 47
+    },
+    "devuan-experimental-s390": {
+      "id": "187997463",
+      "state": "failed",
+      "finished": "2020-10-04T02:28:48Z",
+      "duration": 54
+    },
+    "devuan-experimental-s390-minbase": {
+      "id": "187997470",
+      "state": "failed",
+      "finished": "2020-10-04T02:29:02Z",
+      "duration": 51
+    },
+    "devuan-experimental-s390x": {
+      "id": "187997473",
+      "state": "failed",
+      "finished": "2020-10-04T02:29:16Z",
+      "duration": 51
+    },
+    "devuan-experimental-s390x-minbase": {
+      "id": "187997477",
+      "state": "failed",
+      "finished": "2020-10-04T02:29:22Z",
+      "duration": 46
+    },
+    "devuan-experimental-sparc": {
+      "id": "187997479",
+      "state": "failed",
+      "finished": "2020-10-04T02:30:36Z",
+      "duration": 49
+    },
+    "devuan-experimental-sparc-minbase": {
+      "id": "187997481",
+      "state": "failed",
+      "finished": "2020-10-04T02:30:47Z",
+      "duration": 49
+    },
+    "devuan-jessie-amd64": {
+      "id": "187933933",
+      "state": "passed",
+      "finished": "2020-10-03T03:34:50Z",
+      "duration": 188
+    },
+    "devuan-jessie-amd64-minbase": {
+      "id": "187933935",
+      "state": "passed",
+      "finished": "2020-10-03T03:35:00Z",
+      "duration": 166
+    },
+    "devuan-jessie-arm64": {
+      "id": "187933943",
+      "state": "failed",
+      "finished": "2020-10-03T03:35:34Z",
+      "duration": 64
+    },
+    "devuan-jessie-arm64-minbase": {
+      "id": "187933945",
+      "state": "failed",
+      "finished": "2020-10-03T03:36:34Z",
+      "duration": 52
+    },
+    "devuan-jessie-armel": {
+      "id": "187933949",
+      "state": "passed",
+      "finished": "2020-10-03T03:41:11Z",
+      "duration": 314
+    },
+    "devuan-jessie-armel-minbase": {
+      "id": "187933953",
+      "state": "passed",
+      "finished": "2020-10-03T03:39:54Z",
+      "duration": 203
+    },
+    "devuan-jessie-armhf": {
+      "id": "187933958",
+      "state": "passed",
+      "finished": "2020-10-03T03:43:14Z",
+      "duration": 339
+    },
+    "devuan-jessie-armhf-minbase": {
+      "id": "187933960",
+      "state": "passed",
+      "finished": "2020-10-03T03:41:58Z",
+      "duration": 226
+    },
+    "devuan-jessie-i386": {
+      "id": "187933963",
+      "state": "passed",
+      "finished": "2020-10-03T03:44:07Z",
+      "duration": 194
+    },
+    "devuan-jessie-i386-minbase": {
+      "id": "187933966",
+      "state": "passed",
+      "finished": "2020-10-03T03:44:35Z",
+      "duration": 149
+    },
+    "devuan-jessie-ppc64el": {
+      "id": "187933971",
+      "state": "failed",
+      "finished": "2020-10-03T03:43:45Z",
+      "duration": 52
+    },
+    "devuan-jessie-ppc64el-minbase": {
+      "id": "187933972",
+      "state": "failed",
+      "finished": "2020-10-03T03:45:01Z",
+      "duration": 49
+    },
+    "raspbian-bullseye-armhf": {
+      "id": "187935882",
+      "state": "failed",
+      "finished": "2020-10-03T04:32:12Z",
+      "duration": 429
+    },
+    "raspbian-bullseye-armhf-minbase": {
+      "id": "187935884",
+      "state": "passed",
+      "finished": "2020-10-03T04:29:15Z",
+      "duration": 248
+    },
+    "raspbian-buster-armhf": {
+      "id": "187463530",
+      "state": "passed",
+      "finished": "2020-09-30T18:51:02Z",
+      "duration": 730
+    },
+    "raspbian-buster-armhf-minbase": {
+      "id": "187463542",
+      "state": "passed",
+      "finished": "2020-09-30T18:46:28Z",
+      "duration": 263
+    },
+    "raspbian-jessie-armhf": {
+      "id": "187933974",
+      "state": "passed",
+      "finished": "2020-10-03T03:51:37Z",
+      "duration": 414
+    },
+    "raspbian-jessie-armhf-minbase": {
+      "id": "187933978",
+      "state": "passed",
+      "finished": "2020-10-03T03:50:02Z",
+      "duration": 296
+    },
+    "raspbian-stretch-armhf": {
+      "id": "187463548",
+      "state": "passed",
+      "finished": "2020-09-30T18:51:50Z",
+      "duration": 583
+    },
+    "raspbian-stretch-armhf-minbase": {
+      "id": "187463558",
+      "state": "passed",
+      "finished": "2020-09-30T18:50:02Z",
+      "duration": 339
+    },
+    "ubuntu-artful-amd64": {
+      "id": "188490874",
+      "state": "passed",
+      "finished": "2020-10-07T01:08:27Z",
+      "duration": 208
+    },
+    "ubuntu-artful-amd64-minbase": {
+      "id": "188490879",
+      "state": "passed",
+      "finished": "2020-10-07T01:07:11Z",
+      "duration": 128
+    },
+    "ubuntu-artful-arm64": {
+      "id": "188490884",
+      "state": "failed",
+      "finished": "2020-10-07T01:08:13Z",
+      "duration": 191
+    },
+    "ubuntu-artful-arm64-minbase": {
+      "id": "188490891",
+      "state": "failed",
+      "finished": "2020-10-07T01:08:39Z",
+      "duration": 211
+    },
+    "ubuntu-artful-armhf": {
+      "id": "188490895",
+      "state": "failed",
+      "finished": "2020-10-07T01:11:58Z",
+      "duration": 224
+    },
+    "ubuntu-artful-armhf-minbase": {
+      "id": "188490898",
+      "state": "failed",
+      "finished": "2020-10-07T01:12:28Z",
+      "duration": 193
+    },
+    "ubuntu-artful-i386": {
+      "id": "188490902",
+      "state": "passed",
+      "finished": "2020-10-07T01:12:15Z",
+      "duration": 169
+    },
+    "ubuntu-artful-i386-minbase": {
+      "id": "188490907",
+      "state": "passed",
+      "finished": "2020-10-07T01:11:33Z",
+      "duration": 108
+    },
+    "ubuntu-artful-ppc64el": {
+      "id": "188490920",
+      "state": "failed",
+      "finished": "2020-10-07T01:17:18Z",
+      "duration": 283
+    },
+    "ubuntu-artful-ppc64el-minbase": {
+      "id": "188490926",
+      "state": "failed",
+      "finished": "2020-10-07T01:17:06Z",
+      "duration": 247
+    },
+    "ubuntu-artful-s390x": {
+      "id": "188490931",
+      "state": "failed",
+      "finished": "2020-10-07T01:17:45Z",
+      "duration": 271
+    },
+    "ubuntu-artful-s390x-minbase": {
+      "id": "188490936",
+      "state": "failed",
+      "finished": "2020-10-07T01:17:07Z",
+      "duration": 219
+    },
+    "ubuntu-bionic-amd64": {
+      "id": "188494448",
+      "state": "passed",
+      "finished": "2020-10-07T02:09:38Z",
+      "duration": 229
+    },
+    "ubuntu-bionic-amd64-minbase": {
+      "id": "188494460",
+      "state": "passed",
+      "finished": "2020-10-07T02:08:11Z",
+      "duration": 133
+    },
+    "ubuntu-bionic-arm64": {
+      "id": "188494467",
+      "state": "passed",
+      "finished": "2020-10-07T02:12:53Z",
+      "duration": 416
+    },
+    "ubuntu-bionic-arm64-minbase": {
+      "id": "188494473",
+      "state": "passed",
+      "finished": "2020-10-07T02:08:55Z",
+      "duration": 171
+    },
+    "ubuntu-bionic-armhf": {
+      "id": "188494481",
+      "state": "passed",
+      "finished": "2020-10-07T02:17:03Z",
+      "duration": 472
+    },
+    "ubuntu-bionic-armhf-minbase": {
+      "id": "188494495",
+      "state": "passed",
+      "finished": "2020-10-07T02:12:44Z",
+      "duration": 172
+    },
+    "ubuntu-bionic-i386": {
+      "id": "188494501",
+      "state": "passed",
+      "finished": "2020-10-07T02:14:13Z",
+      "duration": 217
+    },
+    "ubuntu-bionic-i386-minbase": {
+      "id": "188494512",
+      "state": "passed",
+      "finished": "2020-10-07T02:15:53Z",
+      "duration": 131
+    },
+    "ubuntu-bionic-ppc64el": {
+      "id": "188494517",
+      "state": "passed",
+      "finished": "2020-10-07T02:23:32Z",
+      "duration": 581
+    },
+    "ubuntu-bionic-ppc64el-minbase": {
+      "id": "188494523",
+      "state": "passed",
+      "finished": "2020-10-07T02:18:38Z",
+      "duration": 201
+    },
+    "ubuntu-bionic-s390x": {
+      "id": "188494531",
+      "state": "passed",
+      "finished": "2020-10-07T02:25:20Z",
+      "duration": 509
+    },
+    "ubuntu-bionic-s390x-minbase": {
+      "id": "188494543",
+      "state": "passed",
+      "finished": "2020-10-07T02:20:49Z",
+      "duration": 168
+    },
+    "ubuntu-breezy-amd64": {
+      "id": "187993030",
+      "state": "failed",
+      "finished": "2020-10-03T23:09:13Z",
+      "duration": 151
+    },
+    "ubuntu-breezy-amd64-minbase": {
+      "id": "187993033",
+      "state": "failed",
+      "finished": "2020-10-03T23:07:34Z",
+      "duration": 48
+    },
+    "ubuntu-breezy-hppa": {
+      "id": "187993060",
+      "state": "failed",
+      "finished": "2020-10-03T23:12:44Z",
+      "duration": 48
+    },
+    "ubuntu-breezy-hppa-minbase": {
+      "id": "187993063",
+      "state": "failed",
+      "finished": "2020-10-03T23:13:23Z",
+      "duration": 47
+    },
+    "ubuntu-breezy-i386": {
+      "id": "187993011",
+      "state": "failed",
+      "finished": "2020-10-03T23:08:56Z",
+      "duration": 153
+    },
+    "ubuntu-breezy-i386-minbase": {
+      "id": "187993019",
+      "state": "failed",
+      "finished": "2020-10-03T23:07:18Z",
+      "duration": 48
+    },
+    "ubuntu-breezy-ia64": {
+      "id": "187993049",
+      "state": "failed",
+      "finished": "2020-10-03T23:10:37Z",
+      "duration": 46
+    },
+    "ubuntu-breezy-ia64-minbase": {
+      "id": "187993051",
+      "state": "failed",
+      "finished": "2020-10-03T23:10:57Z",
+      "duration": 48
+    },
+    "ubuntu-breezy-powerpc": {
+      "id": "187993044",
+      "state": "failed",
+      "finished": "2020-10-03T23:16:26Z",
+      "duration": 488
+    },
+    "ubuntu-breezy-powerpc-minbase": {
+      "id": "187993047",
+      "state": "failed",
+      "finished": "2020-10-03T23:09:24Z",
+      "duration": 50
+    },
+    "ubuntu-breezy-sparc": {
+      "id": "187993054",
+      "state": "failed",
+      "finished": "2020-10-03T23:11:38Z",
+      "duration": 74
+    },
+    "ubuntu-breezy-sparc-minbase": {
+      "id": "187993057",
+      "state": "failed",
+      "finished": "2020-10-03T23:12:26Z",
+      "duration": 47
+    },
+    "ubuntu-cosmic-amd64": {
+      "id": "188325930",
+      "state": "passed",
+      "finished": "2020-10-06T06:08:55Z",
+      "duration": 171
+    },
+    "ubuntu-cosmic-amd64-minbase": {
+      "id": "188325936",
+      "state": "passed",
+      "finished": "2020-10-06T06:07:53Z",
+      "duration": 104
+    },
+    "ubuntu-cosmic-arm64": {
+      "id": "188325944",
+      "state": "passed",
+      "finished": "2020-10-06T06:13:18Z",
+      "duration": 425
+    },
+    "ubuntu-cosmic-arm64-minbase": {
+      "id": "188325955",
+      "state": "passed",
+      "finished": "2020-10-06T06:08:43Z",
+      "duration": 146
+    },
+    "ubuntu-cosmic-armhf": {
+      "id": "188325964",
+      "state": "failed",
+      "finished": "2020-10-06T06:15:57Z",
+      "duration": 424
+    },
+    "ubuntu-cosmic-armhf-minbase": {
+      "id": "188325969",
+      "state": "failed",
+      "finished": "2020-10-06T06:11:38Z",
+      "duration": 119
+    },
+    "ubuntu-cosmic-i386": {
+      "id": "188325982",
+      "state": "passed",
+      "finished": "2020-10-06T06:13:36Z",
+      "duration": 224
+    },
+    "ubuntu-cosmic-i386-minbase": {
+      "id": "188325992",
+      "state": "passed",
+      "finished": "2020-10-06T06:14:46Z",
+      "duration": 128
+    },
+    "ubuntu-cosmic-ppc64el": {
+      "id": "188325999",
+      "state": "passed",
+      "finished": "2020-10-06T06:25:04Z",
+      "duration": 648
+    },
+    "ubuntu-cosmic-ppc64el-minbase": {
+      "id": "188326006",
+      "state": "passed",
+      "finished": "2020-10-06T06:17:17Z",
+      "duration": 164
+    },
+    "ubuntu-cosmic-s390x": {
+      "id": "188326014",
+      "state": "passed",
+      "finished": "2020-10-06T06:23:11Z",
+      "duration": 447
+    },
+    "ubuntu-cosmic-s390x-minbase": {
+      "id": "188326023",
+      "state": "passed",
+      "finished": "2020-10-06T06:19:56Z",
+      "duration": 175
+    },
+    "ubuntu-dapper-amd64": {
+      "id": "187932194",
+      "state": "passed",
+      "finished": "2020-10-03T02:07:24Z",
+      "duration": 180
+    },
+    "ubuntu-dapper-amd64-minbase": {
+      "id": "187932195",
+      "state": "failed",
+      "finished": "2020-10-03T02:05:10Z",
+      "duration": 46
+    },
+    "ubuntu-dapper-hppa": {
+      "id": "187932235",
+      "state": "failed",
+      "finished": "2020-10-03T02:10:54Z",
+      "duration": 49
+    },
+    "ubuntu-dapper-hppa-minbase": {
+      "id": "187932239",
+      "state": "failed",
+      "finished": "2020-10-03T02:11:27Z",
+      "duration": 48
+    },
+    "ubuntu-dapper-i386": {
+      "id": "187932218",
+      "state": "passed",
+      "finished": "2020-10-03T02:09:39Z",
+      "duration": 174
+    },
+    "ubuntu-dapper-i386-minbase": {
+      "id": "187932219",
+      "state": "failed",
+      "finished": "2020-10-03T02:09:03Z",
+      "duration": 48
+    },
+    "ubuntu-dapper-ia64": {
+      "id": "187932226",
+      "state": "failed",
+      "finished": "2020-10-03T02:09:07Z",
+      "duration": 47
+    },
+    "ubuntu-dapper-ia64-minbase": {
+      "id": "187932231",
+      "state": "failed",
+      "finished": "2020-10-03T02:10:50Z",
+      "duration": 48
+    },
+    "ubuntu-dapper-powerpc": {
+      "id": "187932210",
+      "state": "passed",
+      "finished": "2020-10-03T02:11:41Z",
+      "duration": 331
+    },
+    "ubuntu-dapper-powerpc-minbase": {
+      "id": "187932213",
+      "state": "failed",
+      "finished": "2020-10-03T02:07:18Z",
+      "duration": 48
+    },
+    "ubuntu-dapper-sparc": {
+      "id": "187932201",
+      "state": "failed",
+      "finished": "2020-10-03T02:05:49Z",
+      "duration": 78
+    },
+    "ubuntu-dapper-sparc-minbase": {
+      "id": "187932207",
+      "state": "failed",
+      "finished": "2020-10-03T02:05:33Z",
+      "duration": 48
+    },
+    "ubuntu-disco-amd64": {
+      "id": "188012857",
+      "state": "passed",
+      "finished": "2020-10-04T06:08:20Z",
+      "duration": 185
+    },
+    "ubuntu-disco-amd64-minbase": {
+      "id": "188012862",
+      "state": "passed",
+      "finished": "2020-10-04T06:07:39Z",
+      "duration": 133
+    },
+    "ubuntu-disco-arm64": {
+      "id": "188012863",
+      "state": "passed",
+      "finished": "2020-10-04T06:12:58Z",
+      "duration": 457
+    },
+    "ubuntu-disco-arm64-minbase": {
+      "id": "188012865",
+      "state": "passed",
+      "finished": "2020-10-04T06:08:25Z",
+      "duration": 174
+    },
+    "ubuntu-disco-armhf": {
+      "id": "188012867",
+      "state": "passed",
+      "finished": "2020-10-04T06:15:55Z",
+      "duration": 438
+    },
+    "ubuntu-disco-armhf-minbase": {
+      "id": "188012877",
+      "state": "passed",
+      "finished": "2020-10-04T06:11:40Z",
+      "duration": 142
+    },
+    "ubuntu-disco-i386": {
+      "id": "188012879",
+      "state": "passed",
+      "finished": "2020-10-04T06:12:46Z",
+      "duration": 204
+    },
+    "ubuntu-disco-i386-minbase": {
+      "id": "188012881",
+      "state": "passed",
+      "finished": "2020-10-04T06:14:51Z",
+      "duration": 132
+    },
+    "ubuntu-disco-ppc64el": {
+      "id": "188012885",
+      "state": "passed",
+      "finished": "2020-10-04T06:23:53Z",
+      "duration": 608
+    },
+    "ubuntu-disco-ppc64el-minbase": {
+      "id": "188012887",
+      "state": "passed",
+      "finished": "2020-10-04T06:17:14Z",
+      "duration": 197
+    },
+    "ubuntu-disco-s390x": {
+      "id": "188012894",
+      "state": "passed",
+      "finished": "2020-10-04T06:23:02Z",
+      "duration": 424
+    },
+    "ubuntu-disco-s390x-minbase": {
+      "id": "188012895",
+      "state": "passed",
+      "finished": "2020-10-04T06:19:59Z",
+      "duration": 180
+    },
+    "ubuntu-edgy-amd64": {
+      "id": "188705397",
+      "state": "passed",
+      "finished": "2020-10-08T00:09:04Z",
+      "duration": 177
+    },
+    "ubuntu-edgy-amd64-minbase": {
+      "id": "188705404",
+      "state": "failed",
+      "finished": "2020-10-08T00:06:58Z",
+      "duration": 49
+    },
+    "ubuntu-edgy-hppa": {
+      "id": "188705414",
+      "state": "failed",
+      "finished": "2020-10-08T00:07:06Z",
+      "duration": 49
+    },
+    "ubuntu-edgy-hppa-minbase": {
+      "id": "188705423",
+      "state": "failed",
+      "finished": "2020-10-08T00:07:11Z",
+      "duration": 49
+    },
+    "ubuntu-edgy-i386": {
+      "id": "188705434",
+      "state": "passed",
+      "finished": "2020-10-08T00:10:06Z",
+      "duration": 128
+    },
+    "ubuntu-edgy-i386-minbase": {
+      "id": "188705443",
+      "state": "failed",
+      "finished": "2020-10-08T00:08:50Z",
+      "duration": 48
+    },
+    "ubuntu-edgy-ia64": {
+      "id": "188705450",
+      "state": "failed",
+      "finished": "2020-10-08T00:08:59Z",
+      "duration": 47
+    },
+    "ubuntu-edgy-ia64-minbase": {
+      "id": "188705465",
+      "state": "failed",
+      "finished": "2020-10-08T00:10:39Z",
+      "duration": 49
+    },
+    "ubuntu-edgy-powerpc": {
+      "id": "188705484",
+      "state": "passed",
+      "finished": "2020-10-08T00:16:10Z",
+      "duration": 370
+    },
+    "ubuntu-edgy-powerpc-minbase": {
+      "id": "188705497",
+      "state": "failed",
+      "finished": "2020-10-08T00:10:57Z",
+      "duration": 50
+    },
+    "ubuntu-edgy-sparc": {
+      "id": "188705502",
+      "state": "failed",
+      "finished": "2020-10-08T00:12:29Z",
+      "duration": 80
+    },
+    "ubuntu-edgy-sparc-minbase": {
+      "id": "188705514",
+      "state": "failed",
+      "finished": "2020-10-08T00:12:30Z",
+      "duration": 49
+    },
+    "ubuntu-eoan-amd64": {
+      "id": "188716299",
+      "state": "passed",
+      "finished": "2020-10-08T02:09:44Z",
+      "duration": 223
+    },
+    "ubuntu-eoan-amd64-minbase": {
+      "id": "188716309",
+      "state": "passed",
+      "finished": "2020-10-08T02:08:21Z",
+      "duration": 134
+    },
+    "ubuntu-eoan-arm64": {
+      "id": "188716332",
+      "state": "passed",
+      "finished": "2020-10-08T02:13:57Z",
+      "duration": 463
+    },
+    "ubuntu-eoan-arm64-minbase": {
+      "id": "188716339",
+      "state": "passed",
+      "finished": "2020-10-08T02:09:19Z",
+      "duration": 177
+    },
+    "ubuntu-eoan-armhf": {
+      "id": "188716347",
+      "state": "passed",
+      "finished": "2020-10-08T02:17:50Z",
+      "duration": 506
+    },
+    "ubuntu-eoan-armhf-minbase": {
+      "id": "188716375",
+      "state": "passed",
+      "finished": "2020-10-08T02:13:27Z",
+      "duration": 181
+    },
+    "ubuntu-eoan-i386": {
+      "id": "188716390",
+      "state": "passed",
+      "finished": "2020-10-08T02:14:50Z",
+      "duration": 241
+    },
+    "ubuntu-eoan-i386-minbase": {
+      "id": "188716406",
+      "state": "passed",
+      "finished": "2020-10-08T02:16:50Z",
+      "duration": 144
+    },
+    "ubuntu-eoan-ppc64el": {
+      "id": "188716413",
+      "state": "passed",
+      "finished": "2020-10-08T02:25:03Z",
+      "duration": 606
+    },
+    "ubuntu-eoan-ppc64el-minbase": {
+      "id": "188716422",
+      "state": "passed",
+      "finished": "2020-10-08T02:19:09Z",
+      "duration": 201
+    },
+    "ubuntu-eoan-s390x": {
+      "id": "188716432",
+      "state": "passed",
+      "finished": "2020-10-08T02:25:14Z",
+      "duration": 447
+    },
+    "ubuntu-eoan-s390x-minbase": {
+      "id": "188716442",
+      "state": "passed",
+      "finished": "2020-10-08T02:21:50Z",
+      "duration": 179
+    },
+    "ubuntu-feisty-amd64": {
+      "id": "188722617",
+      "state": "passed",
+      "finished": "2020-10-08T03:08:13Z",
+      "duration": 122
+    },
+    "ubuntu-feisty-amd64-minbase": {
+      "id": "188722629",
+      "state": "failed",
+      "finished": "2020-10-08T03:07:11Z",
+      "duration": 51
+    },
+    "ubuntu-feisty-hppa": {
+      "id": "188722640",
+      "state": "failed",
+      "finished": "2020-10-08T03:07:07Z",
+      "duration": 48
+    },
+    "ubuntu-feisty-hppa-minbase": {
+      "id": "188722645",
+      "state": "failed",
+      "finished": "2020-10-08T03:07:21Z",
+      "duration": 48
+    },
+    "ubuntu-feisty-i386": {
+      "id": "188722655",
+      "state": "passed",
+      "finished": "2020-10-08T03:10:24Z",
+      "duration": 133
+    },
+    "ubuntu-feisty-i386-minbase": {
+      "id": "188722664",
+      "state": "failed",
+      "finished": "2020-10-08T03:09:03Z",
+      "duration": 50
+    },
+    "ubuntu-feisty-ia64": {
+      "id": "188722679",
+      "state": "failed",
+      "finished": "2020-10-08T03:09:10Z",
+      "duration": 50
+    },
+    "ubuntu-feisty-ia64-minbase": {
+      "id": "188722686",
+      "state": "failed",
+      "finished": "2020-10-08T03:10:03Z",
+      "duration": 48
+    },
+    "ubuntu-feisty-powerpc": {
+      "id": "188722690",
+      "state": "passed",
+      "finished": "2020-10-08T03:15:52Z",
+      "duration": 351
+    },
+    "ubuntu-feisty-powerpc-minbase": {
+      "id": "188722696",
+      "state": "failed",
+      "finished": "2020-10-08T03:11:02Z",
+      "duration": 49
+    },
+    "ubuntu-feisty-sparc": {
+      "id": "188722702",
+      "state": "failed",
+      "finished": "2020-10-08T03:13:15Z",
+      "duration": 133
+    },
+    "ubuntu-feisty-sparc-minbase": {
+      "id": "188722707",
+      "state": "failed",
+      "finished": "2020-10-08T03:12:16Z",
+      "duration": 51
+    },
+    "ubuntu-focal-amd64": {
+      "id": "187724259",
+      "state": "passed",
+      "finished": "2020-10-01T23:10:32Z",
+      "duration": 253
+    },
+    "ubuntu-focal-amd64-minbase": {
+      "id": "187724267",
+      "state": "passed",
+      "finished": "2020-10-01T23:08:39Z",
+      "duration": 134
+    },
+    "ubuntu-focal-arm64": {
+      "id": "187724272",
+      "state": "passed",
+      "finished": "2020-10-01T23:14:23Z",
+      "duration": 472
+    },
+    "ubuntu-focal-arm64-minbase": {
+      "id": "187724276",
+      "state": "passed",
+      "finished": "2020-10-01T23:09:24Z",
+      "duration": 174
+    },
+    "ubuntu-focal-armhf": {
+      "id": "187724282",
+      "state": "passed",
+      "finished": "2020-10-01T23:18:05Z",
+      "duration": 508
+    },
+    "ubuntu-focal-armhf-minbase": {
+      "id": "187724288",
+      "state": "passed",
+      "finished": "2020-10-01T23:13:25Z",
+      "duration": 183
+    },
+    "ubuntu-focal-i386": {
+      "id": "187724294",
+      "state": "failed",
+      "finished": "2020-10-01T23:14:43Z",
+      "duration": 188
+    },
+    "ubuntu-focal-i386-minbase": {
+      "id": "187724324",
+      "state": "passed",
+      "finished": "2020-10-01T23:16:40Z",
+      "duration": 136
+    },
+    "ubuntu-focal-ppc64el": {
+      "id": "187724328",
+      "state": "passed",
+      "finished": "2020-10-01T23:26:02Z",
+      "duration": 629
+    },
+    "ubuntu-focal-ppc64el-minbase": {
+      "id": "187724339",
+      "state": "passed",
+      "finished": "2020-10-01T23:19:07Z",
+      "duration": 205
+    },
+    "ubuntu-focal-riscv64": {
+      "id": "187724349",
+      "state": "failed",
+      "finished": "2020-10-01T23:18:28Z",
+      "duration": 49
+    },
+    "ubuntu-focal-riscv64-minbase": {
+      "id": "187724356",
+      "state": "failed",
+      "finished": "2020-10-01T23:19:55Z",
+      "duration": 49
+    },
+    "ubuntu-focal-s390x": {
+      "id": "187724368",
+      "state": "failed",
+      "finished": "2020-10-01T23:21:48Z",
+      "duration": 141
+    },
+    "ubuntu-focal-s390x-minbase": {
+      "id": "187724376",
+      "state": "failed",
+      "finished": "2020-10-01T23:21:44Z",
+      "duration": 99
+    },
+    "ubuntu-groovy-amd64": {
+      "id": "188302765",
+      "state": "passed",
+      "finished": "2020-10-06T01:08:58Z",
+      "duration": 253
+    },
+    "ubuntu-groovy-amd64-minbase": {
+      "id": "188302772",
+      "state": "passed",
+      "finished": "2020-10-06T01:07:02Z",
+      "duration": 133
+    },
+    "ubuntu-groovy-arm64": {
+      "id": "188302776",
+      "state": "passed",
+      "finished": "2020-10-06T01:12:34Z",
+      "duration": 462
+    },
+    "ubuntu-groovy-arm64-minbase": {
+      "id": "188302778",
+      "state": "passed",
+      "finished": "2020-10-06T01:07:56Z",
+      "duration": 183
+    },
+    "ubuntu-groovy-armhf": {
+      "id": "188302782",
+      "state": "passed",
+      "finished": "2020-10-06T01:16:13Z",
+      "duration": 495
+    },
+    "ubuntu-groovy-armhf-minbase": {
+      "id": "188302785",
+      "state": "passed",
+      "finished": "2020-10-06T01:12:06Z",
+      "duration": 187
+    },
+    "ubuntu-groovy-i386": {
+      "id": "188302787",
+      "state": "failed",
+      "finished": "2020-10-06T01:12:58Z",
+      "duration": 178
+    },
+    "ubuntu-groovy-i386-minbase": {
+      "id": "188302794",
+      "state": "passed",
+      "finished": "2020-10-06T01:15:23Z",
+      "duration": 134
+    },
+    "ubuntu-groovy-ppc64el": {
+      "id": "188302797",
+      "state": "passed",
+      "finished": "2020-10-06T01:23:53Z",
+      "duration": 620
+    },
+    "ubuntu-groovy-ppc64el-minbase": {
+      "id": "188302804",
+      "state": "passed",
+      "finished": "2020-10-06T01:17:26Z",
+      "duration": 208
+    },
+    "ubuntu-groovy-riscv64": {
+      "id": "188302809",
+      "state": "failed",
+      "finished": "2020-10-06T01:17:12Z",
+      "duration": 48
+    },
+    "ubuntu-groovy-riscv64-minbase": {
+      "id": "188302813",
+      "state": "failed",
+      "finished": "2020-10-06T01:18:00Z",
+      "duration": 47
+    },
+    "ubuntu-groovy-s390x": {
+      "id": "188302818",
+      "state": "failed",
+      "finished": "2020-10-06T01:20:45Z",
+      "duration": 148
+    },
+    "ubuntu-groovy-s390x-minbase": {
+      "id": "188302823",
+      "state": "failed",
+      "finished": "2020-10-06T01:20:04Z",
+      "duration": 99
+    },
+    "ubuntu-gutsy-amd64": {
+      "id": "188085448",
+      "state": "passed",
+      "finished": "2020-10-05T03:08:30Z",
+      "duration": 137
+    },
+    "ubuntu-gutsy-amd64-minbase": {
+      "id": "188085478",
+      "state": "passed",
+      "finished": "2020-10-05T03:08:23Z",
+      "duration": 125
+    },
+    "ubuntu-gutsy-hppa": {
+      "id": "188085507",
+      "state": "failed",
+      "finished": "2020-10-05T03:07:11Z",
+      "duration": 48
+    },
+    "ubuntu-gutsy-hppa-minbase": {
+      "id": "188085513",
+      "state": "failed",
+      "finished": "2020-10-05T03:07:11Z",
+      "duration": 46
+    },
+    "ubuntu-gutsy-i386": {
+      "id": "188085516",
+      "state": "passed",
+      "finished": "2020-10-05T03:10:52Z",
+      "duration": 165
+    },
+    "ubuntu-gutsy-i386-minbase": {
+      "id": "188085518",
+      "state": "passed",
+      "finished": "2020-10-05T03:09:41Z",
+      "duration": 92
+    },
+    "ubuntu-gutsy-ia64": {
+      "id": "188085522",
+      "state": "failed",
+      "finished": "2020-10-05T03:10:15Z",
+      "duration": 50
+    },
+    "ubuntu-gutsy-ia64-minbase": {
+      "id": "188085525",
+      "state": "failed",
+      "finished": "2020-10-05T03:10:21Z",
+      "duration": 50
+    },
+    "ubuntu-gutsy-lpia": {
+      "id": "188085530",
+      "state": "passed",
+      "finished": "2020-10-05T03:14:00Z",
+      "duration": 198
+    },
+    "ubuntu-gutsy-lpia-minbase": {
+      "id": "188085536",
+      "state": "passed",
+      "finished": "2020-10-05T03:13:00Z",
+      "duration": 104
+    },
+    "ubuntu-gutsy-powerpc": {
+      "id": "188085537",
+      "state": "passed",
+      "finished": "2020-10-05T03:16:42Z",
+      "duration": 313
+    },
+    "ubuntu-gutsy-powerpc-minbase": {
+      "id": "188085538",
+      "state": "passed",
+      "finished": "2020-10-05T03:16:00Z",
+      "duration": 247
+    },
+    "ubuntu-gutsy-sparc": {
+      "id": "188085546",
+      "state": "failed",
+      "finished": "2020-10-05T03:16:31Z",
+      "duration": 154
+    },
+    "ubuntu-gutsy-sparc-minbase": {
+      "id": "188085554",
+      "state": "failed",
+      "finished": "2020-10-05T03:16:42Z",
+      "duration": 103
+    },
+    "ubuntu-hardy-amd64": {
+      "id": "188711538",
+      "state": "passed",
+      "finished": "2020-10-08T01:08:02Z",
+      "duration": 158
+    },
+    "ubuntu-hardy-amd64-minbase": {
+      "id": "188711543",
+      "state": "passed",
+      "finished": "2020-10-08T01:07:26Z",
+      "duration": 116
+    },
+    "ubuntu-hardy-hppa": {
+      "id": "188711548",
+      "state": "failed",
+      "finished": "2020-10-08T01:06:29Z",
+      "duration": 50
+    },
+    "ubuntu-hardy-hppa-minbase": {
+      "id": "188711555",
+      "state": "failed",
+      "finished": "2020-10-08T01:06:36Z",
+      "duration": 50
+    },
+    "ubuntu-hardy-i386": {
+      "id": "188711560",
+      "state": "passed",
+      "finished": "2020-10-08T01:10:06Z",
+      "duration": 158
+    },
+    "ubuntu-hardy-i386-minbase": {
+      "id": "188711563",
+      "state": "passed",
+      "finished": "2020-10-08T01:09:33Z",
+      "duration": 115
+    },
+    "ubuntu-hardy-ia64": {
+      "id": "188711572",
+      "state": "failed",
+      "finished": "2020-10-08T01:10:21Z",
+      "duration": 49
+    },
+    "ubuntu-hardy-ia64-minbase": {
+      "id": "188711583",
+      "state": "failed",
+      "finished": "2020-10-08T01:09:50Z",
+      "duration": 49
+    },
+    "ubuntu-hardy-lpia": {
+      "id": "188711586",
+      "state": "passed",
+      "finished": "2020-10-08T01:12:30Z",
+      "duration": 117
+    },
+    "ubuntu-hardy-lpia-minbase": {
+      "id": "188711589",
+      "state": "passed",
+      "finished": "2020-10-08T01:12:42Z",
+      "duration": 114
+    },
+    "ubuntu-hardy-powerpc": {
+      "id": "188711592",
+      "state": "passed",
+      "finished": "2020-10-08T01:16:51Z",
+      "duration": 343
+    },
+    "ubuntu-hardy-powerpc-minbase": {
+      "id": "188711600",
+      "state": "passed",
+      "finished": "2020-10-08T01:15:30Z",
+      "duration": 247
+    },
+    "ubuntu-hardy-sparc": {
+      "id": "188711607",
+      "state": "failed",
+      "finished": "2020-10-08T01:15:28Z",
+      "duration": 116
+    },
+    "ubuntu-hardy-sparc-minbase": {
+      "id": "188711611",
+      "state": "failed",
+      "finished": "2020-10-08T01:14:48Z",
+      "duration": 63
+    },
+    "ubuntu-hirsute-amd64": {
+      "id": "192423228",
+      "state": "failed",
+      "finished": "2020-10-23T23:05:57Z",
+      "duration": 46
+    },
+    "ubuntu-hirsute-amd64-minbase": {
+      "id": "192423231",
+      "state": "failed",
+      "finished": "2020-10-23T23:06:05Z",
+      "duration": 48
+    },
+    "ubuntu-hirsute-arm64": {
+      "id": "192423235",
+      "state": "failed",
+      "finished": "2020-10-23T23:06:09Z",
+      "duration": 47
+    },
+    "ubuntu-hirsute-arm64-minbase": {
+      "id": "192423241",
+      "state": "failed",
+      "finished": "2020-10-23T23:06:11Z",
+      "duration": 47
+    },
+    "ubuntu-hirsute-armhf": {
+      "id": "192423254",
+      "state": "failed",
+      "finished": "2020-10-23T23:07:45Z",
+      "duration": 49
+    },
+    "ubuntu-hirsute-armhf-minbase": {
+      "id": "192423259",
+      "state": "failed",
+      "finished": "2020-10-23T23:07:51Z",
+      "duration": 47
+    },
+    "ubuntu-hirsute-i386": {
+      "id": "192423264",
+      "state": "failed",
+      "finished": "2020-10-23T23:07:56Z",
+      "duration": 47
+    },
+    "ubuntu-hirsute-i386-minbase": {
+      "id": "192423272",
+      "state": "failed",
+      "finished": "2020-10-23T23:07:57Z",
+      "duration": 47
+    },
+    "ubuntu-hirsute-ppc64el": {
+      "id": "192423276",
+      "state": "failed",
+      "finished": "2020-10-23T23:09:34Z",
+      "duration": 49
+    },
+    "ubuntu-hirsute-ppc64el-minbase": {
+      "id": "192423281",
+      "state": "failed",
+      "finished": "2020-10-23T23:09:47Z",
+      "duration": 51
+    },
+    "ubuntu-hirsute-riscv64": {
+      "id": "192423286",
+      "state": "failed",
+      "finished": "2020-10-23T23:09:43Z",
+      "duration": 47
+    },
+    "ubuntu-hirsute-riscv64-minbase": {
+      "id": "192423292",
+      "state": "failed",
+      "finished": "2020-10-23T23:09:51Z",
+      "duration": 51
+    },
+    "ubuntu-hirsute-s390x": {
+      "id": "192423299",
+      "state": "failed",
+      "finished": "2020-10-23T23:11:11Z",
+      "duration": 45
+    },
+    "ubuntu-hirsute-s390x-minbase": {
+      "id": "192423305",
+      "state": "failed",
+      "finished": "2020-10-23T23:11:33Z",
+      "duration": 49
+    },
+    "ubuntu-hoary-amd64": {
+      "id": "187999001",
+      "state": "failed",
+      "finished": "2020-10-04T03:06:43Z",
+      "duration": 47
+    },
+    "ubuntu-hoary-amd64-minbase": {
+      "id": "187999003",
+      "state": "failed",
+      "finished": "2020-10-04T03:06:55Z",
+      "duration": 48
+    },
+    "ubuntu-hoary-i386": {
+      "id": "187998998",
+      "state": "failed",
+      "finished": "2020-10-04T03:06:39Z",
+      "duration": 48
+    },
+    "ubuntu-hoary-i386-minbase": {
+      "id": "187998999",
+      "state": "failed",
+      "finished": "2020-10-04T03:06:45Z",
+      "duration": 48
+    },
+    "ubuntu-hoary-ia64": {
+      "id": "187999015",
+      "state": "failed",
+      "finished": "2020-10-04T03:08:31Z",
+      "duration": 48
+    },
+    "ubuntu-hoary-ia64-minbase": {
+      "id": "187999016",
+      "state": "failed",
+      "finished": "2020-10-04T03:08:40Z",
+      "duration": 48
+    },
+    "ubuntu-hoary-powerpc": {
+      "id": "187999007",
+      "state": "failed",
+      "finished": "2020-10-04T03:08:21Z",
+      "duration": 48
+    },
+    "ubuntu-hoary-powerpc-minbase": {
+      "id": "187999008",
+      "state": "failed",
+      "finished": "2020-10-04T03:08:28Z",
+      "duration": 48
+    },
+    "ubuntu-hoary-sparc": {
+      "id": "187999019",
+      "state": "failed",
+      "finished": "2020-10-04T03:10:05Z",
+      "duration": 47
+    },
+    "ubuntu-hoary-sparc-minbase": {
+      "id": "187999020",
+      "state": "failed",
+      "finished": "2020-10-04T03:10:14Z",
+      "duration": 47
+    },
+    "ubuntu-intrepid-amd64": {
+      "id": "188001641",
+      "state": "passed",
+      "finished": "2020-10-04T05:08:00Z",
+      "duration": 122
+    },
+    "ubuntu-intrepid-amd64-minbase": {
+      "id": "188001650",
+      "state": "passed",
+      "finished": "2020-10-04T05:08:04Z",
+      "duration": 122
+    },
+    "ubuntu-intrepid-hppa": {
+      "id": "188001661",
+      "state": "failed",
+      "finished": "2020-10-04T05:06:57Z",
+      "duration": 49
+    },
+    "ubuntu-intrepid-hppa-minbase": {
+      "id": "188001670",
+      "state": "failed",
+      "finished": "2020-10-04T05:07:02Z",
+      "duration": 47
+    },
+    "ubuntu-intrepid-i386": {
+      "id": "188001673",
+      "state": "passed",
+      "finished": "2020-10-04T05:10:34Z",
+      "duration": 159
+    },
+    "ubuntu-intrepid-i386-minbase": {
+      "id": "188001679",
+      "state": "passed",
+      "finished": "2020-10-04T05:09:41Z",
+      "duration": 97
+    },
+    "ubuntu-intrepid-ia64": {
+      "id": "188001685",
+      "state": "failed",
+      "finished": "2020-10-04T05:09:48Z",
+      "duration": 47
+    },
+    "ubuntu-intrepid-ia64-minbase": {
+      "id": "188001692",
+      "state": "failed",
+      "finished": "2020-10-04T05:09:52Z",
+      "duration": 49
+    },
+    "ubuntu-intrepid-lpia": {
+      "id": "188001698",
+      "state": "passed",
+      "finished": "2020-10-04T05:13:24Z",
+      "duration": 162
+    },
+    "ubuntu-intrepid-lpia-minbase": {
+      "id": "188001699",
+      "state": "passed",
+      "finished": "2020-10-04T05:12:37Z",
+      "duration": 115
+    },
+    "ubuntu-intrepid-powerpc": {
+      "id": "188001700",
+      "state": "passed",
+      "finished": "2020-10-04T05:16:35Z",
+      "duration": 343
+    },
+    "ubuntu-intrepid-powerpc-minbase": {
+      "id": "188001705",
+      "state": "passed",
+      "finished": "2020-10-04T05:15:03Z",
+      "duration": 209
+    },
+    "ubuntu-intrepid-sparc": {
+      "id": "188001709",
+      "state": "failed",
+      "finished": "2020-10-04T05:15:48Z",
+      "duration": 130
+    },
+    "ubuntu-intrepid-sparc-minbase": {
+      "id": "188001712",
+      "state": "failed",
+      "finished": "2020-10-04T05:15:23Z",
+      "duration": 61
+    },
+    "ubuntu-jaunty-amd64": {
+      "id": "187996102",
+      "state": "passed",
+      "finished": "2020-10-04T01:08:37Z",
+      "duration": 162
+    },
+    "ubuntu-jaunty-amd64-minbase": {
+      "id": "187996105",
+      "state": "passed",
+      "finished": "2020-10-04T01:07:38Z",
+      "duration": 96
+    },
+    "ubuntu-jaunty-armel": {
+      "id": "187996106",
+      "state": "passed",
+      "finished": "2020-10-04T01:11:22Z",
+      "duration": 313
+    },
+    "ubuntu-jaunty-armel-minbase": {
+      "id": "187996111",
+      "state": "passed",
+      "finished": "2020-10-04T01:09:49Z",
+      "duration": 218
+    },
+    "ubuntu-jaunty-hppa": {
+      "id": "187996113",
+      "state": "failed",
+      "finished": "2020-10-04T01:09:25Z",
+      "duration": 48
+    },
+    "ubuntu-jaunty-hppa-minbase": {
+      "id": "187996114",
+      "state": "failed",
+      "finished": "2020-10-04T01:10:23Z",
+      "duration": 47
+    },
+    "ubuntu-jaunty-i386": {
+      "id": "187996115",
+      "state": "passed",
+      "finished": "2020-10-04T01:12:35Z",
+      "duration": 132
+    },
+    "ubuntu-jaunty-i386-minbase": {
+      "id": "187996117",
+      "state": "passed",
+      "finished": "2020-10-04T01:12:27Z",
+      "duration": 101
+    },
+    "ubuntu-jaunty-ia64": {
+      "id": "187996120",
+      "state": "failed",
+      "finished": "2020-10-04T01:12:14Z",
+      "duration": 50
+    },
+    "ubuntu-jaunty-ia64-minbase": {
+      "id": "187996122",
+      "state": "failed",
+      "finished": "2020-10-04T01:13:12Z",
+      "duration": 48
+    },
+    "ubuntu-jaunty-lpia": {
+      "id": "187996124",
+      "state": "passed",
+      "finished": "2020-10-04T01:16:15Z",
+      "duration": 180
+    },
+    "ubuntu-jaunty-lpia-minbase": {
+      "id": "187996125",
+      "state": "passed",
+      "finished": "2020-10-04T01:15:22Z",
+      "duration": 118
+    },
+    "ubuntu-jaunty-powerpc": {
+      "id": "187996127",
+      "state": "passed",
+      "finished": "2020-10-04T01:19:34Z",
+      "duration": 362
+    },
+    "ubuntu-jaunty-powerpc-minbase": {
+      "id": "187996128",
+      "state": "passed",
+      "finished": "2020-10-04T01:17:54Z",
+      "duration": 224
+    },
+    "ubuntu-jaunty-sparc": {
+      "id": "187996134",
+      "state": "failed",
+      "finished": "2020-10-04T01:18:40Z",
+      "duration": 138
+    },
+    "ubuntu-jaunty-sparc-minbase": {
+      "id": "187996138",
+      "state": "failed",
+      "finished": "2020-10-04T01:18:14Z",
+      "duration": 62
+    },
+    "ubuntu-karmic-amd64": {
+      "id": "187735912",
+      "state": "passed",
+      "finished": "2020-10-02T02:07:58Z",
+      "duration": 141
+    },
+    "ubuntu-karmic-amd64-minbase": {
+      "id": "187735923",
+      "state": "passed",
+      "finished": "2020-10-02T02:07:50Z",
+      "duration": 121
+    },
+    "ubuntu-karmic-armel": {
+      "id": "187735927",
+      "state": "passed",
+      "finished": "2020-10-02T02:12:12Z",
+      "duration": 367
+    },
+    "ubuntu-karmic-armel-minbase": {
+      "id": "187735931",
+      "state": "passed",
+      "finished": "2020-10-02T02:09:18Z",
+      "duration": 201
+    },
+    "ubuntu-karmic-i386": {
+      "id": "187735939",
+      "state": "passed",
+      "finished": "2020-10-02T02:11:14Z",
+      "duration": 140
+    },
+    "ubuntu-karmic-i386-minbase": {
+      "id": "187735943",
+      "state": "passed",
+      "finished": "2020-10-02T02:10:40Z",
+      "duration": 102
+    },
+    "ubuntu-karmic-ia64": {
+      "id": "187735947",
+      "state": "failed",
+      "finished": "2020-10-02T02:11:03Z",
+      "duration": 46
+    },
+    "ubuntu-karmic-ia64-minbase": {
+      "id": "187735951",
+      "state": "failed",
+      "finished": "2020-10-02T02:12:25Z",
+      "duration": 48
+    },
+    "ubuntu-karmic-lpia": {
+      "id": "187735958",
+      "state": "passed",
+      "finished": "2020-10-02T02:14:53Z",
+      "duration": 170
+    },
+    "ubuntu-karmic-lpia-minbase": {
+      "id": "187735961",
+      "state": "passed",
+      "finished": "2020-10-02T02:14:18Z",
+      "duration": 126
+    },
+    "ubuntu-karmic-powerpc": {
+      "id": "187735965",
+      "state": "passed",
+      "finished": "2020-10-02T02:20:26Z",
+      "duration": 431
+    },
+    "ubuntu-karmic-powerpc-minbase": {
+      "id": "187735970",
+      "state": "passed",
+      "finished": "2020-10-02T02:17:23Z",
+      "duration": 240
+    },
+    "ubuntu-karmic-sparc": {
+      "id": "187735972",
+      "state": "failed",
+      "finished": "2020-10-02T02:16:40Z",
+      "duration": 85
+    },
+    "ubuntu-karmic-sparc-minbase": {
+      "id": "187735975",
+      "state": "failed",
+      "finished": "2020-10-02T02:17:01Z",
+      "duration": 65
+    },
+    "ubuntu-lucid-amd64": {
+      "id": "188082229",
+      "state": "passed",
+      "finished": "2020-10-05T02:08:56Z",
+      "duration": 171
+    },
+    "ubuntu-lucid-amd64-minbase": {
+      "id": "188082234",
+      "state": "passed",
+      "finished": "2020-10-05T02:08:40Z",
+      "duration": 152
+    },
+    "ubuntu-lucid-armel": {
+      "id": "188082238",
+      "state": "passed",
+      "finished": "2020-10-05T02:12:28Z",
+      "duration": 373
+    },
+    "ubuntu-lucid-armel-minbase": {
+      "id": "188082239",
+      "state": "passed",
+      "finished": "2020-10-05T02:10:32Z",
+      "duration": 251
+    },
+    "ubuntu-lucid-i386": {
+      "id": "188082242",
+      "state": "passed",
+      "finished": "2020-10-05T02:12:30Z",
+      "duration": 160
+    },
+    "ubuntu-lucid-i386-minbase": {
+      "id": "188082254",
+      "state": "passed",
+      "finished": "2020-10-05T02:11:49Z",
+      "duration": 115
+    },
+    "ubuntu-lucid-ia64": {
+      "id": "188082257",
+      "state": "failed",
+      "finished": "2020-10-05T02:12:19Z",
+      "duration": 47
+    },
+    "ubuntu-lucid-ia64-minbase": {
+      "id": "188082259",
+      "state": "failed",
+      "finished": "2020-10-05T02:13:38Z",
+      "duration": 48
+    },
+    "ubuntu-lucid-powerpc": {
+      "id": "188082265",
+      "state": "passed",
+      "finished": "2020-10-05T02:19:56Z",
+      "duration": 396
+    },
+    "ubuntu-lucid-powerpc-minbase": {
+      "id": "188082267",
+      "state": "passed",
+      "finished": "2020-10-05T02:18:10Z",
+      "duration": 282
+    },
+    "ubuntu-lucid-sparc": {
+      "id": "188082271",
+      "state": "failed",
+      "finished": "2020-10-05T02:14:58Z",
+      "duration": 88
+    },
+    "ubuntu-lucid-sparc-minbase": {
+      "id": "188082280",
+      "state": "failed",
+      "finished": "2020-10-05T02:16:28Z",
+      "duration": 109
+    },
+    "ubuntu-maverick-amd64": {
+      "id": "188091768",
+      "state": "passed",
+      "finished": "2020-10-05T05:07:53Z",
+      "duration": 171
+    },
+    "ubuntu-maverick-amd64-minbase": {
+      "id": "188091774",
+      "state": "passed",
+      "finished": "2020-10-05T05:07:34Z",
+      "duration": 145
+    },
+    "ubuntu-maverick-armel": {
+      "id": "188091778",
+      "state": "passed",
+      "finished": "2020-10-05T05:10:18Z",
+      "duration": 306
+    },
+    "ubuntu-maverick-armel-minbase": {
+      "id": "188091783",
+      "state": "passed",
+      "finished": "2020-10-05T05:09:24Z",
+      "duration": 249
+    },
+    "ubuntu-maverick-i386": {
+      "id": "188091788",
+      "state": "passed",
+      "finished": "2020-10-05T05:10:43Z",
+      "duration": 129
+    },
+    "ubuntu-maverick-i386-minbase": {
+      "id": "188091790",
+      "state": "passed",
+      "finished": "2020-10-05T05:11:33Z",
+      "duration": 145
+    },
+    "ubuntu-maverick-powerpc": {
+      "id": "188091794",
+      "state": "passed",
+      "finished": "2020-10-05T05:16:27Z",
+      "duration": 363
+    },
+    "ubuntu-maverick-powerpc-minbase": {
+      "id": "188091801",
+      "state": "passed",
+      "finished": "2020-10-05T05:15:09Z",
+      "duration": 228
+    },
+    "ubuntu-natty-amd64": {
+      "id": "188515283",
+      "state": "passed",
+      "finished": "2020-10-07T06:06:54Z",
+      "duration": 130
+    },
+    "ubuntu-natty-amd64-minbase": {
+      "id": "188515291",
+      "state": "passed",
+      "finished": "2020-10-07T06:06:25Z",
+      "duration": 102
+    },
+    "ubuntu-natty-armel": {
+      "id": "188515296",
+      "state": "passed",
+      "finished": "2020-10-07T06:10:27Z",
+      "duration": 335
+    },
+    "ubuntu-natty-armel-minbase": {
+      "id": "188515303",
+      "state": "passed",
+      "finished": "2020-10-07T06:08:48Z",
+      "duration": 233
+    },
+    "ubuntu-natty-i386": {
+      "id": "188515312",
+      "state": "passed",
+      "finished": "2020-10-07T06:10:13Z",
+      "duration": 170
+    },
+    "ubuntu-natty-i386-minbase": {
+      "id": "188515318",
+      "state": "passed",
+      "finished": "2020-10-07T06:10:10Z",
+      "duration": 137
+    },
+    "ubuntu-natty-powerpc": {
+      "id": "188515336",
+      "state": "passed",
+      "finished": "2020-10-07T06:15:57Z",
+      "duration": 367
+    },
+    "ubuntu-natty-powerpc-minbase": {
+      "id": "188515351",
+      "state": "passed",
+      "finished": "2020-10-07T06:14:49Z",
+      "duration": 220
+    },
+    "ubuntu-oneiric-amd64": {
+      "id": "188699346",
+      "state": "passed",
+      "finished": "2020-10-07T23:08:02Z",
+      "duration": 129
+    },
+    "ubuntu-oneiric-amd64-minbase": {
+      "id": "188699356",
+      "state": "passed",
+      "finished": "2020-10-07T23:08:19Z",
+      "duration": 142
+    },
+    "ubuntu-oneiric-armel": {
+      "id": "188699364",
+      "state": "passed",
+      "finished": "2020-10-07T23:12:20Z",
+      "duration": 342
+    },
+    "ubuntu-oneiric-armel-minbase": {
+      "id": "188699371",
+      "state": "passed",
+      "finished": "2020-10-07T23:10:09Z",
+      "duration": 241
+    },
+    "ubuntu-oneiric-i386": {
+      "id": "188699380",
+      "state": "passed",
+      "finished": "2020-10-07T23:12:05Z",
+      "duration": 185
+    },
+    "ubuntu-oneiric-i386-minbase": {
+      "id": "188699386",
+      "state": "passed",
+      "finished": "2020-10-07T23:11:09Z",
+      "duration": 109
+    },
+    "ubuntu-oneiric-powerpc": {
+      "id": "188699393",
+      "state": "passed",
+      "finished": "2020-10-07T23:16:46Z",
+      "duration": 337
+    },
+    "ubuntu-oneiric-powerpc-minbase": {
+      "id": "188699403",
+      "state": "passed",
+      "finished": "2020-10-07T23:16:31Z",
+      "duration": 251
+    },
+    "ubuntu-precise-amd64": {
+      "id": "188505418",
+      "state": "passed",
+      "finished": "2020-10-07T04:08:28Z",
+      "duration": 177
+    },
+    "ubuntu-precise-amd64-minbase": {
+      "id": "188505425",
+      "state": "passed",
+      "finished": "2020-10-07T04:07:56Z",
+      "duration": 142
+    },
+    "ubuntu-precise-armel": {
+      "id": "188505435",
+      "state": "passed",
+      "finished": "2020-10-07T04:11:24Z",
+      "duration": 346
+    },
+    "ubuntu-precise-armel-minbase": {
+      "id": "188505442",
+      "state": "passed",
+      "finished": "2020-10-07T04:09:59Z",
+      "duration": 249
+    },
+    "ubuntu-precise-armhf": {
+      "id": "188505450",
+      "state": "passed",
+      "finished": "2020-10-07T04:14:33Z",
+      "duration": 342
+    },
+    "ubuntu-precise-armhf-minbase": {
+      "id": "188505459",
+      "state": "passed",
+      "finished": "2020-10-07T04:13:50Z",
+      "duration": 259
+    },
+    "ubuntu-precise-i386": {
+      "id": "188505469",
+      "state": "passed",
+      "finished": "2020-10-07T04:13:46Z",
+      "duration": 169
+    },
+    "ubuntu-precise-i386-minbase": {
+      "id": "188505481",
+      "state": "passed",
+      "finished": "2020-10-07T04:14:47Z",
+      "duration": 143
+    },
+    "ubuntu-precise-powerpc": {
+      "id": "188505485",
+      "state": "passed",
+      "finished": "2020-10-07T04:21:50Z",
+      "duration": 422
+    },
+    "ubuntu-precise-powerpc-minbase": {
+      "id": "188505494",
+      "state": "passed",
+      "finished": "2020-10-07T04:19:13Z",
+      "duration": 262
+    },
+    "ubuntu-quantal-amd64": {
+      "id": "188088803",
+      "state": "passed",
+      "finished": "2020-10-05T04:07:34Z",
+      "duration": 167
+    },
+    "ubuntu-quantal-amd64-minbase": {
+      "id": "188088808",
+      "state": "passed",
+      "finished": "2020-10-05T04:07:20Z",
+      "duration": 144
+    },
+    "ubuntu-quantal-armel": {
+      "id": "188088809",
+      "state": "passed",
+      "finished": "2020-10-05T04:10:55Z",
+      "duration": 358
+    },
+    "ubuntu-quantal-armel-minbase": {
+      "id": "188088811",
+      "state": "passed",
+      "finished": "2020-10-05T04:08:58Z",
+      "duration": 234
+    },
+    "ubuntu-quantal-armhf": {
+      "id": "188088815",
+      "state": "passed",
+      "finished": "2020-10-05T04:13:46Z",
+      "duration": 329
+    },
+    "ubuntu-quantal-armhf-minbase": {
+      "id": "188088818",
+      "state": "passed",
+      "finished": "2020-10-05T04:12:06Z",
+      "duration": 214
+    },
+    "ubuntu-quantal-i386": {
+      "id": "188088819",
+      "state": "passed",
+      "finished": "2020-10-05T04:12:07Z",
+      "duration": 128
+    },
+    "ubuntu-quantal-i386-minbase": {
+      "id": "188088822",
+      "state": "passed",
+      "finished": "2020-10-05T04:13:50Z",
+      "duration": 113
+    },
+    "ubuntu-quantal-powerpc": {
+      "id": "188088824",
+      "state": "passed",
+      "finished": "2020-10-05T04:19:32Z",
+      "duration": 387
+    },
+    "ubuntu-quantal-powerpc-minbase": {
+      "id": "188088828",
+      "state": "passed",
+      "finished": "2020-10-05T04:17:35Z",
+      "duration": 260
+    },
+    "ubuntu-raring-amd64": {
+      "id": "187930078",
+      "state": "passed",
+      "finished": "2020-10-03T01:09:18Z",
+      "duration": 188
+    },
+    "ubuntu-raring-amd64-minbase": {
+      "id": "187930089",
+      "state": "passed",
+      "finished": "2020-10-03T01:08:40Z",
+      "duration": 142
+    },
+    "ubuntu-raring-armhf": {
+      "id": "187930092",
+      "state": "passed",
+      "finished": "2020-10-03T01:11:59Z",
+      "duration": 338
+    },
+    "ubuntu-raring-armhf-minbase": {
+      "id": "187930096",
+      "state": "passed",
+      "finished": "2020-10-03T01:10:28Z",
+      "duration": 240
+    },
+    "ubuntu-raring-i386": {
+      "id": "187930101",
+      "state": "passed",
+      "finished": "2020-10-03T01:11:52Z",
+      "duration": 131
+    },
+    "ubuntu-raring-i386-minbase": {
+      "id": "187930102",
+      "state": "passed",
+      "finished": "2020-10-03T01:12:01Z",
+      "duration": 105
+    },
+    "ubuntu-raring-powerpc": {
+      "id": "187930105",
+      "state": "passed",
+      "finished": "2020-10-03T01:17:07Z",
+      "duration": 340
+    },
+    "ubuntu-raring-powerpc-minbase": {
+      "id": "187930112",
+      "state": "passed",
+      "finished": "2020-10-03T01:17:10Z",
+      "duration": 257
+    },
+    "ubuntu-saucy-amd64": {
+      "id": "188074987",
+      "state": "passed",
+      "finished": "2020-10-04T23:08:02Z",
+      "duration": 142
+    },
+    "ubuntu-saucy-amd64-minbase": {
+      "id": "188074993",
+      "state": "passed",
+      "finished": "2020-10-04T23:08:13Z",
+      "duration": 146
+    },
+    "ubuntu-saucy-arm64": {
+      "id": "188074998",
+      "state": "passed",
+      "finished": "2020-10-04T23:10:46Z",
+      "duration": 298
+    },
+    "ubuntu-saucy-arm64-minbase": {
+      "id": "188075002",
+      "state": "passed",
+      "finished": "2020-10-04T23:09:15Z",
+      "duration": 200
+    },
+    "ubuntu-saucy-armhf": {
+      "id": "188075008",
+      "state": "passed",
+      "finished": "2020-10-04T23:15:09Z",
+      "duration": 366
+    },
+    "ubuntu-saucy-armhf-minbase": {
+      "id": "188075010",
+      "state": "passed",
+      "finished": "2020-10-04T23:13:18Z",
+      "duration": 247
+    },
+    "ubuntu-saucy-i386": {
+      "id": "188075016",
+      "state": "passed",
+      "finished": "2020-10-04T23:13:02Z",
+      "duration": 169
+    },
+    "ubuntu-saucy-i386-minbase": {
+      "id": "188075035",
+      "state": "passed",
+      "finished": "2020-10-04T23:14:07Z",
+      "duration": 141
+    },
+    "ubuntu-saucy-powerpc": {
+      "id": "188075037",
+      "state": "passed",
+      "finished": "2020-10-04T23:20:45Z",
+      "duration": 401
+    },
+    "ubuntu-saucy-powerpc-minbase": {
+      "id": "188075038",
+      "state": "passed",
+      "finished": "2020-10-04T23:18:36Z",
+      "duration": 257
+    },
+    "ubuntu-trusty-amd64": {
+      "id": "187749760",
+      "state": "passed",
+      "finished": "2020-10-02T06:09:35Z",
+      "duration": 204
+    },
+    "ubuntu-trusty-amd64-minbase": {
+      "id": "187749770",
+      "state": "passed",
+      "finished": "2020-10-02T06:08:35Z",
+      "duration": 144
+    },
+    "ubuntu-trusty-arm64": {
+      "id": "187749776",
+      "state": "passed",
+      "finished": "2020-10-02T06:12:07Z",
+      "duration": 360
+    },
+    "ubuntu-trusty-arm64-minbase": {
+      "id": "187749783",
+      "state": "passed",
+      "finished": "2020-10-02T06:10:19Z",
+      "duration": 245
+    },
+    "ubuntu-trusty-armhf": {
+      "id": "187749791",
+      "state": "passed",
+      "finished": "2020-10-02T06:16:10Z",
+      "duration": 394
+    },
+    "ubuntu-trusty-armhf-minbase": {
+      "id": "187749799",
+      "state": "passed",
+      "finished": "2020-10-02T06:14:39Z",
+      "duration": 244
+    },
+    "ubuntu-trusty-i386": {
+      "id": "187749806",
+      "state": "passed",
+      "finished": "2020-10-02T06:14:37Z",
+      "duration": 198
+    },
+    "ubuntu-trusty-i386-minbase": {
+      "id": "187749810",
+      "state": "passed",
+      "finished": "2020-10-02T06:15:21Z",
+      "duration": 137
+    },
+    "ubuntu-trusty-powerpc": {
+      "id": "187749815",
+      "state": "passed",
+      "finished": "2020-10-02T06:22:50Z",
+      "duration": 433
+    },
+    "ubuntu-trusty-powerpc-minbase": {
+      "id": "187749821",
+      "state": "passed",
+      "finished": "2020-10-02T06:20:23Z",
+      "duration": 281
+    },
+    "ubuntu-trusty-ppc64el": {
+      "id": "187749826",
+      "state": "passed",
+      "finished": "2020-10-02T06:23:50Z",
+      "duration": 448
+    },
+    "ubuntu-trusty-ppc64el-minbase": {
+      "id": "187749831",
+      "state": "passed",
+      "finished": "2020-10-02T06:21:36Z",
+      "duration": 268
+    },
+    "ubuntu-utopic-amd64": {
+      "id": "188095930",
+      "state": "passed",
+      "finished": "2020-10-05T06:08:00Z",
+      "duration": 164
+    },
+    "ubuntu-utopic-amd64-minbase": {
+      "id": "188095932",
+      "state": "passed",
+      "finished": "2020-10-05T06:08:08Z",
+      "duration": 161
+    },
+    "ubuntu-utopic-arm64": {
+      "id": "188095938",
+      "state": "passed",
+      "finished": "2020-10-05T06:11:18Z",
+      "duration": 350
+    },
+    "ubuntu-utopic-arm64-minbase": {
+      "id": "188095948",
+      "state": "passed",
+      "finished": "2020-10-05T06:09:23Z",
+      "duration": 232
+    },
+    "ubuntu-utopic-armhf": {
+      "id": "188095954",
+      "state": "passed",
+      "finished": "2020-10-05T06:15:18Z",
+      "duration": 378
+    },
+    "ubuntu-utopic-armhf-minbase": {
+      "id": "188095963",
+      "state": "passed",
+      "finished": "2020-10-05T06:14:12Z",
+      "duration": 301
+    },
+    "ubuntu-utopic-i386": {
+      "id": "188095974",
+      "state": "passed",
+      "finished": "2020-10-05T06:14:00Z",
+      "duration": 213
+    },
+    "ubuntu-utopic-i386-minbase": {
+      "id": "188095978",
+      "state": "passed",
+      "finished": "2020-10-05T06:14:26Z",
+      "duration": 129
+    },
+    "ubuntu-utopic-powerpc": {
+      "id": "188095982",
+      "state": "passed",
+      "finished": "2020-10-05T06:22:12Z",
+      "duration": 434
+    },
+    "ubuntu-utopic-powerpc-minbase": {
+      "id": "188095990",
+      "state": "passed",
+      "finished": "2020-10-05T06:20:15Z",
+      "duration": 304
+    },
+    "ubuntu-utopic-ppc64el": {
+      "id": "188096000",
+      "state": "passed",
+      "finished": "2020-10-05T06:23:53Z",
+      "duration": 500
+    },
+    "ubuntu-utopic-ppc64el-minbase": {
+      "id": "188096005",
+      "state": "passed",
+      "finished": "2020-10-05T06:20:53Z",
+      "duration": 274
+    },
+    "ubuntu-vivid-amd64": {
+      "id": "188479257",
+      "state": "passed",
+      "finished": "2020-10-06T23:10:25Z",
+      "duration": 250
+    },
+    "ubuntu-vivid-amd64-minbase": {
+      "id": "188479266",
+      "state": "passed",
+      "finished": "2020-10-06T23:08:45Z",
+      "duration": 143
+    },
+    "ubuntu-vivid-arm64": {
+      "id": "188479273",
+      "state": "passed",
+      "finished": "2020-10-06T23:12:57Z",
+      "duration": 386
+    },
+    "ubuntu-vivid-arm64-minbase": {
+      "id": "188479279",
+      "state": "passed",
+      "finished": "2020-10-06T23:10:25Z",
+      "duration": 237
+    },
+    "ubuntu-vivid-armhf": {
+      "id": "188479284",
+      "state": "passed",
+      "finished": "2020-10-06T23:16:31Z",
+      "duration": 399
+    },
+    "ubuntu-vivid-armhf-minbase": {
+      "id": "188479301",
+      "state": "passed",
+      "finished": "2020-10-06T23:15:08Z",
+      "duration": 223
+    },
+    "ubuntu-vivid-i386": {
+      "id": "188479313",
+      "state": "passed",
+      "finished": "2020-10-06T23:13:59Z",
+      "duration": 156
+    },
+    "ubuntu-vivid-i386-minbase": {
+      "id": "188479320",
+      "state": "passed",
+      "finished": "2020-10-06T23:16:16Z",
+      "duration": 134
+    },
+    "ubuntu-vivid-powerpc": {
+      "id": "188479324",
+      "state": "passed",
+      "finished": "2020-10-06T23:23:24Z",
+      "duration": 507
+    },
+    "ubuntu-vivid-powerpc-minbase": {
+      "id": "188479330",
+      "state": "passed",
+      "finished": "2020-10-06T23:20:20Z",
+      "duration": 249
+    },
+    "ubuntu-vivid-ppc64el": {
+      "id": "188479338",
+      "state": "passed",
+      "finished": "2020-10-06T23:25:06Z",
+      "duration": 473
+    },
+    "ubuntu-vivid-ppc64el-minbase": {
+      "id": "188479347",
+      "state": "passed",
+      "finished": "2020-10-06T23:21:48Z",
+      "duration": 257
+    },
+    "ubuntu-warty-amd64": {
+      "id": "187739174",
+      "state": "failed",
+      "finished": "2020-10-02T03:07:40Z",
+      "duration": 50
+    },
+    "ubuntu-warty-amd64-minbase": {
+      "id": "187739177",
+      "state": "failed",
+      "finished": "2020-10-02T03:07:44Z",
+      "duration": 51
+    },
+    "ubuntu-warty-i386": {
+      "id": "187739159",
+      "state": "failed",
+      "finished": "2020-10-02T03:07:18Z",
+      "duration": 47
+    },
+    "ubuntu-warty-i386-minbase": {
+      "id": "187739169",
+      "state": "failed",
+      "finished": "2020-10-02T03:07:31Z",
+      "duration": 48
+    },
+    "ubuntu-warty-powerpc": {
+      "id": "187739180",
+      "state": "failed",
+      "finished": "2020-10-02T03:09:07Z",
+      "duration": 49
+    },
+    "ubuntu-warty-powerpc-minbase": {
+      "id": "187739183",
+      "state": "failed",
+      "finished": "2020-10-02T03:09:21Z",
+      "duration": 49
+    },
+    "ubuntu-wily-amd64": {
+      "id": "188298846",
+      "state": "passed",
+      "finished": "2020-10-06T00:08:22Z",
+      "duration": 195
+    },
+    "ubuntu-wily-amd64-minbase": {
+      "id": "188298849",
+      "state": "passed",
+      "finished": "2020-10-06T00:07:33Z",
+      "duration": 144
+    },
+    "ubuntu-wily-arm64": {
+      "id": "188298852",
+      "state": "passed",
+      "finished": "2020-10-06T00:12:36Z",
+      "duration": 444
+    },
+    "ubuntu-wily-arm64-minbase": {
+      "id": "188298862",
+      "state": "passed",
+      "finished": "2020-10-06T00:09:06Z",
+      "duration": 226
+    },
+    "ubuntu-wily-armhf": {
+      "id": "188298871",
+      "state": "passed",
+      "finished": "2020-10-06T00:16:47Z",
+      "duration": 494
+    },
+    "ubuntu-wily-armhf-minbase": {
+      "id": "188298876",
+      "state": "passed",
+      "finished": "2020-10-06T00:13:23Z",
+      "duration": 241
+    },
+    "ubuntu-wily-i386": {
+      "id": "188298882",
+      "state": "passed",
+      "finished": "2020-10-06T00:13:23Z",
+      "duration": 198
+    },
+    "ubuntu-wily-i386-minbase": {
+      "id": "188298891",
+      "state": "passed",
+      "finished": "2020-10-06T00:15:58Z",
+      "duration": 144
+    },
+    "ubuntu-wily-powerpc": {
+      "id": "188298897",
+      "state": "passed",
+      "finished": "2020-10-06T00:23:03Z",
+      "duration": 522
+    },
+    "ubuntu-wily-powerpc-minbase": {
+      "id": "188298905",
+      "state": "passed",
+      "finished": "2020-10-06T00:18:53Z",
+      "duration": 270
+    },
+    "ubuntu-wily-ppc64el": {
+      "id": "188298915",
+      "state": "passed",
+      "finished": "2020-10-06T00:26:20Z",
+      "duration": 561
+    },
+    "ubuntu-wily-ppc64el-minbase": {
+      "id": "188298921",
+      "state": "passed",
+      "finished": "2020-10-06T00:22:26Z",
+      "duration": 282
+    },
+    "ubuntu-xenial-amd64": {
+      "id": "187745782",
+      "state": "passed",
+      "finished": "2020-10-02T05:09:23Z",
+      "duration": 196
+    },
+    "ubuntu-xenial-amd64-minbase": {
+      "id": "187745789",
+      "state": "passed",
+      "finished": "2020-10-02T05:08:33Z",
+      "duration": 140
+    },
+    "ubuntu-xenial-arm64": {
+      "id": "187745795",
+      "state": "passed",
+      "finished": "2020-10-02T05:12:54Z",
+      "duration": 398
+    },
+    "ubuntu-xenial-arm64-minbase": {
+      "id": "187745796",
+      "state": "passed",
+      "finished": "2020-10-02T05:10:31Z",
+      "duration": 248
+    },
+    "ubuntu-xenial-armhf": {
+      "id": "187745802",
+      "state": "passed",
+      "finished": "2020-10-02T05:16:53Z",
+      "duration": 437
+    },
+    "ubuntu-xenial-armhf-minbase": {
+      "id": "187745805",
+      "state": "passed",
+      "finished": "2020-10-02T05:14:40Z",
+      "duration": 257
+    },
+    "ubuntu-xenial-i386": {
+      "id": "187745817",
+      "state": "passed",
+      "finished": "2020-10-02T05:14:51Z",
+      "duration": 199
+    },
+    "ubuntu-xenial-i386-minbase": {
+      "id": "187745821",
+      "state": "passed",
+      "finished": "2020-10-02T05:16:11Z",
+      "duration": 141
+    },
+    "ubuntu-xenial-powerpc": {
+      "id": "187745827",
+      "state": "passed",
+      "finished": "2020-10-02T05:23:54Z",
+      "duration": 495
+    },
+    "ubuntu-xenial-powerpc-minbase": {
+      "id": "187745835",
+      "state": "passed",
+      "finished": "2020-10-02T05:20:51Z",
+      "duration": 300
+    },
+    "ubuntu-xenial-ppc64el": {
+      "id": "187745838",
+      "state": "passed",
+      "finished": "2020-10-02T05:25:59Z",
+      "duration": 527
+    },
+    "ubuntu-xenial-ppc64el-minbase": {
+      "id": "187745847",
+      "state": "passed",
+      "finished": "2020-10-02T05:22:53Z",
+      "duration": 301
+    },
+    "ubuntu-xenial-s390x": {
+      "id": "187745849",
+      "state": "failed",
+      "finished": "2020-10-02T05:26:41Z",
+      "duration": 289
+    },
+    "ubuntu-xenial-s390x-minbase": {
+      "id": "187745855",
+      "state": "failed",
+      "finished": "2020-10-02T05:28:06Z",
+      "duration": 253
+    },
+    "ubuntu-yakkety-amd64": {
+      "id": "187728738",
+      "state": "passed",
+      "finished": "2020-10-02T00:08:27Z",
+      "duration": 164
+    },
+    "ubuntu-yakkety-amd64-minbase": {
+      "id": "187728744",
+      "state": "passed",
+      "finished": "2020-10-02T00:07:36Z",
+      "duration": 107
+    },
+    "ubuntu-yakkety-arm64": {
+      "id": "187728757",
+      "state": "passed",
+      "finished": "2020-10-02T00:12:15Z",
+      "duration": 382
+    },
+    "ubuntu-yakkety-arm64-minbase": {
+      "id": "187728764",
+      "state": "passed",
+      "finished": "2020-10-02T00:08:55Z",
+      "duration": 179
+    },
+    "ubuntu-yakkety-armhf": {
+      "id": "187728770",
+      "state": "passed",
+      "finished": "2020-10-02T00:15:53Z",
+      "duration": 431
+    },
+    "ubuntu-yakkety-armhf-minbase": {
+      "id": "187728780",
+      "state": "passed",
+      "finished": "2020-10-02T00:12:32Z",
+      "duration": 186
+    },
+    "ubuntu-yakkety-i386": {
+      "id": "187728788",
+      "state": "passed",
+      "finished": "2020-10-02T00:13:34Z",
+      "duration": 216
+    },
+    "ubuntu-yakkety-i386-minbase": {
+      "id": "187728800",
+      "state": "passed",
+      "finished": "2020-10-02T00:15:08Z",
+      "duration": 114
+    },
+    "ubuntu-yakkety-powerpc": {
+      "id": "187728810",
+      "state": "passed",
+      "finished": "2020-10-02T00:20:32Z",
+      "duration": 419
+    },
+    "ubuntu-yakkety-powerpc-minbase": {
+      "id": "187728818",
+      "state": "passed",
+      "finished": "2020-10-02T00:17:21Z",
+      "duration": 171
+    },
+    "ubuntu-yakkety-ppc64el": {
+      "id": "187728823",
+      "state": "passed",
+      "finished": "2020-10-02T00:23:53Z",
+      "duration": 464
+    },
+    "ubuntu-yakkety-ppc64el-minbase": {
+      "id": "187728831",
+      "state": "passed",
+      "finished": "2020-10-02T00:19:51Z",
+      "duration": 177
+    },
+    "ubuntu-yakkety-s390x": {
+      "id": "187728837",
+      "state": "passed",
+      "finished": "2020-10-02T00:24:41Z",
+      "duration": 384
+    },
+    "ubuntu-yakkety-s390x-minbase": {
+      "id": "187728851",
+      "state": "passed",
+      "finished": "2020-10-02T00:23:53Z",
+      "duration": 180
+    },
+    "ubuntu-zesty-amd64": {
+      "id": "187923666",
+      "state": "passed",
+      "finished": "2020-10-02T23:08:38Z",
+      "duration": 238
+    },
+    "ubuntu-zesty-amd64-minbase": {
+      "id": "187923678",
+      "state": "passed",
+      "finished": "2020-10-02T23:06:47Z",
+      "duration": 123
+    },
+    "ubuntu-zesty-arm64": {
+      "id": "187923680",
+      "state": "passed",
+      "finished": "2020-10-02T23:10:02Z",
+      "duration": 315
+    },
+    "ubuntu-zesty-arm64-minbase": {
+      "id": "187923684",
+      "state": "passed",
+      "finished": "2020-10-02T23:07:35Z",
+      "duration": 161
+    },
+    "ubuntu-zesty-armhf": {
+      "id": "187923692",
+      "state": "passed",
+      "finished": "2020-10-02T23:14:05Z",
+      "duration": 382
+    },
+    "ubuntu-zesty-armhf-minbase": {
+      "id": "187923705",
+      "state": "passed",
+      "finished": "2020-10-02T23:10:52Z",
+      "duration": 139
+    },
+    "ubuntu-zesty-i386": {
+      "id": "187923711",
+      "state": "passed",
+      "finished": "2020-10-02T23:13:24Z",
+      "duration": 223
+    },
+    "ubuntu-zesty-i386-minbase": {
+      "id": "187923717",
+      "state": "passed",
+      "finished": "2020-10-02T23:12:45Z",
+      "duration": 102
+    },
+    "ubuntu-zesty-ppc64el": {
+      "id": "187923721",
+      "state": "passed",
+      "finished": "2020-10-02T23:19:47Z",
+      "duration": 474
+    },
+    "ubuntu-zesty-ppc64el-minbase": {
+      "id": "187923726",
+      "state": "passed",
+      "finished": "2020-10-02T23:16:20Z",
+      "duration": 153
+    },
+    "ubuntu-zesty-s390x": {
+      "id": "187923733",
+      "state": "passed",
+      "finished": "2020-10-02T23:19:54Z",
+      "duration": 330
+    },
+    "ubuntu-zesty-s390x-minbase": {
+      "id": "187923755",
+      "state": "passed",
+      "finished": "2020-10-02T23:17:47Z",
+      "duration": 161
+    }
+  }
+}

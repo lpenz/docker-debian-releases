@@ -1,0 +1,16 @@
+{{ "#!/bin/bash" }}
+
+set -e -x
+
+{{ range $_, $repo := .releaseInfos -}}
+{{ if (eq (stringsIndex $repo.Suite "-") -1) -}}
+{{ range $a := $repo.Architectures -}}
+{{ if (eq (stringsIndex $a "-") -1) -}}
+{{ $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a) -}}
+git push -f origin HEAD:{{$branch}}
+git push -f origin HEAD:{{$branch}}-minbase
+{{ end -}}
+{{ end -}}
+{{ end -}}
+{{ end -}}
+
