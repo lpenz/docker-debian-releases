@@ -12,9 +12,6 @@ if False:
 env = Environment(ENV=os.environ)
 
 env.Command('_apt-mirrors.json', ['apt-mirrors-info'], './$SOURCE $TARGET')
-env.Command('_travis-branch-jobs.json',
-            ['_apt-mirrors.json', 'travis-branch-jobs'],
-            './travis-branch-jobs $SOURCE $TARGET')
 
 
 def jsonRender(target, source, jsons):
@@ -29,7 +26,7 @@ def jsonRender(target, source, jsons):
 jsonRender(
     'index.md',
     'index.md.tmpl',
-    jsons=['_apt-mirrors.json', '_travis-branch-jobs.json'])
+    jsons=['_apt-mirrors.json'])
 jsonRender(
     'git-update-image-branches',
     'git-update-image-branches.tmpl',
@@ -42,7 +39,6 @@ for gobase in [
         'docker-manifest-set-arch',
         'json-tmpl-render',
         'spurious-branches',
-        'travis-branch-jobs',
 ]:
     env.Command(gobase,
                 [pjoin('go/cmd', gobase, 'main.go'), 'go/common/common.go'],

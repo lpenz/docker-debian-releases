@@ -1,0 +1,70 @@
+---
+# Copyright (C) 2021 Leandro Lisboa Penz <lpenz@lpenz.org>
+# This file is subject to the terms and conditions defined in
+# file 'LICENSE', which is part of this source code package.
+name: CI
+on: [ push, pull_request ]
+jobs:
+  omnilint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: docker://lpenz/omnilint:v0.2
+  isdistro:
+    runs-on: ubuntu-latest
+    outputs:
+      isdistro: ${{ steps.branch.outputs.isdistro }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: branch
+        run: ./branch-info
+  build:
+    runs-on: ubuntu-latest
+    needs: [ isdistro ]
+    if: needs.isdistro.outputs.isdistro == 'true'
+    steps:
+      - run: >
+          sudo apt-get install -y --no-install-recommends
+          scons debootstrap golang golang-golang-x-net-dev
+      - uses: docker/setup-qemu-action@v1
+      - uses: actions/checkout@v2
+      # - run: sudo cp -Rd debootstrap_scripts/* /usr/share/debootstrap/scripts/
+      - run: scons dockerhub-set-descriptions docker-manifest-set-arch
+      - id: branch
+        run: ./branch-info
+      - id: build
+        run: >
+          ./docker-create-debian-image
+          -m "${{ steps.branch.outputs.mirror }}"
+          -i "${{ secrets.DOCKERHUB_USERNAME }}/${{ steps.branch.outputs.image }}"
+          "${{ steps.branch.outputs.dist }}"
+          "${{ steps.branch.outputs.arch }}"
+      - uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - run: docker push "${{ secrets.DOCKERHUB_USERNAME }}/${{ steps.branch.outputs.image }}"
+      - run: >
+          ./dockerhub-set-descriptions
+          "${{ secrets.DOCKERHUB_USERNAME }}/${{ steps.branch.outputs.image }}"
+          "${{ steps.build.outputs.description }}"
+          "Automatically updated via https://github.com/lpenz/docker-debian-releases/"
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+  status-page:
+    runs-on: ubuntu-latest
+    needs: [ isdistro ]
+    if: needs.isdistro.outputs.isdistro != 'true'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/status-page
+      - run: rm -f .gitignore
+      - name: deploy
+        if: github.ref == 'refs/heads/main'
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: .
+          single-commit: true
+          clean: true

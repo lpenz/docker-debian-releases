@@ -5,7 +5,7 @@ The
 [docker-debian-releases](https://github.com/lpenz/docker-debian-releases)
 repository creates docker images of Debian-based system using
 debootstrap, for various architectures, and uploads them to [docker
-hub](https://hub.docker.com/r/lpenz/) using travis.
+hub](https://hub.docker.com/r/lpenz/) using github actions.
 
 The tables below detail the result of the latest build attempt, and
 links to the image in [docker hub](https://hub.docker.com/r/lpenz/) if
@@ -55,27 +55,10 @@ Most of the errors are caused by:
     <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$repo.Date}}</td><td>{{$a}}</td>
 {{- range $suffix := $suffixes }}
 {{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a $suffix) }}
-{{- $build := (index $.branchBuilds $branch) }}
-{{- $state := "notfound" }}
-{{- $buildid := "" }}
-{{- if not (isNil $build) }}
-{{- $state = $build.state }}
-{{- $buildid = $build.id }}
-{{- end }}
     <td>
-{{- if eq $state "passed" }}
         <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
-            <img alt="{{$state}}" src="https://img.shields.io/docker/pulls/lpenz/{{$branch}}.svg" />
+            <img src="https://github.com/lpenz/docker-debian-releases/actions/workflows/ci.yml/badge.svg?branch={{$branch}}" />
         </a>
-{{- else if eq $state "errored" "failed" "notfound" }}
-        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$buildid}}">
-            <img alt="{{$state}}" src="build-{{$state}}.svg" />
-        </a>
-{{- else }}
-        <a href="https://travis-ci.com/lpenz/docker-debian-releases/builds/{{$buildid}}">
-            <img alt="{{$state}}" src="https://img.shields.io/badge/build-{{$state}}-blueviolet.svg" />
-        </a>
-{{- end }}
     </td>
 {{- end }}
 </tr>

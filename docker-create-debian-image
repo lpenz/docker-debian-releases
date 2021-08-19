@@ -9,7 +9,7 @@ qemu=false
 mirrorCandidates=()
 raspbian=false
 
-while getopts ":ki:qm:p:t:h" opt; do
+while getopts ":ki:qm:t:h" opt; do
     case "$opt" in
         k) keepdir=true;;
         i) image="$OPTARG";;
@@ -34,7 +34,6 @@ while getopts ":ki:qm:p:t:h" opt; do
             fi
             ;;
         t) variant="$OPTARG";;
-        p) dumpvars="$OPTARG";;
         h) echo "$usage"; exit 0;;
         \?) printf "Invalid argument\\n%s\\n" "$usage" >&2; exit 1;;
     esac
@@ -72,7 +71,6 @@ function cleanup {
 trap cleanup EXIT
 
 # Build debootstrap commnad-line
-
 image=${image-"${mirror}-${dist}-${arch}"}
 name=${image##*/}
 
@@ -146,14 +144,6 @@ if [ -f "$dir/etc/apt/sources.list" ]; then
     cat "$dir/etc/apt/sources.list"
 fi
 
-# Dump image info in dumpvars file
-if [ -n "$dumpvars" ]; then
-    cat > "$dumpvars" <<EOF
-IMAGE="$image"
-DESCRIPTION="$description"
-EOF
-fi
-
 # Create .tar and import docker image:
 sudo tar -C "$dir" -c . | \
     docker import \
@@ -165,8 +155,10 @@ imagetar="${image##*/}.tar"
 docker save "$image" > "${imagetar}.tmp"
 docker rmi "$image"
 ./docker-manifest-set-arch "$arch" "${imagetar}.tmp" "${imagetar}"
-docker load < "${imagetar}"
+docker load --input "${imagetar}"
 # Test
 docker run --rm "$image" /bin/bash -c "true"
 docker inspect "$image"
 
+# github action output
+echo "::set-output name=description::$description"

@@ -1,0 +1,5 @@
+---
+name: status-page
+runs:
+  using: docker
+  image: Dockerfile
