@@ -57,7 +57,8 @@ Most of the errors are caused by:
 {{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a $suffix) }}
     <td>
         <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
-            <img src="https://github.com/lpenz/docker-debian-releases/actions/workflows/ci.yml/badge.svg?branch={{$branch}}" />
+            <!-- <img src="https://github.com/lpenz/docker-debian-releases/actions/workflows/ci.yml/badge.svg?branch={{$branch}}" /> -->
+            <img src="https://img.shields.io/github/workflow/status/lpenz/docker-debian-releases/CI/{{$branch}}" />
         </a>
     </td>
 {{- end }}
