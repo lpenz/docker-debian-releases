@@ -53,6 +53,7 @@ func main() {
 	// Add some innocent branches to list:
 	allBranches["HEAD"] = true
 	allBranches["master"] = true
+	allBranches["main"] = true
 	allBranches["devel"] = true
 	allBranches["gh-pages"] = true
 	for _, b := range gitAllBranches() {
