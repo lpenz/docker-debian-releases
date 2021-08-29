@@ -1,7 +1,8 @@
-FROM debian:buster
+FROM debian:bullseye
 MAINTAINER Leandro Lisboa Penz <lpenz@lpenz.org>
 
-ENV DEBIAN_FRONTEND noninteractive
+# install debian packages:
+ENV DEBIAN_FRONTEND=noninteractive
 RUN set -e -x; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
@@ -9,10 +10,9 @@ RUN set -e -x; \
         golang golang-golang-x-net-dev
 
 # setup su and locale
-RUN set -x -e; \
+RUN set -e -x; \
     sed -i '/pam_rootok.so$/aauth sufficient pam_permit.so' /etc/pam.d/su; \
-    echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen; \
-    locale-gen
+    echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen; locale-gen
 ENV LC_ALL=en_US.UTF-8
 
 # setup Debian GOPATH
