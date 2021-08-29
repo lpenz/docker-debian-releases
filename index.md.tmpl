@@ -55,10 +55,14 @@ Most of the errors are caused by:
     <td>{{$repo.Codename}}</td><td>{{$repo.Version}}</td><td>{{$repo.Date}}</td><td>{{$a}}</td>
 {{- range $suffix := $suffixes }}
 {{- $branch := (print ($repo.Origin | ToLower) "-" $repo.Codename "-" $a $suffix) }}
+{{- $build := (index $.branchWorkflowRuns $branch) }}
+{{- $state := "notfound" }}
+{{- if not (isNil $build) }}
+{{- $state = $build.state }}
+{{- end }}
     <td>
-        <a href="https://hub.docker.com/r/lpenz/{{$branch}}">
-            <!-- <img src="https://github.com/lpenz/docker-debian-releases/actions/workflows/ci.yml/badge.svg?branch={{$branch}}" /> -->
-            <img src="https://img.shields.io/github/workflow/status/lpenz/docker-debian-releases/CI/{{$branch}}" />
+        <a href="https://github.com/lpenz/docker-debian-releases/actions?query=branch%3A{{$branch}}">
+            <img alt="{{$state}}" src="build-{{$state}}.svg" />
         </a>
     </td>
 {{- end }}

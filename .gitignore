@@ -11,4 +11,4 @@ _*
 /git-update-image-branches
 /json-tmpl-render
 /spurious-branches
-/travis-branch-jobs
+/github-branch-workflow-run
