@@ -11,35 +11,40 @@ if False:
 
 env = Environment(ENV=os.environ)
 
-env.Command('_apt-mirrors.json', ['apt-mirrors-info'], './$SOURCE $TARGET')
+env.Command("_apt-mirrors.json", ["apt-mirrors-info"], "./$SOURCE $TARGET")
 
 
 def jsonRender(target, source, jsons):
     env.Command(
-        target, source,
-        ' '.join(['./json-tmpl-render'] + ['--json ' + j for j in jsons] +
-                 ['$SOURCE', '$TARGET']))
+        target,
+        source,
+        " ".join(
+            ["./json-tmpl-render"]
+            + ["--json " + j for j in jsons]
+            + ["$SOURCE", "$TARGET"]
+        ),
+    )
     env.Depends(target, jsons)
-    env.Depends(target, ['json-tmpl-render'])
+    env.Depends(target, ["json-tmpl-render"])
 
 
+jsonRender("index.md", "index.md.tmpl", jsons=["_apt-mirrors.json"])
 jsonRender(
-    'index.md',
-    'index.md.tmpl',
-    jsons=['_apt-mirrors.json'])
-jsonRender(
-    'git-update-image-branches',
-    'git-update-image-branches.tmpl',
-    jsons=['_apt-mirrors.json'])
+    "git-update-image-branches",
+    "git-update-image-branches.tmpl",
+    jsons=["_apt-mirrors.json"],
+)
 
 for gobase in [
-        'apt-mirrors-info',
-        'bring-random-branch',
-        'dockerhub-set-descriptions',
-        'docker-manifest-set-arch',
-        'json-tmpl-render',
-        'spurious-branches',
+    "apt-mirrors-info",
+    "bring-random-branch",
+    "dockerhub-set-descriptions",
+    "docker-manifest-set-arch",
+    "json-tmpl-render",
+    "spurious-branches",
 ]:
-    env.Command(gobase,
-                [pjoin('go/cmd', gobase, 'main.go'), 'go/common/common.go'],
-                'go build ' + pjoin('./go/cmd', gobase))
+    env.Command(
+        gobase,
+        [pjoin("go/cmd", gobase, "main.go"), "go/common/common.go"],
+        "go build " + pjoin("./go/cmd", gobase),
+    )
