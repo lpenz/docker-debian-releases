@@ -128,7 +128,7 @@ func getAptmirrorsReleaseInfos() []*common.ReleaseInfo {
 		common.PanicIf(err)
 		for _, link := range links {
 			ri, err := getReleaseInfo(link + "/Release")
-			if err != nil || ri.Codename == "None" {
+			if err != nil || ri.Codename == "None" || ri.Label == "None" {
 				continue
 			}
 			riKey := fmt.Sprintf("%q", ri)
