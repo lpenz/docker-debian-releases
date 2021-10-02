@@ -70,7 +70,7 @@ function cleanup {
 }
 trap cleanup EXIT
 
-# Build debootstrap commnad-line
+# Build debootstrap command-line
 image=${image-"${mirror}-${dist}-${arch}"}
 name=${image##*/}
 
@@ -92,14 +92,15 @@ set -x
 
 : name="$name", image="$image", mirror="$mirror"
 
+sudo chown root:root "$dir"
 if ! "${cmd[@]}"; then
      cat "$dir/debootstrap/debootstrap.log"
      false
 fi
 
 # Create description:
-for releasefile in "$dir"/var/*/apt/lists/*_Release; do
-    release_description=$(sed -n 's@^Description: \(.*\)$@\1@p' "$releasefile")
+for releasefile in $(sudo find "$dir/var" -path '*/apt/lists/*_Release'); do
+    release_description=$(sudo sed -n 's@^Description: \(.*\)$@\1@p' "$releasefile")
     description="${release_description}"
     break
 done
