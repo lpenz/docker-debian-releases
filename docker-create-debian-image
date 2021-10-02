@@ -63,8 +63,8 @@ fi
 # Create tmp dir, setup cleanup:
 dir="$(mktemp -d --suffix=-rootfs -p "$PWD")"
 function cleanup {
+    sudo umount -l "$dir/sys" "$dir/proc" 2>/dev/null || :
     if ! "$keepdir"; then
-        sudo umount -l "$dir/sys" "$dir/proc" 2>/dev/null || :
         sudo rm -rf "$dir"
     fi
 }
