@@ -30,6 +30,7 @@ jobs:
       - uses: docker/setup-qemu-action@v1
       - uses: actions/checkout@v2
       # - run: sudo cp -Rd debootstrap_scripts/* /usr/share/debootstrap/scripts/
+      - run: (cd /usr/share/debootstrap/scripts/; sudo ln -sf gutsy jammy)
       - run: scons dockerhub-set-descriptions docker-manifest-set-arch
       - id: branch
         run: ./branch-info
