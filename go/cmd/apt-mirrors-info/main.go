@@ -87,7 +87,7 @@ func getReleaseInfo(url string) (common.ReleaseInfo, error) {
 			}
 		case "Architectures":
 			for _, a := range strings.Split(kv[2], " ") {
-				if a != "" {
+				if a != "" && a != "all" {
 					ri.Architectures = append(ri.Architectures, a)
 				}
 			}
