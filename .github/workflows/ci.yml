@@ -24,6 +24,7 @@ jobs:
     if: needs.isdistro.outputs.isdistro == 'true'
     steps:
       - run: >
+          sudo apt-get update;
           sudo apt-get install -y --no-install-recommends
           scons debootstrap golang golang-golang-x-net-dev
       - uses: docker/setup-qemu-action@v1
