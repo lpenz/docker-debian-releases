@@ -1,0 +1,53 @@
+---
+# Copyright (C) 2021 Leandro Lisboa Penz <lpenz@lpenz.org>
+# This file is subject to the terms and conditions defined in
+# file 'LICENSE', which is part of this source code package.
+name: docker-build-distro
+on:
+  push:
+    branches-ignore:
+      - main
+      - devel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: >
+          sudo apt-get update;
+          sudo apt-get install -y --no-install-recommends
+          scons debootstrap golang golang-golang-x-net-dev
+      - uses: docker/setup-qemu-action@v1
+      - uses: actions/checkout@v2
+      # - run: sudo cp -Rd debootstrap_scripts/* /usr/share/debootstrap/scripts/
+      - run: (cd /usr/share/debootstrap/scripts/; sudo ln -sf gutsy jammy)
+      - run: scons dockerhub-set-descriptions docker-manifest-set-arch
+      - id: branch
+        run: ./branch-info
+      - id: build
+        run: >
+          ./docker-create-debian-image
+          -m "${{ steps.branch.outputs.mirror }}"
+          -i "${{ secrets.DOCKERHUB_USERNAME }}/${{ steps.branch.outputs.image }}"
+          "${{ steps.branch.outputs.dist }}"
+          "${{ steps.branch.outputs.arch }}"
+      - uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - run: docker push "${{ secrets.DOCKERHUB_USERNAME }}/${{ steps.branch.outputs.image }}"
+      - run: >
+          ./dockerhub-set-descriptions
+          "${{ secrets.DOCKERHUB_USERNAME }}/${{ steps.branch.outputs.image }}"
+          "${{ steps.build.outputs.description }}"
+          "Automatically updated via https://github.com/lpenz/docker-debian-releases/"
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+  update-status-page:
+    runs-on: ubuntu-latest
+    needs: [ build ]
+    steps:
+      - uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: status-page-deploy
+          token: ${{ secrets.PERSONAL_TOKEN }}
