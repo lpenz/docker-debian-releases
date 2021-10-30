@@ -94,7 +94,7 @@ set -x
 
 sudo chown root:root "$dir"
 if ! "${cmd[@]}"; then
-     cat "$dir/debootstrap/debootstrap.log"
+     sudo cat "$dir/debootstrap/debootstrap.log"
      false
 fi
 
