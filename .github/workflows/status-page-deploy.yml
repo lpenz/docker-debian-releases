@@ -7,6 +7,9 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
+concurrency:
+  group: status-page-deploy
+  cancel-in-progress: true
 jobs:
   status-page:
     runs-on: ubuntu-latest
