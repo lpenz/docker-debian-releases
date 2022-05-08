@@ -19,16 +19,16 @@ import (
 type WorkflowRuns struct {
 	TotalCount   int `json:"total_count"`
 	WorkflowRuns []struct {
-		ID               int           `json:"id"`
+		ID               int64         `json:"id"`
 		Name             string        `json:"name"`
 		NodeID           string        `json:"node_id"`
 		HeadBranch       string        `json:"head_branch"`
 		HeadSha          string        `json:"head_sha"`
-		RunNumber        int           `json:"run_number"`
+		RunNumber        int64         `json:"run_number"`
 		Event            string        `json:"event"`
 		Status           string        `json:"status"`
 		Conclusion       string        `json:"conclusion"`
-		WorkflowID       int           `json:"workflow_id"`
+		WorkflowID       int64         `json:"workflow_id"`
 		CheckSuiteID     int64         `json:"check_suite_id"`
 		CheckSuiteNodeID string        `json:"check_suite_node_id"`
 		URL              string        `json:"url"`
@@ -58,14 +58,14 @@ type WorkflowRuns struct {
 			} `json:"committer"`
 		} `json:"head_commit"`
 		Repository struct {
-			ID       int    `json:"id"`
+			ID       int64  `json:"id"`
 			NodeID   string `json:"node_id"`
 			Name     string `json:"name"`
 			FullName string `json:"full_name"`
 			Private  bool   `json:"private"`
 			Owner    struct {
 				Login             string `json:"login"`
-				ID                int    `json:"id"`
+				ID                int64  `json:"id"`
 				NodeID            string `json:"node_id"`
 				AvatarURL         string `json:"avatar_url"`
 				GravatarID        string `json:"gravatar_id"`
@@ -125,14 +125,14 @@ type WorkflowRuns struct {
 			DeploymentsURL   string `json:"deployments_url"`
 		} `json:"repository"`
 		HeadRepository struct {
-			ID       int    `json:"id"`
+			ID       int64  `json:"id"`
 			NodeID   string `json:"node_id"`
 			Name     string `json:"name"`
 			FullName string `json:"full_name"`
 			Private  bool   `json:"private"`
 			Owner    struct {
 				Login             string `json:"login"`
-				ID                int    `json:"id"`
+				ID                int64  `json:"id"`
 				NodeID            string `json:"node_id"`
 				AvatarURL         string `json:"avatar_url"`
 				GravatarID        string `json:"gravatar_id"`
@@ -211,7 +211,7 @@ func getGithubWorkflowRun(page int) *WorkflowRuns {
 		return nil
 	}
 	if resp.StatusCode != 200 {
-		panic(fmt.Sprintf("status: %d", resp.StatusCode))
+		panic(fmt.Sprintf("page %d got status %d", page, resp.StatusCode))
 	}
 	workflowRuns := WorkflowRuns{}
 	err = json.NewDecoder(resp.Body).Decode(&workflowRuns)
