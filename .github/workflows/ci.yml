@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: docker://lpenz/omnilint:v0.2
+      - uses: docker://lpenz/omnilint:0.4
   status-page-test:
     runs-on: ubuntu-latest
     steps:
