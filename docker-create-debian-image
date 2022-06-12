@@ -11,34 +11,40 @@ raspbian=false
 
 while getopts ":ki:qm:t:h" opt; do
     case "$opt" in
-        k) keepdir=true;;
-        i) image="$OPTARG";;
-        q) qemu=true;;
-        m)
-            if [ "$OPTARG" = "debian" ]; then
-                mirrorCandidates+=("http://archive.debian.org/debian")
-                mirrorCandidates+=("http://deb.debian.org/debian")
-            elif [ "$OPTARG" = "ubuntu" ]; then
-                mirrorCandidates+=("http://ports.ubuntu.com/ubuntu-ports")
-                mirrorCandidates+=("http://archive.ubuntu.com/ubuntu")
-                mirrorCandidates+=("http://old-releases.ubuntu.com/ubuntu")
-            elif [ "$OPTARG" = "raspbian" ]; then
-                mirrorCandidates+=("http://raspbian.raspberrypi.org/raspbian")
-                mirrorCandidates+=("http://archive.raspbian.org/raspbian")
-                raspbian=true
-            elif [ "$OPTARG" = "devuan" ]; then
-		mirrorCandidates+=("http://deb.devuan.org/merged")
-		mirrorCandidates+=("http://deb.devuan.org/devuan")
-            else
-                mirrorCandidates+=("$OPTARG")
-            fi
-            ;;
-        t) variant="$OPTARG";;
-        h) echo "$usage"; exit 0;;
-        \?) printf "Invalid argument\\n%s\\n" "$usage" >&2; exit 1;;
+    k) keepdir=true ;;
+    i) image="$OPTARG" ;;
+    q) qemu=true ;;
+    m)
+        if [ "$OPTARG" = "debian" ]; then
+            mirrorCandidates+=("http://archive.debian.org/debian")
+            mirrorCandidates+=("http://deb.debian.org/debian")
+        elif [ "$OPTARG" = "ubuntu" ]; then
+            mirrorCandidates+=("http://ports.ubuntu.com/ubuntu-ports")
+            mirrorCandidates+=("http://archive.ubuntu.com/ubuntu")
+            mirrorCandidates+=("http://old-releases.ubuntu.com/ubuntu")
+        elif [ "$OPTARG" = "raspbian" ]; then
+            mirrorCandidates+=("http://raspbian.raspberrypi.org/raspbian")
+            mirrorCandidates+=("http://archive.raspbian.org/raspbian")
+            raspbian=true
+        elif [ "$OPTARG" = "devuan" ]; then
+            mirrorCandidates+=("http://deb.devuan.org/merged")
+            mirrorCandidates+=("http://deb.devuan.org/devuan")
+        else
+            mirrorCandidates+=("$OPTARG")
+        fi
+        ;;
+    t) variant="$OPTARG" ;;
+    h)
+        echo "$usage"
+        exit 0
+        ;;
+    \?)
+        printf "Invalid argument\\n%s\\n" "$usage" >&2
+        exit 1
+        ;;
     esac
 done
-shift $((OPTIND-1))
+shift $((OPTIND - 1))
 
 dist=${1-jessie}
 arch=${2-amd64}
@@ -49,7 +55,7 @@ if [ "${#mirrorCandidates[@]}" -eq 0 ]; then
 fi
 
 for m in "${mirrorCandidates[@]}"; do
-    if curl -sfL "${m}/dists/${dist}/main/binary-${arch}/Release" > /dev/null; then
+    if curl -sfL "${m}/dists/${dist}/main/binary-${arch}/Release" >/dev/null; then
         mirror="$m"
         break
     fi
@@ -81,7 +87,7 @@ else
     cmd+=(debootstrap)
 fi
 if [ -n "$variant" ]; then
-   cmd+=("--variant=$variant")
+    cmd+=("--variant=$variant")
 fi
 cmd+=("--no-check-gpg" "--arch=$arch" "$dist" "$dir")
 cmd+=("$mirror")
@@ -94,8 +100,8 @@ set -x
 
 sudo chown root:root "$dir"
 if ! "${cmd[@]}"; then
-     sudo cat "$dir/debootstrap/debootstrap.log"
-     false
+    sudo cat "$dir/debootstrap/debootstrap.log"
+    false
 fi
 
 # Create description:
@@ -146,14 +152,14 @@ if [ -f "$dir/etc/apt/sources.list" ]; then
 fi
 
 # Create .tar and import docker image:
-sudo tar -C "$dir" -c . | \
+sudo tar -C "$dir" -c . |
     docker import \
-           -m "$description" \
-           -c 'CMD ["bash"]' \
-           - "$image"
+        -m "$description" \
+        -c 'CMD ["bash"]' \
+        - "$image"
 # Fix architecture in json inside tar
 imagetar="${image##*/}.tar"
-docker save "$image" > "${imagetar}.tmp"
+docker save "$image" >"${imagetar}.tmp"
 docker rmi "$image"
 ./docker-manifest-set-arch "$arch" "${imagetar}.tmp" "${imagetar}"
 docker load --input "${imagetar}"
