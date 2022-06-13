@@ -72,6 +72,9 @@ func getReleaseInfo(url string) (common.ReleaseInfo, error) {
 		switch kv[1] {
 		case "Origin":
 			ri.Origin = kv[2]
+			if ri.Origin == "Raspberry Pi Foundation" {
+				ri.Origin = "rpios"
+			}
 		case "Label":
 			ri.Label = kv[2]
 		case "Suite":
@@ -117,6 +120,7 @@ func getAptmirrorsReleaseInfos() []*common.ReleaseInfo {
 		"http://old-releases.ubuntu.com/ubuntu",
 		"http://archive.raspbian.org/raspbian",
 		"http://raspbian.raspberrypi.org/raspbian",
+		"http://archive.raspberrypi.org/debian",
 		"http://deb.devuan.org/merged",
 		"http://deb.devuan.org/devuan",
 	}

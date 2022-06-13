@@ -8,6 +8,7 @@ keepdir=false
 qemu=false
 mirrorCandidates=()
 raspbian=false
+rpios=false
 
 while getopts ":ki:qm:t:h" opt; do
     case "$opt" in
@@ -26,6 +27,11 @@ while getopts ":ki:qm:t:h" opt; do
             mirrorCandidates+=("http://raspbian.raspberrypi.org/raspbian")
             mirrorCandidates+=("http://archive.raspbian.org/raspbian")
             raspbian=true
+        elif [ "$OPTARG" = "rpios" ]; then
+            mirrorCandidates+=("http://deb.debian.org/debian")
+            mirrorCandidates+=("http://archive.debian.org/debian")
+            mirrorCandidates+=("http://archive.raspberrypi.org/debian")
+            rpios=true
         elif [ "$OPTARG" = "devuan" ]; then
             mirrorCandidates+=("http://deb.devuan.org/merged")
             mirrorCandidates+=("http://deb.devuan.org/devuan")
@@ -104,6 +110,20 @@ if ! "${cmd[@]}"; then
     false
 fi
 
+if "$rpios"; then
+    # RPI OS needs an additional file in /etc/apt/sources.list.d
+    echo "deb http://archive.raspberrypi.org/debian/ bullseye main" | sudo tee "$dir/etc/apt/sources.list.d/raspi.list"
+    # Install the key
+    sudo cp raspberrypi.gpg "$dir/etc/apt/trusted.gpg.d/raspberrypi-archive-stable.gpg"
+    # Install rpios replacement packages
+    sudo chroot "$dir" dpkg --add-architecture armhf
+fi
+
+if "$raspbian"; then
+    # Raspbian needs a fixed source.list
+    echo "deb http://raspbian.raspberrypi.org/raspbian/ $dist main contrib non-free rpi firmware" | sudo tee "$dir/etc/apt/sources.list"
+fi
+
 sudo chroot "$dir" apt-get update
 sudo chroot "$dir" apt-get -y upgrade
 
@@ -142,11 +162,6 @@ if [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/lib/apt/lists" -type f -delete
 elif [ -d "$dir/var/lib/apt/lists" ]; then
     sudo find "$dir/var/state/apt/lists" -type f -delete
-fi
-
-if "$raspbian"; then
-    # Raspbian needs a fixed source.list
-    echo "deb http://raspbian.raspberrypi.org/raspbian/ $dist main contrib non-free rpi firmware" | sudo tee "$dir/etc/apt/sources.list"
 fi
 
 if [ -f "$dir/etc/apt/sources.list" ]; then
