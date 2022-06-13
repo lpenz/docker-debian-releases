@@ -7,8 +7,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 
@@ -210,8 +212,24 @@ func getGithubWorkflowRun(page int) *WorkflowRuns {
 	if resp.StatusCode == 404 {
 		return nil
 	}
+	if resp.StatusCode == 403 {
+		if resp.Header["X-Ratelimit-Remaining"][0] == "0" {
+			sleepTillInt, err := strconv.ParseInt(resp.Header["X-Ratelimit-Reset"][0], 10, 64)
+			common.PanicIf(err)
+			sleepTill := time.Unix(sleepTillInt+1, 0)
+			dur := time.Until(sleepTill)
+			fmt.Fprintf(os.Stderr, "rate limit exceeded, sleeping for %v\n", dur)
+			time.Sleep(dur)
+			return getGithubWorkflowRun(page)
+		}
+	}
 	if resp.StatusCode != 200 {
-		panic(fmt.Sprintf("page %d got status %d", page, resp.StatusCode))
+		msg := fmt.Sprintf("at %s page %d got status %d", url, page, resp.StatusCode)
+		body, err := ioutil.ReadAll(resp.Body)
+		if err == nil {
+			msg = msg + "; " + string(body)
+		}
+		panic(msg)
 	}
 	workflowRuns := WorkflowRuns{}
 	err = json.NewDecoder(resp.Body).Decode(&workflowRuns)
