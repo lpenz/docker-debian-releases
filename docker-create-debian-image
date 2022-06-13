@@ -104,6 +104,9 @@ if ! "${cmd[@]}"; then
     false
 fi
 
+sudo chroot "$dir" apt-get update
+sudo chroot "$dir" apt-get -y upgrade
+
 # Create description:
 for releasefile in $(sudo find "$dir/var" -path '*/apt/lists/*_Release'); do
     release_description=$(sudo sed -n 's@^Description: \(.*\)$@\1@p' "$releasefile")
