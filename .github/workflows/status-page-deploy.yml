@@ -16,6 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./.github/actions/status-page
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
       - run: rm -f .gitignore
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
