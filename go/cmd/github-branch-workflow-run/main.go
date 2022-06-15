@@ -260,6 +260,9 @@ type branchWorkflowRun struct {
 func getBranchWorkflowRuns(workflowRuns *WorkflowRuns) *map[string]branchWorkflowRun {
 	branchBuilds := map[string]branchWorkflowRun{}
 	for _, info := range workflowRuns.WorkflowRuns {
+		if info.Name != "docker-build-distro" {
+			continue
+		}
 		setit := true
 		if val, ok := branchBuilds[info.HeadBranch]; ok {
 			if val.UpdatedAt.After(info.UpdatedAt) {
