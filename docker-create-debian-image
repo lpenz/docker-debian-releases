@@ -16,6 +16,7 @@ while getopts ":ki:qm:t:h" opt; do
     i) image="$OPTARG" ;;
     q) qemu=true ;;
     m)
+        os="$OPTARG"
         if [ "$OPTARG" = "debian" ]; then
             mirrorCandidates+=("http://archive.debian.org/debian")
             mirrorCandidates+=("http://deb.debian.org/debian")
@@ -103,6 +104,10 @@ cmd+=("$mirror")
 set -x
 
 : name="$name", image="$image", mirror="$mirror"
+
+if ! [ -f "/usr/share/debootstrap/scripts/$dist" ]; then
+    sudo cp -v "/usr/share/debootstrap/scripts/$os" "/usr/share/debootstrap/scripts/$dist"
+fi
 
 sudo chown root:root "$dir"
 if ! "${cmd[@]}"; then
