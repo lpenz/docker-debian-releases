@@ -183,6 +183,7 @@ docker rmi "$image"
 docker load --input "${imagetar}"
 # Test
 docker run --rm "$image" /bin/bash -c "true"
+docker run --rm "$image" uname -a
 docker inspect "$image"
 
 # github action output
