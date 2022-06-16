@@ -112,7 +112,7 @@ fi
 
 if "$rpios"; then
     # RPI OS needs an additional file in /etc/apt/sources.list.d
-    echo "deb http://archive.raspberrypi.org/debian/ bullseye main" | sudo tee "$dir/etc/apt/sources.list.d/raspi.list"
+    echo "deb http://archive.raspberrypi.org/debian/ $dist main" | sudo tee "$dir/etc/apt/sources.list.d/raspi.list"
     # Install the key
     sudo cp raspberrypi.gpg "$dir/etc/apt/trusted.gpg.d/raspberrypi-archive-stable.gpg"
     # Install rpios replacement packages
