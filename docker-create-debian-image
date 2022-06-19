@@ -84,7 +84,7 @@ function cleanup {
 trap cleanup EXIT
 
 # Build debootstrap command-line
-image=${image-"${mirror}-${dist}-${arch}"}
+image=${image-"${os}-${dist}-${arch}"}
 name=${image##*/}
 
 cmd=(sudo)
