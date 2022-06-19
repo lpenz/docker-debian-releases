@@ -34,8 +34,8 @@ while getopts ":ki:qm:t:h" opt; do
             mirrorCandidates+=("http://archive.raspberrypi.org/debian")
             rpios=true
         elif [ "$OPTARG" = "devuan" ]; then
-            mirrorCandidates+=("http://deb.devuan.org/devuan")
             mirrorCandidates+=("http://deb.devuan.org/merged")
+            mirrorCandidates+=("http://deb.devuan.org/devuan")
         else
             mirrorCandidates+=("$OPTARG")
         fi
