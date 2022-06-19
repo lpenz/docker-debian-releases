@@ -7,15 +7,20 @@ RUN set -e -x; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
         ca-certificates locales scons git ssh \
-        golang golang-golang-x-net-dev
-
-# setup su and locale
-RUN set -e -x; \
+        golang golang-golang-x-net-dev \
+        curl sudo debootstrap docker.io; \
     sed -i '/pam_rootok.so$/aauth sufficient pam_permit.so' /etc/pam.d/su; \
     echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen; locale-gen
-ENV LC_ALL=en_US.UTF-8
 
-# setup Debian GOPATH
-ENV GOPATH=/usr/share/go:/usr/share/gocode XDG_CACHE_HOME=/tmp
+COPY debootstrap_scripts/* /usr/share/debootstrap/scripts/
+
+ENV LC_ALL=en_US.UTF-8 \
+    GOPATH=/usr/share/go:/usr/share/gocode \
+    XDG_CACHE_HOME=/tmp
 
 CMD ["scons"]
+
+# To use this dockerfile to build an image:
+# docker build -t docker-debian-releases .
+# docker run --rm -u 0 -v "${PWD}:$PWD" -w "$PWD" -v /var/run/docker.sock:/var/run/docker.sock \
+#     docker-debian-releases ./docker-create-debian-image -m devuan chimaera i386
