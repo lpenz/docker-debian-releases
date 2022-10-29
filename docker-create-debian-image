@@ -192,4 +192,4 @@ docker run --rm "$image" uname -a
 docker inspect "$image"
 
 # github action output
-echo "::set-output name=description::$description"
+echo "description=$description" >>"$GITHUB_OUTPUT"

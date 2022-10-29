@@ -3,9 +3,9 @@
 # This file is subject to the terms and conditions defined in
 # file 'LICENSE', which is part of this source code package.
 
-import sys
-import re
 import os
+import re
+import sys
 
 
 def main():
@@ -23,8 +23,12 @@ def main():
         for k in ("image", "mirror", "dist", "arch", "variant"):
             info[k] = m.group(k)
     for k, v in info.items():
-        sys.stdout.write("name={}::{}\n".format(k, v))
-        sys.stdout.write("::set-output name={}::{}\n".format(k, v))
+        sys.stdout.write("{}={}\n".format(k, v))
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        with open(github_output, mode="a") as fd:
+            for k, v in info.items():
+                fd.write("{}={}\n".format(k, v))
 
 
 if __name__ == "__main__":
