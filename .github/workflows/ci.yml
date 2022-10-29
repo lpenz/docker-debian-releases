@@ -16,12 +16,12 @@ jobs:
   omnilint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: docker://lpenz/omnilint:0.4
+      - uses: actions/checkout@v3.1.0
+      - uses: docker://lpenz/omnilint:0.5
   status-page-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.1.0
       - uses: ./.github/actions/status-page
         env:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
