@@ -9,6 +9,7 @@ qemu=false
 mirrorCandidates=()
 raspbian=false
 rpios=false
+ubuntu=false
 
 while getopts ":ki:qm:t:h" opt; do
     case "$opt" in
@@ -24,6 +25,7 @@ while getopts ":ki:qm:t:h" opt; do
             mirrorCandidates+=("http://ports.ubuntu.com/ubuntu-ports")
             mirrorCandidates+=("http://archive.ubuntu.com/ubuntu")
             mirrorCandidates+=("http://old-releases.ubuntu.com/ubuntu")
+            ubuntu=true
         elif [ "$OPTARG" = "raspbian" ]; then
             mirrorCandidates+=("http://raspbian.raspberrypi.org/raspbian")
             mirrorCandidates+=("http://archive.raspbian.org/raspbian")
@@ -113,6 +115,11 @@ sudo chown root:root "$dir"
 if ! "${cmd[@]}"; then
     sudo cat "$dir/debootstrap/debootstrap.log"
     false
+fi
+
+if "$ubuntu"; then
+    # Add universe repo to ubuntu to make more packages available
+    sudo sed -i 's/ main/ main universe/' "$dir/etc/apt/sources.list"
 fi
 
 if "$rpios"; then
