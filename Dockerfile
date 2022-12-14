@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM debian:bullseye
 MAINTAINER Leandro Lisboa Penz <lpenz@lpenz.org>
 
 # install debian packages:
