@@ -11,46 +11,62 @@ if False:
 
 env = Environment(ENV=os.environ)
 
-env.Command("_apt-mirrors.json", ["apt-mirrors-info"], "./$SOURCE $TARGET")
-env.Command(
-    "_github-branches.json", ["github-branch-workflow-run"], "./$SOURCE $TARGET"
-)
+env.Command("_apt-mirrors.json", [], "cargo run --bin apt-mirrors-info -- -o $TARGET")
+
+# env.Command(
+#     "_github-branches.json", ["github-branch-workflow-run"], "./$SOURCE $TARGET"
+# )
 
 
-def jsonRender(target, source, jsons):
-    env.Command(
-        target,
-        source,
-        " ".join(
-            ["./json-tmpl-render"]
-            + ["--json " + j for j in jsons]
-            + ["$SOURCE", "$TARGET"]
-        ),
-    )
-    env.Depends(target, jsons)
-    env.Depends(target, ["json-tmpl-render"])
+# def jsonRender(target, source, jsons):
+#     env.Command(
+#         target,
+#         source,
+#         " ".join(
+#             ["./json-tmpl-render"]
+#             + ["--json " + j for j in jsons]
+#             + ["$SOURCE", "$TARGET"]
+#         ),
+#     )
+#     env.Depends(target, jsons)
+#     env.Depends(target, ["json-tmpl-render"])
 
 
-jsonRender(
-    "index.md", "index.md.tmpl", jsons=["_apt-mirrors.json", "_github-branches.json"]
-)
-jsonRender(
-    "git-update-image-branches",
-    "git-update-image-branches.tmpl",
-    jsons=["_apt-mirrors.json"],
-)
+# jsonRender(
+#     "index.md", "index.md.tmpl", jsons=["_apt-mirrors.json", "_github-branches.json"]
+# )
+# jsonRender(
+#     "git-update-image-branches",
+#     "git-update-image-branches.tmpl",
+#     jsons=["_apt-mirrors.json"],
+# )
 
-for gobase in [
-    "apt-mirrors-info",
-    "bring-random-branch",
-    "dockerhub-set-descriptions",
-    "docker-manifest-set-arch",
-    "github-branch-workflow-run",
-    "json-tmpl-render",
-    "spurious-branches",
-]:
-    env.Command(
-        gobase,
-        [pjoin("go/cmd", gobase, "main.go"), "go/common/common.go"],
-        "go build " + pjoin("./go/cmd", gobase),
-    )
+# for rustbin in [
+#     "apt-mirrors-info",
+#     "bring-random-branch",
+#     "dockerhub-set-descriptions",
+#     "docker-manifest-set-arch",
+#     "github-branch-workflow-run",
+#     "json-tmpl-render",
+#     "spurious-branches",
+# ]:
+#     env.Command(
+#         gobase,
+#         [pjoin("go/cmd", gobase, "main.go"), "go/common/common.go"],
+#         "go build " + pjoin("./go/cmd", gobase),
+#     )
+
+# for gobase in [
+#     "apt-mirrors-info",
+#     "bring-random-branch",
+#     "dockerhub-set-descriptions",
+#     "docker-manifest-set-arch",
+#     "github-branch-workflow-run",
+#     "json-tmpl-render",
+#     "spurious-branches",
+# ]:
+#     env.Command(
+#         gobase,
+#         [pjoin("go/cmd", gobase, "main.go"), "go/common/common.go"],
+#         "go build " + pjoin("./go/cmd", gobase),
+#     )

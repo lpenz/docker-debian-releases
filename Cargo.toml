@@ -1,0 +1,16 @@
+[package]
+name = "docker-debian-releases"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.23"
+clap = { version = "4.0.29", features = ["derive"] }
+color-eyre = "0.6.2"
+env_logger = "0.10.0"
+nom = "7.1.1"
+reqwest = "0.11.13"
+select = "0.6.0"
+tokio = { version = "1.23.0", features = ["macros", "rt-multi-thread", "fs", "io-util"] }
+tracing = { version = "0.1.37", features = ["log"] }
+url = "2.3.1"

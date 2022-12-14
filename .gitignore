@@ -12,3 +12,5 @@ _*
 /json-tmpl-render
 /spurious-branches
 /github-branch-workflow-run
+/target
+/.envrc
