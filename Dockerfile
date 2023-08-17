@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:bookworm
 MAINTAINER Leandro Lisboa Penz <lpenz@lpenz.org>
 
 # install debian packages:

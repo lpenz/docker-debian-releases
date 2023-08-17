@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bookworm
 MAINTAINER Leandro Lisboa Penz <lpenz@lpenz.org>
 
 ENV DEBIAN_FRONTEND noninteractive

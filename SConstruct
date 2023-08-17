@@ -10,6 +10,7 @@ if False:
     Environment = None
 
 env = Environment(ENV=os.environ)
+env["ENV"]["GO111MODULE"] = "off"
 
 env.Command("_apt-mirrors.json", ["apt-mirrors-info"], "./$SOURCE $TARGET")
 env.Command(
