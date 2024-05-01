@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.1.0
+      - uses: actions/checkout@v4.1.4
       - run: >
           sudo apt-get update;
           sudo apt-get install -y --no-install-recommends debootstrap
@@ -22,7 +22,7 @@ jobs:
           docker run --rm -u 0 -v "${PWD}:$PWD" -w "$PWD" -e PERSONAL_TOKEN docker-debian-releases
         env:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-      - uses: docker/setup-qemu-action@v2.1.0
+      - uses: docker/setup-qemu-action@v3.0.0
       - run: sudo cp -Rd debootstrap_scripts/* /usr/share/debootstrap/scripts/
       - id: branch
         run: ./branch-info
@@ -33,7 +33,7 @@ jobs:
           -i "${{ secrets.DOCKERHUB_USERNAME }}/${{ steps.branch.outputs.image }}"
           "${{ steps.branch.outputs.dist }}"
           "${{ steps.branch.outputs.arch }}"
-      - uses: docker/login-action@v2.1.0
+      - uses: docker/login-action@v3.1.0
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
@@ -50,7 +50,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ build ]
     steps:
-      - uses: benc-uk/workflow-dispatch@v1.2.1
+      - uses: benc-uk/workflow-dispatch@v1.2.3
         with:
           workflow: status-page-deploy
           token: ${{ secrets.PERSONAL_TOKEN }}
