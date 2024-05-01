@@ -12,6 +12,7 @@ on:
     branches:
       - main
       - devel
+  workflow_dispatch:
 jobs:
   omnilint:
     runs-on: ubuntu-latest
