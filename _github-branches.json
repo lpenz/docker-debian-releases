@@ -1,0 +1,4714 @@
+{
+  "branchWorkflowRuns": {
+    "debian-bookworm-amd64": {
+      "Name": "debian-bookworm-amd64",
+      "state": "success",
+      "finished": "2024-05-08T02:07:42Z"
+    },
+    "debian-bookworm-amd64-minbase": {
+      "Name": "debian-bookworm-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:07:34Z"
+    },
+    "debian-bookworm-arm64": {
+      "Name": "debian-bookworm-arm64",
+      "state": "success",
+      "finished": "2024-05-08T02:07:49Z"
+    },
+    "debian-bookworm-arm64-minbase": {
+      "Name": "debian-bookworm-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:07:53Z"
+    },
+    "debian-bookworm-armel": {
+      "Name": "debian-bookworm-armel",
+      "state": "success",
+      "finished": "2024-05-08T02:07:57Z"
+    },
+    "debian-bookworm-armel-minbase": {
+      "Name": "debian-bookworm-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:07:54Z"
+    },
+    "debian-bookworm-armhf": {
+      "Name": "debian-bookworm-armhf",
+      "state": "success",
+      "finished": "2024-05-08T02:08:57Z"
+    },
+    "debian-bookworm-armhf-minbase": {
+      "Name": "debian-bookworm-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:07:50Z"
+    },
+    "debian-bookworm-i386": {
+      "Name": "debian-bookworm-i386",
+      "state": "success",
+      "finished": "2024-05-08T02:07:41Z"
+    },
+    "debian-bookworm-i386-minbase": {
+      "Name": "debian-bookworm-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:07:48Z"
+    },
+    "debian-bookworm-mips64el": {
+      "Name": "debian-bookworm-mips64el",
+      "state": "success",
+      "finished": "2024-05-08T02:08:06Z"
+    },
+    "debian-bookworm-mips64el-minbase": {
+      "Name": "debian-bookworm-mips64el-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:07:59Z"
+    },
+    "debian-bookworm-mipsel": {
+      "Name": "debian-bookworm-mipsel",
+      "state": "failure",
+      "finished": "2024-05-08T02:06:47Z"
+    },
+    "debian-bookworm-mipsel-minbase": {
+      "Name": "debian-bookworm-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-05-08T02:05:22Z"
+    },
+    "debian-bookworm-ppc64el": {
+      "Name": "debian-bookworm-ppc64el",
+      "state": "success",
+      "finished": "2024-05-08T02:07:57Z"
+    },
+    "debian-bookworm-ppc64el-minbase": {
+      "Name": "debian-bookworm-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:08:01Z"
+    },
+    "debian-bookworm-s390x": {
+      "Name": "debian-bookworm-s390x",
+      "state": "success",
+      "finished": "2024-05-08T02:08:00Z"
+    },
+    "debian-bookworm-s390x-minbase": {
+      "Name": "debian-bookworm-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:09:48Z"
+    },
+    "debian-bullseye-amd64": {
+      "Name": "debian-bullseye-amd64",
+      "state": "success",
+      "finished": "2024-05-05T02:07:37Z"
+    },
+    "debian-bullseye-amd64-minbase": {
+      "Name": "debian-bullseye-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:07:38Z"
+    },
+    "debian-bullseye-arm64": {
+      "Name": "debian-bullseye-arm64",
+      "state": "success",
+      "finished": "2024-05-05T02:07:57Z"
+    },
+    "debian-bullseye-arm64-minbase": {
+      "Name": "debian-bullseye-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:07:46Z"
+    },
+    "debian-bullseye-armel": {
+      "Name": "debian-bullseye-armel",
+      "state": "success",
+      "finished": "2024-05-05T02:09:16Z"
+    },
+    "debian-bullseye-armel-minbase": {
+      "Name": "debian-bullseye-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:08:09Z"
+    },
+    "debian-bullseye-armhf": {
+      "Name": "debian-bullseye-armhf",
+      "state": "success",
+      "finished": "2024-05-05T02:07:48Z"
+    },
+    "debian-bullseye-armhf-minbase": {
+      "Name": "debian-bullseye-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:07:54Z"
+    },
+    "debian-bullseye-i386": {
+      "Name": "debian-bullseye-i386",
+      "state": "success",
+      "finished": "2024-05-05T02:07:56Z"
+    },
+    "debian-bullseye-i386-minbase": {
+      "Name": "debian-bullseye-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:07:37Z"
+    },
+    "debian-bullseye-mips64el": {
+      "Name": "debian-bullseye-mips64el",
+      "state": "success",
+      "finished": "2024-05-05T02:08:02Z"
+    },
+    "debian-bullseye-mips64el-minbase": {
+      "Name": "debian-bullseye-mips64el-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:07:51Z"
+    },
+    "debian-bullseye-mipsel": {
+      "Name": "debian-bullseye-mipsel",
+      "state": "failure",
+      "finished": "2024-05-05T02:05:50Z"
+    },
+    "debian-bullseye-mipsel-minbase": {
+      "Name": "debian-bullseye-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-05-05T02:06:37Z"
+    },
+    "debian-bullseye-ppc64el": {
+      "Name": "debian-bullseye-ppc64el",
+      "state": "success",
+      "finished": "2024-05-05T02:08:03Z"
+    },
+    "debian-bullseye-ppc64el-minbase": {
+      "Name": "debian-bullseye-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:08:18Z"
+    },
+    "debian-bullseye-s390x": {
+      "Name": "debian-bullseye-s390x",
+      "state": "success",
+      "finished": "2024-05-05T02:08:18Z"
+    },
+    "debian-bullseye-s390x-minbase": {
+      "Name": "debian-bullseye-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:08:00Z"
+    },
+    "debian-buster-amd64": {
+      "Name": "debian-buster-amd64",
+      "state": "success",
+      "finished": "2024-05-01T22:05:14Z"
+    },
+    "debian-buster-amd64-minbase": {
+      "Name": "debian-buster-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-01T21:59:29Z"
+    },
+    "debian-buster-arm64": {
+      "Name": "debian-buster-arm64",
+      "state": "success",
+      "finished": "2024-05-01T22:06:18Z"
+    },
+    "debian-buster-arm64-minbase": {
+      "Name": "debian-buster-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-01T22:06:20Z"
+    },
+    "debian-buster-armel": {
+      "Name": "debian-buster-armel",
+      "state": "success",
+      "finished": "2024-05-01T22:06:25Z"
+    },
+    "debian-buster-armel-minbase": {
+      "Name": "debian-buster-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-01T22:06:13Z"
+    },
+    "debian-buster-armhf": {
+      "Name": "debian-buster-armhf",
+      "state": "success",
+      "finished": "2024-05-01T22:06:10Z"
+    },
+    "debian-buster-armhf-minbase": {
+      "Name": "debian-buster-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-01T22:06:21Z"
+    },
+    "debian-buster-i386": {
+      "Name": "debian-buster-i386",
+      "state": "success",
+      "finished": "2024-05-01T22:04:59Z"
+    },
+    "debian-buster-i386-minbase": {
+      "Name": "debian-buster-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-01T22:05:03Z"
+    },
+    "debian-buster-mips": {
+      "Name": "debian-buster-mips",
+      "state": "failure",
+      "finished": "2024-05-01T22:03:48Z"
+    },
+    "debian-buster-mips-minbase": {
+      "Name": "debian-buster-mips-minbase",
+      "state": "failure",
+      "finished": "2024-05-01T22:05:13Z"
+    },
+    "debian-buster-mips64el": {
+      "Name": "debian-buster-mips64el",
+      "state": "success",
+      "finished": "2024-05-01T22:07:34Z"
+    },
+    "debian-buster-mips64el-minbase": {
+      "Name": "debian-buster-mips64el-minbase",
+      "state": "success",
+      "finished": "2024-05-01T22:06:51Z"
+    },
+    "debian-buster-mipsel": {
+      "Name": "debian-buster-mipsel",
+      "state": "failure",
+      "finished": "2024-05-01T22:05:19Z"
+    },
+    "debian-buster-mipsel-minbase": {
+      "Name": "debian-buster-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-05-01T22:04:13Z"
+    },
+    "debian-buster-ppc64el": {
+      "Name": "debian-buster-ppc64el",
+      "state": "success",
+      "finished": "2024-05-01T22:08:18Z"
+    },
+    "debian-buster-ppc64el-minbase": {
+      "Name": "debian-buster-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-01T22:06:25Z"
+    },
+    "debian-buster-s390x": {
+      "Name": "debian-buster-s390x",
+      "state": "success",
+      "finished": "2024-05-01T22:06:45Z"
+    },
+    "debian-buster-s390x-minbase": {
+      "Name": "debian-buster-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-01T22:08:13Z"
+    },
+    "debian-etch-alpha": {
+      "Name": "debian-etch-alpha",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:16Z"
+    },
+    "debian-etch-alpha-minbase": {
+      "Name": "debian-etch-alpha-minbase",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:14Z"
+    },
+    "debian-etch-amd64": {
+      "Name": "debian-etch-amd64",
+      "state": "success",
+      "finished": "2024-05-06T02:08:00Z"
+    },
+    "debian-etch-amd64-minbase": {
+      "Name": "debian-etch-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-06T02:09:11Z"
+    },
+    "debian-etch-arm": {
+      "Name": "debian-etch-arm",
+      "state": "success",
+      "finished": "2024-05-06T02:10:10Z"
+    },
+    "debian-etch-arm-minbase": {
+      "Name": "debian-etch-arm-minbase",
+      "state": "success",
+      "finished": "2024-05-06T02:10:58Z"
+    },
+    "debian-etch-hppa": {
+      "Name": "debian-etch-hppa",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:16Z"
+    },
+    "debian-etch-hppa-minbase": {
+      "Name": "debian-etch-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:16Z"
+    },
+    "debian-etch-i386": {
+      "Name": "debian-etch-i386",
+      "state": "success",
+      "finished": "2024-05-06T02:07:45Z"
+    },
+    "debian-etch-i386-minbase": {
+      "Name": "debian-etch-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-06T02:07:43Z"
+    },
+    "debian-etch-ia64": {
+      "Name": "debian-etch-ia64",
+      "state": "failure",
+      "finished": "2024-05-06T02:08:16Z"
+    },
+    "debian-etch-ia64-minbase": {
+      "Name": "debian-etch-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:29Z"
+    },
+    "debian-etch-mips": {
+      "Name": "debian-etch-mips",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:17Z"
+    },
+    "debian-etch-mips-minbase": {
+      "Name": "debian-etch-mips-minbase",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:16Z"
+    },
+    "debian-etch-mipsel": {
+      "Name": "debian-etch-mipsel",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:27Z"
+    },
+    "debian-etch-mipsel-minbase": {
+      "Name": "debian-etch-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:26Z"
+    },
+    "debian-etch-powerpc": {
+      "Name": "debian-etch-powerpc",
+      "state": "failure",
+      "finished": "2024-05-06T02:09:06Z"
+    },
+    "debian-etch-powerpc-minbase": {
+      "Name": "debian-etch-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-06T02:08:41Z"
+    },
+    "debian-etch-s390": {
+      "Name": "debian-etch-s390",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:31Z"
+    },
+    "debian-etch-s390-minbase": {
+      "Name": "debian-etch-s390-minbase",
+      "state": "failure",
+      "finished": "2024-05-06T02:07:32Z"
+    },
+    "debian-etch-sparc": {
+      "Name": "debian-etch-sparc",
+      "state": "failure",
+      "finished": "2024-05-06T02:10:33Z"
+    },
+    "debian-etch-sparc-minbase": {
+      "Name": "debian-etch-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-05-06T02:11:13Z"
+    },
+    "debian-jessie-amd64": {
+      "Name": "debian-jessie-amd64",
+      "state": "success",
+      "finished": "2024-05-25T02:11:02Z"
+    },
+    "debian-jessie-amd64-minbase": {
+      "Name": "debian-jessie-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:07:03Z"
+    },
+    "debian-jessie-arm64": {
+      "Name": "debian-jessie-arm64",
+      "state": "success",
+      "finished": "2024-05-25T02:10:40Z"
+    },
+    "debian-jessie-arm64-minbase": {
+      "Name": "debian-jessie-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:09:51Z"
+    },
+    "debian-jessie-armel": {
+      "Name": "debian-jessie-armel",
+      "state": "success",
+      "finished": "2024-05-25T02:09:59Z"
+    },
+    "debian-jessie-armel-minbase": {
+      "Name": "debian-jessie-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:10:53Z"
+    },
+    "debian-jessie-armhf": {
+      "Name": "debian-jessie-armhf",
+      "state": "success",
+      "finished": "2024-05-25T02:09:34Z"
+    },
+    "debian-jessie-armhf-minbase": {
+      "Name": "debian-jessie-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:09:36Z"
+    },
+    "debian-jessie-i386": {
+      "Name": "debian-jessie-i386",
+      "state": "success",
+      "finished": "2024-05-25T02:07:12Z"
+    },
+    "debian-jessie-i386-minbase": {
+      "Name": "debian-jessie-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:07:27Z"
+    },
+    "debian-jessie-mips": {
+      "Name": "debian-jessie-mips",
+      "state": "failure",
+      "finished": "2024-05-25T02:07:48Z"
+    },
+    "debian-jessie-mips-minbase": {
+      "Name": "debian-jessie-mips-minbase",
+      "state": "failure",
+      "finished": "2024-05-25T02:06:47Z"
+    },
+    "debian-jessie-mipsel": {
+      "Name": "debian-jessie-mipsel",
+      "state": "failure",
+      "finished": "2024-05-25T02:07:48Z"
+    },
+    "debian-jessie-mipsel-minbase": {
+      "Name": "debian-jessie-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-05-25T02:06:45Z"
+    },
+    "debian-jessie-powerpc": {
+      "Name": "debian-jessie-powerpc",
+      "state": "failure",
+      "finished": "2024-05-25T02:06:38Z"
+    },
+    "debian-jessie-powerpc-minbase": {
+      "Name": "debian-jessie-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-25T02:06:39Z"
+    },
+    "debian-jessie-ppc64el": {
+      "Name": "debian-jessie-ppc64el",
+      "state": "success",
+      "finished": "2024-05-25T02:10:08Z"
+    },
+    "debian-jessie-ppc64el-minbase": {
+      "Name": "debian-jessie-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:11:05Z"
+    },
+    "debian-jessie-s390x": {
+      "Name": "debian-jessie-s390x",
+      "state": "success",
+      "finished": "2024-05-25T02:09:58Z"
+    },
+    "debian-jessie-s390x-minbase": {
+      "Name": "debian-jessie-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:09:59Z"
+    },
+    "debian-lenny-alpha": {
+      "Name": "debian-lenny-alpha",
+      "state": "failure",
+      "finished": "2024-05-27T02:05:06Z"
+    },
+    "debian-lenny-alpha-minbase": {
+      "Name": "debian-lenny-alpha-minbase",
+      "state": "failure",
+      "finished": "2024-05-27T02:05:59Z"
+    },
+    "debian-lenny-amd64": {
+      "Name": "debian-lenny-amd64",
+      "state": "success",
+      "finished": "2024-05-27T02:05:37Z"
+    },
+    "debian-lenny-amd64-minbase": {
+      "Name": "debian-lenny-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-27T02:05:32Z"
+    },
+    "debian-lenny-arm": {
+      "Name": "debian-lenny-arm",
+      "state": "success",
+      "finished": "2024-05-27T02:08:45Z"
+    },
+    "debian-lenny-arm-minbase": {
+      "Name": "debian-lenny-arm-minbase",
+      "state": "success",
+      "finished": "2024-05-27T02:08:54Z"
+    },
+    "debian-lenny-armel": {
+      "Name": "debian-lenny-armel",
+      "state": "success",
+      "finished": "2024-05-27T02:08:34Z"
+    },
+    "debian-lenny-armel-minbase": {
+      "Name": "debian-lenny-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-27T02:08:36Z"
+    },
+    "debian-lenny-hppa": {
+      "Name": "debian-lenny-hppa",
+      "state": "failure",
+      "finished": "2024-05-27T02:06:11Z"
+    },
+    "debian-lenny-hppa-minbase": {
+      "Name": "debian-lenny-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-05-27T02:06:11Z"
+    },
+    "debian-lenny-i386": {
+      "Name": "debian-lenny-i386",
+      "state": "success",
+      "finished": "2024-05-27T02:06:56Z"
+    },
+    "debian-lenny-i386-minbase": {
+      "Name": "debian-lenny-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-27T02:05:42Z"
+    },
+    "debian-lenny-ia64": {
+      "Name": "debian-lenny-ia64",
+      "state": "failure",
+      "finished": "2024-05-27T02:06:21Z"
+    },
+    "debian-lenny-ia64-minbase": {
+      "Name": "debian-lenny-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-05-27T02:06:20Z"
+    },
+    "debian-lenny-mips": {
+      "Name": "debian-lenny-mips",
+      "state": "failure",
+      "finished": "2024-05-27T02:05:23Z"
+    },
+    "debian-lenny-mips-minbase": {
+      "Name": "debian-lenny-mips-minbase",
+      "state": "failure",
+      "finished": "2024-05-27T02:05:21Z"
+    },
+    "debian-lenny-mipsel": {
+      "Name": "debian-lenny-mipsel",
+      "state": "failure",
+      "finished": "2024-05-27T02:05:10Z"
+    },
+    "debian-lenny-mipsel-minbase": {
+      "Name": "debian-lenny-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-05-27T02:06:29Z"
+    },
+    "debian-lenny-powerpc": {
+      "Name": "debian-lenny-powerpc",
+      "state": "failure",
+      "finished": "2024-05-27T02:06:43Z"
+    },
+    "debian-lenny-powerpc-minbase": {
+      "Name": "debian-lenny-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-27T02:06:43Z"
+    },
+    "debian-lenny-s390": {
+      "Name": "debian-lenny-s390",
+      "state": "failure",
+      "finished": "2024-05-27T02:09:46Z"
+    },
+    "debian-lenny-s390-minbase": {
+      "Name": "debian-lenny-s390-minbase",
+      "state": "failure",
+      "finished": "2024-05-27T02:08:56Z"
+    },
+    "debian-lenny-sparc": {
+      "Name": "debian-lenny-sparc",
+      "state": "failure",
+      "finished": "2024-05-27T02:09:02Z"
+    },
+    "debian-lenny-sparc-minbase": {
+      "Name": "debian-lenny-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-05-27T02:09:21Z"
+    },
+    "debian-potato-alpha": {
+      "Name": "debian-potato-alpha",
+      "state": "failure",
+      "finished": "2024-06-06T02:06:26Z"
+    },
+    "debian-potato-alpha-minbase": {
+      "Name": "debian-potato-alpha-minbase",
+      "state": "failure",
+      "finished": "2024-06-06T02:05:48Z"
+    },
+    "debian-potato-arm": {
+      "Name": "debian-potato-arm",
+      "state": "success",
+      "finished": "2024-06-06T02:08:09Z"
+    },
+    "debian-potato-arm-minbase": {
+      "Name": "debian-potato-arm-minbase",
+      "state": "success",
+      "finished": "2024-06-06T02:07:51Z"
+    },
+    "debian-potato-i386": {
+      "Name": "debian-potato-i386",
+      "state": "failure",
+      "finished": "2024-06-06T02:06:17Z"
+    },
+    "debian-potato-i386-minbase": {
+      "Name": "debian-potato-i386-minbase",
+      "state": "failure",
+      "finished": "2024-06-06T02:06:11Z"
+    },
+    "debian-potato-m68k": {
+      "Name": "debian-potato-m68k",
+      "state": "failure",
+      "finished": "2024-06-06T02:05:46Z"
+    },
+    "debian-potato-m68k-minbase": {
+      "Name": "debian-potato-m68k-minbase",
+      "state": "failure",
+      "finished": "2024-06-06T02:05:47Z"
+    },
+    "debian-potato-powerpc": {
+      "Name": "debian-potato-powerpc",
+      "state": "failure",
+      "finished": "2024-06-06T02:06:25Z"
+    },
+    "debian-potato-powerpc-minbase": {
+      "Name": "debian-potato-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-06T02:05:49Z"
+    },
+    "debian-potato-sparc": {
+      "Name": "debian-potato-sparc",
+      "state": "failure",
+      "finished": "2024-06-06T02:06:34Z"
+    },
+    "debian-potato-sparc-minbase": {
+      "Name": "debian-potato-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-06T02:05:58Z"
+    },
+    "debian-rc-buggy-amd64": {
+      "Name": "debian-rc-buggy-amd64",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:37Z"
+    },
+    "debian-rc-buggy-amd64-minbase": {
+      "Name": "debian-rc-buggy-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:22Z"
+    },
+    "debian-rc-buggy-arm64": {
+      "Name": "debian-rc-buggy-arm64",
+      "state": "failure",
+      "finished": "2024-05-29T02:06:08Z"
+    },
+    "debian-rc-buggy-arm64-minbase": {
+      "Name": "debian-rc-buggy-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:15Z"
+    },
+    "debian-rc-buggy-armel": {
+      "Name": "debian-rc-buggy-armel",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:32Z"
+    },
+    "debian-rc-buggy-armel-minbase": {
+      "Name": "debian-rc-buggy-armel-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:06:08Z"
+    },
+    "debian-rc-buggy-armhf": {
+      "Name": "debian-rc-buggy-armhf",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:16Z"
+    },
+    "debian-rc-buggy-armhf-minbase": {
+      "Name": "debian-rc-buggy-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:17Z"
+    },
+    "debian-rc-buggy-i386": {
+      "Name": "debian-rc-buggy-i386",
+      "state": "failure",
+      "finished": "2024-05-29T02:08:43Z"
+    },
+    "debian-rc-buggy-i386-minbase": {
+      "Name": "debian-rc-buggy-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:28Z"
+    },
+    "debian-rc-buggy-mips64el": {
+      "Name": "debian-rc-buggy-mips64el",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:21Z"
+    },
+    "debian-rc-buggy-mips64el-minbase": {
+      "Name": "debian-rc-buggy-mips64el-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:14Z"
+    },
+    "debian-rc-buggy-mipsel": {
+      "Name": "debian-rc-buggy-mipsel",
+      "state": "failure",
+      "finished": "2023-08-19T14:30:01Z"
+    },
+    "debian-rc-buggy-mipsel-minbase": {
+      "Name": "debian-rc-buggy-mipsel-minbase",
+      "state": "failure",
+      "finished": "2023-08-19T14:30:25Z"
+    },
+    "debian-rc-buggy-ppc64el": {
+      "Name": "debian-rc-buggy-ppc64el",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:21Z"
+    },
+    "debian-rc-buggy-ppc64el-minbase": {
+      "Name": "debian-rc-buggy-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:06:02Z"
+    },
+    "debian-rc-buggy-riscv64": {
+      "Name": "debian-rc-buggy-riscv64",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:15Z"
+    },
+    "debian-rc-buggy-riscv64-minbase": {
+      "Name": "debian-rc-buggy-riscv64-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:06:08Z"
+    },
+    "debian-rc-buggy-s390x": {
+      "Name": "debian-rc-buggy-s390x",
+      "state": "failure",
+      "finished": "2024-05-29T02:06:44Z"
+    },
+    "debian-rc-buggy-s390x-minbase": {
+      "Name": "debian-rc-buggy-s390x-minbase",
+      "state": "failure",
+      "finished": "2024-05-29T02:05:22Z"
+    },
+    "debian-sarge-alpha": {
+      "Name": "debian-sarge-alpha",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:18Z"
+    },
+    "debian-sarge-alpha-minbase": {
+      "Name": "debian-sarge-alpha-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:39Z"
+    },
+    "debian-sarge-arm": {
+      "Name": "debian-sarge-arm",
+      "state": "success",
+      "finished": "2023-10-14T02:10:11Z"
+    },
+    "debian-sarge-arm-minbase": {
+      "Name": "debian-sarge-arm-minbase",
+      "state": "success",
+      "finished": "2023-10-14T02:10:58Z"
+    },
+    "debian-sarge-hppa": {
+      "Name": "debian-sarge-hppa",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:17Z"
+    },
+    "debian-sarge-hppa-minbase": {
+      "Name": "debian-sarge-hppa-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:08:37Z"
+    },
+    "debian-sarge-i386": {
+      "Name": "debian-sarge-i386",
+      "state": "success",
+      "finished": "2023-10-14T02:08:54Z"
+    },
+    "debian-sarge-i386-minbase": {
+      "Name": "debian-sarge-i386-minbase",
+      "state": "success",
+      "finished": "2023-10-14T02:08:04Z"
+    },
+    "debian-sarge-ia64": {
+      "Name": "debian-sarge-ia64",
+      "state": "failure",
+      "finished": "2023-10-14T02:08:23Z"
+    },
+    "debian-sarge-ia64-minbase": {
+      "Name": "debian-sarge-ia64-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:20Z"
+    },
+    "debian-sarge-m68k": {
+      "Name": "debian-sarge-m68k",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:52Z"
+    },
+    "debian-sarge-m68k-minbase": {
+      "Name": "debian-sarge-m68k-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:51Z"
+    },
+    "debian-sarge-mips": {
+      "Name": "debian-sarge-mips",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:21Z"
+    },
+    "debian-sarge-mips-minbase": {
+      "Name": "debian-sarge-mips-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:20Z"
+    },
+    "debian-sarge-mipsel": {
+      "Name": "debian-sarge-mipsel",
+      "state": "failure",
+      "finished": "2023-10-14T02:08:03Z"
+    },
+    "debian-sarge-mipsel-minbase": {
+      "Name": "debian-sarge-mipsel-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:09:12Z"
+    },
+    "debian-sarge-powerpc": {
+      "Name": "debian-sarge-powerpc",
+      "state": "failure",
+      "finished": "2023-10-14T02:08:05Z"
+    },
+    "debian-sarge-powerpc-minbase": {
+      "Name": "debian-sarge-powerpc-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:59Z"
+    },
+    "debian-sarge-s390": {
+      "Name": "debian-sarge-s390",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:23Z"
+    },
+    "debian-sarge-s390-minbase": {
+      "Name": "debian-sarge-s390-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:07:22Z"
+    },
+    "debian-sarge-sparc": {
+      "Name": "debian-sarge-sparc",
+      "state": "failure",
+      "finished": "2023-10-14T02:13:09Z"
+    },
+    "debian-sarge-sparc-minbase": {
+      "Name": "debian-sarge-sparc-minbase",
+      "state": "failure",
+      "finished": "2023-10-14T02:12:57Z"
+    },
+    "debian-sid-amd64": {
+      "Name": "debian-sid-amd64",
+      "state": "failure",
+      "finished": "2024-06-22T02:07:55Z"
+    },
+    "debian-sid-amd64-minbase": {
+      "Name": "debian-sid-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:05:21Z"
+    },
+    "debian-sid-arm64": {
+      "Name": "debian-sid-arm64",
+      "state": "failure",
+      "finished": "2024-06-22T02:05:16Z"
+    },
+    "debian-sid-arm64-minbase": {
+      "Name": "debian-sid-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:04:27Z"
+    },
+    "debian-sid-armel": {
+      "Name": "debian-sid-armel",
+      "state": "failure",
+      "finished": "2024-06-22T02:04:42Z"
+    },
+    "debian-sid-armel-minbase": {
+      "Name": "debian-sid-armel-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:04:49Z"
+    },
+    "debian-sid-armhf": {
+      "Name": "debian-sid-armhf",
+      "state": "failure",
+      "finished": "2024-06-22T02:05:34Z"
+    },
+    "debian-sid-armhf-minbase": {
+      "Name": "debian-sid-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:04:29Z"
+    },
+    "debian-sid-i386": {
+      "Name": "debian-sid-i386",
+      "state": "failure",
+      "finished": "2024-06-22T02:07:37Z"
+    },
+    "debian-sid-i386-minbase": {
+      "Name": "debian-sid-i386-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:05:40Z"
+    },
+    "debian-sid-mips64el": {
+      "Name": "debian-sid-mips64el",
+      "state": "failure",
+      "finished": "2024-06-22T02:04:40Z"
+    },
+    "debian-sid-mips64el-minbase": {
+      "Name": "debian-sid-mips64el-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:04:40Z"
+    },
+    "debian-sid-ppc64el": {
+      "Name": "debian-sid-ppc64el",
+      "state": "failure",
+      "finished": "2024-06-22T02:06:17Z"
+    },
+    "debian-sid-ppc64el-minbase": {
+      "Name": "debian-sid-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:06:16Z"
+    },
+    "debian-sid-riscv64": {
+      "Name": "debian-sid-riscv64",
+      "state": "failure",
+      "finished": "2024-06-22T02:04:43Z"
+    },
+    "debian-sid-riscv64-minbase": {
+      "Name": "debian-sid-riscv64-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:04:42Z"
+    },
+    "debian-sid-s390x": {
+      "Name": "debian-sid-s390x",
+      "state": "failure",
+      "finished": "2024-06-22T02:06:42Z"
+    },
+    "debian-sid-s390x-minbase": {
+      "Name": "debian-sid-s390x-minbase",
+      "state": "failure",
+      "finished": "2024-06-22T02:05:17Z"
+    },
+    "debian-squeeze-amd64": {
+      "Name": "debian-squeeze-amd64",
+      "state": "failure",
+      "finished": "2024-06-13T02:15:04Z"
+    },
+    "debian-squeeze-amd64-minbase": {
+      "Name": "debian-squeeze-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-13T02:19:39Z"
+    },
+    "debian-squeeze-armel": {
+      "Name": "debian-squeeze-armel",
+      "state": "success",
+      "finished": "2024-06-13T02:21:59Z"
+    },
+    "debian-squeeze-armel-minbase": {
+      "Name": "debian-squeeze-armel-minbase",
+      "state": "success",
+      "finished": "2024-06-13T02:20:05Z"
+    },
+    "debian-squeeze-i386": {
+      "Name": "debian-squeeze-i386",
+      "state": "success",
+      "finished": "2024-06-13T02:22:42Z"
+    },
+    "debian-squeeze-i386-minbase": {
+      "Name": "debian-squeeze-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-13T02:18:14Z"
+    },
+    "debian-squeeze-ia64": {
+      "Name": "debian-squeeze-ia64",
+      "state": "failure",
+      "finished": "2024-06-13T02:19:32Z"
+    },
+    "debian-squeeze-ia64-minbase": {
+      "Name": "debian-squeeze-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-13T02:20:53Z"
+    },
+    "debian-squeeze-mips": {
+      "Name": "debian-squeeze-mips",
+      "state": "failure",
+      "finished": "2024-06-13T02:19:17Z"
+    },
+    "debian-squeeze-mips-minbase": {
+      "Name": "debian-squeeze-mips-minbase",
+      "state": "failure",
+      "finished": "2024-06-13T02:19:29Z"
+    },
+    "debian-squeeze-mipsel": {
+      "Name": "debian-squeeze-mipsel",
+      "state": "failure",
+      "finished": "2024-06-13T02:21:12Z"
+    },
+    "debian-squeeze-mipsel-minbase": {
+      "Name": "debian-squeeze-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-06-13T02:18:07Z"
+    },
+    "debian-squeeze-powerpc": {
+      "Name": "debian-squeeze-powerpc",
+      "state": "failure",
+      "finished": "2024-06-13T02:19:52Z"
+    },
+    "debian-squeeze-powerpc-minbase": {
+      "Name": "debian-squeeze-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-13T02:13:02Z"
+    },
+    "debian-squeeze-s390": {
+      "Name": "debian-squeeze-s390",
+      "state": "failure",
+      "finished": "2024-06-13T02:20:47Z"
+    },
+    "debian-squeeze-s390-minbase": {
+      "Name": "debian-squeeze-s390-minbase",
+      "state": "failure",
+      "finished": "2024-06-13T02:20:09Z"
+    },
+    "debian-squeeze-sparc": {
+      "Name": "debian-squeeze-sparc",
+      "state": "failure",
+      "finished": "2024-06-13T02:19:39Z"
+    },
+    "debian-squeeze-sparc-minbase": {
+      "Name": "debian-squeeze-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-13T02:20:27Z"
+    },
+    "debian-stretch-amd64": {
+      "Name": "debian-stretch-amd64",
+      "state": "success",
+      "finished": "2024-05-07T02:06:38Z"
+    },
+    "debian-stretch-amd64-minbase": {
+      "Name": "debian-stretch-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:06:29Z"
+    },
+    "debian-stretch-arm64": {
+      "Name": "debian-stretch-arm64",
+      "state": "success",
+      "finished": "2024-05-07T02:07:11Z"
+    },
+    "debian-stretch-arm64-minbase": {
+      "Name": "debian-stretch-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:07:20Z"
+    },
+    "debian-stretch-armel": {
+      "Name": "debian-stretch-armel",
+      "state": "success",
+      "finished": "2024-05-07T02:07:46Z"
+    },
+    "debian-stretch-armel-minbase": {
+      "Name": "debian-stretch-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:08:52Z"
+    },
+    "debian-stretch-armhf": {
+      "Name": "debian-stretch-armhf",
+      "state": "success",
+      "finished": "2024-05-07T02:08:57Z"
+    },
+    "debian-stretch-armhf-minbase": {
+      "Name": "debian-stretch-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:07:28Z"
+    },
+    "debian-stretch-i386": {
+      "Name": "debian-stretch-i386",
+      "state": "success",
+      "finished": "2024-05-07T02:06:49Z"
+    },
+    "debian-stretch-i386-minbase": {
+      "Name": "debian-stretch-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:06:44Z"
+    },
+    "debian-stretch-mips": {
+      "Name": "debian-stretch-mips",
+      "state": "failure",
+      "finished": "2024-05-07T02:05:15Z"
+    },
+    "debian-stretch-mips-minbase": {
+      "Name": "debian-stretch-mips-minbase",
+      "state": "failure",
+      "finished": "2024-05-07T02:06:25Z"
+    },
+    "debian-stretch-mips64el": {
+      "Name": "debian-stretch-mips64el",
+      "state": "success",
+      "finished": "2024-05-07T02:07:53Z"
+    },
+    "debian-stretch-mips64el-minbase": {
+      "Name": "debian-stretch-mips64el-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:09:11Z"
+    },
+    "debian-stretch-mipsel": {
+      "Name": "debian-stretch-mipsel",
+      "state": "failure",
+      "finished": "2024-05-07T02:06:18Z"
+    },
+    "debian-stretch-mipsel-minbase": {
+      "Name": "debian-stretch-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-05-07T02:05:15Z"
+    },
+    "debian-stretch-ppc64el": {
+      "Name": "debian-stretch-ppc64el",
+      "state": "success",
+      "finished": "2024-05-07T02:07:42Z"
+    },
+    "debian-stretch-ppc64el-minbase": {
+      "Name": "debian-stretch-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:07:45Z"
+    },
+    "debian-stretch-s390x": {
+      "Name": "debian-stretch-s390x",
+      "state": "success",
+      "finished": "2024-05-07T02:09:12Z"
+    },
+    "debian-stretch-s390x-minbase": {
+      "Name": "debian-stretch-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:08:16Z"
+    },
+    "debian-trixie-amd64": {
+      "Name": "debian-trixie-amd64",
+      "state": "success",
+      "finished": "2024-05-17T02:07:47Z"
+    },
+    "debian-trixie-amd64-minbase": {
+      "Name": "debian-trixie-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-17T02:09:15Z"
+    },
+    "debian-trixie-arm64": {
+      "Name": "debian-trixie-arm64",
+      "state": "success",
+      "finished": "2024-05-17T02:12:08Z"
+    },
+    "debian-trixie-arm64-minbase": {
+      "Name": "debian-trixie-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-05-17T02:07:59Z"
+    },
+    "debian-trixie-armel": {
+      "Name": "debian-trixie-armel",
+      "state": "failure",
+      "finished": "2024-05-17T02:09:00Z"
+    },
+    "debian-trixie-armel-minbase": {
+      "Name": "debian-trixie-armel-minbase",
+      "state": "failure",
+      "finished": "2024-05-17T02:08:59Z"
+    },
+    "debian-trixie-armhf": {
+      "Name": "debian-trixie-armhf",
+      "state": "failure",
+      "finished": "2024-05-17T02:11:53Z"
+    },
+    "debian-trixie-armhf-minbase": {
+      "Name": "debian-trixie-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-05-17T02:08:28Z"
+    },
+    "debian-trixie-i386": {
+      "Name": "debian-trixie-i386",
+      "state": "success",
+      "finished": "2024-05-17T02:08:33Z"
+    },
+    "debian-trixie-i386-minbase": {
+      "Name": "debian-trixie-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-17T02:08:33Z"
+    },
+    "debian-trixie-mips64el": {
+      "Name": "debian-trixie-mips64el",
+      "state": "success",
+      "finished": "2024-05-17T02:09:48Z"
+    },
+    "debian-trixie-mips64el-minbase": {
+      "Name": "debian-trixie-mips64el-minbase",
+      "state": "success",
+      "finished": "2024-05-17T02:11:24Z"
+    },
+    "debian-trixie-mipsel": {
+      "Name": "debian-trixie-mipsel",
+      "state": "failure",
+      "finished": "2023-06-18T07:21:34Z"
+    },
+    "debian-trixie-mipsel-minbase": {
+      "Name": "debian-trixie-mipsel-minbase",
+      "state": "failure",
+      "finished": "2023-06-18T07:23:20Z"
+    },
+    "debian-trixie-ppc64el": {
+      "Name": "debian-trixie-ppc64el",
+      "state": "success",
+      "finished": "2024-05-17T02:10:06Z"
+    },
+    "debian-trixie-ppc64el-minbase": {
+      "Name": "debian-trixie-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-17T02:10:34Z"
+    },
+    "debian-trixie-riscv64": {
+      "Name": "debian-trixie-riscv64",
+      "state": "failure",
+      "finished": "2024-05-17T02:07:23Z"
+    },
+    "debian-trixie-riscv64-minbase": {
+      "Name": "debian-trixie-riscv64-minbase",
+      "state": "failure",
+      "finished": "2024-05-17T02:07:21Z"
+    },
+    "debian-trixie-s390x": {
+      "Name": "debian-trixie-s390x",
+      "state": "failure",
+      "finished": "2024-05-17T02:10:01Z"
+    },
+    "debian-trixie-s390x-minbase": {
+      "Name": "debian-trixie-s390x-minbase",
+      "state": "failure",
+      "finished": "2024-05-17T02:09:00Z"
+    },
+    "debian-wheezy-amd64": {
+      "Name": "debian-wheezy-amd64",
+      "state": "success",
+      "finished": "2024-06-23T02:07:28Z"
+    },
+    "debian-wheezy-amd64-minbase": {
+      "Name": "debian-wheezy-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-23T02:07:14Z"
+    },
+    "debian-wheezy-armel": {
+      "Name": "debian-wheezy-armel",
+      "state": "success",
+      "finished": "2024-06-23T02:07:59Z"
+    },
+    "debian-wheezy-armel-minbase": {
+      "Name": "debian-wheezy-armel-minbase",
+      "state": "success",
+      "finished": "2024-06-23T02:07:54Z"
+    },
+    "debian-wheezy-armhf": {
+      "Name": "debian-wheezy-armhf",
+      "state": "success",
+      "finished": "2024-06-23T02:07:47Z"
+    },
+    "debian-wheezy-armhf-minbase": {
+      "Name": "debian-wheezy-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-23T02:09:18Z"
+    },
+    "debian-wheezy-i386": {
+      "Name": "debian-wheezy-i386",
+      "state": "success",
+      "finished": "2024-06-23T02:06:04Z"
+    },
+    "debian-wheezy-i386-minbase": {
+      "Name": "debian-wheezy-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-23T02:06:04Z"
+    },
+    "debian-wheezy-ia64": {
+      "Name": "debian-wheezy-ia64",
+      "state": "failure",
+      "finished": "2024-06-23T02:06:45Z"
+    },
+    "debian-wheezy-ia64-minbase": {
+      "Name": "debian-wheezy-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-23T02:05:49Z"
+    },
+    "debian-wheezy-mips": {
+      "Name": "debian-wheezy-mips",
+      "state": "failure",
+      "finished": "2024-06-23T02:05:25Z"
+    },
+    "debian-wheezy-mips-minbase": {
+      "Name": "debian-wheezy-mips-minbase",
+      "state": "failure",
+      "finished": "2024-06-23T02:06:51Z"
+    },
+    "debian-wheezy-mipsel": {
+      "Name": "debian-wheezy-mipsel",
+      "state": "failure",
+      "finished": "2024-06-23T02:05:35Z"
+    },
+    "debian-wheezy-mipsel-minbase": {
+      "Name": "debian-wheezy-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-06-23T02:06:42Z"
+    },
+    "debian-wheezy-powerpc": {
+      "Name": "debian-wheezy-powerpc",
+      "state": "failure",
+      "finished": "2024-06-23T02:05:36Z"
+    },
+    "debian-wheezy-powerpc-minbase": {
+      "Name": "debian-wheezy-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-23T02:05:35Z"
+    },
+    "debian-wheezy-s390": {
+      "Name": "debian-wheezy-s390",
+      "state": "failure",
+      "finished": "2024-06-23T02:07:13Z"
+    },
+    "debian-wheezy-s390-minbase": {
+      "Name": "debian-wheezy-s390-minbase",
+      "state": "failure",
+      "finished": "2024-06-23T02:05:55Z"
+    },
+    "debian-wheezy-s390x": {
+      "Name": "debian-wheezy-s390x",
+      "state": "success",
+      "finished": "2024-06-23T02:09:54Z"
+    },
+    "debian-wheezy-s390x-minbase": {
+      "Name": "debian-wheezy-s390x-minbase",
+      "state": "success",
+      "finished": "2024-06-23T02:09:56Z"
+    },
+    "debian-wheezy-sparc": {
+      "Name": "debian-wheezy-sparc",
+      "state": "failure",
+      "finished": "2024-06-23T02:09:55Z"
+    },
+    "debian-wheezy-sparc-minbase": {
+      "Name": "debian-wheezy-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-23T02:08:56Z"
+    },
+    "debian-woody-alpha": {
+      "Name": "debian-woody-alpha",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:23Z"
+    },
+    "debian-woody-alpha-minbase": {
+      "Name": "debian-woody-alpha-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:23Z"
+    },
+    "debian-woody-arm": {
+      "Name": "debian-woody-arm",
+      "state": "failure",
+      "finished": "2024-06-11T02:07:26Z"
+    },
+    "debian-woody-arm-minbase": {
+      "Name": "debian-woody-arm-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:07:25Z"
+    },
+    "debian-woody-hppa": {
+      "Name": "debian-woody-hppa",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:24Z"
+    },
+    "debian-woody-hppa-minbase": {
+      "Name": "debian-woody-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:25Z"
+    },
+    "debian-woody-i386": {
+      "Name": "debian-woody-i386",
+      "state": "success",
+      "finished": "2024-06-11T02:07:00Z"
+    },
+    "debian-woody-i386-minbase": {
+      "Name": "debian-woody-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-11T02:07:43Z"
+    },
+    "debian-woody-ia64": {
+      "Name": "debian-woody-ia64",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:35Z"
+    },
+    "debian-woody-ia64-minbase": {
+      "Name": "debian-woody-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:07:16Z"
+    },
+    "debian-woody-m68k": {
+      "Name": "debian-woody-m68k",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:34Z"
+    },
+    "debian-woody-m68k-minbase": {
+      "Name": "debian-woody-m68k-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:34Z"
+    },
+    "debian-woody-mips": {
+      "Name": "debian-woody-mips",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:31Z"
+    },
+    "debian-woody-mips-minbase": {
+      "Name": "debian-woody-mips-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:30Z"
+    },
+    "debian-woody-mipsel": {
+      "Name": "debian-woody-mipsel",
+      "state": "failure",
+      "finished": "2024-06-11T02:07:25Z"
+    },
+    "debian-woody-mipsel-minbase": {
+      "Name": "debian-woody-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:29Z"
+    },
+    "debian-woody-powerpc": {
+      "Name": "debian-woody-powerpc",
+      "state": "failure",
+      "finished": "2024-06-11T02:07:34Z"
+    },
+    "debian-woody-powerpc-minbase": {
+      "Name": "debian-woody-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:10:38Z"
+    },
+    "debian-woody-s390": {
+      "Name": "debian-woody-s390",
+      "state": "failure",
+      "finished": "2024-06-11T02:10:48Z"
+    },
+    "debian-woody-s390-minbase": {
+      "Name": "debian-woody-s390-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:06:38Z"
+    },
+    "debian-woody-sparc": {
+      "Name": "debian-woody-sparc",
+      "state": "failure",
+      "finished": "2024-06-11T02:09:41Z"
+    },
+    "debian-woody-sparc-minbase": {
+      "Name": "debian-woody-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-11T02:09:41Z"
+    },
+    "devuan-ascii-amd64": {
+      "Name": "devuan-ascii-amd64",
+      "state": "failure",
+      "finished": "2024-06-09T02:09:51Z"
+    },
+    "devuan-ascii-amd64-minbase": {
+      "Name": "devuan-ascii-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-06-09T02:07:07Z"
+    },
+    "devuan-ascii-arm64": {
+      "Name": "devuan-ascii-arm64",
+      "state": "failure",
+      "finished": "2024-06-09T02:07:00Z"
+    },
+    "devuan-ascii-arm64-minbase": {
+      "Name": "devuan-ascii-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-06-09T02:05:46Z"
+    },
+    "devuan-ascii-armel": {
+      "Name": "devuan-ascii-armel",
+      "state": "failure",
+      "finished": "2024-06-09T02:06:43Z"
+    },
+    "devuan-ascii-armel-minbase": {
+      "Name": "devuan-ascii-armel-minbase",
+      "state": "failure",
+      "finished": "2024-06-09T02:05:48Z"
+    },
+    "devuan-ascii-armhf": {
+      "Name": "devuan-ascii-armhf",
+      "state": "failure",
+      "finished": "2024-06-09T02:05:42Z"
+    },
+    "devuan-ascii-armhf-minbase": {
+      "Name": "devuan-ascii-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-06-09T02:06:45Z"
+    },
+    "devuan-ascii-i386": {
+      "Name": "devuan-ascii-i386",
+      "state": "failure",
+      "finished": "2024-06-09T02:06:51Z"
+    },
+    "devuan-ascii-i386-minbase": {
+      "Name": "devuan-ascii-i386-minbase",
+      "state": "failure",
+      "finished": "2024-06-09T02:05:51Z"
+    },
+    "devuan-ascii-mipsel": {
+      "Name": "devuan-ascii-mipsel",
+      "state": "failure",
+      "finished": "2024-06-09T02:10:24Z"
+    },
+    "devuan-ascii-mipsel-minbase": {
+      "Name": "devuan-ascii-mipsel-minbase",
+      "state": "failure",
+      "finished": "2024-06-09T02:05:35Z"
+    },
+    "devuan-ascii-ppc64el": {
+      "Name": "devuan-ascii-ppc64el",
+      "state": "failure",
+      "finished": "2024-06-09T02:05:16Z"
+    },
+    "devuan-ascii-ppc64el-minbase": {
+      "Name": "devuan-ascii-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-06-09T02:06:36Z"
+    },
+    "devuan-beowulf-amd64": {
+      "Name": "devuan-beowulf-amd64",
+      "state": "success",
+      "finished": "2024-06-24T02:07:59Z"
+    },
+    "devuan-beowulf-amd64-minbase": {
+      "Name": "devuan-beowulf-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-24T02:06:49Z"
+    },
+    "devuan-beowulf-arm64": {
+      "Name": "devuan-beowulf-arm64",
+      "state": "success",
+      "finished": "2024-06-24T02:09:33Z"
+    },
+    "devuan-beowulf-arm64-minbase": {
+      "Name": "devuan-beowulf-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-24T02:08:27Z"
+    },
+    "devuan-beowulf-armel": {
+      "Name": "devuan-beowulf-armel",
+      "state": "failure",
+      "finished": "2024-06-24T02:05:55Z"
+    },
+    "devuan-beowulf-armel-minbase": {
+      "Name": "devuan-beowulf-armel-minbase",
+      "state": "failure",
+      "finished": "2024-06-24T02:07:10Z"
+    },
+    "devuan-beowulf-armhf": {
+      "Name": "devuan-beowulf-armhf",
+      "state": "success",
+      "finished": "2024-06-24T02:08:21Z"
+    },
+    "devuan-beowulf-armhf-minbase": {
+      "Name": "devuan-beowulf-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-24T02:08:56Z"
+    },
+    "devuan-beowulf-i386": {
+      "Name": "devuan-beowulf-i386",
+      "state": "success",
+      "finished": "2024-06-24T02:06:48Z"
+    },
+    "devuan-beowulf-i386-minbase": {
+      "Name": "devuan-beowulf-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-24T02:08:45Z"
+    },
+    "devuan-beowulf-ppc64el": {
+      "Name": "devuan-beowulf-ppc64el",
+      "state": "failure",
+      "finished": "2024-06-24T02:07:28Z"
+    },
+    "devuan-beowulf-ppc64el-minbase": {
+      "Name": "devuan-beowulf-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-06-24T02:06:04Z"
+    },
+    "devuan-ceres-amd64": {
+      "Name": "devuan-ceres-amd64",
+      "state": "failure",
+      "finished": "2024-05-12T02:06:41Z"
+    },
+    "devuan-ceres-amd64-minbase": {
+      "Name": "devuan-ceres-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-05-12T02:06:54Z"
+    },
+    "devuan-ceres-arm64": {
+      "Name": "devuan-ceres-arm64",
+      "state": "failure",
+      "finished": "2024-05-12T02:08:22Z"
+    },
+    "devuan-ceres-arm64-minbase": {
+      "Name": "devuan-ceres-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-05-12T02:09:16Z"
+    },
+    "devuan-ceres-armel": {
+      "Name": "devuan-ceres-armel",
+      "state": "failure",
+      "finished": "2024-05-12T02:06:27Z"
+    },
+    "devuan-ceres-armel-minbase": {
+      "Name": "devuan-ceres-armel-minbase",
+      "state": "failure",
+      "finished": "2024-05-12T02:07:56Z"
+    },
+    "devuan-ceres-armhf": {
+      "Name": "devuan-ceres-armhf",
+      "state": "failure",
+      "finished": "2024-05-12T02:07:21Z"
+    },
+    "devuan-ceres-armhf-minbase": {
+      "Name": "devuan-ceres-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-05-12T02:11:06Z"
+    },
+    "devuan-ceres-i386": {
+      "Name": "devuan-ceres-i386",
+      "state": "failure",
+      "finished": "2024-05-12T02:06:33Z"
+    },
+    "devuan-ceres-i386-minbase": {
+      "Name": "devuan-ceres-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-12T02:06:46Z"
+    },
+    "devuan-ceres-ppc64el": {
+      "Name": "devuan-ceres-ppc64el",
+      "state": "failure",
+      "finished": "2024-05-12T02:07:45Z"
+    },
+    "devuan-ceres-ppc64el-minbase": {
+      "Name": "devuan-ceres-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-05-12T02:09:29Z"
+    },
+    "devuan-ceres-riscv64": {
+      "Name": "devuan-ceres-riscv64",
+      "state": "failure",
+      "finished": "2024-05-12T02:08:43Z"
+    },
+    "devuan-ceres-riscv64-minbase": {
+      "Name": "devuan-ceres-riscv64-minbase",
+      "state": "failure",
+      "finished": "2024-05-12T02:12:36Z"
+    },
+    "devuan-chimaera-amd64": {
+      "Name": "devuan-chimaera-amd64",
+      "state": "success",
+      "finished": "2024-06-07T02:07:48Z"
+    },
+    "devuan-chimaera-amd64-minbase": {
+      "Name": "devuan-chimaera-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-07T02:07:52Z"
+    },
+    "devuan-chimaera-arm64": {
+      "Name": "devuan-chimaera-arm64",
+      "state": "success",
+      "finished": "2024-06-07T02:10:47Z"
+    },
+    "devuan-chimaera-arm64-minbase": {
+      "Name": "devuan-chimaera-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-07T02:09:25Z"
+    },
+    "devuan-chimaera-armel": {
+      "Name": "devuan-chimaera-armel",
+      "state": "failure",
+      "finished": "2024-06-07T02:07:23Z"
+    },
+    "devuan-chimaera-armel-minbase": {
+      "Name": "devuan-chimaera-armel-minbase",
+      "state": "failure",
+      "finished": "2024-06-07T02:08:54Z"
+    },
+    "devuan-chimaera-armhf": {
+      "Name": "devuan-chimaera-armhf",
+      "state": "success",
+      "finished": "2024-06-07T02:09:37Z"
+    },
+    "devuan-chimaera-armhf-minbase": {
+      "Name": "devuan-chimaera-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-07T02:10:50Z"
+    },
+    "devuan-chimaera-i386": {
+      "Name": "devuan-chimaera-i386",
+      "state": "success",
+      "finished": "2024-06-07T02:08:13Z"
+    },
+    "devuan-chimaera-i386-minbase": {
+      "Name": "devuan-chimaera-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-07T02:10:31Z"
+    },
+    "devuan-chimaera-ppc64el": {
+      "Name": "devuan-chimaera-ppc64el",
+      "state": "success",
+      "finished": "2024-06-07T02:09:39Z"
+    },
+    "devuan-chimaera-ppc64el-minbase": {
+      "Name": "devuan-chimaera-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-07T02:12:10Z"
+    },
+    "devuan-daedalus-amd64": {
+      "Name": "devuan-daedalus-amd64",
+      "state": "success",
+      "finished": "2024-07-01T02:08:37Z"
+    },
+    "devuan-daedalus-amd64-minbase": {
+      "Name": "devuan-daedalus-amd64-minbase",
+      "state": "success",
+      "finished": "2024-07-01T02:08:50Z"
+    },
+    "devuan-daedalus-arm64": {
+      "Name": "devuan-daedalus-arm64",
+      "state": "success",
+      "finished": "2024-07-01T02:10:04Z"
+    },
+    "devuan-daedalus-arm64-minbase": {
+      "Name": "devuan-daedalus-arm64-minbase",
+      "state": "success",
+      "finished": "2024-07-01T02:10:15Z"
+    },
+    "devuan-daedalus-armel": {
+      "Name": "devuan-daedalus-armel",
+      "state": "failure",
+      "finished": "2024-07-01T02:07:34Z"
+    },
+    "devuan-daedalus-armel-minbase": {
+      "Name": "devuan-daedalus-armel-minbase",
+      "state": "failure",
+      "finished": "2024-07-01T02:07:38Z"
+    },
+    "devuan-daedalus-armhf": {
+      "Name": "devuan-daedalus-armhf",
+      "state": "success",
+      "finished": "2024-07-01T02:12:05Z"
+    },
+    "devuan-daedalus-armhf-minbase": {
+      "Name": "devuan-daedalus-armhf-minbase",
+      "state": "success",
+      "finished": "2024-07-01T02:10:26Z"
+    },
+    "devuan-daedalus-i386": {
+      "Name": "devuan-daedalus-i386",
+      "state": "success",
+      "finished": "2024-07-01T02:10:10Z"
+    },
+    "devuan-daedalus-i386-minbase": {
+      "Name": "devuan-daedalus-i386-minbase",
+      "state": "success",
+      "finished": "2024-07-01T02:09:15Z"
+    },
+    "devuan-daedalus-ppc64el": {
+      "Name": "devuan-daedalus-ppc64el",
+      "state": "success",
+      "finished": "2024-07-01T02:10:49Z"
+    },
+    "devuan-daedalus-ppc64el-minbase": {
+      "Name": "devuan-daedalus-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-07-01T02:10:48Z"
+    },
+    "devuan-excalibur-amd64": {
+      "Name": "devuan-excalibur-amd64",
+      "state": "failure",
+      "finished": "2024-05-18T02:06:52Z"
+    },
+    "devuan-excalibur-amd64-minbase": {
+      "Name": "devuan-excalibur-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-05-18T02:07:48Z"
+    },
+    "devuan-excalibur-arm64": {
+      "Name": "devuan-excalibur-arm64",
+      "state": "failure",
+      "finished": "2024-05-18T02:11:45Z"
+    },
+    "devuan-excalibur-arm64-minbase": {
+      "Name": "devuan-excalibur-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-05-18T02:09:48Z"
+    },
+    "devuan-excalibur-armel": {
+      "Name": "devuan-excalibur-armel",
+      "state": "failure",
+      "finished": "2024-05-18T02:06:36Z"
+    },
+    "devuan-excalibur-armel-minbase": {
+      "Name": "devuan-excalibur-armel-minbase",
+      "state": "failure",
+      "finished": "2024-05-18T02:08:59Z"
+    },
+    "devuan-excalibur-armhf": {
+      "Name": "devuan-excalibur-armhf",
+      "state": "failure",
+      "finished": "2024-05-18T02:07:54Z"
+    },
+    "devuan-excalibur-armhf-minbase": {
+      "Name": "devuan-excalibur-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-05-18T02:08:46Z"
+    },
+    "devuan-excalibur-i386": {
+      "Name": "devuan-excalibur-i386",
+      "state": "failure",
+      "finished": "2024-05-18T02:06:48Z"
+    },
+    "devuan-excalibur-i386-minbase": {
+      "Name": "devuan-excalibur-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-18T02:06:57Z"
+    },
+    "devuan-excalibur-ppc64el": {
+      "Name": "devuan-excalibur-ppc64el",
+      "state": "failure",
+      "finished": "2024-05-18T02:08:45Z"
+    },
+    "devuan-excalibur-ppc64el-minbase": {
+      "Name": "devuan-excalibur-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-05-18T02:08:16Z"
+    },
+    "devuan-experimental-amd64": {
+      "Name": "devuan-experimental-amd64",
+      "state": "failure",
+      "finished": "2024-05-11T02:05:08Z"
+    },
+    "devuan-experimental-amd64-minbase": {
+      "Name": "devuan-experimental-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-05-11T02:05:06Z"
+    },
+    "devuan-experimental-arm64": {
+      "Name": "devuan-experimental-arm64",
+      "state": "failure",
+      "finished": "2024-05-11T02:05:10Z"
+    },
+    "devuan-experimental-arm64-minbase": {
+      "Name": "devuan-experimental-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-05-11T02:04:58Z"
+    },
+    "devuan-experimental-armel": {
+      "Name": "devuan-experimental-armel",
+      "state": "failure",
+      "finished": "2024-05-11T02:06:00Z"
+    },
+    "devuan-experimental-armel-minbase": {
+      "Name": "devuan-experimental-armel-minbase",
+      "state": "failure",
+      "finished": "2024-05-11T02:04:54Z"
+    },
+    "devuan-experimental-armhf": {
+      "Name": "devuan-experimental-armhf",
+      "state": "failure",
+      "finished": "2024-05-11T02:04:56Z"
+    },
+    "devuan-experimental-armhf-minbase": {
+      "Name": "devuan-experimental-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-05-11T02:04:52Z"
+    },
+    "devuan-experimental-i386": {
+      "Name": "devuan-experimental-i386",
+      "state": "failure",
+      "finished": "2024-05-11T02:06:02Z"
+    },
+    "devuan-experimental-i386-minbase": {
+      "Name": "devuan-experimental-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-11T02:05:15Z"
+    },
+    "devuan-experimental-ppc64el": {
+      "Name": "devuan-experimental-ppc64el",
+      "state": "failure",
+      "finished": "2024-05-11T02:06:12Z"
+    },
+    "devuan-experimental-ppc64el-minbase": {
+      "Name": "devuan-experimental-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-05-11T02:05:09Z"
+    },
+    "devuan-experimental-riscv64": {
+      "Name": "devuan-experimental-riscv64",
+      "state": "failure",
+      "finished": "2024-05-11T02:05:05Z"
+    },
+    "devuan-experimental-riscv64-minbase": {
+      "Name": "devuan-experimental-riscv64-minbase",
+      "state": "failure",
+      "finished": "2024-05-11T02:05:18Z"
+    },
+    "devuan-jessie-amd64": {
+      "Name": "devuan-jessie-amd64",
+      "state": "failure",
+      "finished": "2023-12-06T03:06:31Z"
+    },
+    "devuan-jessie-amd64-minbase": {
+      "Name": "devuan-jessie-amd64-minbase",
+      "state": "failure",
+      "finished": "2023-12-06T03:06:36Z"
+    },
+    "devuan-jessie-arm64": {
+      "Name": "devuan-jessie-arm64",
+      "state": "failure",
+      "finished": "2023-12-06T03:06:24Z"
+    },
+    "devuan-jessie-arm64-minbase": {
+      "Name": "devuan-jessie-arm64-minbase",
+      "state": "failure",
+      "finished": "2023-12-06T03:07:26Z"
+    },
+    "devuan-jessie-armel": {
+      "Name": "devuan-jessie-armel",
+      "state": "failure",
+      "finished": "2023-12-06T03:06:26Z"
+    },
+    "devuan-jessie-armel-minbase": {
+      "Name": "devuan-jessie-armel-minbase",
+      "state": "failure",
+      "finished": "2023-12-06T03:06:26Z"
+    },
+    "devuan-jessie-armhf": {
+      "Name": "devuan-jessie-armhf",
+      "state": "failure",
+      "finished": "2023-12-06T03:06:24Z"
+    },
+    "devuan-jessie-armhf-minbase": {
+      "Name": "devuan-jessie-armhf-minbase",
+      "state": "failure",
+      "finished": "2023-12-06T03:07:25Z"
+    },
+    "devuan-jessie-i386": {
+      "Name": "devuan-jessie-i386",
+      "state": "failure",
+      "finished": "2023-12-06T03:06:33Z"
+    },
+    "devuan-jessie-i386-minbase": {
+      "Name": "devuan-jessie-i386-minbase",
+      "state": "failure",
+      "finished": "2023-12-06T03:07:24Z"
+    },
+    "devuan-jessie-ppc64el": {
+      "Name": "devuan-jessie-ppc64el",
+      "state": "failure",
+      "finished": "2023-12-06T03:06:21Z"
+    },
+    "devuan-jessie-ppc64el-minbase": {
+      "Name": "devuan-jessie-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2023-12-06T03:07:19Z"
+    },
+    "raspbian-bookworm-armhf": {
+      "Name": "raspbian-bookworm-armhf",
+      "state": "success",
+      "finished": "2024-05-08T02:10:40Z"
+    },
+    "raspbian-bookworm-armhf-minbase": {
+      "Name": "raspbian-bookworm-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:10:37Z"
+    },
+    "raspbian-bullseye-armhf": {
+      "Name": "raspbian-bullseye-armhf",
+      "state": "success",
+      "finished": "2024-05-05T02:10:34Z"
+    },
+    "raspbian-bullseye-armhf-minbase": {
+      "Name": "raspbian-bullseye-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:12:25Z"
+    },
+    "raspbian-buster-armhf": {
+      "Name": "raspbian-buster-armhf",
+      "state": "success",
+      "finished": "2024-06-21T02:11:00Z"
+    },
+    "raspbian-buster-armhf-minbase": {
+      "Name": "raspbian-buster-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-21T02:10:25Z"
+    },
+    "raspbian-trixie-armhf": {
+      "Name": "raspbian-trixie-armhf",
+      "state": "success",
+      "finished": "2024-05-17T02:13:00Z"
+    },
+    "raspbian-trixie-armhf-minbase": {
+      "Name": "raspbian-trixie-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-17T02:13:00Z"
+    },
+    "rpios-bookworm-amd64": {
+      "Name": "rpios-bookworm-amd64",
+      "state": "success",
+      "finished": "2024-05-08T02:11:12Z"
+    },
+    "rpios-bookworm-amd64-minbase": {
+      "Name": "rpios-bookworm-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:11:26Z"
+    },
+    "rpios-bookworm-arm64": {
+      "Name": "rpios-bookworm-arm64",
+      "state": "success",
+      "finished": "2024-05-08T02:12:20Z"
+    },
+    "rpios-bookworm-arm64-minbase": {
+      "Name": "rpios-bookworm-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:12:19Z"
+    },
+    "rpios-bookworm-armhf": {
+      "Name": "rpios-bookworm-armhf",
+      "state": "success",
+      "finished": "2024-05-08T02:11:53Z"
+    },
+    "rpios-bookworm-armhf-minbase": {
+      "Name": "rpios-bookworm-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:12:24Z"
+    },
+    "rpios-bookworm-i386": {
+      "Name": "rpios-bookworm-i386",
+      "state": "success",
+      "finished": "2024-05-08T02:11:26Z"
+    },
+    "rpios-bookworm-i386-minbase": {
+      "Name": "rpios-bookworm-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-08T02:11:47Z"
+    },
+    "rpios-bullseye-amd64": {
+      "Name": "rpios-bullseye-amd64",
+      "state": "success",
+      "finished": "2024-05-05T02:11:29Z"
+    },
+    "rpios-bullseye-amd64-minbase": {
+      "Name": "rpios-bullseye-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:12:21Z"
+    },
+    "rpios-bullseye-arm64": {
+      "Name": "rpios-bullseye-arm64",
+      "state": "success",
+      "finished": "2024-05-05T02:12:30Z"
+    },
+    "rpios-bullseye-arm64-minbase": {
+      "Name": "rpios-bullseye-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:12:48Z"
+    },
+    "rpios-bullseye-armhf": {
+      "Name": "rpios-bullseye-armhf",
+      "state": "success",
+      "finished": "2024-05-05T02:11:09Z"
+    },
+    "rpios-bullseye-armhf-minbase": {
+      "Name": "rpios-bullseye-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:11:08Z"
+    },
+    "rpios-bullseye-i386": {
+      "Name": "rpios-bullseye-i386",
+      "state": "success",
+      "finished": "2024-05-05T02:11:31Z"
+    },
+    "rpios-bullseye-i386-minbase": {
+      "Name": "rpios-bullseye-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-05T02:13:49Z"
+    },
+    "rpios-buster-amd64": {
+      "Name": "rpios-buster-amd64",
+      "state": "success",
+      "finished": "2024-06-21T02:07:30Z"
+    },
+    "rpios-buster-amd64-minbase": {
+      "Name": "rpios-buster-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-21T02:06:47Z"
+    },
+    "rpios-buster-arm64": {
+      "Name": "rpios-buster-arm64",
+      "state": "success",
+      "finished": "2024-06-21T02:08:28Z"
+    },
+    "rpios-buster-arm64-minbase": {
+      "Name": "rpios-buster-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-21T02:08:46Z"
+    },
+    "rpios-buster-armhf": {
+      "Name": "rpios-buster-armhf",
+      "state": "success",
+      "finished": "2024-06-21T02:08:19Z"
+    },
+    "rpios-buster-armhf-minbase": {
+      "Name": "rpios-buster-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-21T02:08:18Z"
+    },
+    "rpios-buster-i386": {
+      "Name": "rpios-buster-i386",
+      "state": "success",
+      "finished": "2024-06-21T02:06:53Z"
+    },
+    "rpios-buster-i386-minbase": {
+      "Name": "rpios-buster-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-21T02:10:45Z"
+    },
+    "rpios-jessie-armhf": {
+      "Name": "rpios-jessie-armhf",
+      "state": "success",
+      "finished": "2024-05-25T02:13:05Z"
+    },
+    "rpios-jessie-armhf-minbase": {
+      "Name": "rpios-jessie-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:13:11Z"
+    },
+    "rpios-jessie-i386": {
+      "Name": "rpios-jessie-i386",
+      "state": "success",
+      "finished": "2024-05-25T02:10:47Z"
+    },
+    "rpios-jessie-i386-minbase": {
+      "Name": "rpios-jessie-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-25T02:12:45Z"
+    },
+    "rpios-stretch-amd64": {
+      "Name": "rpios-stretch-amd64",
+      "state": "success",
+      "finished": "2024-05-07T02:10:41Z"
+    },
+    "rpios-stretch-amd64-minbase": {
+      "Name": "rpios-stretch-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:10:15Z"
+    },
+    "rpios-stretch-armhf": {
+      "Name": "rpios-stretch-armhf",
+      "state": "success",
+      "finished": "2024-05-07T02:10:43Z"
+    },
+    "rpios-stretch-armhf-minbase": {
+      "Name": "rpios-stretch-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:12:17Z"
+    },
+    "rpios-stretch-i386": {
+      "Name": "rpios-stretch-i386",
+      "state": "success",
+      "finished": "2024-05-07T02:11:30Z"
+    },
+    "rpios-stretch-i386-minbase": {
+      "Name": "rpios-stretch-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-07T02:11:32Z"
+    },
+    "rpios-wheezy-armel": {
+      "Name": "rpios-wheezy-armel",
+      "state": "success",
+      "finished": "2024-06-23T02:11:18Z"
+    },
+    "rpios-wheezy-armel-minbase": {
+      "Name": "rpios-wheezy-armel-minbase",
+      "state": "success",
+      "finished": "2024-06-23T02:11:14Z"
+    },
+    "rpios-wheezy-armhf": {
+      "Name": "rpios-wheezy-armhf",
+      "state": "success",
+      "finished": "2024-06-23T02:12:34Z"
+    },
+    "rpios-wheezy-armhf-minbase": {
+      "Name": "rpios-wheezy-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-23T02:11:42Z"
+    },
+    "ubuntu-artful-amd64": {
+      "Name": "ubuntu-artful-amd64",
+      "state": "failure",
+      "finished": "2024-06-12T02:09:40Z"
+    },
+    "ubuntu-artful-amd64-minbase": {
+      "Name": "ubuntu-artful-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-12T02:08:29Z"
+    },
+    "ubuntu-artful-arm64": {
+      "Name": "ubuntu-artful-arm64",
+      "state": "failure",
+      "finished": "2024-06-12T02:14:42Z"
+    },
+    "ubuntu-artful-arm64-minbase": {
+      "Name": "ubuntu-artful-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-06-12T02:09:24Z"
+    },
+    "ubuntu-artful-armhf": {
+      "Name": "ubuntu-artful-armhf",
+      "state": "failure",
+      "finished": "2024-06-12T02:10:38Z"
+    },
+    "ubuntu-artful-armhf-minbase": {
+      "Name": "ubuntu-artful-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-06-12T02:12:09Z"
+    },
+    "ubuntu-artful-i386": {
+      "Name": "ubuntu-artful-i386",
+      "state": "success",
+      "finished": "2024-06-12T02:10:12Z"
+    },
+    "ubuntu-artful-i386-minbase": {
+      "Name": "ubuntu-artful-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-12T02:19:23Z"
+    },
+    "ubuntu-artful-ppc64el": {
+      "Name": "ubuntu-artful-ppc64el",
+      "state": "failure",
+      "finished": "2024-06-12T02:12:55Z"
+    },
+    "ubuntu-artful-ppc64el-minbase": {
+      "Name": "ubuntu-artful-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-06-12T02:12:32Z"
+    },
+    "ubuntu-artful-s390x": {
+      "Name": "ubuntu-artful-s390x",
+      "state": "failure",
+      "finished": "2024-06-12T02:09:21Z"
+    },
+    "ubuntu-artful-s390x-minbase": {
+      "Name": "ubuntu-artful-s390x-minbase",
+      "state": "failure",
+      "finished": "2024-06-12T02:12:30Z"
+    },
+    "ubuntu-bionic-amd64": {
+      "Name": "ubuntu-bionic-amd64",
+      "state": "success",
+      "finished": "2024-05-22T02:06:34Z"
+    },
+    "ubuntu-bionic-amd64-minbase": {
+      "Name": "ubuntu-bionic-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-22T02:07:59Z"
+    },
+    "ubuntu-bionic-arm64": {
+      "Name": "ubuntu-bionic-arm64",
+      "state": "success",
+      "finished": "2024-05-22T02:10:33Z"
+    },
+    "ubuntu-bionic-arm64-minbase": {
+      "Name": "ubuntu-bionic-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-22T02:10:52Z"
+    },
+    "ubuntu-bionic-armhf": {
+      "Name": "ubuntu-bionic-armhf",
+      "state": "success",
+      "finished": "2024-05-22T02:12:04Z"
+    },
+    "ubuntu-bionic-armhf-minbase": {
+      "Name": "ubuntu-bionic-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-22T02:12:36Z"
+    },
+    "ubuntu-bionic-i386": {
+      "Name": "ubuntu-bionic-i386",
+      "state": "success",
+      "finished": "2024-05-22T02:06:58Z"
+    },
+    "ubuntu-bionic-i386-minbase": {
+      "Name": "ubuntu-bionic-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-22T02:08:41Z"
+    },
+    "ubuntu-bionic-ppc64el": {
+      "Name": "ubuntu-bionic-ppc64el",
+      "state": "success",
+      "finished": "2024-05-22T02:10:56Z"
+    },
+    "ubuntu-bionic-ppc64el-minbase": {
+      "Name": "ubuntu-bionic-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-22T02:11:03Z"
+    },
+    "ubuntu-bionic-s390x": {
+      "Name": "ubuntu-bionic-s390x",
+      "state": "success",
+      "finished": "2024-05-22T02:14:41Z"
+    },
+    "ubuntu-bionic-s390x-minbase": {
+      "Name": "ubuntu-bionic-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-22T02:10:23Z"
+    },
+    "ubuntu-breezy-amd64": {
+      "Name": "ubuntu-breezy-amd64",
+      "state": "failure",
+      "finished": "2024-06-28T02:05:40Z"
+    },
+    "ubuntu-breezy-amd64-minbase": {
+      "Name": "ubuntu-breezy-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-06-28T02:08:30Z"
+    },
+    "ubuntu-breezy-hppa": {
+      "Name": "ubuntu-breezy-hppa",
+      "state": "failure",
+      "finished": "2024-06-28T02:05:21Z"
+    },
+    "ubuntu-breezy-hppa-minbase": {
+      "Name": "ubuntu-breezy-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-06-28T02:07:49Z"
+    },
+    "ubuntu-breezy-i386": {
+      "Name": "ubuntu-breezy-i386",
+      "state": "failure",
+      "finished": "2024-06-28T02:05:52Z"
+    },
+    "ubuntu-breezy-i386-minbase": {
+      "Name": "ubuntu-breezy-i386-minbase",
+      "state": "failure",
+      "finished": "2024-06-28T02:05:30Z"
+    },
+    "ubuntu-breezy-ia64": {
+      "Name": "ubuntu-breezy-ia64",
+      "state": "failure",
+      "finished": "2024-06-28T02:07:12Z"
+    },
+    "ubuntu-breezy-ia64-minbase": {
+      "Name": "ubuntu-breezy-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-28T02:05:44Z"
+    },
+    "ubuntu-breezy-powerpc": {
+      "Name": "ubuntu-breezy-powerpc",
+      "state": "failure",
+      "finished": "2024-06-28T02:07:16Z"
+    },
+    "ubuntu-breezy-powerpc-minbase": {
+      "Name": "ubuntu-breezy-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-28T02:05:33Z"
+    },
+    "ubuntu-breezy-sparc": {
+      "Name": "ubuntu-breezy-sparc",
+      "state": "failure",
+      "finished": "2024-06-28T02:07:22Z"
+    },
+    "ubuntu-breezy-sparc-minbase": {
+      "Name": "ubuntu-breezy-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-28T02:05:30Z"
+    },
+    "ubuntu-cosmic-amd64": {
+      "Name": "ubuntu-cosmic-amd64",
+      "state": "success",
+      "finished": "2024-05-30T02:12:15Z"
+    },
+    "ubuntu-cosmic-amd64-minbase": {
+      "Name": "ubuntu-cosmic-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-30T02:09:18Z"
+    },
+    "ubuntu-cosmic-arm64": {
+      "Name": "ubuntu-cosmic-arm64",
+      "state": "success",
+      "finished": "2024-05-30T02:13:49Z"
+    },
+    "ubuntu-cosmic-arm64-minbase": {
+      "Name": "ubuntu-cosmic-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-30T02:15:17Z"
+    },
+    "ubuntu-cosmic-armhf": {
+      "Name": "ubuntu-cosmic-armhf",
+      "state": "success",
+      "finished": "2024-05-30T02:16:01Z"
+    },
+    "ubuntu-cosmic-armhf-minbase": {
+      "Name": "ubuntu-cosmic-armhf-minbase",
+      "state": "cancelled",
+      "finished": "2024-05-30T02:05:56Z"
+    },
+    "ubuntu-cosmic-i386": {
+      "Name": "ubuntu-cosmic-i386",
+      "state": "success",
+      "finished": "2024-05-30T02:09:48Z"
+    },
+    "ubuntu-cosmic-i386-minbase": {
+      "Name": "ubuntu-cosmic-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-30T02:13:11Z"
+    },
+    "ubuntu-cosmic-ppc64el": {
+      "Name": "ubuntu-cosmic-ppc64el",
+      "state": "success",
+      "finished": "2024-05-30T02:13:00Z"
+    },
+    "ubuntu-cosmic-ppc64el-minbase": {
+      "Name": "ubuntu-cosmic-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-30T02:12:43Z"
+    },
+    "ubuntu-cosmic-s390x": {
+      "Name": "ubuntu-cosmic-s390x",
+      "state": "success",
+      "finished": "2024-05-30T02:13:49Z"
+    },
+    "ubuntu-cosmic-s390x-minbase": {
+      "Name": "ubuntu-cosmic-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-30T02:14:49Z"
+    },
+    "ubuntu-dapper-amd64": {
+      "Name": "ubuntu-dapper-amd64",
+      "state": "success",
+      "finished": "2024-05-26T02:06:26Z"
+    },
+    "ubuntu-dapper-amd64-minbase": {
+      "Name": "ubuntu-dapper-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-26T02:09:23Z"
+    },
+    "ubuntu-dapper-hppa": {
+      "Name": "ubuntu-dapper-hppa",
+      "state": "failure",
+      "finished": "2024-05-26T02:12:27Z"
+    },
+    "ubuntu-dapper-hppa-minbase": {
+      "Name": "ubuntu-dapper-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-05-26T02:12:44Z"
+    },
+    "ubuntu-dapper-i386": {
+      "Name": "ubuntu-dapper-i386",
+      "state": "success",
+      "finished": "2024-05-26T02:08:09Z"
+    },
+    "ubuntu-dapper-i386-minbase": {
+      "Name": "ubuntu-dapper-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-26T02:08:52Z"
+    },
+    "ubuntu-dapper-ia64": {
+      "Name": "ubuntu-dapper-ia64",
+      "state": "failure",
+      "finished": "2024-05-26T02:12:39Z"
+    },
+    "ubuntu-dapper-ia64-minbase": {
+      "Name": "ubuntu-dapper-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-05-26T02:12:34Z"
+    },
+    "ubuntu-dapper-powerpc": {
+      "Name": "ubuntu-dapper-powerpc",
+      "state": "failure",
+      "finished": "2024-05-26T02:05:35Z"
+    },
+    "ubuntu-dapper-powerpc-minbase": {
+      "Name": "ubuntu-dapper-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-26T02:05:43Z"
+    },
+    "ubuntu-dapper-sparc": {
+      "Name": "ubuntu-dapper-sparc",
+      "state": "failure",
+      "finished": "2024-05-26T02:11:59Z"
+    },
+    "ubuntu-dapper-sparc-minbase": {
+      "Name": "ubuntu-dapper-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-05-26T02:12:37Z"
+    },
+    "ubuntu-disco-amd64": {
+      "Name": "ubuntu-disco-amd64",
+      "state": "success",
+      "finished": "2024-06-04T02:18:29Z"
+    },
+    "ubuntu-disco-amd64-minbase": {
+      "Name": "ubuntu-disco-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-04T02:15:57Z"
+    },
+    "ubuntu-disco-arm64": {
+      "Name": "ubuntu-disco-arm64",
+      "state": "success",
+      "finished": "2024-06-04T02:18:57Z"
+    },
+    "ubuntu-disco-arm64-minbase": {
+      "Name": "ubuntu-disco-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-04T02:21:41Z"
+    },
+    "ubuntu-disco-armhf": {
+      "Name": "ubuntu-disco-armhf",
+      "state": "success",
+      "finished": "2024-06-04T02:14:52Z"
+    },
+    "ubuntu-disco-armhf-minbase": {
+      "Name": "ubuntu-disco-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-04T02:16:26Z"
+    },
+    "ubuntu-disco-i386": {
+      "Name": "ubuntu-disco-i386",
+      "state": "success",
+      "finished": "2024-06-04T02:15:15Z"
+    },
+    "ubuntu-disco-i386-minbase": {
+      "Name": "ubuntu-disco-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-04T02:14:34Z"
+    },
+    "ubuntu-disco-ppc64el": {
+      "Name": "ubuntu-disco-ppc64el",
+      "state": "success",
+      "finished": "2024-06-04T02:18:42Z"
+    },
+    "ubuntu-disco-ppc64el-minbase": {
+      "Name": "ubuntu-disco-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-04T02:27:00Z"
+    },
+    "ubuntu-disco-s390x": {
+      "Name": "ubuntu-disco-s390x",
+      "state": "success",
+      "finished": "2024-06-04T02:22:59Z"
+    },
+    "ubuntu-disco-s390x-minbase": {
+      "Name": "ubuntu-disco-s390x-minbase",
+      "state": "success",
+      "finished": "2024-06-04T02:22:56Z"
+    },
+    "ubuntu-edgy-amd64": {
+      "Name": "ubuntu-edgy-amd64",
+      "state": "success",
+      "finished": "2024-05-31T02:17:07Z"
+    },
+    "ubuntu-edgy-amd64-minbase": {
+      "Name": "ubuntu-edgy-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-31T02:10:49Z"
+    },
+    "ubuntu-edgy-hppa": {
+      "Name": "ubuntu-edgy-hppa",
+      "state": "failure",
+      "finished": "2024-05-31T02:10:06Z"
+    },
+    "ubuntu-edgy-hppa-minbase": {
+      "Name": "ubuntu-edgy-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-05-31T02:07:11Z"
+    },
+    "ubuntu-edgy-i386": {
+      "Name": "ubuntu-edgy-i386",
+      "state": "success",
+      "finished": "2024-05-31T02:09:08Z"
+    },
+    "ubuntu-edgy-i386-minbase": {
+      "Name": "ubuntu-edgy-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-31T02:08:08Z"
+    },
+    "ubuntu-edgy-ia64": {
+      "Name": "ubuntu-edgy-ia64",
+      "state": "failure",
+      "finished": "2024-05-31T02:14:39Z"
+    },
+    "ubuntu-edgy-ia64-minbase": {
+      "Name": "ubuntu-edgy-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-05-31T02:14:14Z"
+    },
+    "ubuntu-edgy-powerpc": {
+      "Name": "ubuntu-edgy-powerpc",
+      "state": "failure",
+      "finished": "2024-05-31T02:11:32Z"
+    },
+    "ubuntu-edgy-powerpc-minbase": {
+      "Name": "ubuntu-edgy-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-31T02:11:33Z"
+    },
+    "ubuntu-edgy-sparc": {
+      "Name": "ubuntu-edgy-sparc",
+      "state": "failure",
+      "finished": "2024-05-31T02:14:44Z"
+    },
+    "ubuntu-edgy-sparc-minbase": {
+      "Name": "ubuntu-edgy-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-05-31T02:14:11Z"
+    },
+    "ubuntu-eoan-amd64": {
+      "Name": "ubuntu-eoan-amd64",
+      "state": "success",
+      "finished": "2024-06-26T02:07:31Z"
+    },
+    "ubuntu-eoan-amd64-minbase": {
+      "Name": "ubuntu-eoan-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-26T02:07:25Z"
+    },
+    "ubuntu-eoan-arm64": {
+      "Name": "ubuntu-eoan-arm64",
+      "state": "success",
+      "finished": "2024-06-26T02:10:36Z"
+    },
+    "ubuntu-eoan-arm64-minbase": {
+      "Name": "ubuntu-eoan-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-26T02:10:48Z"
+    },
+    "ubuntu-eoan-armhf": {
+      "Name": "ubuntu-eoan-armhf",
+      "state": "success",
+      "finished": "2024-06-26T02:13:29Z"
+    },
+    "ubuntu-eoan-armhf-minbase": {
+      "Name": "ubuntu-eoan-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-26T02:10:48Z"
+    },
+    "ubuntu-eoan-i386": {
+      "Name": "ubuntu-eoan-i386",
+      "state": "success",
+      "finished": "2024-06-26T02:09:38Z"
+    },
+    "ubuntu-eoan-i386-minbase": {
+      "Name": "ubuntu-eoan-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-26T02:07:36Z"
+    },
+    "ubuntu-eoan-ppc64el": {
+      "Name": "ubuntu-eoan-ppc64el",
+      "state": "success",
+      "finished": "2024-06-26T02:15:07Z"
+    },
+    "ubuntu-eoan-ppc64el-minbase": {
+      "Name": "ubuntu-eoan-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-26T02:15:25Z"
+    },
+    "ubuntu-eoan-s390x": {
+      "Name": "ubuntu-eoan-s390x",
+      "state": "success",
+      "finished": "2024-06-26T02:14:25Z"
+    },
+    "ubuntu-eoan-s390x-minbase": {
+      "Name": "ubuntu-eoan-s390x-minbase",
+      "state": "success",
+      "finished": "2024-06-26T02:10:34Z"
+    },
+    "ubuntu-feisty-amd64": {
+      "Name": "ubuntu-feisty-amd64",
+      "state": "success",
+      "finished": "2024-06-03T02:11:25Z"
+    },
+    "ubuntu-feisty-amd64-minbase": {
+      "Name": "ubuntu-feisty-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-03T02:14:07Z"
+    },
+    "ubuntu-feisty-hppa": {
+      "Name": "ubuntu-feisty-hppa",
+      "state": "failure",
+      "finished": "2024-06-03T02:10:40Z"
+    },
+    "ubuntu-feisty-hppa-minbase": {
+      "Name": "ubuntu-feisty-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-06-03T02:07:13Z"
+    },
+    "ubuntu-feisty-i386": {
+      "Name": "ubuntu-feisty-i386",
+      "state": "success",
+      "finished": "2024-06-03T02:11:41Z"
+    },
+    "ubuntu-feisty-i386-minbase": {
+      "Name": "ubuntu-feisty-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-03T02:07:42Z"
+    },
+    "ubuntu-feisty-ia64": {
+      "Name": "ubuntu-feisty-ia64",
+      "state": "failure",
+      "finished": "2024-06-03T02:15:56Z"
+    },
+    "ubuntu-feisty-ia64-minbase": {
+      "Name": "ubuntu-feisty-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-03T02:07:01Z"
+    },
+    "ubuntu-feisty-powerpc": {
+      "Name": "ubuntu-feisty-powerpc",
+      "state": "failure",
+      "finished": "2024-06-03T02:16:09Z"
+    },
+    "ubuntu-feisty-powerpc-minbase": {
+      "Name": "ubuntu-feisty-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-03T02:14:58Z"
+    },
+    "ubuntu-feisty-sparc": {
+      "Name": "ubuntu-feisty-sparc",
+      "state": "failure",
+      "finished": "2024-06-03T02:13:25Z"
+    },
+    "ubuntu-feisty-sparc-minbase": {
+      "Name": "ubuntu-feisty-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-03T02:19:17Z"
+    },
+    "ubuntu-focal-amd64": {
+      "Name": "ubuntu-focal-amd64",
+      "state": "success",
+      "finished": "2024-05-20T02:06:25Z"
+    },
+    "ubuntu-focal-amd64-minbase": {
+      "Name": "ubuntu-focal-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-20T02:08:02Z"
+    },
+    "ubuntu-focal-arm64": {
+      "Name": "ubuntu-focal-arm64",
+      "state": "success",
+      "finished": "2024-05-20T02:10:47Z"
+    },
+    "ubuntu-focal-arm64-minbase": {
+      "Name": "ubuntu-focal-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-20T02:11:10Z"
+    },
+    "ubuntu-focal-armhf": {
+      "Name": "ubuntu-focal-armhf",
+      "state": "success",
+      "finished": "2024-05-20T02:12:28Z"
+    },
+    "ubuntu-focal-armhf-minbase": {
+      "Name": "ubuntu-focal-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-20T02:10:18Z"
+    },
+    "ubuntu-focal-i386": {
+      "Name": "ubuntu-focal-i386",
+      "state": "failure",
+      "finished": "2024-05-20T02:05:53Z"
+    },
+    "ubuntu-focal-i386-minbase": {
+      "Name": "ubuntu-focal-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-20T02:05:49Z"
+    },
+    "ubuntu-focal-ppc64el": {
+      "Name": "ubuntu-focal-ppc64el",
+      "state": "success",
+      "finished": "2024-05-20T02:11:41Z"
+    },
+    "ubuntu-focal-ppc64el-minbase": {
+      "Name": "ubuntu-focal-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-20T02:11:25Z"
+    },
+    "ubuntu-focal-riscv64": {
+      "Name": "ubuntu-focal-riscv64",
+      "state": "success",
+      "finished": "2024-05-20T02:09:46Z"
+    },
+    "ubuntu-focal-riscv64-minbase": {
+      "Name": "ubuntu-focal-riscv64-minbase",
+      "state": "success",
+      "finished": "2024-05-20T02:10:05Z"
+    },
+    "ubuntu-focal-s390x": {
+      "Name": "ubuntu-focal-s390x",
+      "state": "failure",
+      "finished": "2024-05-20T02:09:02Z"
+    },
+    "ubuntu-focal-s390x-minbase": {
+      "Name": "ubuntu-focal-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-20T02:10:28Z"
+    },
+    "ubuntu-groovy-amd64": {
+      "Name": "ubuntu-groovy-amd64",
+      "state": "success",
+      "finished": "2024-05-23T02:10:23Z"
+    },
+    "ubuntu-groovy-amd64-minbase": {
+      "Name": "ubuntu-groovy-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-23T02:09:48Z"
+    },
+    "ubuntu-groovy-arm64": {
+      "Name": "ubuntu-groovy-arm64",
+      "state": "success",
+      "finished": "2024-05-23T02:12:44Z"
+    },
+    "ubuntu-groovy-arm64-minbase": {
+      "Name": "ubuntu-groovy-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-23T02:13:28Z"
+    },
+    "ubuntu-groovy-armhf": {
+      "Name": "ubuntu-groovy-armhf",
+      "state": "success",
+      "finished": "2024-05-23T02:13:31Z"
+    },
+    "ubuntu-groovy-armhf-minbase": {
+      "Name": "ubuntu-groovy-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-23T02:12:54Z"
+    },
+    "ubuntu-groovy-i386": {
+      "Name": "ubuntu-groovy-i386",
+      "state": "failure",
+      "finished": "2024-05-23T02:09:58Z"
+    },
+    "ubuntu-groovy-i386-minbase": {
+      "Name": "ubuntu-groovy-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-23T02:08:36Z"
+    },
+    "ubuntu-groovy-ppc64el": {
+      "Name": "ubuntu-groovy-ppc64el",
+      "state": "success",
+      "finished": "2024-05-23T02:14:05Z"
+    },
+    "ubuntu-groovy-ppc64el-minbase": {
+      "Name": "ubuntu-groovy-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-23T02:13:07Z"
+    },
+    "ubuntu-groovy-riscv64": {
+      "Name": "ubuntu-groovy-riscv64",
+      "state": "success",
+      "finished": "2024-05-23T02:14:04Z"
+    },
+    "ubuntu-groovy-riscv64-minbase": {
+      "Name": "ubuntu-groovy-riscv64-minbase",
+      "state": "success",
+      "finished": "2024-05-23T02:13:02Z"
+    },
+    "ubuntu-groovy-s390x": {
+      "Name": "ubuntu-groovy-s390x",
+      "state": "success",
+      "finished": "2024-05-23T02:12:51Z"
+    },
+    "ubuntu-groovy-s390x-minbase": {
+      "Name": "ubuntu-groovy-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-23T02:12:46Z"
+    },
+    "ubuntu-gutsy-amd64": {
+      "Name": "ubuntu-gutsy-amd64",
+      "state": "success",
+      "finished": "2024-06-27T02:08:54Z"
+    },
+    "ubuntu-gutsy-amd64-minbase": {
+      "Name": "ubuntu-gutsy-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-06-27T02:09:14Z"
+    },
+    "ubuntu-gutsy-hppa": {
+      "Name": "ubuntu-gutsy-hppa",
+      "state": "failure",
+      "finished": "2024-06-27T02:07:55Z"
+    },
+    "ubuntu-gutsy-hppa-minbase": {
+      "Name": "ubuntu-gutsy-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-06-27T02:06:13Z"
+    },
+    "ubuntu-gutsy-i386": {
+      "Name": "ubuntu-gutsy-i386",
+      "state": "success",
+      "finished": "2024-06-27T02:07:18Z"
+    },
+    "ubuntu-gutsy-i386-minbase": {
+      "Name": "ubuntu-gutsy-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-27T02:07:42Z"
+    },
+    "ubuntu-gutsy-ia64": {
+      "Name": "ubuntu-gutsy-ia64",
+      "state": "failure",
+      "finished": "2024-06-27T02:06:59Z"
+    },
+    "ubuntu-gutsy-ia64-minbase": {
+      "Name": "ubuntu-gutsy-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-27T02:06:21Z"
+    },
+    "ubuntu-gutsy-lpia": {
+      "Name": "ubuntu-gutsy-lpia",
+      "state": "success",
+      "finished": "2024-06-27T02:10:37Z"
+    },
+    "ubuntu-gutsy-lpia-minbase": {
+      "Name": "ubuntu-gutsy-lpia-minbase",
+      "state": "success",
+      "finished": "2024-06-27T02:08:23Z"
+    },
+    "ubuntu-gutsy-powerpc": {
+      "Name": "ubuntu-gutsy-powerpc",
+      "state": "failure",
+      "finished": "2024-06-27T02:06:50Z"
+    },
+    "ubuntu-gutsy-powerpc-minbase": {
+      "Name": "ubuntu-gutsy-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-27T02:06:38Z"
+    },
+    "ubuntu-gutsy-sparc": {
+      "Name": "ubuntu-gutsy-sparc",
+      "state": "failure",
+      "finished": "2024-06-27T02:06:48Z"
+    },
+    "ubuntu-gutsy-sparc-minbase": {
+      "Name": "ubuntu-gutsy-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-27T02:08:10Z"
+    },
+    "ubuntu-hardy-amd64": {
+      "Name": "ubuntu-hardy-amd64",
+      "state": "success",
+      "finished": "2024-06-20T02:06:49Z"
+    },
+    "ubuntu-hardy-amd64-minbase": {
+      "Name": "ubuntu-hardy-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-20T02:09:19Z"
+    },
+    "ubuntu-hardy-hppa": {
+      "Name": "ubuntu-hardy-hppa",
+      "state": "failure",
+      "finished": "2024-06-20T02:06:24Z"
+    },
+    "ubuntu-hardy-hppa-minbase": {
+      "Name": "ubuntu-hardy-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-06-20T02:07:35Z"
+    },
+    "ubuntu-hardy-i386": {
+      "Name": "ubuntu-hardy-i386",
+      "state": "success",
+      "finished": "2024-06-20T02:08:55Z"
+    },
+    "ubuntu-hardy-i386-minbase": {
+      "Name": "ubuntu-hardy-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-20T02:07:04Z"
+    },
+    "ubuntu-hardy-ia64": {
+      "Name": "ubuntu-hardy-ia64",
+      "state": "failure",
+      "finished": "2024-06-20T02:06:17Z"
+    },
+    "ubuntu-hardy-ia64-minbase": {
+      "Name": "ubuntu-hardy-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-20T02:08:48Z"
+    },
+    "ubuntu-hardy-lpia": {
+      "Name": "ubuntu-hardy-lpia",
+      "state": "success",
+      "finished": "2024-06-20T02:09:04Z"
+    },
+    "ubuntu-hardy-lpia-minbase": {
+      "Name": "ubuntu-hardy-lpia-minbase",
+      "state": "success",
+      "finished": "2024-06-20T02:06:38Z"
+    },
+    "ubuntu-hardy-powerpc": {
+      "Name": "ubuntu-hardy-powerpc",
+      "state": "failure",
+      "finished": "2024-06-20T02:08:40Z"
+    },
+    "ubuntu-hardy-powerpc-minbase": {
+      "Name": "ubuntu-hardy-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-20T02:07:59Z"
+    },
+    "ubuntu-hardy-sparc": {
+      "Name": "ubuntu-hardy-sparc",
+      "state": "failure",
+      "finished": "2024-06-20T02:06:07Z"
+    },
+    "ubuntu-hardy-sparc-minbase": {
+      "Name": "ubuntu-hardy-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-20T02:06:28Z"
+    },
+    "ubuntu-hirsute-amd64": {
+      "Name": "ubuntu-hirsute-amd64",
+      "state": "success",
+      "finished": "2024-05-04T02:09:12Z"
+    },
+    "ubuntu-hirsute-amd64-minbase": {
+      "Name": "ubuntu-hirsute-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-04T02:09:29Z"
+    },
+    "ubuntu-hirsute-arm64": {
+      "Name": "ubuntu-hirsute-arm64",
+      "state": "success",
+      "finished": "2024-05-04T02:12:05Z"
+    },
+    "ubuntu-hirsute-arm64-minbase": {
+      "Name": "ubuntu-hirsute-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-04T02:11:52Z"
+    },
+    "ubuntu-hirsute-armhf": {
+      "Name": "ubuntu-hirsute-armhf",
+      "state": "success",
+      "finished": "2024-05-04T02:12:21Z"
+    },
+    "ubuntu-hirsute-armhf-minbase": {
+      "Name": "ubuntu-hirsute-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-04T02:13:05Z"
+    },
+    "ubuntu-hirsute-i386": {
+      "Name": "ubuntu-hirsute-i386",
+      "state": "failure",
+      "finished": "2024-05-04T02:07:23Z"
+    },
+    "ubuntu-hirsute-i386-minbase": {
+      "Name": "ubuntu-hirsute-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-04T02:08:02Z"
+    },
+    "ubuntu-hirsute-ppc64el": {
+      "Name": "ubuntu-hirsute-ppc64el",
+      "state": "success",
+      "finished": "2024-05-04T02:13:04Z"
+    },
+    "ubuntu-hirsute-ppc64el-minbase": {
+      "Name": "ubuntu-hirsute-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-04T02:12:24Z"
+    },
+    "ubuntu-hirsute-riscv64": {
+      "Name": "ubuntu-hirsute-riscv64",
+      "state": "success",
+      "finished": "2024-05-04T02:11:50Z"
+    },
+    "ubuntu-hirsute-riscv64-minbase": {
+      "Name": "ubuntu-hirsute-riscv64-minbase",
+      "state": "success",
+      "finished": "2024-05-04T02:11:29Z"
+    },
+    "ubuntu-hirsute-s390x": {
+      "Name": "ubuntu-hirsute-s390x",
+      "state": "success",
+      "finished": "2024-05-04T02:13:09Z"
+    },
+    "ubuntu-hirsute-s390x-minbase": {
+      "Name": "ubuntu-hirsute-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-04T02:12:52Z"
+    },
+    "ubuntu-hoary-amd64": {
+      "Name": "ubuntu-hoary-amd64",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:09Z"
+    },
+    "ubuntu-hoary-amd64-minbase": {
+      "Name": "ubuntu-hoary-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:30Z"
+    },
+    "ubuntu-hoary-i386": {
+      "Name": "ubuntu-hoary-i386",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:09Z"
+    },
+    "ubuntu-hoary-i386-minbase": {
+      "Name": "ubuntu-hoary-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:09Z"
+    },
+    "ubuntu-hoary-ia64": {
+      "Name": "ubuntu-hoary-ia64",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:09Z"
+    },
+    "ubuntu-hoary-ia64-minbase": {
+      "Name": "ubuntu-hoary-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:31Z"
+    },
+    "ubuntu-hoary-powerpc": {
+      "Name": "ubuntu-hoary-powerpc",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:36Z"
+    },
+    "ubuntu-hoary-powerpc-minbase": {
+      "Name": "ubuntu-hoary-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:15Z"
+    },
+    "ubuntu-hoary-sparc": {
+      "Name": "ubuntu-hoary-sparc",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:09Z"
+    },
+    "ubuntu-hoary-sparc-minbase": {
+      "Name": "ubuntu-hoary-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-05-28T02:05:09Z"
+    },
+    "ubuntu-impish-amd64": {
+      "Name": "ubuntu-impish-amd64",
+      "state": "success",
+      "finished": "2023-10-19T02:09:10Z"
+    },
+    "ubuntu-impish-amd64-minbase": {
+      "Name": "ubuntu-impish-amd64-minbase",
+      "state": "success",
+      "finished": "2023-10-19T02:09:05Z"
+    },
+    "ubuntu-impish-arm64": {
+      "Name": "ubuntu-impish-arm64",
+      "state": "success",
+      "finished": "2023-10-19T02:13:17Z"
+    },
+    "ubuntu-impish-arm64-minbase": {
+      "Name": "ubuntu-impish-arm64-minbase",
+      "state": "success",
+      "finished": "2023-10-19T02:14:37Z"
+    },
+    "ubuntu-impish-armhf": {
+      "Name": "ubuntu-impish-armhf",
+      "state": "success",
+      "finished": "2023-10-19T02:13:08Z"
+    },
+    "ubuntu-impish-armhf-minbase": {
+      "Name": "ubuntu-impish-armhf-minbase",
+      "state": "success",
+      "finished": "2023-10-19T02:14:00Z"
+    },
+    "ubuntu-impish-i386": {
+      "Name": "ubuntu-impish-i386",
+      "state": "failure",
+      "finished": "2023-10-19T02:09:24Z"
+    },
+    "ubuntu-impish-i386-minbase": {
+      "Name": "ubuntu-impish-i386-minbase",
+      "state": "failure",
+      "finished": "2023-10-19T02:08:49Z"
+    },
+    "ubuntu-impish-ppc64el": {
+      "Name": "ubuntu-impish-ppc64el",
+      "state": "success",
+      "finished": "2023-10-19T02:14:28Z"
+    },
+    "ubuntu-impish-ppc64el-minbase": {
+      "Name": "ubuntu-impish-ppc64el-minbase",
+      "state": "success",
+      "finished": "2023-10-19T02:17:35Z"
+    },
+    "ubuntu-impish-riscv64": {
+      "Name": "ubuntu-impish-riscv64",
+      "state": "success",
+      "finished": "2023-10-19T02:14:11Z"
+    },
+    "ubuntu-impish-riscv64-minbase": {
+      "Name": "ubuntu-impish-riscv64-minbase",
+      "state": "success",
+      "finished": "2023-10-19T02:13:27Z"
+    },
+    "ubuntu-impish-s390x": {
+      "Name": "ubuntu-impish-s390x",
+      "state": "success",
+      "finished": "2023-10-19T02:14:56Z"
+    },
+    "ubuntu-impish-s390x-minbase": {
+      "Name": "ubuntu-impish-s390x-minbase",
+      "state": "success",
+      "finished": "2023-10-19T02:14:48Z"
+    },
+    "ubuntu-intrepid-amd64": {
+      "Name": "ubuntu-intrepid-amd64",
+      "state": "success",
+      "finished": "2024-06-05T02:12:25Z"
+    },
+    "ubuntu-intrepid-amd64-minbase": {
+      "Name": "ubuntu-intrepid-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-05T02:10:58Z"
+    },
+    "ubuntu-intrepid-hppa": {
+      "Name": "ubuntu-intrepid-hppa",
+      "state": "failure",
+      "finished": "2024-06-05T02:07:46Z"
+    },
+    "ubuntu-intrepid-hppa-minbase": {
+      "Name": "ubuntu-intrepid-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-06-05T02:10:04Z"
+    },
+    "ubuntu-intrepid-i386": {
+      "Name": "ubuntu-intrepid-i386",
+      "state": "success",
+      "finished": "2024-06-05T02:10:41Z"
+    },
+    "ubuntu-intrepid-i386-minbase": {
+      "Name": "ubuntu-intrepid-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-05T02:13:14Z"
+    },
+    "ubuntu-intrepid-ia64": {
+      "Name": "ubuntu-intrepid-ia64",
+      "state": "failure",
+      "finished": "2024-06-05T02:12:43Z"
+    },
+    "ubuntu-intrepid-ia64-minbase": {
+      "Name": "ubuntu-intrepid-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-05T02:12:36Z"
+    },
+    "ubuntu-intrepid-lpia": {
+      "Name": "ubuntu-intrepid-lpia",
+      "state": "success",
+      "finished": "2024-06-05T02:13:29Z"
+    },
+    "ubuntu-intrepid-lpia-minbase": {
+      "Name": "ubuntu-intrepid-lpia-minbase",
+      "state": "failure",
+      "finished": "2024-06-05T02:08:44Z"
+    },
+    "ubuntu-intrepid-powerpc": {
+      "Name": "ubuntu-intrepid-powerpc",
+      "state": "failure",
+      "finished": "2024-06-05T02:11:34Z"
+    },
+    "ubuntu-intrepid-powerpc-minbase": {
+      "Name": "ubuntu-intrepid-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-05T02:10:56Z"
+    },
+    "ubuntu-intrepid-sparc": {
+      "Name": "ubuntu-intrepid-sparc",
+      "state": "failure",
+      "finished": "2024-06-05T02:12:16Z"
+    },
+    "ubuntu-intrepid-sparc-minbase": {
+      "Name": "ubuntu-intrepid-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-05T02:12:08Z"
+    },
+    "ubuntu-jammy-amd64": {
+      "Name": "ubuntu-jammy-amd64",
+      "state": "success",
+      "finished": "2024-05-03T02:07:03Z"
+    },
+    "ubuntu-jammy-amd64-minbase": {
+      "Name": "ubuntu-jammy-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-03T02:07:03Z"
+    },
+    "ubuntu-jammy-arm64": {
+      "Name": "ubuntu-jammy-arm64",
+      "state": "success",
+      "finished": "2024-05-03T02:13:03Z"
+    },
+    "ubuntu-jammy-arm64-minbase": {
+      "Name": "ubuntu-jammy-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-03T02:13:06Z"
+    },
+    "ubuntu-jammy-armhf": {
+      "Name": "ubuntu-jammy-armhf",
+      "state": "success",
+      "finished": "2024-05-03T02:11:02Z"
+    },
+    "ubuntu-jammy-armhf-minbase": {
+      "Name": "ubuntu-jammy-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-03T02:10:58Z"
+    },
+    "ubuntu-jammy-i386": {
+      "Name": "ubuntu-jammy-i386",
+      "state": "failure",
+      "finished": "2024-05-06T16:07:27Z"
+    },
+    "ubuntu-jammy-i386-minbase": {
+      "Name": "ubuntu-jammy-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-03T21:32:53Z"
+    },
+    "ubuntu-jammy-ppc64el": {
+      "Name": "ubuntu-jammy-ppc64el",
+      "state": "success",
+      "finished": "2024-05-03T02:11:25Z"
+    },
+    "ubuntu-jammy-ppc64el-minbase": {
+      "Name": "ubuntu-jammy-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-03T02:11:38Z"
+    },
+    "ubuntu-jammy-riscv64": {
+      "Name": "ubuntu-jammy-riscv64",
+      "state": "success",
+      "finished": "2024-05-03T02:12:36Z"
+    },
+    "ubuntu-jammy-riscv64-minbase": {
+      "Name": "ubuntu-jammy-riscv64-minbase",
+      "state": "success",
+      "finished": "2024-05-03T02:10:42Z"
+    },
+    "ubuntu-jammy-s390x": {
+      "Name": "ubuntu-jammy-s390x",
+      "state": "success",
+      "finished": "2024-05-03T02:11:30Z"
+    },
+    "ubuntu-jammy-s390x-minbase": {
+      "Name": "ubuntu-jammy-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-03T02:12:59Z"
+    },
+    "ubuntu-jaunty-amd64": {
+      "Name": "ubuntu-jaunty-amd64",
+      "state": "success",
+      "finished": "2024-06-17T02:06:14Z"
+    },
+    "ubuntu-jaunty-amd64-minbase": {
+      "Name": "ubuntu-jaunty-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-17T02:09:24Z"
+    },
+    "ubuntu-jaunty-armel": {
+      "Name": "ubuntu-jaunty-armel",
+      "state": "success",
+      "finished": "2024-06-17T02:09:34Z"
+    },
+    "ubuntu-jaunty-armel-minbase": {
+      "Name": "ubuntu-jaunty-armel-minbase",
+      "state": "success",
+      "finished": "2024-06-17T02:09:36Z"
+    },
+    "ubuntu-jaunty-hppa": {
+      "Name": "ubuntu-jaunty-hppa",
+      "state": "failure",
+      "finished": "2024-06-17T02:05:55Z"
+    },
+    "ubuntu-jaunty-hppa-minbase": {
+      "Name": "ubuntu-jaunty-hppa-minbase",
+      "state": "failure",
+      "finished": "2024-06-17T02:08:52Z"
+    },
+    "ubuntu-jaunty-i386": {
+      "Name": "ubuntu-jaunty-i386",
+      "state": "success",
+      "finished": "2024-06-17T02:09:47Z"
+    },
+    "ubuntu-jaunty-i386-minbase": {
+      "Name": "ubuntu-jaunty-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-17T02:08:48Z"
+    },
+    "ubuntu-jaunty-ia64": {
+      "Name": "ubuntu-jaunty-ia64",
+      "state": "failure",
+      "finished": "2024-06-17T02:07:49Z"
+    },
+    "ubuntu-jaunty-ia64-minbase": {
+      "Name": "ubuntu-jaunty-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-06-17T02:07:47Z"
+    },
+    "ubuntu-jaunty-lpia": {
+      "Name": "ubuntu-jaunty-lpia",
+      "state": "success",
+      "finished": "2024-06-17T02:09:29Z"
+    },
+    "ubuntu-jaunty-lpia-minbase": {
+      "Name": "ubuntu-jaunty-lpia-minbase",
+      "state": "success",
+      "finished": "2024-06-17T02:08:35Z"
+    },
+    "ubuntu-jaunty-powerpc": {
+      "Name": "ubuntu-jaunty-powerpc",
+      "state": "failure",
+      "finished": "2024-06-17T02:07:52Z"
+    },
+    "ubuntu-jaunty-powerpc-minbase": {
+      "Name": "ubuntu-jaunty-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-17T02:05:48Z"
+    },
+    "ubuntu-jaunty-sparc": {
+      "Name": "ubuntu-jaunty-sparc",
+      "state": "failure",
+      "finished": "2024-06-17T02:08:45Z"
+    },
+    "ubuntu-jaunty-sparc-minbase": {
+      "Name": "ubuntu-jaunty-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-06-17T02:08:48Z"
+    },
+    "ubuntu-karmic-amd64": {
+      "Name": "ubuntu-karmic-amd64",
+      "state": "success",
+      "finished": "2024-05-19T02:11:48Z"
+    },
+    "ubuntu-karmic-amd64-minbase": {
+      "Name": "ubuntu-karmic-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-19T02:17:32Z"
+    },
+    "ubuntu-karmic-armel": {
+      "Name": "ubuntu-karmic-armel",
+      "state": "success",
+      "finished": "2024-05-19T02:17:00Z"
+    },
+    "ubuntu-karmic-armel-minbase": {
+      "Name": "ubuntu-karmic-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-19T02:10:54Z"
+    },
+    "ubuntu-karmic-i386": {
+      "Name": "ubuntu-karmic-i386",
+      "state": "success",
+      "finished": "2024-05-19T02:07:46Z"
+    },
+    "ubuntu-karmic-i386-minbase": {
+      "Name": "ubuntu-karmic-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-19T02:17:24Z"
+    },
+    "ubuntu-karmic-ia64": {
+      "Name": "ubuntu-karmic-ia64",
+      "state": "failure",
+      "finished": "2024-05-19T02:08:36Z"
+    },
+    "ubuntu-karmic-ia64-minbase": {
+      "Name": "ubuntu-karmic-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-05-19T02:17:04Z"
+    },
+    "ubuntu-karmic-lpia": {
+      "Name": "ubuntu-karmic-lpia",
+      "state": "success",
+      "finished": "2024-05-19T02:14:43Z"
+    },
+    "ubuntu-karmic-lpia-minbase": {
+      "Name": "ubuntu-karmic-lpia-minbase",
+      "state": "success",
+      "finished": "2024-05-19T02:17:09Z"
+    },
+    "ubuntu-karmic-powerpc": {
+      "Name": "ubuntu-karmic-powerpc",
+      "state": "failure",
+      "finished": "2024-05-19T02:12:53Z"
+    },
+    "ubuntu-karmic-powerpc-minbase": {
+      "Name": "ubuntu-karmic-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-19T02:14:12Z"
+    },
+    "ubuntu-karmic-sparc": {
+      "Name": "ubuntu-karmic-sparc",
+      "state": "failure",
+      "finished": "2024-05-19T02:14:08Z"
+    },
+    "ubuntu-karmic-sparc-minbase": {
+      "Name": "ubuntu-karmic-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-05-19T02:17:23Z"
+    },
+    "ubuntu-kinetic-amd64": {
+      "Name": "ubuntu-kinetic-amd64",
+      "state": "success",
+      "finished": "2024-07-02T02:09:31Z"
+    },
+    "ubuntu-kinetic-amd64-minbase": {
+      "Name": "ubuntu-kinetic-amd64-minbase",
+      "state": "success",
+      "finished": "2024-07-02T02:09:36Z"
+    },
+    "ubuntu-kinetic-arm64": {
+      "Name": "ubuntu-kinetic-arm64",
+      "state": "failure",
+      "finished": "2024-07-02T02:08:51Z"
+    },
+    "ubuntu-kinetic-arm64-minbase": {
+      "Name": "ubuntu-kinetic-arm64-minbase",
+      "state": "success",
+      "finished": "2024-07-02T02:15:25Z"
+    },
+    "ubuntu-kinetic-armhf": {
+      "Name": "ubuntu-kinetic-armhf",
+      "state": "success",
+      "finished": "2024-07-02T02:14:13Z"
+    },
+    "ubuntu-kinetic-armhf-minbase": {
+      "Name": "ubuntu-kinetic-armhf-minbase",
+      "state": "success",
+      "finished": "2024-07-02T02:13:07Z"
+    },
+    "ubuntu-kinetic-i386": {
+      "Name": "ubuntu-kinetic-i386",
+      "state": "failure",
+      "finished": "2024-07-02T02:09:54Z"
+    },
+    "ubuntu-kinetic-i386-minbase": {
+      "Name": "ubuntu-kinetic-i386-minbase",
+      "state": "failure",
+      "finished": "2024-07-02T02:09:32Z"
+    },
+    "ubuntu-kinetic-ppc64el": {
+      "Name": "ubuntu-kinetic-ppc64el",
+      "state": "success",
+      "finished": "2024-07-02T02:13:43Z"
+    },
+    "ubuntu-kinetic-ppc64el-minbase": {
+      "Name": "ubuntu-kinetic-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-07-02T02:13:36Z"
+    },
+    "ubuntu-kinetic-riscv64": {
+      "Name": "ubuntu-kinetic-riscv64",
+      "state": "success",
+      "finished": "2024-07-02T02:12:56Z"
+    },
+    "ubuntu-kinetic-riscv64-minbase": {
+      "Name": "ubuntu-kinetic-riscv64-minbase",
+      "state": "success",
+      "finished": "2024-07-02T02:12:38Z"
+    },
+    "ubuntu-kinetic-s390x": {
+      "Name": "ubuntu-kinetic-s390x",
+      "state": "success",
+      "finished": "2024-07-02T02:13:10Z"
+    },
+    "ubuntu-kinetic-s390x-minbase": {
+      "Name": "ubuntu-kinetic-s390x-minbase",
+      "state": "success",
+      "finished": "2024-07-02T02:12:32Z"
+    },
+    "ubuntu-lucid-amd64": {
+      "Name": "ubuntu-lucid-amd64",
+      "state": "success",
+      "finished": "2024-05-16T02:10:42Z"
+    },
+    "ubuntu-lucid-amd64-minbase": {
+      "Name": "ubuntu-lucid-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-16T02:09:24Z"
+    },
+    "ubuntu-lucid-armel": {
+      "Name": "ubuntu-lucid-armel",
+      "state": "success",
+      "finished": "2024-05-16T02:13:12Z"
+    },
+    "ubuntu-lucid-armel-minbase": {
+      "Name": "ubuntu-lucid-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-16T02:13:18Z"
+    },
+    "ubuntu-lucid-i386": {
+      "Name": "ubuntu-lucid-i386",
+      "state": "success",
+      "finished": "2024-05-16T02:09:37Z"
+    },
+    "ubuntu-lucid-i386-minbase": {
+      "Name": "ubuntu-lucid-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-16T02:09:37Z"
+    },
+    "ubuntu-lucid-ia64": {
+      "Name": "ubuntu-lucid-ia64",
+      "state": "failure",
+      "finished": "2024-05-16T02:13:37Z"
+    },
+    "ubuntu-lucid-ia64-minbase": {
+      "Name": "ubuntu-lucid-ia64-minbase",
+      "state": "failure",
+      "finished": "2024-05-16T02:15:31Z"
+    },
+    "ubuntu-lucid-powerpc": {
+      "Name": "ubuntu-lucid-powerpc",
+      "state": "failure",
+      "finished": "2024-05-16T02:12:46Z"
+    },
+    "ubuntu-lucid-powerpc-minbase": {
+      "Name": "ubuntu-lucid-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-16T02:12:20Z"
+    },
+    "ubuntu-lucid-sparc": {
+      "Name": "ubuntu-lucid-sparc",
+      "state": "failure",
+      "finished": "2024-05-16T02:08:25Z"
+    },
+    "ubuntu-lucid-sparc-minbase": {
+      "Name": "ubuntu-lucid-sparc-minbase",
+      "state": "failure",
+      "finished": "2024-05-16T02:08:29Z"
+    },
+    "ubuntu-lunar-amd64": {
+      "Name": "ubuntu-lunar-amd64",
+      "state": "success",
+      "finished": "2024-06-14T02:11:47Z"
+    },
+    "ubuntu-lunar-amd64-minbase": {
+      "Name": "ubuntu-lunar-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-14T02:08:55Z"
+    },
+    "ubuntu-lunar-arm64": {
+      "Name": "ubuntu-lunar-arm64",
+      "state": "success",
+      "finished": "2024-06-14T02:13:45Z"
+    },
+    "ubuntu-lunar-arm64-minbase": {
+      "Name": "ubuntu-lunar-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-14T02:25:22Z"
+    },
+    "ubuntu-lunar-armhf": {
+      "Name": "ubuntu-lunar-armhf",
+      "state": "success",
+      "finished": "2024-06-14T02:14:55Z"
+    },
+    "ubuntu-lunar-armhf-minbase": {
+      "Name": "ubuntu-lunar-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-14T02:13:26Z"
+    },
+    "ubuntu-lunar-i386": {
+      "Name": "ubuntu-lunar-i386",
+      "state": "failure",
+      "finished": "2024-06-14T02:16:45Z"
+    },
+    "ubuntu-lunar-i386-minbase": {
+      "Name": "ubuntu-lunar-i386-minbase",
+      "state": "failure",
+      "finished": "2024-06-14T02:07:54Z"
+    },
+    "ubuntu-lunar-ppc64el": {
+      "Name": "ubuntu-lunar-ppc64el",
+      "state": "success",
+      "finished": "2024-06-14T02:15:11Z"
+    },
+    "ubuntu-lunar-ppc64el-minbase": {
+      "Name": "ubuntu-lunar-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-14T02:24:28Z"
+    },
+    "ubuntu-lunar-riscv64": {
+      "Name": "ubuntu-lunar-riscv64",
+      "state": "success",
+      "finished": "2024-06-14T02:15:15Z"
+    },
+    "ubuntu-lunar-riscv64-minbase": {
+      "Name": "ubuntu-lunar-riscv64-minbase",
+      "state": "success",
+      "finished": "2024-06-14T02:22:29Z"
+    },
+    "ubuntu-lunar-s390x": {
+      "Name": "ubuntu-lunar-s390x",
+      "state": "success",
+      "finished": "2024-06-14T02:23:08Z"
+    },
+    "ubuntu-lunar-s390x-minbase": {
+      "Name": "ubuntu-lunar-s390x-minbase",
+      "state": "success",
+      "finished": "2024-06-14T02:13:20Z"
+    },
+    "ubuntu-mantic-amd64": {
+      "Name": "ubuntu-mantic-amd64",
+      "state": "success",
+      "finished": "2024-06-02T02:09:21Z"
+    },
+    "ubuntu-mantic-amd64-minbase": {
+      "Name": "ubuntu-mantic-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-02T02:09:23Z"
+    },
+    "ubuntu-mantic-arm64": {
+      "Name": "ubuntu-mantic-arm64",
+      "state": "success",
+      "finished": "2024-06-02T02:17:15Z"
+    },
+    "ubuntu-mantic-arm64-minbase": {
+      "Name": "ubuntu-mantic-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-02T02:17:29Z"
+    },
+    "ubuntu-mantic-armhf": {
+      "Name": "ubuntu-mantic-armhf",
+      "state": "success",
+      "finished": "2024-06-02T02:13:38Z"
+    },
+    "ubuntu-mantic-armhf-minbase": {
+      "Name": "ubuntu-mantic-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-02T02:12:02Z"
+    },
+    "ubuntu-mantic-i386": {
+      "Name": "ubuntu-mantic-i386",
+      "state": "failure",
+      "finished": "2024-06-02T02:08:34Z"
+    },
+    "ubuntu-mantic-i386-minbase": {
+      "Name": "ubuntu-mantic-i386-minbase",
+      "state": "failure",
+      "finished": "2024-06-02T02:08:17Z"
+    },
+    "ubuntu-mantic-ppc64el": {
+      "Name": "ubuntu-mantic-ppc64el",
+      "state": "success",
+      "finished": "2024-06-02T02:14:33Z"
+    },
+    "ubuntu-mantic-ppc64el-minbase": {
+      "Name": "ubuntu-mantic-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-02T02:13:06Z"
+    },
+    "ubuntu-mantic-riscv64": {
+      "Name": "ubuntu-mantic-riscv64",
+      "state": "success",
+      "finished": "2024-06-02T02:11:49Z"
+    },
+    "ubuntu-mantic-riscv64-minbase": {
+      "Name": "ubuntu-mantic-riscv64-minbase",
+      "state": "success",
+      "finished": "2024-06-02T02:13:37Z"
+    },
+    "ubuntu-mantic-s390x": {
+      "Name": "ubuntu-mantic-s390x",
+      "state": "success",
+      "finished": "2024-06-02T02:12:23Z"
+    },
+    "ubuntu-mantic-s390x-minbase": {
+      "Name": "ubuntu-mantic-s390x-minbase",
+      "state": "success",
+      "finished": "2024-06-02T02:11:40Z"
+    },
+    "ubuntu-maverick-amd64": {
+      "Name": "ubuntu-maverick-amd64",
+      "state": "success",
+      "finished": "2024-05-24T02:08:47Z"
+    },
+    "ubuntu-maverick-amd64-minbase": {
+      "Name": "ubuntu-maverick-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-24T02:07:47Z"
+    },
+    "ubuntu-maverick-armel": {
+      "Name": "ubuntu-maverick-armel",
+      "state": "success",
+      "finished": "2024-05-24T02:12:03Z"
+    },
+    "ubuntu-maverick-armel-minbase": {
+      "Name": "ubuntu-maverick-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-24T02:10:02Z"
+    },
+    "ubuntu-maverick-i386": {
+      "Name": "ubuntu-maverick-i386",
+      "state": "success",
+      "finished": "2024-05-24T02:08:35Z"
+    },
+    "ubuntu-maverick-i386-minbase": {
+      "Name": "ubuntu-maverick-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-24T02:07:53Z"
+    },
+    "ubuntu-maverick-powerpc": {
+      "Name": "ubuntu-maverick-powerpc",
+      "state": "failure",
+      "finished": "2024-05-24T02:09:58Z"
+    },
+    "ubuntu-maverick-powerpc-minbase": {
+      "Name": "ubuntu-maverick-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-24T02:08:47Z"
+    },
+    "ubuntu-natty-amd64": {
+      "Name": "ubuntu-natty-amd64",
+      "state": "success",
+      "finished": "2024-06-16T02:06:13Z"
+    },
+    "ubuntu-natty-amd64-minbase": {
+      "Name": "ubuntu-natty-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-16T02:06:08Z"
+    },
+    "ubuntu-natty-armel": {
+      "Name": "ubuntu-natty-armel",
+      "state": "success",
+      "finished": "2024-06-16T02:09:58Z"
+    },
+    "ubuntu-natty-armel-minbase": {
+      "Name": "ubuntu-natty-armel-minbase",
+      "state": "success",
+      "finished": "2024-06-16T02:10:02Z"
+    },
+    "ubuntu-natty-i386": {
+      "Name": "ubuntu-natty-i386",
+      "state": "success",
+      "finished": "2024-06-16T02:06:40Z"
+    },
+    "ubuntu-natty-i386-minbase": {
+      "Name": "ubuntu-natty-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-16T02:07:43Z"
+    },
+    "ubuntu-natty-powerpc": {
+      "Name": "ubuntu-natty-powerpc",
+      "state": "failure",
+      "finished": "2024-06-16T02:06:32Z"
+    },
+    "ubuntu-natty-powerpc-minbase": {
+      "Name": "ubuntu-natty-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-16T02:06:28Z"
+    },
+    "ubuntu-noble-amd64": {
+      "Name": "ubuntu-noble-amd64",
+      "state": "failure",
+      "finished": "2024-06-25T02:07:57Z"
+    },
+    "ubuntu-noble-amd64-minbase": {
+      "Name": "ubuntu-noble-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-06-25T02:05:52Z"
+    },
+    "ubuntu-noble-arm64": {
+      "Name": "ubuntu-noble-arm64",
+      "state": "failure",
+      "finished": "2024-06-25T02:06:35Z"
+    },
+    "ubuntu-noble-arm64-minbase": {
+      "Name": "ubuntu-noble-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-06-25T02:06:37Z"
+    },
+    "ubuntu-noble-armhf": {
+      "Name": "ubuntu-noble-armhf",
+      "state": "failure",
+      "finished": "2024-06-25T02:06:16Z"
+    },
+    "ubuntu-noble-armhf-minbase": {
+      "Name": "ubuntu-noble-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-06-25T02:06:41Z"
+    },
+    "ubuntu-noble-i386": {
+      "Name": "ubuntu-noble-i386",
+      "state": "failure",
+      "finished": "2024-06-25T02:05:52Z"
+    },
+    "ubuntu-noble-i386-minbase": {
+      "Name": "ubuntu-noble-i386-minbase",
+      "state": "failure",
+      "finished": "2024-06-25T02:07:25Z"
+    },
+    "ubuntu-noble-ppc64el": {
+      "Name": "ubuntu-noble-ppc64el",
+      "state": "failure",
+      "finished": "2024-06-25T02:06:31Z"
+    },
+    "ubuntu-noble-ppc64el-minbase": {
+      "Name": "ubuntu-noble-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-06-25T02:08:19Z"
+    },
+    "ubuntu-noble-riscv64": {
+      "Name": "ubuntu-noble-riscv64",
+      "state": "failure",
+      "finished": "2024-06-25T02:06:39Z"
+    },
+    "ubuntu-noble-riscv64-minbase": {
+      "Name": "ubuntu-noble-riscv64-minbase",
+      "state": "failure",
+      "finished": "2024-06-25T02:08:14Z"
+    },
+    "ubuntu-noble-s390x": {
+      "Name": "ubuntu-noble-s390x",
+      "state": "failure",
+      "finished": "2024-06-25T02:08:59Z"
+    },
+    "ubuntu-noble-s390x-minbase": {
+      "Name": "ubuntu-noble-s390x-minbase",
+      "state": "failure",
+      "finished": "2024-06-25T02:08:52Z"
+    },
+    "ubuntu-oneiric-amd64": {
+      "Name": "ubuntu-oneiric-amd64",
+      "state": "success",
+      "finished": "2024-06-30T02:06:28Z"
+    },
+    "ubuntu-oneiric-amd64-minbase": {
+      "Name": "ubuntu-oneiric-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-30T02:06:24Z"
+    },
+    "ubuntu-oneiric-armel": {
+      "Name": "ubuntu-oneiric-armel",
+      "state": "success",
+      "finished": "2024-06-30T02:11:32Z"
+    },
+    "ubuntu-oneiric-armel-minbase": {
+      "Name": "ubuntu-oneiric-armel-minbase",
+      "state": "success",
+      "finished": "2024-06-30T02:11:06Z"
+    },
+    "ubuntu-oneiric-i386": {
+      "Name": "ubuntu-oneiric-i386",
+      "state": "success",
+      "finished": "2024-06-30T02:06:12Z"
+    },
+    "ubuntu-oneiric-i386-minbase": {
+      "Name": "ubuntu-oneiric-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-30T02:06:30Z"
+    },
+    "ubuntu-oneiric-powerpc": {
+      "Name": "ubuntu-oneiric-powerpc",
+      "state": "failure",
+      "finished": "2024-06-30T02:07:30Z"
+    },
+    "ubuntu-oneiric-powerpc-minbase": {
+      "Name": "ubuntu-oneiric-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-30T02:05:42Z"
+    },
+    "ubuntu-oracular-amd64": {
+      "Name": "ubuntu-oracular-amd64",
+      "state": "failure",
+      "finished": "2024-05-15T02:06:35Z"
+    },
+    "ubuntu-oracular-amd64-minbase": {
+      "Name": "ubuntu-oracular-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-05-15T02:06:03Z"
+    },
+    "ubuntu-oracular-arm64": {
+      "Name": "ubuntu-oracular-arm64",
+      "state": "failure",
+      "finished": "2024-05-15T02:08:04Z"
+    },
+    "ubuntu-oracular-arm64-minbase": {
+      "Name": "ubuntu-oracular-arm64-minbase",
+      "state": "failure",
+      "finished": "2024-05-15T02:06:30Z"
+    },
+    "ubuntu-oracular-armhf": {
+      "Name": "ubuntu-oracular-armhf",
+      "state": "failure",
+      "finished": "2024-05-15T02:09:00Z"
+    },
+    "ubuntu-oracular-armhf-minbase": {
+      "Name": "ubuntu-oracular-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-05-15T02:06:39Z"
+    },
+    "ubuntu-oracular-i386": {
+      "Name": "ubuntu-oracular-i386",
+      "state": "failure",
+      "finished": "2024-05-15T02:05:50Z"
+    },
+    "ubuntu-oracular-i386-minbase": {
+      "Name": "ubuntu-oracular-i386-minbase",
+      "state": "failure",
+      "finished": "2024-05-15T02:07:47Z"
+    },
+    "ubuntu-oracular-ppc64el": {
+      "Name": "ubuntu-oracular-ppc64el",
+      "state": "failure",
+      "finished": "2024-05-15T02:08:06Z"
+    },
+    "ubuntu-oracular-ppc64el-minbase": {
+      "Name": "ubuntu-oracular-ppc64el-minbase",
+      "state": "failure",
+      "finished": "2024-05-15T02:07:06Z"
+    },
+    "ubuntu-oracular-riscv64": {
+      "Name": "ubuntu-oracular-riscv64",
+      "state": "failure",
+      "finished": "2024-05-15T02:08:06Z"
+    },
+    "ubuntu-oracular-riscv64-minbase": {
+      "Name": "ubuntu-oracular-riscv64-minbase",
+      "state": "failure",
+      "finished": "2024-05-15T02:06:42Z"
+    },
+    "ubuntu-oracular-s390x": {
+      "Name": "ubuntu-oracular-s390x",
+      "state": "failure",
+      "finished": "2024-05-15T02:08:24Z"
+    },
+    "ubuntu-oracular-s390x-minbase": {
+      "Name": "ubuntu-oracular-s390x-minbase",
+      "state": "failure",
+      "finished": "2024-05-15T02:06:31Z"
+    },
+    "ubuntu-precise-amd64": {
+      "Name": "ubuntu-precise-amd64",
+      "state": "success",
+      "finished": "2024-05-21T02:06:48Z"
+    },
+    "ubuntu-precise-amd64-minbase": {
+      "Name": "ubuntu-precise-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-21T02:10:14Z"
+    },
+    "ubuntu-precise-armel": {
+      "Name": "ubuntu-precise-armel",
+      "state": "success",
+      "finished": "2024-05-21T02:15:23Z"
+    },
+    "ubuntu-precise-armel-minbase": {
+      "Name": "ubuntu-precise-armel-minbase",
+      "state": "success",
+      "finished": "2024-05-21T02:10:49Z"
+    },
+    "ubuntu-precise-armhf": {
+      "Name": "ubuntu-precise-armhf",
+      "state": "success",
+      "finished": "2024-05-21T02:09:56Z"
+    },
+    "ubuntu-precise-armhf-minbase": {
+      "Name": "ubuntu-precise-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-21T02:10:38Z"
+    },
+    "ubuntu-precise-i386": {
+      "Name": "ubuntu-precise-i386",
+      "state": "success",
+      "finished": "2024-05-21T02:07:59Z"
+    },
+    "ubuntu-precise-i386-minbase": {
+      "Name": "ubuntu-precise-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-21T02:06:46Z"
+    },
+    "ubuntu-precise-powerpc": {
+      "Name": "ubuntu-precise-powerpc",
+      "state": "failure",
+      "finished": "2024-05-21T02:06:23Z"
+    },
+    "ubuntu-precise-powerpc-minbase": {
+      "Name": "ubuntu-precise-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-21T02:07:08Z"
+    },
+    "ubuntu-quantal-amd64": {
+      "Name": "ubuntu-quantal-amd64",
+      "state": "success",
+      "finished": "2024-06-19T02:08:55Z"
+    },
+    "ubuntu-quantal-amd64-minbase": {
+      "Name": "ubuntu-quantal-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-19T02:07:30Z"
+    },
+    "ubuntu-quantal-armel": {
+      "Name": "ubuntu-quantal-armel",
+      "state": "success",
+      "finished": "2024-06-19T02:12:47Z"
+    },
+    "ubuntu-quantal-armel-minbase": {
+      "Name": "ubuntu-quantal-armel-minbase",
+      "state": "success",
+      "finished": "2024-06-19T02:10:41Z"
+    },
+    "ubuntu-quantal-armhf": {
+      "Name": "ubuntu-quantal-armhf",
+      "state": "success",
+      "finished": "2024-06-19T02:12:01Z"
+    },
+    "ubuntu-quantal-armhf-minbase": {
+      "Name": "ubuntu-quantal-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-19T02:11:16Z"
+    },
+    "ubuntu-quantal-i386": {
+      "Name": "ubuntu-quantal-i386",
+      "state": "success",
+      "finished": "2024-06-19T02:09:03Z"
+    },
+    "ubuntu-quantal-i386-minbase": {
+      "Name": "ubuntu-quantal-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-19T02:07:30Z"
+    },
+    "ubuntu-quantal-powerpc": {
+      "Name": "ubuntu-quantal-powerpc",
+      "state": "failure",
+      "finished": "2024-06-19T02:07:32Z"
+    },
+    "ubuntu-quantal-powerpc-minbase": {
+      "Name": "ubuntu-quantal-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-19T02:07:45Z"
+    },
+    "ubuntu-raring-amd64": {
+      "Name": "ubuntu-raring-amd64",
+      "state": "success",
+      "finished": "2024-05-13T02:08:56Z"
+    },
+    "ubuntu-raring-amd64-minbase": {
+      "Name": "ubuntu-raring-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-13T02:08:52Z"
+    },
+    "ubuntu-raring-armhf": {
+      "Name": "ubuntu-raring-armhf",
+      "state": "success",
+      "finished": "2024-05-13T02:12:47Z"
+    },
+    "ubuntu-raring-armhf-minbase": {
+      "Name": "ubuntu-raring-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-13T02:13:03Z"
+    },
+    "ubuntu-raring-i386": {
+      "Name": "ubuntu-raring-i386",
+      "state": "success",
+      "finished": "2024-05-13T02:10:09Z"
+    },
+    "ubuntu-raring-i386-minbase": {
+      "Name": "ubuntu-raring-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-13T02:13:02Z"
+    },
+    "ubuntu-raring-powerpc": {
+      "Name": "ubuntu-raring-powerpc",
+      "state": "failure",
+      "finished": "2024-05-13T02:11:02Z"
+    },
+    "ubuntu-raring-powerpc-minbase": {
+      "Name": "ubuntu-raring-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-13T02:10:37Z"
+    },
+    "ubuntu-saucy-amd64": {
+      "Name": "ubuntu-saucy-amd64",
+      "state": "success",
+      "finished": "2024-05-10T02:08:53Z"
+    },
+    "ubuntu-saucy-amd64-minbase": {
+      "Name": "ubuntu-saucy-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-10T02:12:15Z"
+    },
+    "ubuntu-saucy-arm64": {
+      "Name": "ubuntu-saucy-arm64",
+      "state": "success",
+      "finished": "2024-05-10T02:10:15Z"
+    },
+    "ubuntu-saucy-arm64-minbase": {
+      "Name": "ubuntu-saucy-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-10T02:10:03Z"
+    },
+    "ubuntu-saucy-armhf": {
+      "Name": "ubuntu-saucy-armhf",
+      "state": "success",
+      "finished": "2024-05-10T02:15:08Z"
+    },
+    "ubuntu-saucy-armhf-minbase": {
+      "Name": "ubuntu-saucy-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-10T02:11:57Z"
+    },
+    "ubuntu-saucy-i386": {
+      "Name": "ubuntu-saucy-i386",
+      "state": "success",
+      "finished": "2024-05-10T02:08:53Z"
+    },
+    "ubuntu-saucy-i386-minbase": {
+      "Name": "ubuntu-saucy-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-10T02:09:20Z"
+    },
+    "ubuntu-saucy-powerpc": {
+      "Name": "ubuntu-saucy-powerpc",
+      "state": "failure",
+      "finished": "2024-05-10T02:10:42Z"
+    },
+    "ubuntu-saucy-powerpc-minbase": {
+      "Name": "ubuntu-saucy-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-10T02:08:39Z"
+    },
+    "ubuntu-trusty-amd64": {
+      "Name": "ubuntu-trusty-amd64",
+      "state": "success",
+      "finished": "2024-06-01T02:06:36Z"
+    },
+    "ubuntu-trusty-amd64-minbase": {
+      "Name": "ubuntu-trusty-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-01T02:06:23Z"
+    },
+    "ubuntu-trusty-arm64": {
+      "Name": "ubuntu-trusty-arm64",
+      "state": "success",
+      "finished": "2024-06-01T02:12:54Z"
+    },
+    "ubuntu-trusty-arm64-minbase": {
+      "Name": "ubuntu-trusty-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-01T02:12:24Z"
+    },
+    "ubuntu-trusty-armhf": {
+      "Name": "ubuntu-trusty-armhf",
+      "state": "success",
+      "finished": "2024-06-01T02:11:11Z"
+    },
+    "ubuntu-trusty-armhf-minbase": {
+      "Name": "ubuntu-trusty-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-01T02:12:39Z"
+    },
+    "ubuntu-trusty-i386": {
+      "Name": "ubuntu-trusty-i386",
+      "state": "success",
+      "finished": "2024-06-01T02:08:27Z"
+    },
+    "ubuntu-trusty-i386-minbase": {
+      "Name": "ubuntu-trusty-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-01T02:08:05Z"
+    },
+    "ubuntu-trusty-powerpc": {
+      "Name": "ubuntu-trusty-powerpc",
+      "state": "failure",
+      "finished": "2024-06-01T02:06:14Z"
+    },
+    "ubuntu-trusty-powerpc-minbase": {
+      "Name": "ubuntu-trusty-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-01T02:08:14Z"
+    },
+    "ubuntu-trusty-ppc64el": {
+      "Name": "ubuntu-trusty-ppc64el",
+      "state": "success",
+      "finished": "2024-06-01T02:12:32Z"
+    },
+    "ubuntu-trusty-ppc64el-minbase": {
+      "Name": "ubuntu-trusty-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-01T02:14:02Z"
+    },
+    "ubuntu-utopic-amd64": {
+      "Name": "ubuntu-utopic-amd64",
+      "state": "success",
+      "finished": "2024-06-10T02:09:33Z"
+    },
+    "ubuntu-utopic-amd64-minbase": {
+      "Name": "ubuntu-utopic-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-10T02:09:00Z"
+    },
+    "ubuntu-utopic-arm64": {
+      "Name": "ubuntu-utopic-arm64",
+      "state": "success",
+      "finished": "2024-06-10T02:12:54Z"
+    },
+    "ubuntu-utopic-arm64-minbase": {
+      "Name": "ubuntu-utopic-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-10T02:14:14Z"
+    },
+    "ubuntu-utopic-armhf": {
+      "Name": "ubuntu-utopic-armhf",
+      "state": "success",
+      "finished": "2024-06-10T02:12:41Z"
+    },
+    "ubuntu-utopic-armhf-minbase": {
+      "Name": "ubuntu-utopic-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-10T02:13:45Z"
+    },
+    "ubuntu-utopic-i386": {
+      "Name": "ubuntu-utopic-i386",
+      "state": "success",
+      "finished": "2024-06-10T02:11:04Z"
+    },
+    "ubuntu-utopic-i386-minbase": {
+      "Name": "ubuntu-utopic-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-10T02:09:08Z"
+    },
+    "ubuntu-utopic-powerpc": {
+      "Name": "ubuntu-utopic-powerpc",
+      "state": "failure",
+      "finished": "2024-06-10T02:10:28Z"
+    },
+    "ubuntu-utopic-powerpc-minbase": {
+      "Name": "ubuntu-utopic-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-10T02:11:51Z"
+    },
+    "ubuntu-utopic-ppc64el": {
+      "Name": "ubuntu-utopic-ppc64el",
+      "state": "success",
+      "finished": "2024-06-10T02:12:51Z"
+    },
+    "ubuntu-utopic-ppc64el-minbase": {
+      "Name": "ubuntu-utopic-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-10T02:14:33Z"
+    },
+    "ubuntu-vivid-amd64": {
+      "Name": "ubuntu-vivid-amd64",
+      "state": "success",
+      "finished": "2024-06-15T02:07:05Z"
+    },
+    "ubuntu-vivid-amd64-minbase": {
+      "Name": "ubuntu-vivid-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-15T02:07:19Z"
+    },
+    "ubuntu-vivid-arm64": {
+      "Name": "ubuntu-vivid-arm64",
+      "state": "success",
+      "finished": "2024-06-15T02:10:46Z"
+    },
+    "ubuntu-vivid-arm64-minbase": {
+      "Name": "ubuntu-vivid-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-15T02:10:37Z"
+    },
+    "ubuntu-vivid-armhf": {
+      "Name": "ubuntu-vivid-armhf",
+      "state": "success",
+      "finished": "2024-06-15T02:10:45Z"
+    },
+    "ubuntu-vivid-armhf-minbase": {
+      "Name": "ubuntu-vivid-armhf-minbase",
+      "state": "failure",
+      "finished": "2024-06-15T02:08:59Z"
+    },
+    "ubuntu-vivid-i386": {
+      "Name": "ubuntu-vivid-i386",
+      "state": "success",
+      "finished": "2024-06-15T02:06:47Z"
+    },
+    "ubuntu-vivid-i386-minbase": {
+      "Name": "ubuntu-vivid-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-15T02:06:47Z"
+    },
+    "ubuntu-vivid-powerpc": {
+      "Name": "ubuntu-vivid-powerpc",
+      "state": "failure",
+      "finished": "2024-06-15T02:07:39Z"
+    },
+    "ubuntu-vivid-powerpc-minbase": {
+      "Name": "ubuntu-vivid-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-15T02:05:49Z"
+    },
+    "ubuntu-vivid-ppc64el": {
+      "Name": "ubuntu-vivid-ppc64el",
+      "state": "success",
+      "finished": "2024-06-15T02:12:58Z"
+    },
+    "ubuntu-vivid-ppc64el-minbase": {
+      "Name": "ubuntu-vivid-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-15T02:12:33Z"
+    },
+    "ubuntu-warty-amd64": {
+      "Name": "ubuntu-warty-amd64",
+      "state": "failure",
+      "finished": "2024-06-18T02:04:08Z"
+    },
+    "ubuntu-warty-amd64-minbase": {
+      "Name": "ubuntu-warty-amd64-minbase",
+      "state": "failure",
+      "finished": "2024-06-18T02:04:54Z"
+    },
+    "ubuntu-warty-i386": {
+      "Name": "ubuntu-warty-i386",
+      "state": "failure",
+      "finished": "2024-06-18T02:04:53Z"
+    },
+    "ubuntu-warty-i386-minbase": {
+      "Name": "ubuntu-warty-i386-minbase",
+      "state": "failure",
+      "finished": "2024-06-18T02:04:54Z"
+    },
+    "ubuntu-warty-powerpc": {
+      "Name": "ubuntu-warty-powerpc",
+      "state": "failure",
+      "finished": "2024-06-18T02:04:53Z"
+    },
+    "ubuntu-warty-powerpc-minbase": {
+      "Name": "ubuntu-warty-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-18T02:04:49Z"
+    },
+    "ubuntu-wily-amd64": {
+      "Name": "ubuntu-wily-amd64",
+      "state": "success",
+      "finished": "2024-06-29T02:09:16Z"
+    },
+    "ubuntu-wily-amd64-minbase": {
+      "Name": "ubuntu-wily-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-29T02:07:12Z"
+    },
+    "ubuntu-wily-arm64": {
+      "Name": "ubuntu-wily-arm64",
+      "state": "success",
+      "finished": "2024-06-29T02:11:00Z"
+    },
+    "ubuntu-wily-arm64-minbase": {
+      "Name": "ubuntu-wily-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-29T02:10:49Z"
+    },
+    "ubuntu-wily-armhf": {
+      "Name": "ubuntu-wily-armhf",
+      "state": "success",
+      "finished": "2024-06-29T02:10:51Z"
+    },
+    "ubuntu-wily-armhf-minbase": {
+      "Name": "ubuntu-wily-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-29T02:10:49Z"
+    },
+    "ubuntu-wily-i386": {
+      "Name": "ubuntu-wily-i386",
+      "state": "success",
+      "finished": "2024-06-29T02:06:52Z"
+    },
+    "ubuntu-wily-i386-minbase": {
+      "Name": "ubuntu-wily-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-29T02:09:15Z"
+    },
+    "ubuntu-wily-powerpc": {
+      "Name": "ubuntu-wily-powerpc",
+      "state": "failure",
+      "finished": "2024-06-29T02:06:06Z"
+    },
+    "ubuntu-wily-powerpc-minbase": {
+      "Name": "ubuntu-wily-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-29T02:05:47Z"
+    },
+    "ubuntu-wily-ppc64el": {
+      "Name": "ubuntu-wily-ppc64el",
+      "state": "success",
+      "finished": "2024-06-29T02:11:03Z"
+    },
+    "ubuntu-wily-ppc64el-minbase": {
+      "Name": "ubuntu-wily-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-29T02:11:32Z"
+    },
+    "ubuntu-xenial-amd64": {
+      "Name": "ubuntu-xenial-amd64",
+      "state": "success",
+      "finished": "2024-05-02T02:07:20Z"
+    },
+    "ubuntu-xenial-amd64-minbase": {
+      "Name": "ubuntu-xenial-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-02T02:06:04Z"
+    },
+    "ubuntu-xenial-arm64": {
+      "Name": "ubuntu-xenial-arm64",
+      "state": "success",
+      "finished": "2024-05-02T02:10:58Z"
+    },
+    "ubuntu-xenial-arm64-minbase": {
+      "Name": "ubuntu-xenial-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-02T02:11:09Z"
+    },
+    "ubuntu-xenial-armhf": {
+      "Name": "ubuntu-xenial-armhf",
+      "state": "success",
+      "finished": "2024-05-02T02:11:11Z"
+    },
+    "ubuntu-xenial-armhf-minbase": {
+      "Name": "ubuntu-xenial-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-02T02:11:35Z"
+    },
+    "ubuntu-xenial-i386": {
+      "Name": "ubuntu-xenial-i386",
+      "state": "success",
+      "finished": "2024-05-02T02:06:15Z"
+    },
+    "ubuntu-xenial-i386-minbase": {
+      "Name": "ubuntu-xenial-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-02T02:06:32Z"
+    },
+    "ubuntu-xenial-powerpc": {
+      "Name": "ubuntu-xenial-powerpc",
+      "state": "failure",
+      "finished": "2024-05-02T02:06:08Z"
+    },
+    "ubuntu-xenial-powerpc-minbase": {
+      "Name": "ubuntu-xenial-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-05-02T02:06:53Z"
+    },
+    "ubuntu-xenial-ppc64el": {
+      "Name": "ubuntu-xenial-ppc64el",
+      "state": "success",
+      "finished": "2024-05-02T02:11:28Z"
+    },
+    "ubuntu-xenial-ppc64el-minbase": {
+      "Name": "ubuntu-xenial-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-02T02:12:58Z"
+    },
+    "ubuntu-xenial-s390x": {
+      "Name": "ubuntu-xenial-s390x",
+      "state": "success",
+      "finished": "2024-05-02T02:10:50Z"
+    },
+    "ubuntu-xenial-s390x-minbase": {
+      "Name": "ubuntu-xenial-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-02T02:10:35Z"
+    },
+    "ubuntu-yakkety-amd64": {
+      "Name": "ubuntu-yakkety-amd64",
+      "state": "success",
+      "finished": "2024-06-08T02:07:54Z"
+    },
+    "ubuntu-yakkety-amd64-minbase": {
+      "Name": "ubuntu-yakkety-amd64-minbase",
+      "state": "success",
+      "finished": "2024-06-08T02:08:24Z"
+    },
+    "ubuntu-yakkety-arm64": {
+      "Name": "ubuntu-yakkety-arm64",
+      "state": "success",
+      "finished": "2024-06-08T02:10:09Z"
+    },
+    "ubuntu-yakkety-arm64-minbase": {
+      "Name": "ubuntu-yakkety-arm64-minbase",
+      "state": "success",
+      "finished": "2024-06-08T02:10:19Z"
+    },
+    "ubuntu-yakkety-armhf": {
+      "Name": "ubuntu-yakkety-armhf",
+      "state": "success",
+      "finished": "2024-06-08T02:10:25Z"
+    },
+    "ubuntu-yakkety-armhf-minbase": {
+      "Name": "ubuntu-yakkety-armhf-minbase",
+      "state": "success",
+      "finished": "2024-06-08T02:10:18Z"
+    },
+    "ubuntu-yakkety-i386": {
+      "Name": "ubuntu-yakkety-i386",
+      "state": "success",
+      "finished": "2024-06-08T02:07:46Z"
+    },
+    "ubuntu-yakkety-i386-minbase": {
+      "Name": "ubuntu-yakkety-i386-minbase",
+      "state": "success",
+      "finished": "2024-06-08T02:07:44Z"
+    },
+    "ubuntu-yakkety-powerpc": {
+      "Name": "ubuntu-yakkety-powerpc",
+      "state": "failure",
+      "finished": "2024-06-08T02:06:25Z"
+    },
+    "ubuntu-yakkety-powerpc-minbase": {
+      "Name": "ubuntu-yakkety-powerpc-minbase",
+      "state": "failure",
+      "finished": "2024-06-08T02:09:10Z"
+    },
+    "ubuntu-yakkety-ppc64el": {
+      "Name": "ubuntu-yakkety-ppc64el",
+      "state": "success",
+      "finished": "2024-06-08T02:10:19Z"
+    },
+    "ubuntu-yakkety-ppc64el-minbase": {
+      "Name": "ubuntu-yakkety-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-06-08T02:12:34Z"
+    },
+    "ubuntu-yakkety-s390x": {
+      "Name": "ubuntu-yakkety-s390x",
+      "state": "success",
+      "finished": "2024-06-08T02:10:29Z"
+    },
+    "ubuntu-yakkety-s390x-minbase": {
+      "Name": "ubuntu-yakkety-s390x-minbase",
+      "state": "success",
+      "finished": "2024-06-08T02:11:36Z"
+    },
+    "ubuntu-zesty-amd64": {
+      "Name": "ubuntu-zesty-amd64",
+      "state": "success",
+      "finished": "2024-05-14T02:12:35Z"
+    },
+    "ubuntu-zesty-amd64-minbase": {
+      "Name": "ubuntu-zesty-amd64-minbase",
+      "state": "success",
+      "finished": "2024-05-14T02:12:55Z"
+    },
+    "ubuntu-zesty-arm64": {
+      "Name": "ubuntu-zesty-arm64",
+      "state": "success",
+      "finished": "2024-05-14T02:12:18Z"
+    },
+    "ubuntu-zesty-arm64-minbase": {
+      "Name": "ubuntu-zesty-arm64-minbase",
+      "state": "success",
+      "finished": "2024-05-14T02:12:18Z"
+    },
+    "ubuntu-zesty-armhf": {
+      "Name": "ubuntu-zesty-armhf",
+      "state": "success",
+      "finished": "2024-05-14T02:15:04Z"
+    },
+    "ubuntu-zesty-armhf-minbase": {
+      "Name": "ubuntu-zesty-armhf-minbase",
+      "state": "success",
+      "finished": "2024-05-14T02:14:44Z"
+    },
+    "ubuntu-zesty-i386": {
+      "Name": "ubuntu-zesty-i386",
+      "state": "success",
+      "finished": "2024-05-14T02:08:56Z"
+    },
+    "ubuntu-zesty-i386-minbase": {
+      "Name": "ubuntu-zesty-i386-minbase",
+      "state": "success",
+      "finished": "2024-05-14T02:13:01Z"
+    },
+    "ubuntu-zesty-ppc64el": {
+      "Name": "ubuntu-zesty-ppc64el",
+      "state": "success",
+      "finished": "2024-05-14T02:15:49Z"
+    },
+    "ubuntu-zesty-ppc64el-minbase": {
+      "Name": "ubuntu-zesty-ppc64el-minbase",
+      "state": "success",
+      "finished": "2024-05-14T02:15:01Z"
+    },
+    "ubuntu-zesty-s390x": {
+      "Name": "ubuntu-zesty-s390x",
+      "state": "success",
+      "finished": "2024-05-14T02:11:34Z"
+    },
+    "ubuntu-zesty-s390x-minbase": {
+      "Name": "ubuntu-zesty-s390x-minbase",
+      "state": "success",
+      "finished": "2024-05-14T02:12:14Z"
+    }
+  }
+}
