@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:trixie
 MAINTAINER Leandro Lisboa Penz <lpenz@lpenz.org>
 
 # install debian packages:
