@@ -1,0 +1,6509 @@
+{
+  "releaseInfos": [
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "",
+      "Version": "2.0r5",
+      "Date": "0001-01-01T00:00:00Z",
+      "Codename": "",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": null
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "",
+      "Version": "2.1updated",
+      "Date": "0001-01-01T00:00:00Z",
+      "Codename": "",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": null
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "stable",
+      "Version": "2.2r7",
+      "Date": "2002-07-12T16:16:28Z",
+      "Codename": "potato",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "alpha",
+        "arm",
+        "i386",
+        "m68k",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "old-proposed-updates",
+      "Version": "2.2r7",
+      "Date": "2003-09-04T19:53:08Z",
+      "Codename": "old-proposed-updates",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "alpha",
+        "arm",
+        "i386",
+        "m68k",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "stable",
+      "Version": "3.0r6",
+      "Date": "2005-05-31T20:55:05Z",
+      "Codename": "woody",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "alpha",
+        "arm",
+        "hppa",
+        "i386",
+        "ia64",
+        "m68k",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable",
+      "Version": "3.1r8",
+      "Date": "2008-04-12T19:04:58Z",
+      "Codename": "sarge",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "alpha",
+        "arm",
+        "hppa",
+        "i386",
+        "ia64",
+        "m68k",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable-proposed-updates",
+      "Version": "3.1-updates",
+      "Date": "2008-10-27T08:30:18Z",
+      "Codename": "sarge-proposed-updates",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "alpha",
+        "arm",
+        "hppa",
+        "i386",
+        "ia64",
+        "m68k",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "etch-m68k",
+      "Version": "",
+      "Date": "2009-04-12T22:20:41Z",
+      "Codename": "etch-m68k",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "m68k"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable",
+      "Version": "4.0r9",
+      "Date": "2010-05-22T14:22:09Z",
+      "Codename": "etch",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "alpha",
+        "amd64",
+        "arm",
+        "hppa",
+        "i386",
+        "ia64",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable",
+      "Version": "5.0.10",
+      "Date": "2012-03-10T11:30:56Z",
+      "Codename": "lenny",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "alpha",
+        "amd64",
+        "arm",
+        "armel",
+        "hppa",
+        "i386",
+        "ia64",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable",
+      "Version": "6.0.10",
+      "Date": "2015-04-25T11:01:14Z",
+      "Codename": "squeeze",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "kfreebsd-amd64",
+        "kfreebsd-i386",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable-proposed-updates",
+      "Version": "6.0-updates",
+      "Date": "2015-09-24T06:14:12Z",
+      "Codename": "squeeze-proposed-updates",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "kfreebsd-amd64",
+        "kfreebsd-i386",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "squeeze-lts",
+      "Version": "6.0-lts",
+      "Date": "2016-03-08T15:18:40Z",
+      "Codename": "squeeze-lts",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable",
+      "Version": "7.11",
+      "Date": "2017-06-17T08:55:32Z",
+      "Codename": "wheezy",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "ia64",
+        "kfreebsd-amd64",
+        "kfreebsd-i386",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "s390x",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable-kfreebsd",
+      "Version": "",
+      "Date": "2018-06-02T08:20:40Z",
+      "Codename": "jessie-kfreebsd",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "kfreebsd-amd64",
+        "kfreebsd-i386"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable",
+      "Version": "8.11",
+      "Date": "2018-06-23T10:30:18Z",
+      "Codename": "jessie",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable",
+      "Version": "9.13",
+      "Date": "2021-08-14T07:42:00Z",
+      "Codename": "stretch",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable-proposed-updates",
+      "Version": "",
+      "Date": "2021-08-14T13:55:20Z",
+      "Codename": "stretch-proposed-updates",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable",
+      "Version": "10.13",
+      "Date": "2023-06-10T08:53:33Z",
+      "Codename": "buster",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable-updates",
+      "Version": "",
+      "Date": "2023-06-10T08:55:10Z",
+      "Codename": "buster-updates",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable-proposed-updates",
+      "Version": "10-updates",
+      "Date": "2024-03-09T20:54:54Z",
+      "Codename": "buster-proposed-updates",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable",
+      "Version": "11.11",
+      "Date": "2024-08-31T11:02:15Z",
+      "Codename": "bullseye",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable-proposed-updates",
+      "Version": "11-updates",
+      "Date": "2025-06-19T14:15:56Z",
+      "Codename": "bullseye-proposed-updates",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable-updates",
+      "Version": "11-updates",
+      "Date": "2025-06-19T14:15:56Z",
+      "Codename": "bullseye-updates",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable-proposed-updates",
+      "Version": "11-updates",
+      "Date": "2025-08-09T02:07:51Z",
+      "Codename": "bullseye-proposed-updates",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable",
+      "Version": "12.11",
+      "Date": "2025-08-09T08:53:07Z",
+      "Codename": "bookworm",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable-updates",
+      "Version": "11-updates",
+      "Date": "2025-08-09T08:55:05Z",
+      "Codename": "bullseye-updates",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldoldstable",
+      "Version": "11.11",
+      "Date": "2025-08-09T09:16:30Z",
+      "Codename": "bullseye",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "stable",
+      "Version": "13.0",
+      "Date": "2025-08-09T10:59:34Z",
+      "Codename": "trixie",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable-proposed-updates",
+      "Version": "12-updates",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "bookworm-proposed-updates",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "oldstable-updates",
+      "Version": "12-updates",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "bookworm-updates",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "testing",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "forky",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "testing-proposed-updates",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "forky-proposed-updates",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "testing-updates",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "forky-updates",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "experimental",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "rc-buggy",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "proposed-updates",
+      "Version": "13-updates",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "trixie-proposed-updates",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "unstable",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "sid",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian",
+      "Label": "Debian",
+      "Suite": "stable-updates",
+      "Version": "13-updates",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "trixie-updates",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "wheezy-backports",
+      "Version": "",
+      "Date": "2018-01-24T08:51:34Z",
+      "Codename": "wheezy-backports",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "ia64",
+        "kfreebsd-amd64",
+        "kfreebsd-i386",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "s390x",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "wheezy-backports-sloppy",
+      "Version": "",
+      "Date": "2018-01-24T08:51:34Z",
+      "Codename": "wheezy-backports-sloppy",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "ia64",
+        "kfreebsd-amd64",
+        "kfreebsd-i386",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "s390",
+        "s390x",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "jessie-backports",
+      "Version": "",
+      "Date": "2019-02-12T20:25:43Z",
+      "Codename": "jessie-backports",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "kfreebsd-amd64",
+        "kfreebsd-i386",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "jessie-backports-sloppy",
+      "Version": "",
+      "Date": "2019-02-13T02:31:54Z",
+      "Codename": "jessie-backports-sloppy",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mipsel",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "stretch-backports",
+      "Version": "",
+      "Date": "2023-03-30T14:20:42Z",
+      "Codename": "stretch-backports",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "stretch-backports-sloppy",
+      "Version": "",
+      "Date": "2023-03-30T14:20:42Z",
+      "Codename": "stretch-backports-sloppy",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "buster-backports",
+      "Version": "",
+      "Date": "2024-03-09T20:54:54Z",
+      "Codename": "buster-backports",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "oldoldstable-backports-sloppy",
+      "Version": "",
+      "Date": "2024-03-09T20:54:54Z",
+      "Codename": "buster-backports-sloppy",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "bullseye-backports",
+      "Version": "",
+      "Date": "2025-06-19T14:15:56Z",
+      "Codename": "bullseye-backports",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "oldstable-backports-sloppy",
+      "Version": "",
+      "Date": "2025-06-19T14:15:56Z",
+      "Codename": "bullseye-backports-sloppy",
+      "URL": [
+        "http://archive.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "oldstable-backports",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "bookworm-backports",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "oldstable-backports-sloppy",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "bookworm-backports-sloppy",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mips64el",
+        "mipsel",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "testing-backports",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "forky-backports",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "stable-backports",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "trixie-backports",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Debian Backports",
+      "Label": "Debian Backports",
+      "Suite": "stable-backports-sloppy",
+      "Version": "",
+      "Date": "2025-08-24T14:28:48Z",
+      "Codename": "trixie-backports-sloppy",
+      "URL": [
+        "http://deb.debian.org/debian/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "oldstable",
+      "Version": "4.0",
+      "Date": "2025-08-24T03:22:50Z",
+      "Codename": "chimaera",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "stable",
+      "Version": "5.0",
+      "Date": "2025-08-24T03:21:55Z",
+      "Codename": "daedalus",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "testing",
+      "Version": "6.0",
+      "Date": "2025-08-24T03:23:53Z",
+      "Codename": "excalibur",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "ppc64el",
+        "arm64",
+        "riscv64",
+        "i386"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "next-testing",
+      "Version": "7.0",
+      "Date": "2025-08-24T15:06:53Z",
+      "Codename": "freia",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "armel",
+        "i386",
+        "amd64",
+        "ppc64el",
+        "riscv64",
+        "armhf",
+        "arm64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "unstable",
+      "Version": "1.0.0",
+      "Date": "2025-08-24T15:04:11Z",
+      "Codename": "ceres",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "oldstable-proposed-updates",
+      "Version": "4.0.0",
+      "Date": "2025-08-24T03:22:04Z",
+      "Codename": "chimaera-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan-Security",
+      "Suite": "oldstable-security",
+      "Version": "4.0",
+      "Date": "2025-08-24T20:24:04Z",
+      "Codename": "chimaera-security",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "oldstable-updates",
+      "Version": "4.0.0",
+      "Date": "2025-08-24T03:21:55Z",
+      "Codename": "chimaera-updates",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "stable-proposed-updates",
+      "Version": "5.0.0",
+      "Date": "2025-08-24T15:00:03Z",
+      "Codename": "daedalus-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "stable-updates",
+      "Version": "5.0",
+      "Date": "2025-08-24T15:00:04Z",
+      "Codename": "daedalus-updates",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan-Security",
+      "Suite": "stable-security",
+      "Version": "5.0",
+      "Date": "2025-08-24T20:24:04Z",
+      "Codename": "daedalus-security",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "testing-updates",
+      "Version": "6.0",
+      "Date": "2025-08-24T15:02:05Z",
+      "Codename": "excalibur-updates",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "amd64",
+        "riscv64",
+        "arm64",
+        "armhf",
+        "ppc64el",
+        "armel"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "testing-proposed-updates",
+      "Version": "6.0",
+      "Date": "2025-08-24T15:06:04Z",
+      "Codename": "excalibur-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "armel",
+        "i386",
+        "amd64",
+        "ppc64el",
+        "riscv64",
+        "armhf",
+        "arm64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan-Security",
+      "Suite": "testing-security",
+      "Version": "6.0",
+      "Date": "2025-08-24T20:26:03Z",
+      "Codename": "excalibur-security",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "riscv64",
+        "ppc64el",
+        "arm64",
+        "amd64",
+        "armhf",
+        "armel",
+        "i386"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia-proposed-updates",
+      "Version": "7.0",
+      "Date": "2025-08-24T15:00:05Z",
+      "Codename": "freia-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "armel",
+        "riscv64",
+        "amd64",
+        "armhf",
+        "ppc64el",
+        "arm64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia-backports",
+      "Version": "7.0",
+      "Date": "2025-08-24T15:03:03Z",
+      "Codename": "freia-backports",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "amd64",
+        "riscv64",
+        "arm64",
+        "armhf",
+        "ppc64el",
+        "armel"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia-updates",
+      "Version": "7.0",
+      "Date": "2025-08-24T15:03:03Z",
+      "Codename": "freia-updates",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "amd64",
+        "riscv64",
+        "arm64",
+        "armhf",
+        "ppc64el",
+        "armel"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia-security",
+      "Version": "7.0",
+      "Date": "2025-08-24T20:24:05Z",
+      "Codename": "freia-security",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "armel",
+        "arm64",
+        "armhf",
+        "ppc64el",
+        "amd64",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "ascii",
+      "Suite": "ascii",
+      "Version": "2.0.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "ascii",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mipsel",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "beowulf",
+      "Version": "3.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "beowulf",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "chimaera",
+      "Version": "4.0.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "chimaera",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "daedalus",
+      "Version": "5.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "daedalus",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "testing",
+      "Version": "6.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "excalibur",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia",
+      "Version": "7.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "freia",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "ascii-backports",
+      "Suite": "ascii-backports",
+      "Version": "2.0.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "ascii",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mipsel",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "ascii-proposed-updates",
+      "Suite": "ascii-proposed-updates",
+      "Version": "2.0.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "ascii",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mipsel",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "ascii-updates",
+      "Suite": "ascii-updates",
+      "Version": "2.0.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "ascii",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mipsel",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "beowulf-backports",
+      "Version": "3.0.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "beowulf",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "beowulf-proposed-updates",
+      "Version": "3.0.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "beowulf-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Master",
+      "Suite": "unstable",
+      "Version": "1.0.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "ceres",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "chimaera-updates",
+      "Version": "4.0.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "chimaera-updates",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "chimaera-proposed-updates",
+      "Version": "4.0.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "chimaera-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "daedalus-backports",
+      "Version": "5.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "daedalus",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "daedalus-proposed-updates",
+      "Version": "5.0.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "daedalus-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "daedalus-security",
+      "Version": "5.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "daedalus",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "daedalus-updates",
+      "Version": "5.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "daedalus",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "excalibur-backports",
+      "Version": "6.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "excalibur",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "excalibur-security",
+      "Version": "6.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "excalibur",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "testing-proposed-updates",
+      "Version": "6.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "excalibur-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "excalibur-updates",
+      "Version": "6.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "excalibur-updates",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Master",
+      "Suite": "experimental",
+      "Version": "1.0.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "experimental",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia-backports",
+      "Version": "7.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "freia-backports",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia-proposed-updates",
+      "Version": "7.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "freia-proposed-updates",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia-security",
+      "Version": "7.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "freia-security",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "Devuan",
+      "Suite": "freia-updates",
+      "Version": "7.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "freia-updates",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "jessie-updates",
+      "Suite": "jessie-updates",
+      "Version": "1.0.0",
+      "Date": "2025-08-25T00:15:05Z",
+      "Codename": "jessie",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mipsel",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "jessie-backports",
+      "Suite": "jessie-backports",
+      "Version": "1.0.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "jessie",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mipsel",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan",
+      "Label": "jessie-proposed-updates",
+      "Suite": "jessie-proposed-updates",
+      "Version": "1.0.0",
+      "Date": "2025-08-25T00:15:06Z",
+      "Codename": "jessie",
+      "URL": [
+        "http://deb.devuan.org/devuan/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "mipsel",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan Backports",
+      "Label": "Devuan Backports",
+      "Suite": "stable-backports",
+      "Version": "5.0",
+      "Date": "2025-08-24T15:02:03Z",
+      "Codename": "daedalus-backports",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armel",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Devuan Backports",
+      "Label": "Devuan Backports",
+      "Suite": "testing-backports",
+      "Version": "6.0",
+      "Date": "2025-08-24T15:00:04Z",
+      "Codename": "excalibur-backports",
+      "URL": [
+        "http://deb.devuan.org/merged/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "armel",
+        "riscv64",
+        "amd64",
+        "armhf",
+        "ppc64el",
+        "arm64"
+      ]
+    },
+    {
+      "Origin": "Raspbian",
+      "Label": "Raspbian",
+      "Suite": "oldoldstable",
+      "Version": "",
+      "Date": "2025-07-13T04:16:03Z",
+      "Codename": "buster",
+      "URL": [
+        "http://archive.raspbian.org/raspbian/dists",
+        "http://raspbian.raspberrypi.org/raspbian/dists"
+      ],
+      "Architectures": [
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "Raspbian",
+      "Label": "Raspbian",
+      "Suite": "oldoldstable-staging",
+      "Version": "",
+      "Date": "2025-08-20T22:09:00Z",
+      "Codename": "buster-staging",
+      "URL": [
+        "http://archive.raspbian.org/raspbian/dists",
+        "http://raspbian.raspberrypi.org/raspbian/dists"
+      ],
+      "Architectures": [
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "Raspbian",
+      "Label": "Raspbian",
+      "Suite": "oldstable-staging",
+      "Version": "",
+      "Date": "2025-08-24T22:11:04Z",
+      "Codename": "bullseye-staging",
+      "URL": [
+        "http://archive.raspbian.org/raspbian/dists",
+        "http://raspbian.raspberrypi.org/raspbian/dists"
+      ],
+      "Architectures": [
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "Raspbian",
+      "Label": "Raspbian",
+      "Suite": "oldstable",
+      "Version": "",
+      "Date": "2025-08-24T22:16:49Z",
+      "Codename": "bullseye",
+      "URL": [
+        "http://archive.raspbian.org/raspbian/dists",
+        "http://raspbian.raspberrypi.org/raspbian/dists"
+      ],
+      "Architectures": [
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "Raspbian",
+      "Label": "Raspbian",
+      "Suite": "stable-staging",
+      "Version": "",
+      "Date": "2025-08-24T22:18:36Z",
+      "Codename": "bookworm-staging",
+      "URL": [
+        "http://archive.raspbian.org/raspbian/dists",
+        "http://raspbian.raspberrypi.org/raspbian/dists"
+      ],
+      "Architectures": [
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "Raspbian",
+      "Label": "Raspbian",
+      "Suite": "stable",
+      "Version": "",
+      "Date": "2025-08-24T22:23:12Z",
+      "Codename": "bookworm",
+      "URL": [
+        "http://archive.raspbian.org/raspbian/dists",
+        "http://raspbian.raspberrypi.org/raspbian/dists"
+      ],
+      "Architectures": [
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "Raspbian",
+      "Label": "Raspbian",
+      "Suite": "testing-staging",
+      "Version": "",
+      "Date": "2025-08-24T22:25:10Z",
+      "Codename": "trixie-staging",
+      "URL": [
+        "http://archive.raspbian.org/raspbian/dists",
+        "http://raspbian.raspberrypi.org/raspbian/dists"
+      ],
+      "Architectures": [
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "Raspbian",
+      "Label": "Raspbian",
+      "Suite": "testing",
+      "Version": "",
+      "Date": "2025-08-24T22:31:11Z",
+      "Codename": "trixie",
+      "URL": [
+        "http://archive.raspbian.org/raspbian/dists",
+        "http://raspbian.raspberrypi.org/raspbian/dists"
+      ],
+      "Architectures": [
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "warty",
+      "Version": "4.10",
+      "Date": "2005-05-13T12:42:31Z",
+      "Codename": "warty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "amd64",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hoary",
+      "Version": "5.04",
+      "Date": "2005-05-13T12:42:40Z",
+      "Codename": "hoary",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "amd64",
+        "powerpc",
+        "ia64",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "breezy",
+      "Version": "5.10",
+      "Date": "2005-10-13T19:34:42Z",
+      "Codename": "breezy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "amd64",
+        "powerpc",
+        "ia64",
+        "sparc",
+        "hppa"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "dapper",
+      "Version": "6.06",
+      "Date": "2006-05-31T18:59:06Z",
+      "Codename": "dapper",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "sparc",
+        "powerpc",
+        "i386",
+        "ia64",
+        "hppa"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "breezy-proposed",
+      "Version": "5.10",
+      "Date": "2006-08-08T11:44:59Z",
+      "Codename": "breezy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "sparc",
+        "powerpc",
+        "i386",
+        "ia64",
+        "hppa"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hoary-proposed",
+      "Version": "5.04",
+      "Date": "2006-08-08T11:45:00Z",
+      "Codename": "hoary",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "ia64",
+        "amd64",
+        "i386",
+        "sparc",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "warty-backports",
+      "Version": "4.10",
+      "Date": "2006-08-08T11:45:00Z",
+      "Codename": "warty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "amd64",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "warty-proposed",
+      "Version": "4.10",
+      "Date": "2006-08-08T11:45:01Z",
+      "Codename": "warty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "i386",
+        "amd64",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "breezy-backports",
+      "Version": "5.10",
+      "Date": "2006-10-06T21:13:27Z",
+      "Codename": "breezy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "breezy-updates",
+      "Version": "5.10",
+      "Date": "2006-10-06T21:13:29Z",
+      "Codename": "breezy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hoary-backports",
+      "Version": "5.04",
+      "Date": "2006-10-06T21:13:30Z",
+      "Codename": "hoary",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hoary-updates",
+      "Version": "5.04",
+      "Date": "2006-10-06T21:13:31Z",
+      "Codename": "hoary",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "warty-security",
+      "Version": "4.10",
+      "Date": "2006-10-06T21:13:32Z",
+      "Codename": "warty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "warty-updates",
+      "Version": "4.10",
+      "Date": "2006-10-06T21:13:32Z",
+      "Codename": "warty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "edgy",
+      "Version": "6.10",
+      "Date": "2006-10-25T17:07:09Z",
+      "Codename": "edgy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hoary-security",
+      "Version": "5.04",
+      "Date": "2006-11-21T12:38:25Z",
+      "Codename": "hoary",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "breezy-security",
+      "Version": "5.10",
+      "Date": "2007-04-11T20:22:46Z",
+      "Codename": "breezy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "feisty",
+      "Version": "7.04",
+      "Date": "2007-04-17T18:14:27Z",
+      "Codename": "feisty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "gutsy",
+      "Version": "7.10",
+      "Date": "2007-10-18T11:27:55Z",
+      "Codename": "gutsy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "edgy-backports",
+      "Version": "6.10",
+      "Date": "2008-03-05T21:46:12Z",
+      "Codename": "edgy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "edgy-security",
+      "Version": "6.10",
+      "Date": "2008-04-22T01:56:01Z",
+      "Codename": "edgy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "edgy-updates",
+      "Version": "6.10",
+      "Date": "2008-04-22T21:50:33Z",
+      "Codename": "edgy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "edgy-proposed",
+      "Version": "6.10",
+      "Date": "2008-04-24T12:03:52Z",
+      "Codename": "edgy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "feisty-backports",
+      "Version": "7.04",
+      "Date": "2008-08-15T18:47:20Z",
+      "Codename": "feisty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hardy",
+      "Version": "8.04",
+      "Date": "2008-09-20T01:13:43Z",
+      "Codename": "hardy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "feisty-proposed",
+      "Version": "7.04",
+      "Date": "2008-10-08T09:33:12Z",
+      "Codename": "feisty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "feisty-security",
+      "Version": "7.04",
+      "Date": "2008-10-15T21:10:59Z",
+      "Codename": "feisty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "feisty-updates",
+      "Version": "7.04",
+      "Date": "2008-10-30T15:45:05Z",
+      "Codename": "feisty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "intrepid",
+      "Version": "8.10",
+      "Date": "2008-11-19T21:01:09Z",
+      "Codename": "intrepid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "gutsy-backports",
+      "Version": "7.10",
+      "Date": "2009-01-21T03:39:06Z",
+      "Codename": "gutsy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "gutsy-proposed",
+      "Version": "7.10",
+      "Date": "2009-03-13T18:46:15Z",
+      "Codename": "gutsy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "gutsy-security",
+      "Version": "7.10",
+      "Date": "2009-04-16T21:10:50Z",
+      "Codename": "gutsy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "gutsy-updates",
+      "Version": "7.10",
+      "Date": "2009-04-16T22:45:18Z",
+      "Codename": "gutsy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jaunty",
+      "Version": "9.04",
+      "Date": "2009-04-22T21:35:16Z",
+      "Codename": "jaunty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "karmic",
+      "Version": "9.10",
+      "Date": "2009-10-28T14:23:09Z",
+      "Codename": "karmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "intrepid-backports",
+      "Version": "8.10",
+      "Date": "2010-01-25T14:28:20Z",
+      "Codename": "intrepid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "intrepid-proposed",
+      "Version": "8.10",
+      "Date": "2010-04-29T09:33:26Z",
+      "Codename": "intrepid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lucid",
+      "Version": "10.04",
+      "Date": "2010-04-29T17:24:55Z",
+      "Codename": "lucid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "intrepid-security",
+      "Version": "8.10",
+      "Date": "2010-04-29T22:09:22Z",
+      "Codename": "intrepid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "intrepid-updates",
+      "Version": "8.10",
+      "Date": "2010-04-29T23:13:43Z",
+      "Codename": "intrepid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "maverick",
+      "Version": "10.10",
+      "Date": "2010-10-10T10:18:49Z",
+      "Codename": "maverick",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jaunty-proposed",
+      "Version": "9.04",
+      "Date": "2010-10-11T09:07:31Z",
+      "Codename": "jaunty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jaunty-security",
+      "Version": "9.04",
+      "Date": "2010-10-28T16:19:30Z",
+      "Codename": "jaunty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jaunty-updates",
+      "Version": "9.04",
+      "Date": "2010-10-28T17:29:59Z",
+      "Codename": "jaunty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jaunty-backports",
+      "Version": "9.04",
+      "Date": "2010-10-29T15:22:48Z",
+      "Codename": "jaunty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "karmic-backports",
+      "Version": "9.10",
+      "Date": "2010-12-13T11:19:26Z",
+      "Codename": "karmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "dapper-backports",
+      "Version": "6.06",
+      "Date": "2011-04-18T17:24:42Z",
+      "Codename": "dapper",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "natty",
+      "Version": "11.04",
+      "Date": "2011-04-26T12:16:58Z",
+      "Codename": "natty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "dapper-proposed",
+      "Version": "6.06",
+      "Date": "2011-05-06T06:22:34Z",
+      "Codename": "dapper",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "karmic-security",
+      "Version": "9.10",
+      "Date": "2011-05-19T17:07:03Z",
+      "Codename": "karmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "karmic-updates",
+      "Version": "9.10",
+      "Date": "2011-05-19T17:23:45Z",
+      "Codename": "karmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "karmic-proposed",
+      "Version": "9.10",
+      "Date": "2011-05-22T16:22:19Z",
+      "Codename": "karmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "dapper-security",
+      "Version": "6.06",
+      "Date": "2011-05-24T19:11:36Z",
+      "Codename": "dapper",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "dapper-updates",
+      "Version": "6.06",
+      "Date": "2011-05-24T20:23:09Z",
+      "Codename": "dapper",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oneiric",
+      "Version": "11.10",
+      "Date": "2011-10-12T18:19:26Z",
+      "Codename": "oneiric",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "maverick-backports",
+      "Version": "10.10",
+      "Date": "2012-04-03T20:49:54Z",
+      "Codename": "maverick",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "maverick-security",
+      "Version": "10.10",
+      "Date": "2012-04-10T09:36:42Z",
+      "Codename": "maverick",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "maverick-updates",
+      "Version": "10.10",
+      "Date": "2012-04-10T09:53:35Z",
+      "Codename": "maverick",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "precise",
+      "Version": "12.04",
+      "Date": "2012-04-25T22:49:23Z",
+      "Codename": "precise",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "maverick-proposed",
+      "Version": "10.10",
+      "Date": "2012-04-30T11:35:09Z",
+      "Codename": "maverick",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "natty-backports",
+      "Version": "11.04",
+      "Date": "2012-10-15T02:35:21Z",
+      "Codename": "natty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "natty-security",
+      "Version": "11.04",
+      "Date": "2012-10-26T21:26:14Z",
+      "Codename": "natty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "natty-updates",
+      "Version": "11.04",
+      "Date": "2012-10-26T22:48:26Z",
+      "Codename": "natty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "natty-proposed",
+      "Version": "11.04",
+      "Date": "2012-10-30T14:22:48Z",
+      "Codename": "natty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oneiric-backports",
+      "Version": "11.10",
+      "Date": "2013-02-21T18:26:08Z",
+      "Codename": "oneiric",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hardy-proposed",
+      "Version": "8.04",
+      "Date": "2013-03-08T18:20:48Z",
+      "Codename": "hardy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hardy-backports",
+      "Version": "8.04",
+      "Date": "2013-03-21T19:08:06Z",
+      "Codename": "hardy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oneiric-proposed",
+      "Version": "11.10",
+      "Date": "2013-03-22T10:13:43Z",
+      "Codename": "oneiric",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hardy-security",
+      "Version": "8.04",
+      "Date": "2013-05-03T23:42:27Z",
+      "Codename": "hardy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hardy-updates",
+      "Version": "8.04",
+      "Date": "2013-05-04T00:07:03Z",
+      "Codename": "hardy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "hppa",
+        "i386",
+        "ia64",
+        "lpia",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oneiric-security",
+      "Version": "11.10",
+      "Date": "2013-05-07T17:52:06Z",
+      "Codename": "oneiric",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oneiric-updates",
+      "Version": "11.10",
+      "Date": "2013-05-07T18:37:22Z",
+      "Codename": "oneiric",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "raring-backports",
+      "Version": "13.04",
+      "Date": "2014-01-10T19:15:55Z",
+      "Codename": "raring",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "raring-security",
+      "Version": "13.04",
+      "Date": "2014-01-23T19:45:33Z",
+      "Codename": "raring",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "raring-proposed",
+      "Version": "13.04",
+      "Date": "2014-01-24T11:02:46Z",
+      "Codename": "raring",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "raring-updates",
+      "Version": "13.04",
+      "Date": "2014-01-26T11:52:28Z",
+      "Codename": "raring",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "quantal-backports",
+      "Version": "12.10",
+      "Date": "2014-04-04T21:44:41Z",
+      "Codename": "quantal",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "trusty",
+      "Version": "14.04",
+      "Date": "2014-05-08T14:19:09Z",
+      "Codename": "trusty",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "saucy",
+      "Version": "13.10",
+      "Date": "2014-05-08T14:19:34Z",
+      "Codename": "saucy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "raring",
+      "Version": "13.04",
+      "Date": "2014-05-08T14:19:55Z",
+      "Codename": "raring",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "quantal",
+      "Version": "12.10",
+      "Date": "2014-05-08T14:20:04Z",
+      "Codename": "quantal",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "quantal-security",
+      "Version": "12.10",
+      "Date": "2014-06-03T18:20:10Z",
+      "Codename": "quantal",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "quantal-updates",
+      "Version": "12.10",
+      "Date": "2014-06-03T19:07:09Z",
+      "Codename": "quantal",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "quantal-proposed",
+      "Version": "12.10",
+      "Date": "2014-06-03T22:12:30Z",
+      "Codename": "quantal",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "saucy-backports",
+      "Version": "13.10",
+      "Date": "2014-07-15T07:00:37Z",
+      "Codename": "saucy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "saucy-security",
+      "Version": "13.10",
+      "Date": "2014-07-16T20:36:16Z",
+      "Codename": "saucy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "saucy-updates",
+      "Version": "13.10",
+      "Date": "2014-08-12T09:50:34Z",
+      "Codename": "saucy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "saucy-proposed",
+      "Version": "13.10",
+      "Date": "2014-08-12T11:01:34Z",
+      "Codename": "saucy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lucid-backports",
+      "Version": "10.04",
+      "Date": "2014-11-26T20:54:50Z",
+      "Codename": "lucid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "utopic",
+      "Version": "14.10",
+      "Date": "2014-12-03T02:10:50Z",
+      "Codename": "utopic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "vivid",
+      "Version": "15.04",
+      "Date": "2015-04-24T18:46:12Z",
+      "Codename": "vivid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lucid-security",
+      "Version": "10.04",
+      "Date": "2015-04-30T06:43:33Z",
+      "Codename": "lucid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lucid-updates",
+      "Version": "10.04",
+      "Date": "2015-04-30T06:43:41Z",
+      "Codename": "lucid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lucid-proposed",
+      "Version": "10.04",
+      "Date": "2015-04-30T10:56:42Z",
+      "Codename": "lucid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "i386",
+        "ia64",
+        "powerpc",
+        "sparc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "utopic-backports",
+      "Version": "14.10",
+      "Date": "2015-06-29T06:55:35Z",
+      "Codename": "utopic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "utopic-security",
+      "Version": "14.10",
+      "Date": "2015-07-23T08:22:57Z",
+      "Codename": "utopic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "utopic-proposed",
+      "Version": "14.10",
+      "Date": "2015-07-23T10:20:18Z",
+      "Codename": "utopic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "utopic-updates",
+      "Version": "14.10",
+      "Date": "2015-07-23T18:33:40Z",
+      "Codename": "utopic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "wily",
+      "Version": "15.10",
+      "Date": "2015-10-22T12:47:57Z",
+      "Codename": "wily",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "xenial",
+      "Version": "16.04",
+      "Date": "2016-04-21T23:23:46Z",
+      "Codename": "xenial",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "wily-backports",
+      "Version": "15.10",
+      "Date": "2016-06-04T09:15:56Z",
+      "Codename": "wily",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "yakkety",
+      "Version": "16.10",
+      "Date": "2016-10-13T13:26:23Z",
+      "Codename": "yakkety",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "wily-security",
+      "Version": "15.10",
+      "Date": "2016-12-10T09:32:40Z",
+      "Codename": "wily",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "wily-updates",
+      "Version": "15.10",
+      "Date": "2016-12-10T09:32:42Z",
+      "Codename": "wily",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "zesty",
+      "Version": "17.04",
+      "Date": "2017-04-13T13:44:04Z",
+      "Codename": "zesty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "yakkety-security",
+      "Version": "16.10",
+      "Date": "2017-07-21T02:13:51Z",
+      "Codename": "yakkety",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "yakkety-updates",
+      "Version": "16.10",
+      "Date": "2017-07-21T02:14:04Z",
+      "Codename": "yakkety",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "yakkety-backports",
+      "Version": "16.10",
+      "Date": "2017-07-25T00:33:41Z",
+      "Codename": "yakkety",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "wily-proposed",
+      "Version": "15.10",
+      "Date": "2017-07-25T00:33:42Z",
+      "Codename": "wily",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "yakkety-proposed",
+      "Version": "16.10",
+      "Date": "2017-07-26T18:30:16Z",
+      "Codename": "yakkety",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "vivid-security",
+      "Version": "15.04",
+      "Date": "2017-08-10T22:04:18Z",
+      "Codename": "vivid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "vivid-proposed",
+      "Version": "15.04",
+      "Date": "2017-09-17T09:02:07Z",
+      "Codename": "vivid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "vivid-backports",
+      "Version": "15.04",
+      "Date": "2017-09-19T10:08:36Z",
+      "Codename": "vivid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "precise-backports",
+      "Version": "12.04",
+      "Date": "2017-09-19T10:10:35Z",
+      "Codename": "precise",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "vivid-updates",
+      "Version": "15.04",
+      "Date": "2017-10-12T20:52:42Z",
+      "Codename": "vivid",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "powerpc",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "artful",
+      "Version": "17.10",
+      "Date": "2017-10-19T12:55:45Z",
+      "Codename": "artful",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "zesty-security",
+      "Version": "17.04",
+      "Date": "2018-01-16T03:21:48Z",
+      "Codename": "zesty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "zesty-updates",
+      "Version": "17.04",
+      "Date": "2018-01-16T03:21:56Z",
+      "Codename": "zesty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "zesty-backports",
+      "Version": "17.04",
+      "Date": "2018-01-16T03:22:32Z",
+      "Codename": "zesty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "zesty-proposed",
+      "Version": "17.04",
+      "Date": "2018-04-24T15:43:50Z",
+      "Codename": "zesty",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "bionic",
+      "Version": "18.04",
+      "Date": "2018-04-26T23:37:48Z",
+      "Codename": "bionic",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "artful-proposed",
+      "Version": "17.10",
+      "Date": "2018-07-19T13:02:35Z",
+      "Codename": "artful",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "artful-backports",
+      "Version": "17.10",
+      "Date": "2018-07-19T21:11:24Z",
+      "Codename": "artful",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "artful-security",
+      "Version": "17.10",
+      "Date": "2018-07-19T21:42:29Z",
+      "Codename": "artful",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "artful-updates",
+      "Version": "17.10",
+      "Date": "2018-07-19T21:42:38Z",
+      "Codename": "artful",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "precise-proposed",
+      "Version": "12.04",
+      "Date": "2018-07-21T06:35:33Z",
+      "Codename": "precise",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "cosmic",
+      "Version": "18.10",
+      "Date": "2018-10-18T15:17:19Z",
+      "Codename": "cosmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "disco",
+      "Version": "19.04",
+      "Date": "2019-04-18T09:40:05Z",
+      "Codename": "disco",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "cosmic-backports",
+      "Version": "18.10",
+      "Date": "2019-07-23T06:12:07Z",
+      "Codename": "cosmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "cosmic-security",
+      "Version": "18.10",
+      "Date": "2019-07-24T06:20:28Z",
+      "Codename": "cosmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "cosmic-updates",
+      "Version": "18.10",
+      "Date": "2019-07-24T08:44:04Z",
+      "Codename": "cosmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "cosmic-proposed",
+      "Version": "18.10",
+      "Date": "2019-07-24T09:55:55Z",
+      "Codename": "cosmic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "eoan",
+      "Version": "19.10",
+      "Date": "2019-10-30T17:43:41Z",
+      "Codename": "eoan",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "disco-proposed",
+      "Version": "19.04",
+      "Date": "2020-02-04T15:11:12Z",
+      "Codename": "disco",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "disco-backports",
+      "Version": "19.04",
+      "Date": "2020-03-25T07:21:56Z",
+      "Codename": "disco",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "disco-security",
+      "Version": "19.04",
+      "Date": "2020-04-11T05:51:08Z",
+      "Codename": "disco",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "disco-updates",
+      "Version": "19.04",
+      "Date": "2020-04-11T05:51:19Z",
+      "Codename": "disco",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "focal",
+      "Version": "20.04",
+      "Date": "2020-04-23T17:33:17Z",
+      "Codename": "focal",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "eoan-security",
+      "Version": "19.10",
+      "Date": "2020-08-18T16:16:56Z",
+      "Codename": "eoan",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "eoan-proposed",
+      "Version": "19.10",
+      "Date": "2020-08-19T07:08:43Z",
+      "Codename": "eoan",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "eoan-backports",
+      "Version": "19.10",
+      "Date": "2020-08-19T07:08:44Z",
+      "Codename": "eoan",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "eoan-updates",
+      "Version": "19.10",
+      "Date": "2020-08-19T13:36:47Z",
+      "Codename": "eoan",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "groovy",
+      "Version": "20.10",
+      "Date": "2020-10-22T14:32:40Z",
+      "Codename": "groovy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hirsute",
+      "Version": "21.04",
+      "Date": "2021-04-22T16:33:50Z",
+      "Codename": "hirsute",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "precise-security",
+      "Version": "12.04",
+      "Date": "2021-05-04T07:11:28Z",
+      "Codename": "precise",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "precise-updates",
+      "Version": "12.04",
+      "Date": "2021-05-04T07:11:31Z",
+      "Codename": "precise",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "armel",
+        "armhf",
+        "i386",
+        "powerpc"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "groovy-security",
+      "Version": "20.10",
+      "Date": "2021-07-26T16:15:13Z",
+      "Codename": "groovy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "groovy-updates",
+      "Version": "20.10",
+      "Date": "2021-07-26T16:15:18Z",
+      "Codename": "groovy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "groovy-proposed",
+      "Version": "20.10",
+      "Date": "2021-07-26T16:15:27Z",
+      "Codename": "groovy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "impish",
+      "Version": "21.10",
+      "Date": "2021-10-14T16:35:09Z",
+      "Codename": "impish",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "groovy-backports",
+      "Version": "20.10",
+      "Date": "2021-12-02T21:50:21Z",
+      "Codename": "groovy",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hirsute-backports",
+      "Version": "21.04",
+      "Date": "2022-01-20T22:46:49Z",
+      "Codename": "hirsute",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hirsute-security",
+      "Version": "21.04",
+      "Date": "2022-01-26T23:26:31Z",
+      "Codename": "hirsute",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hirsute-updates",
+      "Version": "21.04",
+      "Date": "2022-01-26T23:26:40Z",
+      "Codename": "hirsute",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jammy",
+      "Version": "22.04",
+      "Date": "2022-04-21T17:16:08Z",
+      "Codename": "jammy",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "impish-backports",
+      "Version": "21.10",
+      "Date": "2022-07-15T20:21:06Z",
+      "Codename": "impish",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "impish-security",
+      "Version": "21.10",
+      "Date": "2022-07-17T08:43:39Z",
+      "Codename": "impish",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "impish-updates",
+      "Version": "21.10",
+      "Date": "2022-07-17T08:43:45Z",
+      "Codename": "impish",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "impish-proposed",
+      "Version": "21.10",
+      "Date": "2022-07-22T19:03:18Z",
+      "Codename": "impish",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "hirsute-proposed",
+      "Version": "21.04",
+      "Date": "2022-07-22T19:03:25Z",
+      "Codename": "hirsute",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "kinetic",
+      "Version": "22.10",
+      "Date": "2022-10-20T19:47:56Z",
+      "Codename": "kinetic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lunar",
+      "Version": "23.04",
+      "Date": "2023-04-20T14:50:49Z",
+      "Codename": "lunar",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "kinetic-security",
+      "Version": "22.10",
+      "Date": "2023-07-20T15:32:40Z",
+      "Codename": "kinetic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "kinetic-backports",
+      "Version": "22.10",
+      "Date": "2023-07-20T15:33:43Z",
+      "Codename": "kinetic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "kinetic-updates",
+      "Version": "22.10",
+      "Date": "2023-08-02T17:36:24Z",
+      "Codename": "kinetic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "kinetic-proposed",
+      "Version": "22.10",
+      "Date": "2023-08-02T17:36:37Z",
+      "Codename": "kinetic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "mantic",
+      "Version": "23.10",
+      "Date": "2023-10-16T21:12:12Z",
+      "Codename": "mantic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lunar-backports",
+      "Version": "23.04",
+      "Date": "2024-01-18T15:45:24Z",
+      "Codename": "lunar",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lunar-security",
+      "Version": "23.04",
+      "Date": "2024-01-25T13:17:37Z",
+      "Codename": "lunar",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lunar-updates",
+      "Version": "23.04",
+      "Date": "2024-01-25T15:44:45Z",
+      "Codename": "lunar",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "noble",
+      "Version": "24.04",
+      "Date": "2024-04-25T15:10:33Z",
+      "Codename": "noble",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "lunar-proposed",
+      "Version": "23.04",
+      "Date": "2024-05-10T07:44:58Z",
+      "Codename": "lunar",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "mantic-backports",
+      "Version": "23.10",
+      "Date": "2024-07-06T16:11:30Z",
+      "Codename": "mantic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "mantic-security",
+      "Version": "23.10",
+      "Date": "2024-07-12T15:34:48Z",
+      "Codename": "mantic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "mantic-updates",
+      "Version": "23.10",
+      "Date": "2024-08-09T04:53:05Z",
+      "Codename": "mantic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "trusty-backports",
+      "Version": "14.04",
+      "Date": "2024-10-08T03:19:46Z",
+      "Codename": "trusty",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oracular",
+      "Version": "24.10",
+      "Date": "2024-10-11T10:20:59Z",
+      "Codename": "oracular",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "mantic-proposed",
+      "Version": "23.10",
+      "Date": "2024-10-24T21:19:41Z",
+      "Codename": "mantic",
+      "URL": [
+        "http://old-releases.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "trusty-proposed",
+      "Version": "14.04",
+      "Date": "2024-11-16T17:49:46Z",
+      "Codename": "trusty",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "trusty-security",
+      "Version": "14.04",
+      "Date": "2025-01-18T01:09:40Z",
+      "Codename": "trusty",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "trusty-updates",
+      "Version": "14.04",
+      "Date": "2025-01-18T01:09:44Z",
+      "Codename": "trusty",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "plucky",
+      "Version": "25.04",
+      "Date": "2025-04-17T15:43:00Z",
+      "Codename": "plucky",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oracular-security",
+      "Version": "24.10",
+      "Date": "2025-07-10T12:49:37Z",
+      "Codename": "oracular",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oracular-backports",
+      "Version": "24.10",
+      "Date": "2025-07-10T12:50:42Z",
+      "Codename": "oracular",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oracular-updates",
+      "Version": "24.10",
+      "Date": "2025-07-18T14:33:19Z",
+      "Codename": "oracular",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "bionic-security",
+      "Version": "18.04",
+      "Date": "2025-08-24T23:45:34Z",
+      "Codename": "bionic",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "bionic-updates",
+      "Version": "18.04",
+      "Date": "2025-08-24T23:47:45Z",
+      "Codename": "bionic",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "bionic-proposed",
+      "Version": "18.04",
+      "Date": "2025-08-24T23:50:12Z",
+      "Codename": "bionic",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "bionic-backports",
+      "Version": "18.04",
+      "Date": "2025-08-24T23:50:23Z",
+      "Codename": "bionic",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "questing-security",
+      "Version": "25.10",
+      "Date": "2025-08-24T23:27:53Z",
+      "Codename": "questing",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "questing-updates",
+      "Version": "25.10",
+      "Date": "2025-08-24T23:27:59Z",
+      "Codename": "questing",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "questing-backports",
+      "Version": "25.10",
+      "Date": "2025-08-24T23:28:26Z",
+      "Codename": "questing",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "questing",
+      "Version": "25.10",
+      "Date": "2025-08-25T01:25:29Z",
+      "Codename": "questing",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "questing-proposed",
+      "Version": "25.10",
+      "Date": "2025-08-25T01:26:48Z",
+      "Codename": "questing",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "focal-security",
+      "Version": "20.04",
+      "Date": "2025-08-24T23:38:18Z",
+      "Codename": "focal",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "focal-proposed",
+      "Version": "20.04",
+      "Date": "2025-08-24T23:44:57Z",
+      "Codename": "focal",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "focal-backports",
+      "Version": "20.04",
+      "Date": "2025-08-24T23:45:28Z",
+      "Codename": "focal",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "focal-updates",
+      "Version": "20.04",
+      "Date": "2025-08-25T01:35:03Z",
+      "Codename": "focal",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jammy-backports",
+      "Version": "22.04",
+      "Date": "2025-08-24T23:38:12Z",
+      "Codename": "jammy",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jammy-security",
+      "Version": "22.04",
+      "Date": "2025-08-25T01:29:05Z",
+      "Codename": "jammy",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jammy-updates",
+      "Version": "22.04",
+      "Date": "2025-08-25T01:31:36Z",
+      "Codename": "jammy",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "jammy-proposed",
+      "Version": "22.04",
+      "Date": "2025-08-25T01:34:26Z",
+      "Codename": "jammy",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "noble-security",
+      "Version": "24.04",
+      "Date": "2025-08-24T23:29:28Z",
+      "Codename": "noble",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "noble-backports",
+      "Version": "24.04",
+      "Date": "2025-08-24T23:32:07Z",
+      "Codename": "noble",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "noble-updates",
+      "Version": "24.04",
+      "Date": "2025-08-25T01:27:18Z",
+      "Codename": "noble",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "noble-proposed",
+      "Version": "24.04",
+      "Date": "2025-08-25T01:28:26Z",
+      "Codename": "noble",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "oracular-proposed",
+      "Version": "24.10",
+      "Date": "2025-08-25T01:27:11Z",
+      "Codename": "oracular",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "plucky-security",
+      "Version": "25.04",
+      "Date": "2025-08-24T23:28:30Z",
+      "Codename": "plucky",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "plucky-updates",
+      "Version": "25.04",
+      "Date": "2025-08-24T23:28:41Z",
+      "Codename": "plucky",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "plucky-backports",
+      "Version": "25.04",
+      "Date": "2025-08-24T23:29:11Z",
+      "Codename": "plucky",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "plucky-proposed",
+      "Version": "25.04",
+      "Date": "2025-08-25T01:26:59Z",
+      "Codename": "plucky",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "riscv64",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "xenial-security",
+      "Version": "16.04",
+      "Date": "2025-08-24T23:50:29Z",
+      "Codename": "xenial",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "xenial-updates",
+      "Version": "16.04",
+      "Date": "2025-08-24T23:50:58Z",
+      "Codename": "xenial",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "xenial-proposed",
+      "Version": "16.04",
+      "Date": "2025-08-24T23:51:34Z",
+      "Codename": "xenial",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "Ubuntu",
+      "Label": "Ubuntu",
+      "Suite": "xenial-backports",
+      "Version": "16.04",
+      "Date": "2025-08-24T23:51:45Z",
+      "Codename": "xenial",
+      "URL": [
+        "http://ports.ubuntu.com/ubuntu-ports/dists",
+        "http://archive.ubuntu.com/ubuntu/dists"
+      ],
+      "Architectures": [
+        "amd64",
+        "arm64",
+        "armhf",
+        "i386",
+        "ppc64el",
+        "s390x"
+      ]
+    },
+    {
+      "Origin": "rpios",
+      "Label": "Raspberry Pi Foundation",
+      "Suite": "",
+      "Version": "",
+      "Date": "2025-06-05T20:47:08Z",
+      "Codename": "wheezy",
+      "URL": [
+        "http://archive.raspberrypi.org/debian/dists"
+      ],
+      "Architectures": [
+        "armel",
+        "armhf"
+      ]
+    },
+    {
+      "Origin": "rpios",
+      "Label": "Raspberry Pi Foundation",
+      "Suite": "oldoldoldoldstable",
+      "Version": "",
+      "Date": "2025-06-05T20:47:09Z",
+      "Codename": "jessie",
+      "URL": [
+        "http://archive.raspberrypi.org/debian/dists"
+      ],
+      "Architectures": [
+        "armhf",
+        "i386"
+      ]
+    },
+    {
+      "Origin": "rpios",
+      "Label": "Raspberry Pi Foundation",
+      "Suite": "oldoldoldstable",
+      "Version": "",
+      "Date": "2025-06-05T20:47:11Z",
+      "Codename": "stretch",
+      "URL": [
+        "http://archive.raspberrypi.org/debian/dists"
+      ],
+      "Architectures": [
+        "armhf",
+        "i386",
+        "amd64"
+      ]
+    },
+    {
+      "Origin": "rpios",
+      "Label": "Raspberry Pi Foundation",
+      "Suite": "oldoldstable",
+      "Version": "",
+      "Date": "2025-08-22T21:31:14Z",
+      "Codename": "buster",
+      "URL": [
+        "http://archive.raspberrypi.org/debian/dists"
+      ],
+      "Architectures": [
+        "armhf",
+        "arm64",
+        "i386",
+        "amd64"
+      ]
+    },
+    {
+      "Origin": "rpios",
+      "Label": "Raspberry Pi Foundation",
+      "Suite": "oldstable",
+      "Version": "",
+      "Date": "2025-08-22T21:31:21Z",
+      "Codename": "bullseye",
+      "URL": [
+        "http://archive.raspberrypi.org/debian/dists"
+      ],
+      "Architectures": [
+        "armhf",
+        "arm64",
+        "i386",
+        "amd64"
+      ]
+    },
+    {
+      "Origin": "rpios",
+      "Label": "Raspberry Pi Foundation",
+      "Suite": "stable",
+      "Version": "",
+      "Date": "2025-08-22T21:31:35Z",
+      "Codename": "bookworm",
+      "URL": [
+        "http://archive.raspberrypi.org/debian/dists"
+      ],
+      "Architectures": [
+        "armhf",
+        "arm64",
+        "i386",
+        "amd64"
+      ]
+    },
+    {
+      "Origin": "rpios",
+      "Label": "Raspberry Pi Foundation",
+      "Suite": "testing",
+      "Version": "",
+      "Date": "2025-08-22T21:31:41Z",
+      "Codename": "trixie",
+      "URL": [
+        "http://archive.raspberrypi.org/debian/dists"
+      ],
+      "Architectures": [
+        "armhf",
+        "arm64",
+        "i386",
+        "amd64"
+      ]
+    }
+  ]
+}
